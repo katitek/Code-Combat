@@ -1,7 +1,7 @@
 ## Code Combat adventure
 > expirience of 2019, june - july
- __JavaScript__ solutions
- __Python__ solutions
+__JavaScript__ solutions (base)
+__Python__ solutions (advanced)
 
 
 #### Table of contents:
