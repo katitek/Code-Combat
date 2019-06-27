@@ -11,6 +11,7 @@
 + Premium Levels
 	+ [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
 	+ [Kounter Kithwise (practice)](005-Kounter_Kithwise/)
+	+ [Crawlways of Kithgard (practice)](008-Crawlways_of_Kithgard/)
 
 + Multiplayer Level
 	+ Cavern Survival
