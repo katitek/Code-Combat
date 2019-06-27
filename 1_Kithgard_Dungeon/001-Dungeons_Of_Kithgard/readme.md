@@ -7,6 +7,7 @@ In this level, you’ll learn basic movements for your hero.
 ##### _Goals:_
 + _Avoid the spikes_
 + _Collect the gem_
++ _**Bonus**: Clean code (no warnings)_
 
 ##### _Topics:_
 + **Basic Sintax**
@@ -14,9 +15,19 @@ In this level, you’ll learn basic movements for your hero.
 ##### _Items we've got (- or need):_
 + Simple boots
 
+![](img/simple-boots.jpg) 
+
 ##### _Solutions:_
 + **[Python](dungeons_of_kithgard.py)**
 + **[JavaScript](dungeonsOfKithgard.js)**
+
+##### _Rewards:_
++ 10-15 xp
++ 17-26 gems
++ Leather Belt (+5 max HP)
+
+![](img/leather-belt.jpg)
+
 ___
 
 ##### _Hints_
@@ -58,8 +69,6 @@ ___
 
 ##### _Directional Movement_
 First level greets you with a brand new **_Simple boots_**. This equipment allows your hero to move using simple Up, Down, Left, Right commands.
-
-![](img/simple-boots.jpg) 
 
 In the Dungeon, the `hero` has access to the following **methods**:
 + `moveUp` - moves the hero up (north) a bit
