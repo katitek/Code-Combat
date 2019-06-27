@@ -1,6 +1,5 @@
 ### _Forgetful Gemsmith (practice)_
 #### First premium level.
-###### In the right bottom of the screen you'll may see a squad of ogres chasing something or just in a hurry to beat you later.
 
 ##### _Legend says:_
 > There are gems scattered all over the dungeons in Kithgard!

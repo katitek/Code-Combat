@@ -1,4 +1,8 @@
-# Again the only difference is missing semicolons
+"""
+Again the only difference is missing semicolons
+Optional, if you got "Elemental codex 1+" - uncoment 5th line.
+"""
+# hero.cast("haste", hero)
 
 hero.moveRight()
 hero.moveDown()
