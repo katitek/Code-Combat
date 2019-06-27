@@ -1,7 +1,8 @@
 ## Code Combat adventure
-> expirience of 2019, june - july
-__JavaScript__ solutions (base)
-__Python__ solutions (advanced)
+
+> Expirience of 2019, june - july.
+> _(base)_ __JavaScript__ solutions.
+> _(advanced)_ __Python__ solutions.
 
 
 #### Table of contents:
@@ -13,4 +14,4 @@ __Python__ solutions (advanced)
 6. 2nd Game Development Island
 7. Sarven Desert
 
-by _Katik_
+###### by _Katik_
