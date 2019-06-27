@@ -6,7 +6,7 @@
 	+ [Gems in the Deep](002-Gems_in_the_Deep/)
 	+ [Shadow Guard](004-Shadow_Guard/)
 	+ [Enemy Mine](006-Enemy_Mine/)
-	+ [True Enemy](007-True_Names/)
+	+ [True Names](007-True_Names/)
 
 + Premium Levels
 	+ [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
