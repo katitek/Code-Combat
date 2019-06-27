@@ -17,6 +17,7 @@
 
 ##### _Items we've got (- or need):_
 + Simple boots
++ _Optional: Elemental codex 1+_
 
 ##### _Solutions:_
 + **[JavaScript](forgetfulGemsmith.js)**

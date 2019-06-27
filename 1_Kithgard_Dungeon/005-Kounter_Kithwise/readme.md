@@ -16,6 +16,8 @@
 
 ##### _Items we've got (- or need):_
 + Simple boots
++ _Optional: Elemental codex 1+_
++ _Optional: The Precious ring_
 
 ##### _Solutions:_
 + **[JavaScript](kounterKithwise.js)**

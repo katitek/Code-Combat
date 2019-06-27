@@ -14,6 +14,7 @@ In this level, you’ll learn basic movements for your hero.
 
 ##### _Items we've got (- or need):_
 + Simple boots
++ _Optional: Elemental codex 1+_
 
 ![](img/simple-boots.jpg) 
 
