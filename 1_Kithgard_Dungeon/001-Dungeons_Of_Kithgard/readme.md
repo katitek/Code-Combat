@@ -18,8 +18,8 @@ In this level, you’ll learn basic movements for your hero.
 ![](img/simple-boots.jpg) 
 
 ##### _Solutions:_
-+ **[Python](dungeons_of_kithgard.py)**
 + **[JavaScript](dungeonsOfKithgard.js)**
++ **[Python](dungeons_of_kithgard.py)**
 
 ##### _Rewards:_
 + 10-15 xp
