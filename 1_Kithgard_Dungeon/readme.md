@@ -8,7 +8,7 @@
 
 + Premium Levels
 	+ [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
-	+ [Kounter Kithwise](005-Kounter_Kithwise/)
+	+ [Kounter Kithwise (practice)](005-Kounter_Kithwise/)
 
 + Multiplayer Level
 	+ Cavern Survival

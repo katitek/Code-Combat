@@ -1,5 +1,5 @@
 ### _Kounter Kithwise_
-###### There's a skeleton of your unlucky predecessorю
+###### There's a skeleton of your unlucky predecessor
 
 ##### _Legend says:_
 > Keep out of sight of the ogre patrol.
