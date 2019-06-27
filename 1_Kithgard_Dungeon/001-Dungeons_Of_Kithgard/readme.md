@@ -30,6 +30,7 @@ hero.moveDown();
 hero.moveRight();
 ```
 To pass this level, move right, down, and right to grab the gem. Remember, you only need three lines of code.
+
 ![](img/dungeons-of-kithgard.jpeg)
 
 The code you write here is very similar to the code you might write to tell a computer how to do all kinds of things, from playing music to displaying a web page. You're taking your first steps towards being a coder!
@@ -57,7 +58,9 @@ ___
 
 ##### _Directional Movement_
 First level greets you with a brand new **_Simple boots_**. This equipment allows your hero to move using simple Up, Down, Left, Right commands.
+
 ![](img/simple-boots.jpg) 
+
 In the Dungeon, the `hero` has access to the following **methods**:
 + `moveUp` - moves the hero up (north) a bit
 + `moveDown` - moves the hero down (south) a bit
