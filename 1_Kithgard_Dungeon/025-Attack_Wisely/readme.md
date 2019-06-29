@@ -21,12 +21,15 @@
 + _Optional: Emperor's gloves_
 
 ##### _Solutions:_
-+ **[JavaScript](theSecondKithmaze.js)**
-+ **[Python](the_second_kithmaze.py)**
++ **[JavaScript](attackWisely.js)**
++ **[Python](attack_wisely.py)**
 
 ##### _Rewards:_
 + 24-36 xp
 + 21-31 gems
+
+##### _Victory words:_
++ _YOU CHOSE WISELY! REVENGE IS A DISH BEST SERVED COLD._
 
 ___
 
