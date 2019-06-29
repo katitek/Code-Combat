@@ -25,6 +25,9 @@
 + 13 xp
 + 21 gems
 
+##### _Victory words:_
++ _ZZZZZZ! HUH!? WHAT! I'M AWAKE!_
+
 ___
 
 ##### _Hints_

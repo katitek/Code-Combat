@@ -27,6 +27,9 @@
 + 12-18 xp
 + 20-30 gems
 
+##### _Victory words:_
++ _JUST TRY SPELLING COUNTER CLOCKWISE CORRECTLY._
+
 ___
 
 ##### _Hints_

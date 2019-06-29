@@ -28,6 +28,9 @@
 
 ![](img/programmaticon.jpg)
 
+##### _Victory words:_
++ _COOL CAUSTIC CAULDRONS_
+
 ___
 
 ##### _Hints_

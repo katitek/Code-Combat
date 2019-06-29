@@ -27,6 +27,9 @@
 + 9-17 xp
 + 13-27 gems
 
+##### _Victory words:_
++ _MORE GEMS, MORE PROBLEMS._
+
 ___
 
 ##### _Hints_

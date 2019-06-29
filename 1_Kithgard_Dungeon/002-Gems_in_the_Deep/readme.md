@@ -28,6 +28,9 @@ You are Welcome!
 + 11-16 xp
 + 18-27 gems
 
+##### _Victory words:_
++ _YOU COMPLETED GEMS IN THE DEEP._
+
 ___
 
 ##### _Hints_

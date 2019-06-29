@@ -26,6 +26,9 @@
 + 13-19 xp
 + 21-31 gems
 
+##### _Victory words:_
++ _WHAT NEW EVIL IS THIS?_
+
 ___
 
 ##### _Hints_

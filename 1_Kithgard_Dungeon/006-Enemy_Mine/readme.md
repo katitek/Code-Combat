@@ -26,6 +26,9 @@
 + 12 xp
 + 18 gems
 
+##### _Victory words:_
++ _NICE MOVES!_
+
 ___
 
 ##### _Hints_

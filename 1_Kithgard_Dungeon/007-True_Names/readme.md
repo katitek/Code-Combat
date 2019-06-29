@@ -27,6 +27,9 @@
 + 13-20 xp
 + 21-32 gems
 
+##### _Victory words:_
++ _BRAK AND TREG HAVE LEARNED NOT TO MESS WITH YOU._
+
 ___
 
 ##### _Hints_

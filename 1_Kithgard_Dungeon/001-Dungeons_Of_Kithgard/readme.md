@@ -29,6 +29,9 @@ In this level, you’ll learn basic movements for your hero.
 
 ![](img/leather-belt.jpg)
 
+##### _Victory words:_
++ _YOU COMPLETED DUNGEONS OF KITHGARD!_
+
 ___
 
 ##### _Hints_

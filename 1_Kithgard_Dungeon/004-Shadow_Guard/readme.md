@@ -29,6 +29,9 @@
 
 ![](img/simple_sword.jpg)
 
+##### _Victory words:_
++ _YOU HAVE LEARNED THE VALUE OF NOT BEING SEEN._
+
 ___
 
 ##### _Hints_

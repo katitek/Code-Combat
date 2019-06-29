@@ -23,6 +23,9 @@
 + 12 xp
 + 17 gems
 
+##### _Victory words:_
++ _EXACTLY THE KIND OF DIVERSION WE COULD'VE USED._
+
 ___
 
 ##### _Hints_

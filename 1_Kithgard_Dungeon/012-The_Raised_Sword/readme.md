@@ -30,6 +30,9 @@
 
 ![](img/sharpened_sword.jpg)
 
+##### _Victory words:_
++ _YOU'RE A HALLWAY MARTIAL ARTS MASTER._
+
 ___
 
 ##### _Hints_
