@@ -2,7 +2,7 @@
 # You need an Elemental codex 1+ to cast "Haste"
 
 hero.cast("haste", hero)
-hero.attack("Weak Door")
-hero.moveRight(4)
-hero.moveDown(3)
-hero.cast("chain-lightning", "Two")
+hero.moveRight(2)
+hero.moveUp()
+hero.moveLeft(2)
+hero.cast("chain-lightning", "Krug")
