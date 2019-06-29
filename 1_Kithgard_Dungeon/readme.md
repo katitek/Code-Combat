@@ -13,7 +13,8 @@
 	+ [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
 	+ [Kounter Kithwise (practice)](005-Kounter_Kithwise/)
 	+ [Crawlways of Kithgard (practice)](008-Crawlways_of_Kithgard/)
-	+ [Illusory Interruption](010-Illusory_Interruption/)
+	+ [Illusory Interruption (practice)](010-Illusory_Interruption/)
+	+ [Sleeping on the Job](011-Sleeping_on_the_Job/)
 
 + Multiplayer Level
 	+ Cavern Survival
