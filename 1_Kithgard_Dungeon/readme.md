@@ -7,6 +7,7 @@
 	+ [Shadow Guard](004-Shadow_Guard/)
 	+ [Enemy Mine](006-Enemy_Mine/)
 	+ [True Names](007-True_Names/)
+	+ [Cell Commentary](009-Cell_Commentary/)
 
 + Premium Levels
 	+ [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
