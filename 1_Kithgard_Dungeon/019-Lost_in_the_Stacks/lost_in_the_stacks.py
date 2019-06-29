@@ -3,7 +3,7 @@
 hero.cast("haste", hero)
 
 while True:
-	hero.moveRight()
+    hero.moveRight()
     hero.moveUp()
     hero.moveLeft()
     hero.moveDown()
