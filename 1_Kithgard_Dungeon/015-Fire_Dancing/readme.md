@@ -67,7 +67,8 @@ while (true) {
 
 hero.say("This line is not inside the loop!");
 
-// Tip: the indention (spacec at the start of the lines) is optional in javaScript (but not in Python), but it makes your code easier to read!
+// Tip: the indention (spacec at the start of the lines) is optional
+// in javaScript (but not in Python), but it makes your code easier to read!
 ```
 
 _Tip: You can put whatever you want inside a while-true loop! But for this level, we only need to repeat two commands: `moveRight()` and `moveLeft()`._
