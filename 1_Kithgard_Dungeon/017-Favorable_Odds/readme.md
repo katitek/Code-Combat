@@ -17,7 +17,7 @@
 ##### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elemental codex 1+_
-+ _Optional: Emperor's ring_
++ _Optional: Emperor's gloves_
 
 ##### _Solutions:_
 + **[JavaScript](favorableOdds.js)**
@@ -30,6 +30,9 @@
 
 ![](img/hatori.jpg)
 
+##### _Victory words:_
++ _MAY THE ODDS BE EVER IN YOUR FAVOR._
+
 ___
 
 ##### _Hints_
@@ -37,3 +40,5 @@ ___
 Remember to hit ogre munchkins twice, and to put their names capitalized in quotes: `"Krug"` and `"Grump"`.
 
 If you buy a powerful sword, you can take down munchkins in one hit.
+
+_A programmer must have the deepest commitment, the most serious mind. ~ Yoda_

@@ -26,6 +26,9 @@
 + 12-24 xp
 + 18-36 gems
 
+##### _Victory words:_
++ _INTO THE DEPTHS!_
+
 ___
 
 ##### _Hints_
@@ -33,3 +36,5 @@ ___
 For the bonus, use a loop to do this level in only four code statements. (Empty lines and comments don't count, and multiple statements on the same line do count.)
 
 Hover over the loop documentation in the bottom right to see examples of the loop syntax.
+
+_Later, you'll learn more complicated, powerful kinds of loops._

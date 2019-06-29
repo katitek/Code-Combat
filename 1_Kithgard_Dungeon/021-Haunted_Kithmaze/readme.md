@@ -25,6 +25,9 @@
 + 12-24 xp
 + 17-35 gems
 
+##### _Victory words:_
++ _WHEN THE GOING GETS TOUGH, LOOP OVER IT._
+
 ___
 
 ##### _Hints_

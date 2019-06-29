@@ -25,6 +25,9 @@
 
 ![](img/thin_burlap_robe.jpg)
 
+##### _Victory words:_
++ _ROUND AND ROUND YOU GO._
+
 ___
 
 ##### _Hints_

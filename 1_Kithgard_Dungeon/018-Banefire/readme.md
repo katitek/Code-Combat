@@ -23,6 +23,9 @@
 + 22 xp
 + 22 gems
 
+##### _Victory words:_
++ _READY! AIM! FIRE!_
+
 ___
 
 ##### _Hints_
@@ -30,3 +33,5 @@ ___
 You and your archer friend need to get past that guard. He looks big and slow.
 
 Maybe if you distract him, while your ally lines up a shot?
+
+_Head over to the forums and tell us what you think!_

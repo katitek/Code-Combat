@@ -23,6 +23,9 @@
 + 17 xp
 + 18 gems
 
+##### _Victory words:_
++ _YOU SURVIVED THE GAUNTLET! SUBSCRIBERS CAN UNLOCK THOSE PLAYABLE HEROES._
+
 ___
 
 ##### _Hints_

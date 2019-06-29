@@ -24,6 +24,9 @@
 + 20 xp
 + 16 gems
 
+##### _Victory words:_
++ _NO HUMAN WOULD STACK BOOKS LIKE THIS._
+
 ___
 
 ##### _Hints_

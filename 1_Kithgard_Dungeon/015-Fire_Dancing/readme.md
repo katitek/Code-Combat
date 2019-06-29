@@ -26,6 +26,9 @@
 
 ![](img/raven.jpg)
 
+##### _Victory words:_
++ _JUMP TO THE LEFT. STEP TO THE RIGHT. REPEAT._
+
 ___
 
 ##### _Hints_

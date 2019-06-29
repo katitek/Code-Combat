@@ -24,9 +24,15 @@
 + 19 xp
 + 15 gems
 + Librerian hero
+
+![](img/librarian.jpg)
+
 + Enchanted Stick
 
 ![](img/enchanted_stick.jpg)
+
+##### _Victory words:_
++ _EVEN OGRES NEED A GOOD LIBRARIAN!_
 
 ___
 

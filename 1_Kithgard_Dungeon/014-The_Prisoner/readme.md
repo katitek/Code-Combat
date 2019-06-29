@@ -26,6 +26,9 @@
 + 22 xp
 + 27 gems
 
+##### _Victory words:_
++ _BE SEEING YOU_
+
 ___
 
 ##### _Hints_
@@ -39,3 +42,5 @@ You can attack the `"Weak Door"` by name to free your ally, then help him fight 
 When you attack something by name, be sure to include the quotes around the name (this is how you specify a String) and be sure to capitalize the names correctly.
 
 Depending on your weapon and your strategy, you may have to attack the ogre more than once.
+
+_First, solve the problem. Then, write the code. - John Johnson_
