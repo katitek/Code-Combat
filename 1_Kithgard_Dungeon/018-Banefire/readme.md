@@ -13,7 +13,7 @@
 
 ##### _Items we've got (- or need):_
 + Simple boots
-+ _Optional: Emperor's ring_
++ _Optional: Emperor's gloves_
 
 ##### _Solutions:_
 + **[JavaScript](benefire.js)**
