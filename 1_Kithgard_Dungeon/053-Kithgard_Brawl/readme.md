@@ -24,8 +24,8 @@
 + _Optional: Precious ring_
 
 ##### _Solutions:_
-+ **[JavaScript](kithgardGates.js)**
-+ **[Python](kithgard_gates.py)**
++ **[JavaScript](kithgardBrawl.js)**
++ **[Python](kithgard_brawl.py)**
 
 ##### _Rewards:_
 + up to `~200`  xp
