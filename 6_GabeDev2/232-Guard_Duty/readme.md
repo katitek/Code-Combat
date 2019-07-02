@@ -29,6 +29,8 @@ ___
 
 ###### _Hints_
 
+[Previous methods and attributes.](https://github.com/katitek/Code-Combat/tree/master/1_Kithgard_Dungeon/023-Game_Grove)
+
 Give your soldier instructions using event handler functions!
 
 ```python
