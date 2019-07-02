@@ -10,9 +10,7 @@
 + _Win the game!_
 
 ##### _Topics:_
-+ **Basic Syntax**
-+ **Arguments**
-+ **Strings**
++ None
 
 ##### _Solutions:_
 + **[JavaScript](crushingIt.js)**
