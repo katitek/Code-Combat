@@ -5,7 +5,7 @@
 
 ##### _Goals:_
 + _Hide the image using `.hide()`_
-+ _Click #hideButton_
++ _Click `#hideButton`_
 
 ##### _Topics:_
 + None
