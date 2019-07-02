@@ -3,9 +3,9 @@
 + Premium Levels
     + [Guard Duty](232-Guard_Duty/)
     + [Army Training 2](233-Army_Training_2/)
-    + [Center Formation](234-Center_Formation/)
-    + [Chokepoint](235-Chokepoint/)
-    + [Standard Operating Procedure](236-Standard_Operating_Procedure/)
+    + [Standard Operating Procedure](234-Standard_Operating_Procedure/)
+    + [Center Formation](235-Center_Formation/)
+    + [Chokepoint](236-Chokepoint/)
     + [Jailbreak](237-Jailbreak/)
     + [Risk and Reward](238-Risk_and_Reward/)
     + [Adventure Time](239-Adventure_Time/)
