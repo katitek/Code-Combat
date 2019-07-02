@@ -30,5 +30,3 @@ In this level, we've added the code required to make this mini-game work.
 All you need to do is click Test Level, then move the hero around the house by clicking with the mouse.
 
 To win, you have to move to all the red X marks!
-
-[Early on we learned some methods and objects of Game Development on Code Combat](https://github.com/katitek/Code-Combat/tree/master/1_Kithgard_Dungeon/023-Game_Grove)
