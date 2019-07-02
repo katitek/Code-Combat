@@ -136,25 +136,3 @@ listItem.on("click", hideClicked);
 
 **Required Parameters:**
 + `className`: `string` (ex. `"selected"`). _A string of a CSS class name_
-
-###### _`siblings`_
-
-`siblings` returns a jQuery object of all neighboring elements. An element is a sibling if it is nested at the same level as the selected element.
-
-**Example:**
-
-```html
-<ul>
-    <li id="firstElement">One</li>
-    <li>Dos</li>
-    <li>Drei</li>
-</ul>
-<script>
-    // Hide all elements but One.
-    var target = $("#firstElement");
-    target.siblings().hide();
-</script>
-```
-
-**Optional Parameters:**
-+ `selector`: `string` (ex. `".className"`). _A string to only select elements matching the CSS selector_
