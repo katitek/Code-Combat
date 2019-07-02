@@ -64,6 +64,18 @@ The `<style>` tag can be used to style how the various elements behave.
 
 It follows a special set of rules.
 
+The `<style>` tag is for containing CSS rules, or Cascading **Style** Sheet rules. Place all of your webpages styles here. Styles make text different colors and sizes.  Styles can change the location of HTML elements and even hide them. Styles change how content looks on a webpage.  HTML changes what content there is on the webpage.
+
+**Example:**
+
+```html
+<style>
+    p {
+        color: red
+    }
+</style>
+```
+
 ___
 
 ###### _`font-size` attribute_
