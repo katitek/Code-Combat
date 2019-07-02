@@ -1,8 +1,8 @@
 ### 1st Game Development Island levels
 
 + Premium Levels
-    + [Click Gait](068-Click_Gait/)
-    + [Over the Garden Wall](069-Over_the_Garden_Wall/)
+    + [Over the Garden Wall](068-Over_the_Garden_Wall/)
+    + [Click Gait](069-Click_Gait/)
     + [Hero's Journey](070-Hero's_Journey/)
     + [A-maze-ing](071-A-maze-ing/)
     + [Gemtacular](072-Gemtacular/)
