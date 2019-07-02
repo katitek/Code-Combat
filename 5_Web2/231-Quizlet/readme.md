@@ -27,7 +27,7 @@
 + 20 gems
 
 ##### _Victory words:_
-+ _STAY WITHIN THE LINES!_
++ _None_
 
 ___
 
