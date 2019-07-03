@@ -8,12 +8,11 @@
 + _Win the game_
 
 ##### _Topics:_
-+ **Strings**
-+ **Variables**
-+ **If Statements**
-+ **While Loops**
-+ **Accessing Properties**
-+ **Event Data**
++ **Basic Syntax**
++ **Place game objects**
++ **Basic Game AI**
++ **Basic Event Handling**
++ **Create a playable, sharable game project**
 
 ##### _Solutions:_
 + **[JavaScript](stickShift.js)**

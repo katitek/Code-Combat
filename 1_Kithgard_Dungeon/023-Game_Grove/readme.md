@@ -297,7 +297,7 @@ _The amount of items that need to be defeated._
 
 ___
 
-##### **game.addDefeatGoal(seconds)** - `method`
+##### **game.addSurviveGoal(seconds)** - `method`
 _Adds a goal to the game:
 If no argument is given, the player must survive until all other goals are completed. If a number argument is given, the player must survive for that many seconds._
 
