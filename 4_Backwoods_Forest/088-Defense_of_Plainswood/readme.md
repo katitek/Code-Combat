@@ -141,6 +141,8 @@ ___
 
 Stealthy and silent, Amara’s ranged attacks can pick off the fastest of ogres with ease. But keep her away from the fray as her armor is light!
 
+![](img/ninja.png)
+
 **Statistics:**
 + Difficulty: `Medium`
 + Type: `Ranger`
@@ -149,11 +151,11 @@ Stealthy and silent, Amara’s ranged attacks can pick off the fastest of ogres 
 + Health: `120%`
 + Speed: `10 m/s`
 
-![](img/ninja.png)
-
 ##### Miss _Hushbaum_
 
 Hushbaum learned her trade at the citadel and honed it on the battlefield. Her wand and staff allow her to bend the laws of reality.
+
+![](img/librarian.png)
 
 > My first choise of start hero for dungeon \ forest. But too slow for any speed records.
 
@@ -165,11 +167,11 @@ Hushbaum learned her trade at the citadel and honed it on the battlefield. Her w
 + Health: `140%`
 + Speed: `7 m/s`
 
-![](img/librarian.png)
-
 ##### _Hattori Hanzō_
 
 Hattori is an honorable retainer and fearless warrior. His speed and high damage make him ideal for taking on heavily-armored enemies.
+
+![](img/samurai.png)
 
 **Statistics:**
 + Difficulty: `Easy`
@@ -178,8 +180,6 @@ Hattori is an honorable retainer and fearless warrior. His speed and high damage
 + Damage: `180%`
 + Health: `71%`
 + Speed: `8 m/s`
-
-![](img/samurai.png)
 
 ___
 
@@ -190,6 +190,8 @@ ___
 ##### _Pender Spellbane_
 
 Nobody knows where Pender came from, but the few who have asked did not live to tell the tale. She sees great power in you.
+
+![](img/sorcerer.png)
 
 **Statistics:**
 + Difficulty: `Hard`
@@ -232,8 +234,6 @@ hero.resetCooldown("raise-dead");
 **Required Parameters:**
 + `action`: `string` (ex. `"raise-dead"`). _The action to reset_
 
-![](img/sorcerer.png)
-
 ___
 
 ### _Books_
@@ -241,6 +241,8 @@ ___
 #### _Pogrammaticon I_
 
 Grants access to loops.
+
+![](img/book1.png)
 
 ##### `while-true loop` snippet
 
@@ -266,11 +268,11 @@ while (true) {
 }
 ```
 
-![](img/book1.png)
-
 #### _Pogrammaticon II_
 
 Grants access to if and else.
+
+![](img/book2.png)
 
 > _Abilities granted early are supported_
 
@@ -326,11 +328,11 @@ else {
 }
 ```
 
-![](img/book2.png)
-
 #### _Pogrammaticon III_
 
 Grants access to break, while loops, and arrays.
+
+![](img/book3.png)
 
 > _Abilities granted early are supported_
 
@@ -380,8 +382,6 @@ hero.say(arr[arr.length - 1]); // says "hero is the second element
 arr[0] = 'new first element';
 arr.push('a third element');   // push() adds an element at the end
 ```
-
-![](img/book3.png)
 
 ___
 
