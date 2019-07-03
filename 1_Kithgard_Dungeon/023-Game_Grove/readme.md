@@ -76,61 +76,110 @@ _the y-coordinate to build at_
 
 
 ###### Spawnable:
+
 + `"fence"` - A square obstacle, 4 meters on a side.
+
+![](img/fence.png)
+
 + `"forest"` - A square obstacle made of trees, 8 meters on a side.
+
+![](img/forest.png)
+
 + `"fire-trap"` - A trap that explodes when the player gets too close to it. Default stats:
     + `unit.attackDamage = 150`
     + `unit.attackRange = 3`
+
+![](img/firetrap.png)
+
 + `"fire-spawer"` - A gargoyle statue that shoots deadly fireballs. It has the following configurable properties:
     + `direction` - (string) can be set to `"horizontal"` or `"vertical"`
     + `disabled = false` - (boolean) can be `true` or `false`. True means it won't fire.
     + `spamInterval = 2` - (number) how many seconds it will fire for
     + `spamCooldown = 2` - (number) how many seconds to wait in between firing intervals
     + `spamEvery = 0.2` - (number) how many seconds in between each fireball during firing intervals
+
+![](img/firespawer.png)
+
 + `"generator"` - A generator continues to spawn units every so often, until it is destroyed. Default Stats:
     + `generator.spawnDelay = 5` - (number) how many seconds to wait between spawns
     + `generator.spawnType = "skeleton"` - (string) type of spawned unit
     + `generator.spawnAI = "AttacksNearest"` - (string) type of spawned unit's AI
     + `generator.maxHealth = 100` - (number) hom many health does it have
 
+![](img/generator.png)
+
 ###### Collectable:
+
 + `"gem"` - A collectable gemstone. Default stats:
     + `gem.value = 5`
+
+![](img/gem.png)
+
 + `"chest"` - A collectable chest full of gems. Default stats:
     + `chest.value = 100`
+
+![](img/chest.png)
+
 + `"potion-small"` - A small health potion. Heals 150 health when collected.
+
+![](img/potionsmall.png)
+
 + `"potion-medium"` - A medium health potion. Heals 350 health when collected.
+
+![](img/potionmedium.png)
+
 + `"potion-large"` - A large health potion. Heals 1000 health when collected.
+
+![](img/potionlarge.png)
+
 + `"lightstone"` - A glowing magical stone. Skeletons will flee from anyone carrying a lightstone.
 
+![](img/lightstone.png)
+
+
 ###### Units:
+
 + `"munchkin"` - The weakest ogre unit. Has a melee attack. Default Stats:
     + `unit.team = "ogres"`
     + `unit.maxHealth = 14`
     + `unit.attackDamage = 2`
     + `unit.maxSpeed = 12`
+
+![](img/munchkin.png)
+
 + `"thrower"` - An ogre with a ranged attack: thrown speaars. Does good damage, but has low health. Default Stats:
     + `unit.team = "ogres"`
     + `unit.maxHealth = 7`
     + `unit.attackDamage = 11`
     + `unit.attackRange = 25`
     + `unit.maxSpeed = 11`
+
+![](img/thrower.png)
+
 + `"skeleton"` - A tough enemy, but terrified of anyone holding a Lightstone. Default Stats:
     + `unit.team = "neutral"`
     + `unit.maxHealth = 300`
     + `unit.attackDamage = 15`
     + `unit.maxSpeed = 7`
+
+![](img/skeleton.png)
+
 + `"soldier"` - A basic human melee unit. Default Stats:
     + `unit.team = "humans"`
     + `unit.maxHealth = 200`
     + `unit.attackDamage = 6`
     + `unit.maxSpeed = 6`
+
+![](img/soldier.png)
+
 + `"archer"` - A basic human ranged unit. Default Stats:
     + `unit.team = "humans"`
     + `unit.maxHealth = 30`
     + `unit.attackDamage = 13`
     + `unit.attackRange = 25`
     + `unit.maxSpeed = 9`
+
+![](img/archer.png)
 ___
 
 ##### **game.spawnPlayerXY(type, x, y)** - `method`
@@ -150,34 +199,55 @@ _the x-coordinate to spawn a hero_
 _the y-coordinate to spawn a hero_
 
 ###### Heroes:
+
 + `"knight"` - Sir Tharin Thunderfist. Default Stats:
     + `player.maxHealth = 350`
     + `player.attackDamage = 4.32`
     + `player.maxSpeed = 6`
+
+![](img/knight.png)
+
 + `"captain"` - Captain Anya Weston. Default Stats:
     + `player.maxHealth = 350`
     + `player.attackDamage = 4.32`
     + `player.maxSpeed = 6`
+
+![](img/captain.png)
+
 + `"guardian"` - Illia Shieldsmith. Default Stats:
     + `player.maxHealth = 350`
     + `player.attackDamage = 4.32`
     + `player.maxSpeed = 10`
+
+![](img/guardian.png)
+
 + `"samurai"` - Hattori Hanzo. Default Stats:
     + `player.maxHealth = 178.57`
     + `player.attackDamage = 9.72`
     + `player.maxSpeed = 8`
+
+![](img/samurai.png)
+
 + `"duelist"` - Alejandro the Duelist. Default Stats:
     + `player.maxHealth = 350`
     + `player.attackDamage = 4.32`
     + `player.maxSpeed = 6`
+
+![](img/duelist.png)
+
 + `"goliath"` - Okar Stompfoot. Default Stats:
     + `player.maxHealth = 500`
     + `player.attackDamage = 7.68`
     + `player.maxSpeed = 4`
+
+![](img/goliath.png)
+
 + `"champion"` - Lady Ida Justheart. Default Stats:
     + `player.maxHealth = 350`
     + `player.attackDamage = 4.32`
     + `player.maxSpeed = 6`
+
+![](img/champion.png)
 
 ___
 
