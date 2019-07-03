@@ -9,8 +9,7 @@
 + _Win the game_
 
 ##### _Topics:_
-+ **Basic Syntax**
-+ **Event Data**
++ None
 
 ##### _Solutions:_
 + **[JavaScript](pressurePlate.js)**
