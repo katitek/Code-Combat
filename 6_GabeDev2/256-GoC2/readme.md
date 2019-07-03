@@ -1,10 +1,12 @@
-### _Game of Coins Step 1: Layout_
+### _Game of Coins Step 2: Score_
 
 ##### _Legend says:_
-> Let's clear that battlefield.
+> Let's add some challenge to our game.
 
 ##### _Goals:_
-+ _Destroy at least 50 defeated ogres_
++ _Reduce score with time_
++ _Increase score on collected items_
++ _The game score can't be less than zero_
 + _Win the game_
 
 ##### _Topics:_
@@ -12,49 +14,39 @@
 + **Event Data**
 
 ##### _Solutions:_
-+ **[JavaScript](goc1.js)**
++ **[JavaScript](goc2.js)**
 
 ##### _Rewards:_
 + 30 xp
 + 30 gems
 
 ##### _Victory words:_
-+ _DON'T LEAVE A MESS AFTER YOURSELF. EVEN IT'S OGRES._
++ _THE GAME DESIGNER SHOULD MAKE A GAME INTERESTING._
 
 ___
 
 ##### _Hints_
 
-Previously, we've used the `destroy` method to remove obstacles or non-collected items.
+In the second level of the Pac-Man style arcade game series, we will add some challenge to the game.
 
-`destroy` can also be used to increase the performance of your game.
+First, we need to add a scoring system. The goal is to collect all coins as fast as possible.
 
-In this level, ogre hordes are attacking a village defended by archers.
+So we could set the initial score to some value and reduce it with each second that passes. Then, add to the score for collecting coins and mushrooms.
 
-So after several minutes, there will be hundreds of defeated ogres.
+Also, the score can't be less than 0.
 
-Let's save the memory and resources by `destroy`ing the defeated ogres.
-
-___
-
-All units and items in the game have `destroy` method. Calling an item/unit method is like a property:
-
-```javascript
-var ogre = game.spawnXY("munchkin", 1, 1);  // Create...
-ogre.destroy();  // and destroy.
-```
+Use the `"collect"` event and the `game loop` to implement this scoring mechanic!
 
 ___
 
-Use `game.setActionFor` if you need to set an event handler for all units/items of the same type, which are created already or will be created.
+One of the simplest ways to add replayability to a game is to add some type of score system so players can play your game again and again in attempts to increase their high score.
 
-```javascript
-function onSpawn(event) {
-    event.target.say("Here!");
-}
+You can award points for player actions like defeated enemies, collected items, moving to checkpoints and so on.
 
-var ogre1 = game.spawnXY("munchkin", 1, 1);
+For games where players should complete some goals quickly, you can define the score based on the game time.
 
-game.setActionFor("munchkin", "spawn", onSpawn);  // For All "munchkin"s
-var ogre2 = game.spawnXY("munchkin", 2, 2);
-```
+You can reduce score with each second or calculate it based on the final time (there are many options for how to do it). Also, you can reduce score for "incorrect" actions, like collecting restricted items, non-touchable characters, entering forbidden zones and so on.
+
+There are many more ways to implement a scoring system in your game - you should be creative and think about how you might want to implement scoring in your final project.
+
+Part of game design is about thinking up something new!

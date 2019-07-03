@@ -1,73 +1,117 @@
-// Destroy at least 50 defeated ogres.
+// Part 2 of creating a Pac-Man style arcade game.
+// The game layout and items. Scroll down.
+game.spawnXY("forest", 16, 16);
+game.spawnXY("forest", 32, 16);
+game.spawnXY("forest", 48, 16);
+game.spawnXY("forest", 64, 16);
+game.spawnXY("forest", 16, 32);
+game.spawnXY("forest", 32, 32);
+game.spawnXY("forest", 48, 32);
+game.spawnXY("forest", 64, 32);
+game.spawnXY("forest", 16, 48);
+game.spawnXY("forest", 32, 48);
+game.spawnXY("forest", 48, 48);
+game.spawnXY("forest", 64, 48);
 
-// This spawns and configures an archer.
-function spawnArcher(x, y) {
-    var archer = game.spawnXY("archer", x, y);
-    archer.behavior = "Defends";
-    archer.attackDamage = 20;
-}
+game.spawnXY("bronze-coin", 16, 8);
+game.spawnXY("bronze-coin", 24, 8);
+game.spawnXY("bronze-coin", 32, 8);
+game.spawnXY("bronze-coin", 48, 8);
+game.spawnXY("bronze-coin", 56, 8);
+game.spawnXY("bronze-coin", 64, 8);
+game.spawnXY("bronze-coin", 72, 8);
 
-// This spawns and configures an ogre.
-function spawnMunchkin(x, y) {
-    var ogre = game.spawnXY("munchkin", x, y);
-    ogre.behavior = "AttacksNearest";
-}
+game.spawnXY("bronze-coin", 8, 16);
+game.spawnXY("bronze-coin", 24, 16);
+game.spawnXY("bronze-coin", 40, 16);
+game.spawnXY("bronze-coin", 56, 16);
+game.spawnXY("bronze-coin", 72, 16);
 
-// Spawns some archers in a row.
-function spawnArcherWall() {
-    spawnArcher(30, 12);
-    spawnArcher(30, 23);
-    spawnArcher(30, 34);
-    spawnArcher(30, 45);
-    spawnArcher(30, 56);
-}
+game.spawnXY("bronze-coin", 8, 24);
+game.spawnXY("bronze-coin", 16, 24);
+game.spawnXY("bronze-coin", 24, 24);
+game.spawnXY("bronze-coin", 32, 24);
+game.spawnXY("bronze-coin", 40, 24);
+game.spawnXY("bronze-coin", 48, 24);
+game.spawnXY("bronze-coin", 56, 24);
+game.spawnXY("bronze-coin", 64, 24);
+game.spawnXY("bronze-coin", 72, 24);
 
-// Spawns an ogre wave with a random offset for variety.
-function spawnOgreWave() {
-    var offset = game.randomInteger(-6, 6);
-    spawnMunchkin(80, 16 + offset);
-    spawnMunchkin(80, 22 + offset);
-    spawnMunchkin(80, 28 + offset);
-    spawnMunchkin(80, 34 + offset);
-    spawnMunchkin(80, 40 + offset);
-    spawnMunchkin(80, 46 + offset);
-    spawnMunchkin(80, 52 + offset);
-}
+game.spawnXY("bronze-coin", 24, 32);
+game.spawnXY("bronze-coin", 56, 32);
 
-function onDefeat(event) {
-    var unit = event.target;
-    // Increase the game.defeated counter by 1.
-    game.defeated++;
-    // Use unit.destroy() to destroy it.
-    unit.destroy();
-}
+game.spawnXY("bronze-coin", 8, 40);
+game.spawnXY("bronze-coin", 16, 40);
+game.spawnXY("bronze-coin", 24, 40);
+game.spawnXY("bronze-coin", 32, 40);
+game.spawnXY("bronze-coin", 40, 40);
+game.spawnXY("bronze-coin", 48, 40);
+game.spawnXY("bronze-coin", 56, 40);
+game.spawnXY("bronze-coin", 64, 40);
+game.spawnXY("bronze-coin", 72, 40);
 
-// Set "munchkin"s "defeat" event handlers to onDefeat.
-game.setActionFor("munchkin", "defeat", onDefeat);
+game.spawnXY("bronze-coin", 8, 48);
+game.spawnXY("bronze-coin", 24, 48);
+game.spawnXY("bronze-coin", 40, 48);
+game.spawnXY("bronze-coin", 56, 48);
+game.spawnXY("bronze-coin", 72, 48);
 
-game.defeated = 0;
-game.spawnTime = 0;
-// Add a manual goal.
-var goal = game.addManualGoal("Defeat 77 ogres.");
-ui.track(game, "defeated");
+game.spawnXY("bronze-coin", 8, 56);
+game.spawnXY("bronze-coin", 16, 56);
+game.spawnXY("bronze-coin", 24, 56);
+game.spawnXY("bronze-coin", 32, 56);
+game.spawnXY("bronze-coin", 48, 56);
+game.spawnXY("bronze-coin", 56, 56);
+game.spawnXY("bronze-coin", 64, 56);
+game.spawnXY("bronze-coin", 72, 56);
 
-function checkSpawnTimer() {
-    if (game.time > game.spawnTime) {
-        spawnOgreWave();
-        game.spawnTime += 1;
+game.spawnXY("mushroom", 40, 8);
+game.spawnXY("mushroom", 8, 32);
+game.spawnXY("mushroom", 72, 32);
+game.spawnXY("mushroom", 40, 56);
+
+// The game score.
+game.score = 1000;
+game.addCollectGoal();
+// Setting UI for "score" and "time".
+ui.track(game, "time");
+ui.track(game, "score");
+
+var player = game.spawnPlayerXY("knight", 8, 8);
+// High player speed for now, to simplify your level testing.
+player.maxSpeed = 30;
+
+function onCollect(event) {
+    var player = event.target;
+    var item = event.other;
+    // If the item's type is "bronze-coin":
+    if (item.type == "bronze-coin") {
+        // Increase the game.score by 1.
+        game.score++;
+    }
+    // If the type is "mushroom", then increase game.score by 5.
+    if (item.type == "mushroom") {
+        game.score += 5;
     }
 }
 
-function checkGoal() {
-    // If the game.defeated counter is greater than 77:
-    if (game.defeated > 77) {
-        // Set the goal as successfully completed.
-        game.setGoalState(goal, true);
+// Assign the event handler on the player's "collect" event.
+player.on("collect", onCollect);
+
+// This function reduces the score over time.
+function checkTimeScore() {
+    // Each time frame we reduce the game.score:
+    game.score -= 0.5;
+    // If the game.score is less than 0:
+    if (game.score < 0) {
+        // Set the game.score equal to 0:
+        game.score = 0;
     }
 }
 
-spawnArcherWall();
+// The main game loop.
 while (true) {
-    checkSpawnTimer();
-    checkGoal();
+    checkTimeScore();
 }
+
+// Win the game.
