@@ -5,6 +5,7 @@
 + _(advanced)_ __Python__ solutions.
 
 #### Table of contents:
+0. [Reviews](0_Review)
 1. [Kithgard Dungeon](1_Kithgard_Dungeon/)
 2. [1st Web Development Island](2_Web1/)
 3. [1st Game Development Island](3_GameDev1/)
