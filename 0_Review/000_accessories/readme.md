@@ -44,11 +44,36 @@ Adds a weak electrocute ability, which momentarily slows down its target.
 
 ##### `hero.canElectrocute(target)` method
 
-canElectrocute:Check to see if a target is susceptible to being electrocuted.
+Check to see if a `target` is susceptible to being electrocuted.
+
+**Example:**
+
+```javascript
+hero.canElectrocute(target);
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero`). _The target to check for susceptibility_
 
 ##### `hero.electrocute(target)` method
 
-electrocute:Electrocutes a target if within 20 and slows their movement speed by a factor of electrocuteFactor for 3 seconds.
+Electrocutes a `target` if within `20m` and slows their movement speed by a factor of electrocuteFactor for `3` seconds.
+
+**Default Stats:**
++ name: `"electrocute"`
++ time: `0.25s`
++ rangeM: `20m`
++ duration: `3s`
++ cooldown: `8s`
+
+**Example:**
+
+```javascript
+hero.electrocute(hero.findNearestEnemy());
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`). _The target on which to electrocute_
 
 ___
 
@@ -58,17 +83,40 @@ With this cute ring, allied skeletons will obey your commands.
 
 ![](img/tombring.png)
 
-##### `hero.command(target, command)` method
+##### `hero.command(target, command, pos)` method
 
-command:command allows you to call any of commandableMethods (move,attack,defend) on allied minions. You can command minions of types in commandableTypes: skeleton
+`command` allows you to call any of `commandableMethods` (`["move", "attack", "defend"]`) on allied minions. You can command minions of types in `commandableTypes` (`["skeleton"]`).
+
+(You may not be able to summon all of these types.)
+
+**Example:**
+
+```javascript
+var friend = hero.getNearestFriend();
+hero.command(friend, 'move', hero.pos);
+```
 
 ##### `hero.commandableMethods` property
 
-commandableMethods:These are all the method names that you can call on allied minion units.
+These are all the method names that you can call on allied minion units.
+
+**Current Value:**
+
+```javascript
+["move", "attack", "deffend"]
+```
 
 ##### `hero.commandableTypes` property
 
-commandableTypes:These are all the allied minion types that you can command: skeleton
+These are all the allied minion types that you can command.
+
+(You may not be able to summon all of these types.)
+
+**Current Value:**
+
+```javascript
+["skeleton"]
+```
 
 ___
 
@@ -82,10 +130,29 @@ This rune-engraved golden ring whispers maddening secrets into the darkest corne
 
 + `hero.canCast()`
 + `hero.cast()`
++ `hero.spells`
 
-##### `hero.castInvisibility(target)` method
+##### `hero.cast("invisibility", target)` method
 
-castInvisibility:Casts a "invisibility" spell on target if within spells.invisibility.rangem, causes target to not be seen by any enemy for spells.invisibility.duration seconds, or until the target attacks.
+Casts a `"invisibility"` spell on `target` if within `10m`, causes `target` to not be seen by any enemy for `4s` seconds, or until the target attacks.
+
+To see if the target is still invisible, use the `hasEffect` method to see if it has a `"hide"` effect.
+
+**Default Stats:**
++ name: `"invisibility"`
++ time: `0.5s`
++ rangeM: `10m`
++ duration: `4s`
++ cooldown: `12s`
+
+**Example:**
+
+```javascript
+hero.cast("invisibility", hero);
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero`). _The target on which to cast "invisibility"_
 
 ___
 
@@ -113,7 +180,16 @@ Lets you check your position in your code
 
 ##### `hero.pos` property
 
-pos:The x (horizontal) and y (vertical) coordinates of the hero's center.
+The `x` (horizontal) and `y` (vertical) coordinates of the hero's center.
+
+**Example:**
+
+```javascript
+// Move 10 meters to the right.
+var newX = hero.pos.x + 10;
+var newY = hero.pos.y;
+hero.moveXY(newX, newY);
+```
 
 ___
 
@@ -127,11 +203,37 @@ Adds introspection of your hero's health and maxHealth.
 
 ##### `hero.health` property
 
-health:How many health points the hero has left.
+How many health points the `hero` has left.
+
+**Example:**
+
+```javascript
+if (hero.health < 200) {
+    // Health is low–retreat!
+    hero.moveXY(61, 46);
+}
+else {
+    // Health is fine. Fight!
+    hero.attack(enemy);
+}
+```
 
 ##### `hero.maxHealth` property
 
-maxHealth:How many health points the hero starts with.
+How many health points the `hero` starts with.
+
+**Example:**
+
+```javascript
+if (hero.health < hero.maxHealth / 3) {
+    // Health is low–retreat!
+    hero.moveXY(61, 46);
+}
+else {
+    // Health is fine. Fight!
+    hero.attack(enemy);
+}
+```
 
 ___
 
@@ -147,7 +249,15 @@ Adds introspection of your hero's current gold.
 
 ##### `hero.gold` property
 
-gold:How much gold the hero's team has.
+How much gold the `hero`'s team has.
+
+**Example:**
+
+```javascript
+if (hero.gold > 100) {
+    hero.say("I'm rich!");
+}
+```
 
 ___
 
@@ -164,7 +274,19 @@ Adds the hasEffect method, which allows you to programmatically know when your h
 
 ##### `hero.hasEffect(effect)` method
 
-hasEffect:Returns whether the spriteName is currently affected by the given effect.
+Returns whether the `spriteName` is currently affected by the given effect.
+
+**Example:**
+
+```javascript
+hero.hasEffect("shrink");
+```
+
+**Required Parameters:**
++ `effect`: `string` (ex. `"shrink"`)
+
+**Returns:**
++ `boolean`
 
 ___
 
@@ -182,7 +304,7 @@ Adds introspection of your hero's current target.
 
 ##### `hero.target` property
 
-target:The current target upon which the hero is running its action ("action"). If target is set, then targetPos is null.
+The current `target` upon which the `hero` is running its `action` (`"idle"`). If `target` is set, then `targetPos` is `null`.
 
 ___
 
@@ -201,11 +323,11 @@ Adds introspection of your hero's target position and velocity.
 
 ##### `hero.targetPos` property
 
-targetPos:The current target position toward which the hero is running its action ("action"). If targetPos is set, then target is null.
+The current `target` position toward which the `hero` is running its `action` (`"idle"`). If `targetPos` is set, then `target` is `null`.
 
 ##### `hero.velocity` property
 
-velocity:The hero's velocity is an (x, y, z) Vector in meters per second. See Vector documentation for more Vector methods (if available in this level).
+The `hero`'s `velocity` is an (`x`, `y`, `z`) Vector in meters per second. See Vector documentation for more Vector methods (if available in this level).
 
 ___
 
@@ -221,7 +343,15 @@ Grants findNearestEnemy, so you can target ogres who don't display their names.
 
 ##### `hero.findNearestEnemy()` method
 
-findNearestEnemy:Returns the closest living enemy within eyesight (visualRangem and line-of-sight), or null if there aren't any.
+Returns the closest living enemy within eyesight (`visualRangem` and `line-of-sight`), or `null` if there aren't any.
+
+**Example:**
+
+```javascript
+var enemy = hero.findNearestEnemy();
+hero.attack(enemy);
+hero.attack(enemy);
+```
 
 ___
 
