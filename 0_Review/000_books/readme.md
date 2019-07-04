@@ -41,6 +41,7 @@ Grants access to if and else.
 ![](img/book2.png)
 
 > _Abilities granted early are supported_
++ `while-true loop`
 
 #### `if/else` snippet
 
@@ -103,6 +104,9 @@ Grants access to break, while loops, and arrays.
 ![](img/book3.png)
 
 > _Abilities granted early are supported_
++ `while-true loop`
++ `if/else`
++ `else`
 
 #### `while-loop` snippet
 

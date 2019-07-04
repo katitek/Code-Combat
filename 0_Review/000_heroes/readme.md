@@ -42,19 +42,19 @@ Anya is a no-nonsense leader who isn't afraid to go in and get the job done, whe
 
 ![](img/captain.png)
 
-##### Sir _Tharin Thunderfist_
+#### Sir _Tharin Thunderfist_
 
 A mighty warrior. Tharin loves just three things: exploring, building stuff, and combat. He's tough but slow.
 
 ![](img/knight.png)
 
-##### Lady _Ida Justheart_
+#### Lady _Ida Justheart_
 
 Lady Ida Justheart is a champion of the people, questing for justice across all the lands. No one knows what she does in her spare time.
 
 ![](img/champion.png)
 
-##### _Alejandro the Duelist_
+#### _Alejandro the Duelist_
 
 Alejandro travels across the world, seeking out challenges to test his skills with his impractically gigantic sword and tiny shield.
 
