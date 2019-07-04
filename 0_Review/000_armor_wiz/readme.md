@@ -1,4 +1,4 @@
-## _Armor - Warrior_
+## _Armor - Wizard_
 
 ___
 
@@ -7,11 +7,97 @@ ___
 
 ___
 
-#### _LEATHER CHAINMAIL TUNIC_
+#### _THIN BURLAP ROBE_
 
-![](img/leathertunik.png)
+It's probably too thin to keep you warm but at least it provides some protection.
 
-+ Health: `+33`
+![](img/robe.png)
+
++ Health: `+25`
+
+___
+
+#### _THICK BURLAP ROBE_
+
+Perhaps ever Hagrid himself used this coat to keep warm in the winter.
+
+![](img/thick.png)
+
++ Health: `+34`
+
+___
+
+#### _LAMBSWOOL CLOAK_
+
+![](img/cloak.png)
+
++ Health: `+58`
+
+___
+
+#### _ENCHANTED LAMBSWOOL CLOAK_
+
+![](img/encloack.png)
+
++ Health: `+67`
+
+___
+
+#### _MUSTY LINEN ROB_
+
+Smells like the old musty cabinet to Narnia...
+
+![](img/musty.png)
+
++ Health: `+124`
+
+___
+
+#### _TAILORED LINEN ROBE_
+
+You would think Wizards could fit their own robes, but here we are.
+
+![](img/tailor.png)
+
++ Health: `+137`
+
+___
+
+#### _TORN SILK CLOAK_
+
+This cloak may be torn, but it's got a good amount of defense. They really did build stuff better in the olden days.
+
+![](img/silk.png)
+
++ Health: `+200`
+
+___
+
+#### _GOLDSPUN SILK CLOAK_
+
+![](img/goldspun.png)
+
++ Health: `+237`
+
+___
+
+#### _GRIFFIN WOOL ROBE_
+
+You might think this is griffin cruelty, but in truth, it's artificial.
+
+![](img/wool.png)
+
++ Health: `+459`
+
+___
+
+#### _EMBROIDERED GRIFFIN WOOL ROBE_
+
+The eldritch runes lining this robe glow with unimaginable power.
+
+![](img/emborid.png)
+
++ Health: `+562`
 
 ___
 
@@ -30,6 +116,32 @@ Grants a little extra protection for your noggin.
 
 ___
 
+#### _THREADBARE BURLAP WIZARDS HAT_
+
+It may be raggedy, but it's a hat! All the more to protect your noggin with.
+
+![](img/threadbarf.png)
+
++ Health: `+13`
+
+___
+
+#### _FLOPPY LAMBSWOOL HAT_
+
+![](img/floppy.png)
+
++ Health: `+27`
+
+___
+
+#### _STIFF LAMBSWOOL HAT_
+
+![](img/stiff.png)
+
++ Health: `+32`
+
+___
+
 #### _VIKING HELMET_
 
 This ferocious helmet triples bash knockback (if you have a bashing shield).
@@ -38,5 +150,51 @@ This ferocious helmet triples bash knockback (if you have a bashing shield).
 
 + Health: `+50`
 + Bash Mass: `+200%`
+
+___
+
+#### _HAND-SEWN LINEN WIZARD'S HAT_
+
+Homemade with love.
+
+![](img/handmade.png)
+
++ Health: `+63`
+
+___
+
+#### _RAGGED SILK HAT_
+
+![](img/ragged.png)
+
++ Health: `+101`
+
+___
+
+#### _GOLDSPUN SILK HAT_
+
+Spun with gold. It's really not that hard to understand.
+
+![](img/golspun.png)
+
++ Health: `+137`
+
+___
+
+#### _GRIFFIN WOOL HAT_
+
+![](img/griff.png)
+
++ Health: `+229`
+
+___
+
+#### _EMBROIDERED GRIFFIN WOOL HAT_
+
+A griffin wool hat, but it's embroidered. Therefore it is much, much better.
+
+![](img/embogrif.png)
+
++ Health: `+290`
 
 ___
