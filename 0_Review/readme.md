@@ -12,6 +12,7 @@
 + [Heroes](000_heroes/)
 
 + Armor
+    + [Boots and Gloves](000_armor_boots/)
     + [Wizard](000_armor_wiz/)
     + [Warrior](000_armor_war/)
     + [Ranger](000_armor_ran/)
