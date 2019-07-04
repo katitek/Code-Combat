@@ -154,3 +154,83 @@ hero.say(arr[arr.length - 1]); // says "hero is the second element
 arr[0] = 'new first element';
 arr.push('a third element');   // push() adds an element at the end
 ```
+
+___
+
+
+### Flags
+
+___
+
+#### _BASIC FLAGS_
+
+Allows you to send real-time input to your hero by placing flags.
+
+![](img/basic.png)
+
+##### _`hero.findFlag(color)`_ method
+
+Returns your flag of the given `color`, if it exists. If color is unspecified, returns one of your flags regardless of color. The three flag colors are `"green"`, `"black"`, and `"violet"`.
+
+**Example:**
+
+```javascript
+var flag = hero.findFlag();
+if (flag) {
+    if (flag.color == "black") {
+        hero.buildXY("fire-trap", flag.pos.x, flag.pos.y);
+    }
+    hero.pickUpFlag(flag);
+}
+```
+
+**Required Parameters:**
++ `color`: `string` (ex. `"green"`). _The color of flag to return_
+
+**Returns:**
++ `object`: The flag object, if it exists.
+
+##### _`hero.pickUpFlag(flag)`_ method
+
+Moves to and removes a flag that was placed during real-time playback. Find the flag with `findFlag` first. The three flag colors are `"green"`, `"black"`, and `"violet"`.
+
+**Example:**
+
+```javascript
+var greenFlag = hero.findFlag("green");
+if (greenFlag) {
+    hero.pickUpFlag(greenFlag);
+}
+```
+
+**Required Parameters:**
++ `flag`: `flag` (ex. `hero.findDlag("green")`). _The flag to pick up_
+
+___
+
+#### _DYNAMIC FLAGS_
+
+Instead of using pickUpFlag to go to a flag and then remove it, you can now remove a flag from anywhere.
+
+![](img/dynamic.png)
+
+##### _`hero.removeFlag(flag)`_ method
+
+Removes a flag that was placed during real-time playback. Fails if the flag isn't on your team.
+
+___
+
+#### _ADVANCED FLAGS_
+
+You can now access all flags in an array with findFlags.
+
+![](img/advanced.png)
+
+##### _`hero.findFlags()`_ method
+
+Returns all flags that have currently been placed during real-time playback on your team.
+
+**Returns:**
++ `array`: Flags
+
+___

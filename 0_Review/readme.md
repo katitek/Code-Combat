@@ -29,6 +29,5 @@
 
 + Items
     + [Companions](000_companions/)
-    + [Misc](000_misc/)
-    + [Books](000_books/)
+    + [Books and Flags](000_books/)
     + [Accessories](000_accessories/)
