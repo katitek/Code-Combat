@@ -1,210 +1,265 @@
-## _Armor - Ranger_
+## Boots and Gloves
 
 ___
 
+#### _SIMPLE BOOTS_
 
-### Body Armor
+Allows your `hero` to move using simple Up, Right, Down, and Left commands.
 
-___
+![](img/simpleboots.png)
 
-#### _LEATHER CHAINMAIL TUNIC_
+##### _`hero.moveDown(steps)`_ method
 
-![](img/leathertunik.png)
+Moves the `hero` down (south) a bit.
 
-+ Health: `+33`
+**Example:**
 
-___
+```javascript
+hero.moveDown();
+```
 
-#### _FINE LEATHER CHAINMAIL TUNIC_
+**Optional Parameter:**
++ `steps`: `number` (ex. `2`)
 
-It's not just leather, it's FINE leather.
+##### _`hero.moveLeft(steps)`_ method
 
-![](img/finetunik.png)
+Moves the `hero` left (west) a bit.
 
-+ Health: `+46`
+**Example:**
 
-___
+```javascript
+hero.moveLeft();
+```
 
-#### _IRON CHAINMAIL TUNIC_
+**Optional Parameter:**
++ `steps`: `number` (ex. `2`)
 
-Found in an abandoned warehouse in Sarven Desert. Part of the tunic is torn, but it's still enough to defend you.
+##### _`hero.moveRight(steps)`_ method
 
-![](img/irontunik.png)
+Moves the `hero` right (east) a bit.
 
-+ Health: `+83`
+**Example:**
 
-___
+```javascript
+hero.moveRight();
+```
 
-#### _REINFORCED IRON CHAINMAIL TUNIC_
+**Optional Parameter:**
++ `steps`: `number` (ex. `2`)
 
-An iron chainmail tunic! Oh wait, a REINFORCED iron chainmail tunic! Even better!
+##### _`hero.moveUp(steps)`_ method
 
-![](img/reinforcedtinik.png)
+Moves the `hero` up (north) a bit.
 
-+ Health: `+91`
+**Example:**
 
-___
+```javascript
+hero.moveUp(2);
+```
 
-#### _RUSTED STEEL SCALE CHAINMAIL TUNIC_
-
-![](img/rustedtunik.png)
-
-+ Health: `+157`
-
-___
-
-#### _POLISHED STEEL SCALE CHAINMAIL TUNIC_
-
-![](img/steeltunik.png)
-
-+ Health: `+186`
-
-___
-
-#### _EMERALD CHAINMAIL TUNIC_
-
-Plenty green, plenty strong, and plenty expensive.
-
-![](img/emerald.png)
-
-+ Health: `+296`
+**Optional Parameter:**
++ `steps`: `number` (ex. `2`)
 
 ___
 
-#### _HARDENED EMERALD CHAINMAIL TUNIC_
+#### _LEATHER BOOTS_
 
-The gems mined from Kithgard Dungeon really were put to good use!
+Upgrades your `hero`'s movement to `moveXY`, which takes two coordinates arguments.
 
-![](img/hardened.png)
+![](img/leatherboots.png)
 
-+ Health: `+351`
++ Speed: `+2m/s`
 
-___
+##### _`hero.moveXY(x, y)`_ method
 
-#### _DRAGONSCALE CHAINMAIL TUNIC_
+The `moveXY` method sets the `hero`'s `targetPos` to the given (`x`, `y`) coordinates and also sets the `hero`'s `action` to `move` and moves until reaching the destination.
 
-If it's made with dragon scales, it's got to be tough!
+**Example:**
 
-![](img/dragontunik.png)
+```javascript
+hero.moveXY(24, 35);
+```
 
-+ Health: `+657`
-
-___
-
-#### _RIVETED DRAGONSCALE CHAINMAIL TUNIC_
-
-The sheer power radiating from this tunic must have taken years to forge.
-
-![](img/riveted.png)
-
-+ Health: `+757`
+**Required Parameters:**
++ `x`: `number` (ex. `24`)
++ `y`: `number` (ex. `35`)
 
 ___
 
+#### _REINFORCED BOOTS_
 
-### Hats
+Gives your `hero` the `moveXY` method and a few extra health points.
 
-___
+![](img/reinforcedboots.png)
 
-#### _FAUX FUR HAT_
-
-Grants a little extra protection for your noggin.
-
-![](img/fauxhat.png)
-
++ Speed: `+2m/s`
 + Health: `+8`
 
-___
-
-#### _LEATHER CHAINMAIL COIF_
-
-![](img/leathercoif.png)
-
-+ Health: `+17`
++ `hero.moveXY(x, y)`
 
 ___
 
-#### _FINE LEATHER CHAINMAIL COIF_
+#### _SOFTENED LEATHER BOOTS_
 
-![](img/finecoif.png)
+Slightly faster than leather boots, and way more stylish.
 
-+ Health: `+23`
+![](img/softened.png)
 
-___
++ Speed: `+2.5m/s`
 
-#### _IRON CHAINMAIL COIF_
-
-![](img/ironcoif.png)
-
-+ Health: `+34`
++ `hero.moveXY(x, y)`
 
 ___
 
-#### _REINFORCED IRON CHAINMAIL COIF_
+#### _COMPOUND BOOTS_
 
-![](img/reinforcedcoif.png)
+Grants your hero the `move` method instead of `moveXY`.
 
-+ Health: `+44`
+![](img/compopund.png)
 
-___
++ Speed: `+2m/s`
 
-#### _VIKING HELMET_
++ `hero.moveXY(x, y)`
 
-This ferocious helmet triples bash knockback (if you have a bashing shield).
 
-![](img/viking.png)
+##### _`hero.maxSpeed`_ property
 
-+ Health: `+50`
-+ Bash Mass: `+200%`
+How fast the `hero` can move, in meters per second.
 
-___
+##### _`hero.move(position)`_ method
 
-#### _RUSTED STEEL SCALE CHAINMAIL COIF_
+The `move` method sets the `hero`'s `targetPos` to the given (`x`, `y`) coordinates and also sets the `hero`'s `action` to `move` for one "step".
 
-![](img/rustedcoif.png)
+**Example:**
 
-+ Health: `+76`
+```javascript
+hero.move({x: 24, y: 35});
+```
 
-___
-
-#### _POLISHED STEEL SCALE CHAINMAIL COIF_
-
-![](img/steelcoif.png)
-
-+ Health: `+94`
+**Required Parameters:**
++ `position`: `object` (ex. `{x: 24, y: 36}`)
 
 ___
 
-#### _EMERALD CHAINMAIL COIF_
+#### _DEFENSIVE BOOTS_
 
-![](img/emeraldcoif.png)
+Adds a lot of health, but slows you down by 2 meters per second.
 
-+ Health: `+159`
+![](img/defence.png)
 
-___
++ Speed: `-2m/s`
++ Health: `+125`
 
-#### _HARDENED EMERALD CHAINMAIL COIF_
-
-![](img/hardenedcoif.png)
-
-+ Health: `+186`
-
-___
-
-#### _DRAGONSCALE CHAINMAIL COIF_
-
-![](img/dragoncoif.png)
-
-+ Health: `+296`
++ `hero.maxSpeed`
++ `hero.move(position)`
++ `hero.moveXY(x, y)`
 
 ___
 
-#### _RIVETED DRAGONSCALE CHAINMAIL COIF_
+#### _FINE BOOTS_
 
-Not even the sharpest sword can pierce through you now!
+Gives your hero the `move` and `dash` abilities.
 
-![](img/revetedcoif.png)
+![](img/fineboots.png)
 
-+ Health: `+362`
++ Speed: `+2m/s`
+
++ `hero.maxSpeed`
++ `hero.move(position)`
++ `hero.moveXY(x, y)`
+
+##### _`hero.dash(position)`_ method
+
+The `dash` ability allows combatants to move quickly towards any `target` or `position`.
+
+___
+
+#### _BOOTS OF JUMPING_
+
+Grants the `move` and `jumpTo` methods. Great for more advanced levels.
+
+![](img/jumping.png)
+
++ Speed: `+1.5m/s`
+
++ `hero.maxSpeed`
++ `hero.move(position)`
++ `hero.moveXY(x, y)`
+
+##### _`hero.jumpTo(position)`_ method
+
+Jump toward the given `target` unit or `position`.
+
+**Example:**
+
+```javascript
+hero.jumpTo({x: 24, y: 35});
+```
+
+**Required Parameters:**
++ `position`: `object` (ex. `{x: 24, y: 36}`)
+
+___
+
+#### _BOOTS OF LEAPING_
+
+Allows you to jump further and faster than with the Boots of Jumping.
+
+![](img/jumping.png)
+
++ Speed: `+2m/s`
+
++ `hero.jumpTo(position)`
++ `hero.maxSpeed`
++ `hero.move(position)`
++ `hero.moveXY(x, y)`
+
+___
+
+
+### Gloves
+
+___
+
+#### _WORKER'S GLOVES_
+
+They're not comfortable, but they'll get the job done.
+
+![](img/workgloves.png)
+
++ Health: `+5`
+
+___
+
+#### _EMPEROR'S GLOVES_
+
+Spray chain lightning from your fingertips with these velvet gloves stitched with raw electricity.
+
+![](img/emperors.png)
+
++ Health: `+5`
+
++ `hero.canCast()`
++ `hero.cast()`
+
+##### _`hero.cast("chain-lightning", target)`_ method
+
+Casts a `"chain-lightning"` spell on `target`. Causes `120` damage to target and `75%` splash damage to other enemies if within `20m`.
+
+**Stats:**
++ Name: `"chain-lightning"`
++ Time: `0.75s`
++ Damage: `120`
++ Radius: `20m`
++ Cooldown: `20s`
+
+**Example:**
+
+```javascript
+hero.cast("chain-lightning", hero.findNearestEnemy());
+```
+
+**Reruired Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`). _The target on which to cast "chain-lightning"_
 
 ___
