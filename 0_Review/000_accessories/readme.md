@@ -337,7 +337,7 @@ ___
 
 #### _CRUDE GLASSES_
 
-Grants findNearestEnemy, so you can target ogres who don't display their names.
+Grants `findNearestEnemy`, so you can target ogres who don't display their names.
 
 ![](img/crudeglasses.png)
 
@@ -357,7 +357,7 @@ ___
 
 #### _WOODEN GLASSES_
 
-Grants distanceTo and findNearestItem methods, letting you find distances and locate items to collect.
+Grants `distanceTo` and `findNearestItem` methods, letting you find distances and locate items to collect.
 
 ![](img/woodenglasses.png)
 
@@ -367,11 +367,42 @@ Grants distanceTo and findNearestItem methods, letting you find distances and lo
 
 ##### `hero.distanceTo(target)` method
 
-distanceTo:Returns the distance in meters to the target unit from the center of the hero.
+Returns the distance in meters to the `target` unit from the center of the `hero`.
+
+**Example:**
+
+```javascript
+var enemy = hero.findNearestEnemy();
+if (enemy) {
+    // Use if to make sure enemy exists before checking its distance.
+    var distance = hero.distanceTo(enemy);
+    if (distance < 10) {
+        hero.attack(enemy);
+    } else {
+        hero.say("Come closer!");
+    }
+}
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`). _The target unit whose distance you want to measure_
 
 ##### `hero.findNearestItem()` method
 
-findNearestItem:Returns the closest item within eyesight (visualRangem and line-of-sight), or null if there aren't any.
+Returns the closest item within eyesight (`visualRangem` and `line-of-sight`), or `null` if there aren't any.
+
+**Example:**
+
+```javascript
+var item = hero.findNearestItem();
+if (item) {
+    // Move to the position of the item.
+    var pos = item.pos;
+    var x = pos.x;
+    var y = pos.y;
+    hero.moveXY(x, y);
+}
+```
 
 ___
 
@@ -389,17 +420,37 @@ Lets you find arrays of items and find the nearest item separately.
 
 ##### `hero.findItems()` method
 
-findItems:Returns an array of all items (example types 'coin', 'gem', 'health-potion') within eyesight (visualRangem and line-of-sight).
+Returns an `array` of all items (example types `"coin"`, `"gem"`, `"health-potion"`) within eyesight (`visualRangem` and `line-of-sight`).
 
-##### `hero.findNearest()` method
+**Example:**
 
-findNearest:Returns the closest unit out of an array of units, or null if the array is empty.
+```javascript
+var items = hero.findItems();
+for (var i = 0; i < items.length; ++i) {
+  var item = items[i];
+  // Do something with each item here
+  hero.move(item.pos);  // Example
+}
+```
+
+##### `hero.findNearest(units)` method
+
+Returns the closest unit out of an `array` of units, or `null` if the `array` is empty.
+
+**Example:**
+
+```javascript
+hero.findNearest(hero.findItems());
+```
+
+**Required Parameters:**
++ `units`: `array` (ex. `hero.findItems()`)
 
 ___
 
 #### _MAHOGANY GLASSES_
 
-Replaces findNearestEnemy and findNearestItem with findNearest, adding findEnemies and findFriends. Both new methods allow your hero to be smarter about executing strategies using arrays.
+Replaces `findNearestEnemy` and `findNearestItem` with `findNearest`, adding `findEnemies` and `findFriends`. Both new methods allow your `hero` to be smarter about executing strategies using arrays.
 
 ![](img/mahogany.png)
 
@@ -407,27 +458,49 @@ Replaces findNearestEnemy and findNearestItem with findNearest, adding findEnemi
 
 + `hero.distanceTo(target)`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 
 ##### `hero.findEnemies()` method
 
-findEnemies:Returns an array of all living enemies within eyesight (visualRangem and line-of-sight).
+Returns an `array` of all living enemies within eyesight (`visualRangem` and `line-of-sight`).
+
+**Example:**
+
+```javascript
+var enemies = hero.findEnemies();
+for(var i = 0; i < enemies.length; ++i) {
+  var enemy = enemies[i];
+  // Do something with each enemy here
+  hero.attack(enemy);  // Example
+}
+```
 
 ##### `hero.findFriends()` method
 
-findFriends:Returns an array of all living friends within eyesight (visualRangem).
+Returns an array of all living friends within eyesight (`visualRangem`).
+
+**Example:**
+
+```javascript
+var friends = hero.findFriends();
+for(var i = 0; i < friends.length; ++i) {
+  var friend = friends[i];
+  // Do something with each friend here
+  hero.follow(friend);
+}
+```
 
 ##### `hero.findNearestFriend()` method
 
-findNearestFriend:Returns the closest living friend within eyesight (visualRangem), or null if there aren't any.
+Returns the closest living friend within eyesight (`visualRangem`), or `null` if there aren't any.
 
 ___
 
 #### _KITHGARD WORKER'S GLASSES_
 
-Adds the findByType method to find units or items of a particular type. Useful for constructing logic to react to changing battle conditions.
+Adds the `findByType` method to find units or items of a particular type. Useful for constructing logic to react to changing battle conditions.
 
 ![](img/kithgardglass.png)
 
@@ -437,13 +510,26 @@ Adds the findByType method to find units or items of a particular type. Useful f
 + `hero.findEnemies()`
 + `hero.findFriends()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 
 ##### `hero.findByType(type [, units])` method
 
-findByType:Return an array of all the units with the given type that the hero can see, even non-combatants. Optional: pass a second argument as an array of units to filter by type.
+Return an `array` of all the units with the given type that the `hero` can see, even non-combatants. Optional: pass a second argument as an `array` of units to filter by type.
+
+**Example:**
+
+```javascript
+hero.findByType("thrower", hero.findFriends());
+```
+
+**Required Parameters:**
++ `type`: `string` (ex. `"thrower"`). _The type of unit to filter for_
++ `units`: `array` (ex. `hero.findFriends()`). _Optional: an array of units to find within_
+
+**Returns:**
++ `array`: An array of visible units.
 
 ___
 
@@ -460,13 +546,32 @@ Lets you access the `isPathClear` method in your code.
 + `hero.findEnemies()`
 + `hero.findFriends()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 
 ##### `hero.isPathClear(start, end)` method
 
-isPathClear:Returns whether there are any obstacles (walls, cliffs, etc.) or hazards (traps, pits, etc.) in the straight line between start and end positions.
+Returns whether there are any obstacles (walls, cliffs, etc.) or hazards (traps, pits, etc.) in the straight line between `start` and `end` positions.
+
+**Example:**
+
+```javascript
+var item = hero.findNearest(hero.findItems());
+if (item && hero.isPathClear(hero.pos, item.pos)) {
+    hero.move(item.pos);
+}
+else {
+    hero.move({x: hero.pos.x, y: hero.pos.y + 5});
+}
+```
+
+**Required Parameters:**
++ `start`: `object` (ex. `{x: 24, y: 35}`)
++ `end`: `object` (ex. `hero.findFriends()`)
+
+**Returns:**
++ `boolean`
 
 ___
 
@@ -483,14 +588,17 @@ See further than ever before with this harebrained contraption! Also adds the fi
 + `hero.findEnemies()`
 + `hero.findFriends()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 + `hero.isPathClear(start, end)`
 
 ##### `hero.findHazards()` method
 
-findHazards:Returns the hazards (traps, pits, etc.) in the level.
+Returns the hazards (traps, pits, etc.) in the level.
+
+**Returns:**
++ `array`: An array of hazards.
 
 ___
 
@@ -508,18 +616,18 @@ Adds findEnemyMissiles, findFriendlyMissiles, and more visualRange. Great for be
 + `hero.findFriends()`
 + `hero.findHazards()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 + `hero.isPathClear(start, end)`
 
 ##### `hero.findEnemyMissiles()` method
 
-findEnemyMissiles:Returns an array of all enemy missiles (example types: 'arrow', 'shell', 'beam', 'spear', 'energy-ball'). Limited to missiles within eyesight (visualRangem and line-of-sight).
+Returns an `array` of all enemy missiles (example types: `'arrow'`, `'shell'`, `'beam'`, `'spear'`, `'energy-ball'`). Limited to missiles within eyesight (`visualRangem` and `line-of-sight`).
 
 ##### `hero.findFriendlyMissiles()` method
 
-findFriendlyMissiles:Returns an array of all friendly missiles (example types: 'arrow', 'shell', 'beam', 'spear', 'energy-ball'). Limited to missiles within eyesight (visualRangem and line-of-sight).
+Returns an `array` of all friendly missiles (example types: `'arrow'`, `'shell'`, `'beam'`, `'spear'`, `'energy-ball'`). Limited to missiles within eyesight (`visualRangem` and `line-of-sight`).
 
 ___
 
@@ -539,7 +647,7 @@ See infinite distance with these magical eyes!
 + `hero.findFriends()`
 + `hero.findHazards()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 + `hero.isPathClear(start, end)`
@@ -563,7 +671,7 @@ The ultimate in adventuring eyewear, these glasses let you see through walls.
 + `hero.findFriends()`
 + `hero.findHazards()`
 + `hero.findItems()`
-+ `hero.findNearest()`
++ `hero.findNearest(units)`
 + `hero.findNearestEnemy()`
 + `hero.findNearestItem()`
 + `hero.isPathClear(start, end)`
@@ -582,7 +690,23 @@ Grants your hero isReady, which tells when various abilities are ready to be use
 
 ##### `hero.isReady(action)` method
 
-isReady:Returns whether the given action is ready to be used again.
+Returns whether the given `action` is ready to be used again.
+
+**Example:**
+
+```javascript
+if (hero.isReady("cleave")) {
+    hero.cleave(enemy);
+} else {
+    hero.attack(enemy);
+}
+```
+
+**Required Parameters:**
++ `action`: `string` (ex. `"cleave"`). _The action for which to check readiness_
+
+**Returns:**
++ `boolean`
 
 ___
 
@@ -596,7 +720,15 @@ Grants the time property, which enables your hero to get the current time. Usefu
 
 ##### `hero.time` property
 
-time:The age of the world in seconds, starting from 0.
+The age of the world in seconds, starting from `0`.
+
+**Example:**
+
+```javascript
+if (hero.time < 30) {
+    hero.say("Wait...");
+}
+```
 
 ___
 
@@ -609,9 +741,22 @@ Adds the wait method, which enables your hero to pause in place.
 + `hero.isReady(action)`
 + `hero.time`
 
-##### `hero.wait(time)` method
+##### `hero.wait(duration)` method
 
-wait:The wait() method makes the hero wait for a moment before continuing to execute the rest of the code.
+The `wait()` method makes the `hero` wait for a moment before continuing to execute the rest of the code.
+
+**Stats:**
++ Name: `"wait"`
++ Default value: `1s`
+
+**Example:**
+
+```javascript
+hero.wait(0.1);
+```
+
+**Required Parameters:**
++ `duration`: `number` (ex. `0.1`). _Number of seconds to wait_
 
 ___
 
@@ -623,11 +768,11 @@ Grants the getCooldown method, which allows your hero to know how long various i
 
 + `hero.isReady(action)`
 + `hero.time`
-+ `hero.wait(time)`
++ `hero.wait(duration)`
 
 ##### `hero.getCooldown(action)` method
 
-getCooldown:...
+Still undocumented.
 
 ___
 
