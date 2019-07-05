@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](forgetfulGemsmith.js)**
-+ **[Python](forgetful_gemsmith.py)** `(3.47s)`
++ **[Python](forgetful_gemsmith.py "Top-10: 3.47s")**
 
 #### _Rewards:_
 + 9-17 xp
