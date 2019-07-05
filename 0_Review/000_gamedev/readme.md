@@ -313,24 +313,6 @@ unit.on("spawn", onSpawn);
 
 ___
 
-#### _Defeat_
-
-> The `"defeat"` event is triggered when a unit s defeated.
-
-**Example:**
-```javascript
-function onDefeat(event) {
-    var unit = event.target;
-    var x = unit.pos.x + game.randomInteger(-5, 5);
-    var y = unit.pos.y + game.randomInteger(-5, 5);
-    game.spawnXY("gold-coin", x, y);
-}
-
-game.setActionFor("munchkin", "defeat", onDefeat);
-```
-
-___
-
 #### _Collect_
 
 > The `"collect"` event is triggered when a unit collect any item.
@@ -345,6 +327,42 @@ function onCollect(event) {
 
 var hero = game.spawnHeroXY("knight", 20, 20);
 hero.on("collect", onCollect);
+```
+
+___
+
+#### _Collide_
+
+> The `"collide"` event is triggered when an object collides with another object (obstacles or units).
+
+**Example:**
+```javascript
+function onCollide(event) {
+    var unit = event.target;
+    var other = event.other;
+    unit.say("I've bumped into " + other.id);
+}
+
+var hero = game.spawnHeroXY("knight", 20, 20);
+unit.on("collide", onSpawn);
+```
+
+___
+
+#### _Defeat_
+
+> The `"defeat"` event is triggered when a unit s defeated.
+
+**Example:**
+```javascript
+function onDefeat(event) {
+    var unit = event.target;
+    var x = unit.pos.x + game.randomInteger(-5, 5);
+    var y = unit.pos.y + game.randomInteger(-5, 5);
+    game.spawnXY("gold-coin", x, y);
+}
+
+game.setActionFor("munchkin", "defeat", onDefeat);
 ```
 
 ___
@@ -431,6 +449,74 @@ ___
 
 ___
 
+#### _Land Marks_
+
+
+##### `x-mark-stone`
+
+> An X Mark made of stone.
+
+![](img/stonemark.png)
+
+**Example:**
+```javascript
+var xmark = game.spawnXY("x-mark-stone", 12, 40);
+
+function checkProximity() {
+    if(xmark.distanceTo(player) <= 1) {
+        // Do something interesting!
+    }
+}
+
+while(true) {
+    checkProximity();
+}
+```
+
+##### `x-mark-bones`
+
+> An X Mark made of bones.
+
+![](img/bonemark.png)
+
+**Example:**
+```javascript
+var xmark = game.spawnXY("x-mark-bones", 12, 40);
+
+function checkProximity() {
+    if(xmark.distanceTo(player) <= 1) {
+        // Do something interesting!
+    }
+}
+
+while(true) {
+    checkProximity();
+}
+```
+
+##### `x-mark-wood`
+
+> An X Mark made of wood.
+
+![](img/woodmark.png)
+
+**Example:**
+```javascript
+var xmark = game.spawnXY("x-mark-wood", 12, 40);
+
+function checkProximity() {
+    if(xmark.distanceTo(player) <= 1) {
+        // Do something interesting!
+    }
+}
+
+while(true) {
+    checkProximity();
+}
+```
+
+___
+
 #### Collectable
 
 
@@ -509,6 +595,23 @@ game.spawnXY("silver-coin", 21, 20)
 ```python
 # usage code 
 game.spawnXY("bronze-coin", 21, 20)
+```
+
+___
+
+##### _Mushroom_
+
+> It's a collectable item. It doesn't have any effects by default. Use it as you want.
+
+![](img/mushrom.png)
+
+**Default Stats:**
++ `type: "mushroom"`
+
+**Example:**
+```python
+# usage code 
+game.spawnXY("mushroom", 21, 20)
 ```
 
 ___

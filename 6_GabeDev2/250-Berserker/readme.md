@@ -30,39 +30,7 @@ ___
 
 When one object touches another object, it triggers a `"collide"` event.
 
-###### _Mushroom_
-
-+ `type: "mushroom"`
-
-![](img/mushrom.png)
-
-It's a collectable item. It doesn't have any effects by default. Use it as you want.
-
-**Example:**
-
-```python
-# usage code 
-game.spawnXY("mushroom", 21, 20)
-```
-
 ___
-
-##### _`"collide"` event_
-
-The `"collide"` event is triggered when an object collides with another object (obstacles or units).
-
-**Example:**
-
-```javascript
-function onCollide(event) {
-    var unit = event.target;
-    var other = event.other;
-    unit.say("I've bumped into " + other.id);
-}
-
-var hero = game.spawnHeroXY("knight", 20, 20);
-unit.on("collide", onSpawn);
-```
 
 Using a `"collide"` event is similar to using a `"collect"` event:
 
