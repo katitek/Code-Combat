@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](radiantAura.js)**
-+ **[Python](radiant_aura.py)**
++ **[Python](radiant_aura.py)** `(3,37s)`
 
 #### _Rewards:_
 + 38 xp

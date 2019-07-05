@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](cupboardsOfKithgardA.js)**
-+ **[Python](cupboards_of_kithgard_a.py)**
++ **[Python](cupboards_of_kithgard_a.py)** `(5,67s)`
 
 #### _Rewards:_
 + 18 xp

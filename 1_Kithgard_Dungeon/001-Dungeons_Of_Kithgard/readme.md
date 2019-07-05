@@ -22,7 +22,7 @@ In this level, you’ll learn basic movements for your hero.
 
 #### _Solutions:_
 + **[JavaScript](dungeonsOfKithgard.js)**
-+ **[Python](dungeons_of_kithgard.py)** (`3.5s`)
++ **[Python](dungeons_of_kithgard.py "Top-10: 3.5s")**
 
 #### _Rewards:_
 + 10-15 xp

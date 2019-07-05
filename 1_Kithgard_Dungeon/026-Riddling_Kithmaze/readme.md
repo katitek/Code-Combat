@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](riddlingKithmaze.js)**
-+ **[Python](riddling_kithmaze.py)**
++ **[Python](riddling_kithmaze.py)** `(7,47s)`
 
 #### _Rewards:_
 + 12-24 xp

@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](byAnyOtherName.js)**
-+ **[Python](by_any_other_name.py)**
++ **[Python](by_any_other_name.py)** (`5,13s`)
 
 #### _Rewards:_
 + 21 xp

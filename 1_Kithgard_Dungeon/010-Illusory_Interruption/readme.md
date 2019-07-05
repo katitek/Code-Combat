@@ -17,7 +17,7 @@
 
 #### _Solutions:_
 + **[JavaScript](illusoryInterruption.js)**
-+ **[Python](illusory_interruption.py)** (`4,8s`)
++ **[Python](illusory_interruption.py)** `(4,8s)`
 
 #### _Rewards:_
 + 12 xp

@@ -22,7 +22,7 @@ _There's a librerian on bottom side of dungeon running with a "haste"_
 
 #### _Solutions:_
 + **[JavaScript](theRaisedSword.js)**
-+ **[Python](the_raised_sword.py)** (`1,6s`)
++ **[Python](the_raised_sword.py)** `(1,6s)`
 
 #### _Rewards:_
 + 15-22 xp

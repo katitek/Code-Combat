@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](trueNames.js)**
-+ **[Python](true_names.py)** (`3.4s`)
++ **[Python](true_names.py)** `(3.4s)`
 
 #### _Rewards:_
 + 13-20 xp

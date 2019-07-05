@@ -22,7 +22,7 @@ _There's a skeleton of your unlucky predecessor_
 
 #### _Solutions:_
 + **[JavaScript](kounterKithwise.js)**
-+ **[Python](kounter_kithwise.py)** (`4.4s`)
++ **[Python](kounter_kithwise.py)** `(4.4s)`
 
 #### _Rewards:_
 + 12-18 xp

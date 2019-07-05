@@ -22,7 +22,7 @@
 
 #### _Solutions:_
 + **[JavaScript](attackWisely.js)**
-+ **[Python](attack_wisely.py)**
++ **[Python](attack_wisely.py)** `(11,13s)`
 
 #### _Rewards:_
 + 24-36 xp

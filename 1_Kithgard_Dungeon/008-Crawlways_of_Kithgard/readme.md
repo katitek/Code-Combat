@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](crawlwaysOfKithgard.js)**
-+ **[Python](crawlways_of_kithgard.py)** (`6,2s`)
++ **[Python](crawlways_of_kithgard.py)** `(6,2s)`
 
 #### _Rewards:_
 + 13-19 xp

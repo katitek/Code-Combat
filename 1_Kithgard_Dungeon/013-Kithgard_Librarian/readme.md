@@ -18,7 +18,7 @@
 
 #### _Solutions:_
 + **[JavaScript](kithgardLibrarian.js)**
-+ **[Python](kithgard_librarian.py)** (`2,87s`)
++ **[Python](kithgard_librarian.py)** `(2,87s)`
 
 #### _Rewards:_
 + 19 xp
