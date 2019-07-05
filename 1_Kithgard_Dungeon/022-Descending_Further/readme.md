@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](descendingFurther.js)**
-+ **[Python](descending_further.py)** (`3,53s`)
++ **[Python](descending_further.py)** `(3,53s)`
 
 #### _Rewards:_
 + 12-24 xp
