@@ -1,33 +1,33 @@
-### _Behavior Driven Development_
+## _Behavior Driven Development_
 
-##### _Legend says:_
+#### _Legend says:_
 > You can use the behavior property to change units' AI.
 
-##### _Goals:_
+#### _Goals:_
 + _Archers should Defend_
 + _Ogres should AttackNearest_
 + _Skeletons should Scamper_
 + _Don't remove enemies or add friends_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Create a playable, shairable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](behaviorDrivenDevelopment.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _IN GAME DEV 2, YOU'LL BE ABLE TO WRITE CUSTOM AI FOR YOUR UNITS!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 You can change a unit's behavior by setting its `behavior` property.
 

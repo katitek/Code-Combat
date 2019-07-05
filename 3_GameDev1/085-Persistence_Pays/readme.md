@@ -1,31 +1,31 @@
-### _Persistence Pays_
+## _Persistence Pays_
 
-##### _Legend says:_
+#### _Legend says:_
 > Store game information in a database!
 
-##### _Goals:_
+#### _Goals:_
 + _Track the game's `defeated` property_
 + _Store the `defeated` property in `db`_
 + _Beat the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Create a playable, shairable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](persistencePays.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _"ENERGY AND PERSISTENCE CONQUER ALL THINGS." - BENJAMIN FRANKLIN_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 A database can store information between plays of your game.
 

@@ -1,29 +1,29 @@
-### _Orders Wanted_
+## _Orders Wanted_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create numbered lists of the world's most wanted ogres and friends.
 
-##### _Goals:_
+#### _Goals:_
 + _Add a fourth most dangerous enemy_
 + _Add another `<h2>` tag for Friends_
 + _Add another `<ol>` with 3 or more `<li>` tags_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Orders_Wanted.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NUMBER ONE IS FOR BESTIES AND RIVALS._
 
 ___
 
-###### _Ordered list_
+### _HINTS_
 
 Ordered list `<ol>` automatically add numbers as bullet points for `<li>` (before `<li>` list items).
 

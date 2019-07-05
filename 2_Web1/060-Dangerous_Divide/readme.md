@@ -1,29 +1,29 @@
-### _Dangerous Divide_
+## _Dangerous Divide_
 
-##### _Legend says:_
+#### _Legend says:_
 > Learn how to group information on websites with wonderful dividing powers!
 
-##### _Goals:_
+#### _Goals:_
 + _Add a 2nd `<div>` tag_
 + _Give the second blog post a `<h2>` tag with content_
 + _Give the second blog post a `<p>` tag with content_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Dangerous_Divide.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _BREAK INTO PIECES AND CONQUER!_
 
 ___
 
-###### _Div Tags_
+### _HINTS_
 
 The `<div>` tag creates a **division** of section.
 

@@ -1,32 +1,32 @@
-### _Time To Live_
+## _Time To Live_
 
-##### _Legend says:_
+#### _Legend says:_
 > Survive for X seconds.
 
-##### _Goals:_
+#### _Goals:_
 + _Set up munchkin generator_
 + _Set up attackDamage and maxHealth for the player_
 + _Set ip 20 second survival goal_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Create a playable, shairable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](timeToLive.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THIS TOO SHALL PASS_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 `game.addSurviveGoal()` sets up a goal for the player to survive until all other goals are complete.
 

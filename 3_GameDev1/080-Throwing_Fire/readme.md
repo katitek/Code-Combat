@@ -1,28 +1,28 @@
-### _Throwing Fire_
+## _Throwing Fire_
 
-##### _Legend says:_
+#### _Legend says:_
 > Some game objects can be configured by setting properties.
 
-##### _Goals:_
+#### _Goals:_
 + _Change the direction to vertical_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](throwingFire.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _"IT DOESN'T HAVE TO BE PERFECT.. IT JUST NEEDS TO BE FUN (MOST OF THE TIME)" -- RONALD JENKEES_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Some game objects can be configured by setting their properties.
 

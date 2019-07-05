@@ -1,30 +1,30 @@
-### _Seeing is Believing_
+## _Seeing is Believing_
 
-##### _Legend says:_
+#### _Legend says:_
 > Users like to aim for high scores. Use user-interface elements to display their score to them!
 
-##### _Goals:_
+#### _Goals:_
 + _Track the game's `defeated` property_
 + _Defeat 6 munchkins in under 20 seconds_
 + _Set ip 20 second survival goal_
 + _Beat the game_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](seeingIsBelieving.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _USER INTERFACING COMPLETE: BEEP BOOP_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Use the `ui.track` function to display an object's property for the player.
 

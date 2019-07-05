@@ -1,35 +1,35 @@
-### _Forest Incursion_
+## _Forest Incursion_
 
-##### _Legend says:_
+####_Legend says:_
 > Okar is slow and weak. Make him fast and strong!
 
-##### _Goals:_
+#### _Goals:_
 + _Use the Golliath as the player_
 + _Change the player's `attackDamage`_
 + _Increase the player's `maxHealth`_
 + _Increase the player's `maxSpeed`_
 + _Complete your own level_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 + **Variables**
 + **Assigning Properties**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](forestIncursion.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WHAT A COMEBACK!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Then you call `spawnPlayerXY()`, it returns a player object for you to modify.
 

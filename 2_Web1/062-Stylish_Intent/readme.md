@@ -1,29 +1,29 @@
-### _Stylish Intent_
+## _Stylish Intent_
 
-##### _Legend says:_
+#### _Legend says:_
 > Begin learning how to style various elements of a webpage.
 
-##### _Goals:_
+#### _Goals:_
 + _Change the color of the `<p>` tags_
 + _Center the `<h1>` text_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 + **Basic CSS**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Stylish_Intent.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _HOW DAPPER._
 
 ___
 
-###### _Cascading Style Sheets (CSS)_
+### _HINTS_
 
 Cascading Style Sheets, or CSS, is the web's way of formatting the various parts of a website.
 
@@ -57,8 +57,6 @@ img {
 ```
 
 ___
-
-###### _Style tag_
 
 The `<style>` tag can be used to style how the various elements behave.
 

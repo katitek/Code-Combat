@@ -1,29 +1,29 @@
-### _Vorpal Mouse_
+## _Vorpal Mouse_
 
-##### _Legend says:_
+#### _Legend says:_
 > Click combat.
 
-##### _Goals:_
+#### _Goals:_
 + _Win the game!_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](vorpalMouse.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _YOUR MOUSE GOES CLICKER-CLACK!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 When playing a game, you can click on the ground to move and an ogre to attack it!
 

@@ -1,31 +1,31 @@
-### _Them Bones_
+## _Them Bones_
 
-##### _Legend says:_
+#### _Legend says:_
 > Generators spawn enemies over time.
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn a generator_
 + _Spawn a lightstone_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Create a playable, shairable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](themBones.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _I LIKED IT BETTER WHEN THE SKELETONS WERE IN THE CUPBOARD._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 A `"generator"` is a building that spawns enemies every so often.
 

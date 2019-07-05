@@ -1,28 +1,28 @@
-### _Paragraph Paragon_
+## _Paragraph Paragon_
 
-##### _Legend says:_
+#### _Legend says:_
 > Learn a better way of grouping content using paragraphs!
 
-##### _Goals:_
+#### _Goals:_
 + _Have 4 `<p>` tags_
 + _All `<p>` tags should have words in them_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Paragraph_Paragon.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _TEXT: ORGANIZED._
 
 ___
 
-##### _HTML Start/End Tags_
+### _HINTS_
 
 HTML has a few special `empty`tags, like `<br>`, but a majority of HTML tags require a `start` and `end` tag. Or, more commonly: `opening` and `closing` tags.
 

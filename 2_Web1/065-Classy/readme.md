@@ -1,30 +1,30 @@
-### _Classy_
+## _Classy_
 
-##### _Legend says:_
+#### _Legend says:_
 > Get classy and individually style groups of elements!
 
-##### _Goals:_
+#### _Goals:_
 + _Add another character_
 + _Give the second card a unique `<img>` src_
 + _Give the second card a unique `<h3>` title_
 + _Give the second card a unique `<p>` name_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Classy.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _DON'T FORGET THE DOT!_
 
 ___
 
-###### _Classes (HTML & CSS)_
+### _HINTS_
 
 HTML and CSS make use of the idea of `classes`. A `class` is a way of grouping similar elements by giving them a repeatable name.
 

@@ -1,30 +1,30 @@
-### _Over the Garden Wall_
+## _Over the Garden Wall_
 
-##### _Legend says:_
+#### _Legend says:_
 > Build a fence around your farm!
 
-##### _Goals:_
+#### _Goals:_
 + _The humans must survive_
 + _Spawn at least 8 fence sections_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](overTheGardenWall.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WALLS KEEP PEOPLE OUT. IT’S A ROCK FACT!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 This is the first `game` development level.
 

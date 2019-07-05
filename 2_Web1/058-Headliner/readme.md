@@ -1,28 +1,28 @@
-### _Headliner_
+## _Headliner_
 
-##### _Legend says:_
+#### _Legend says:_
 > Label content using header tags, so everyone knows what is to follow.
 
-##### _Goals:_
+#### _Goals:_
 + _Change the `<h1>` content_
 + _Add an `<h2>` tag for a specific sport_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Headliner.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _EXTRA, EXTRA, READ ALL ABOUT YOUR VICTORY!_
 
 ___
 
-###### _Header tags_
+### _HINTS_
 
 The `<h1>`, `<h2>`, and `<h3>` tags are used to define headers.
 

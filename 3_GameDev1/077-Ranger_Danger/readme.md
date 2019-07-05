@@ -1,31 +1,31 @@
-### _Ranger Danger_
+## _Ranger Danger_
 
-##### _Legend says:_
+#### _Legend says:_
 > Archers are powerful ranged units!
 
-##### _Goals:_
+#### _Goals:_
 + _Have 3 archers_
 + _Have 1 soldier_
 + _Defeat the Brawler_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](rangerDanger.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _ARCHERS ARE POWERFUL UNITS! USE THEM WISELY._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Archers are powerful ranged units! Use them instead of soldiers to deal lots of damage.
 

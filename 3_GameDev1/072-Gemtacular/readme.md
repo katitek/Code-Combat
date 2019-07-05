@@ -1,29 +1,29 @@
-### _A-maze-ing_
+## _A-maze-ing_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create a forest of gems for the player to navigate through!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn 3 gems to the level_
 + _Add a goal to collect gems_
 + _Beat your own level_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](gemtacular.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _SHINY!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Add a collection goal, then spawn some gems for the player to collect!
 

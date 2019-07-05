@@ -1,31 +1,31 @@
-### _Army Training_
+## _Army Training_
 
-##### _Legend says:_
+#### _Legend says:_
 > Assemble the armies
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn 2 munchkins_
 + _Spawn 2 throwers_
 + _Spawn 2 soldiers_
 + _Spawn 2 archers_
 + _Win the game!_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](armyTraining.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _RRRAZZLE DAZZLE!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Spawn new unit types:
 

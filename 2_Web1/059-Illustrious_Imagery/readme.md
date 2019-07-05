@@ -1,28 +1,28 @@
-### _Illustrious Imagery_
+## _Illustrious Imagery_
 
-##### _Legend says:_
+#### _Legend says:_
 > The web has more than just text. Add images! Be illustrious.
 
-##### _Goals:_
+#### _Goals:_
 + _Add 2 more images_
 + _Change the first image's src_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Illustrious_Imagery.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _PERFECT PICTURES GALORE!_
 
 ___
 
-###### _Attributes (HTML)_
+### _HINTS_
 
 `attributes` are pieces of information or data which is included inside of the HTML `tags` themselves. For example, `<img>` tags have a mandatory attribute called `src` which is the URL "source" for the image.
 

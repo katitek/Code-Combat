@@ -1,35 +1,35 @@
-### _Game Grove_
+## _Game Grove_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create your own game!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn a maze_
 + _Spawn a hero_
 + _Add a goal_
 + _Beat your completed level_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Basic HTML**
 + **Construct mazes**
 + **Place game objects**
 + **Create a playable, shairable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](gameGroveGD1.js)**
 + **[Result](https://codecombat.com/play/game-dev-level/5d0e20b510596600298e9075)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _DON'T BE AFRAID TO EXPERIMENT! YOU NEVER KNOW WHAT YOU'LL FIND._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Spawn a maze with:
 

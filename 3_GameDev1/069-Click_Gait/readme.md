@@ -1,27 +1,27 @@
-### _Click Gait_
+## _Click Gait_
 
-##### _Legend says:_
+#### _Legend says:_
 > Play the game: move to all the X marks!
 
-##### _Goals:_
+#### _Goals:_
 + _Move to all the red X marks_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](clickGait.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30  xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THERE'S NO PLACE LIKE HOME._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 To play your game, click the PLAY button under the code window.
 
