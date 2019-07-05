@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](sleepingOnTheJob.js)**
-+ **[Python](sleeping_on_the_job.py)**
++ **[Python](sleeping_on_the_job.py)** (`3s`)
 
 #### _Rewards:_
 + 13 xp

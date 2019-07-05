@@ -18,7 +18,7 @@
 
 #### _Solutions:_
 + **[JavaScript](lostInTheStacks.js)**
-+ **[Python](lost_in_the_stacks.py)**
++ **[Python](lost_in_the_stacks.py)** (`5,93s`)
 
 #### _Rewards:_
 + 20 xp

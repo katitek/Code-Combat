@@ -21,7 +21,7 @@ _In the left bottom of the screen still running ogres. At the end of your way yo
 
 #### _Solutions:_
 + **[JavaScript](shadowGuard.js)**
-+ **[Python](shadow_guard.py)**
++ **[Python](shadow_guard.py)** (`5s`)
 
 #### _Rewards:_
 + 11-17 xp

@@ -1,6 +1,6 @@
 # You need a Elemental codex 1+ to cast "haste
 hero.cast("haste", hero)
-hero.moveRight()
-hero.moveDown(2)
-hero.moveUp(2)
-hero.moveRight(3)
+hero.moveRight(1);
+hero.moveDown(1.7);
+hero.moveUp(1.6);
+hero.moveRight(2.8);

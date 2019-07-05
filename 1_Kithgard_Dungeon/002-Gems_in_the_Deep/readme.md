@@ -19,7 +19,7 @@ _In the right bottom of the screen you'll may see a squad of ogres chasing somet
 
 #### _Solutions:_
 + **[JavaScript](gemsInTheDeep.js)**
-+ **[Python](gems_in_the_deep.py)**
++ **[Python](gems_in_the_deep.py)** (`4s`)
 
 > P.S.: There's a much faster solutions but they're require a premium heroes, upper levels and some special equipments. Unfortunately I don't have time to find fastest or less lines solutions by my self. So, be my guest %)
 

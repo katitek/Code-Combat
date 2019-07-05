@@ -5,7 +5,7 @@ Optional 1 or 2 requires to comment 11-16 lines
 """
 # hero.attack("Brak")
 # hero.attack("Treg")
-# hero.moveRight(2)
+# hero.moveRight(1.85)
 # hero.manaBlast()
 
 hero.moveRight()

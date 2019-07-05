@@ -17,7 +17,7 @@
 
 #### _Solutions:_
 + **[JavaScript](benefire.js)**
-+ **[Python](benefire.py)**
++ **[Python](benefire.py)** (`2,07s`)
 
 #### _Rewards:_
 + 22 xp

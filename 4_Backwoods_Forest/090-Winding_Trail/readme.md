@@ -1,17 +1,18 @@
 ## _Winding Trail_
 
 #### _Legend says:_
-> Protect the peasant village of Plainswood from the ogres.
+> Stay alive and navigate through the forest!
 
 #### _Goals:_
-+ _Vilagers must survive_
-+ _Bonus: clean code (no warnings)_
++ _Your hero must survive_
++ _Get to the end of the path_
++ _Bonus: Grab 2 gems_
++ _Bonus: Grab all 6 gems_
 
 #### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
-+ **Coordinate Pairs**
 
 #### _Items we've got (- or need):_
 + Simple boots
@@ -20,39 +21,41 @@
 
 #### _Solutions:_
 + **[JavaScript](windTrail.js)**
-+ **[Python](wind_trail.py)**
++ **[Python](wind_trail.py)** (`8,47s`)
 
 #### _Rewards:_
-+ 30-45 xp
-+ 37-55 gems
-+ Leather Boots
++ 31-55 xp
++ 38-68 gems
++ Programmaticon II
 
-![](img/leather_boots.jpg)
+![](img/book2.png)
 
 #### _Victory words:_
-+ _PLAINSWOOD IS PROTECTED FROM OGRES._
++ _YOU'VE MADE THE FOREST A SAFER PLACE._
 
 ___
 
 ### _HINTS_
 
-![](img/defense_of_plainswood.jpeg)
+Move to each gem in turn, then stop the ogre from getting you by building a fence on the X marker! 
 
-Move your mouse cursor over a spot to find the `x` and `y` numbers of the location.
+![](img/winding_trail.jpeg)
 
-Remember how to build:
+Just like building, you can now move to any position on the map using `moveXY(x, y)`. Mouse over where you want to go to get the `x` and `y` coordinates, then use:
 
-```python
-hero.buildXY("fence", 40, 52)
+```javascript
+hero.moveXY(30, 30);
 ```
+to move there.
 
 ___
 
+Forget those old simple `moveRight` boots!
 
-Use your `buildXY` skills to build `"fence"`s and block out the ogres!
+Your new digs let you `moveXY` for continuous movement, wherever you want to go. They even have pathfinding built in. Sweet, huh?
 
-Remember to hover over the level map to find `x` and `y` coordinates for your `buildXY` method. In this case, you want to build on the X marks at `40, 52` and `40, 20`.
+Just like with `buildXY`, you can hover over the level to find `x` and `y` coordinates for you to move to.
 
-It is much, much easier to do this level by building type `"fence"` than by building type `"fire-trap"`.
+Check out the bonus achievements on this level for grabbing extra gems if you want an extra challenge.
 
 ___

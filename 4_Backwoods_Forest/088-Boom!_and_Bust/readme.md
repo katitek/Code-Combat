@@ -14,7 +14,7 @@
 
 #### _Solutions:_
 + **[JavaScript](boomAndBust.js)**
-+ **[Python](boom_and_bust.py)**
++ **[Python](boom_and_bust.py)** (`6.07s`)
 
 #### _Rewards:_
 + 46 xp

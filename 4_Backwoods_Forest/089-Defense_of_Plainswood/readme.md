@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](defenseOfPlainswood.js)**
-+ **[Python](defense_of_plainswood.py)**
++ **[Python](defense_of_plainswood.py)** (`6s`)
 
 #### _Rewards:_
 + 30-45 xp

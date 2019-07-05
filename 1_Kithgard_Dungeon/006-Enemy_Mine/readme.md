@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](enemyMine.js)**
-+ **[Python](enemy_mine.py)**
++ **[Python](enemy_mine.py)** (`5.4s`)
 
 #### _Rewards:_
 + 12 xp

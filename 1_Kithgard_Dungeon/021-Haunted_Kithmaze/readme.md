@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](hauntedKithmaze.js)**
-+ **[Python](haunted_kithmaze.py)**
++ **[Python](haunted_kithmaze.py)** (`5,5s`)
 
 #### _Rewards:_
 + 12-24 xp

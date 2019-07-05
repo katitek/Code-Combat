@@ -6,6 +6,6 @@ Optional, if you got "Elemental codex 1+" - uncoment 7th line.
 # hero.moveRight(2)
 # hero.cast("haste", hero)
 
-hero.moveRight()
-hero.moveDown()
-hero.moveRight()
+hero.moveRight(0.9);
+hero.moveDown(0.9);
+hero.moveRight (0.93);
