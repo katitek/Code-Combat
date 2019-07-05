@@ -19,9 +19,9 @@ game.spawnXY("gem", 30, 30);
 ```
 
 **Required Parameters:**
-**`type`** - `string` (ex: `munchkin`) - _the type of object to build_
-**`x`** - `number` (ex: `30`) - _the x-coordinate to build at_
-**`y`** - `number` (ex: `30`) - _the y-coordinate to build at_
++ **`type`**: `string` (ex: `munchkin`) - _the type of object to build_
++ **`x`**: `number` (ex: `30`) - _the x-coordinate to build at_
++ **`y`**: `number` (ex: `30`) - _the y-coordinate to build at_
 
 ___
 
@@ -35,9 +35,9 @@ game.spawnPlayerXY("captain", 24, 37);
 ```
 
 **Required Parameters:**
-**`type`** - `string` (ex: `munchkin`) - _The type of hero to spawn._
-**`x`** - `number` (ex: `30`) - _the x-coordinate to spawn a hero_
-**`y`** - `number` (ex: `30`) - _the y-coordinate to spawn a hero_
++ **`type`**: `string` (ex: `munchkin`) - _The type of hero to spawn._
++ **`x`**: `number` (ex: `30`) - _the x-coordinate to spawn a hero_
++ **`y`**: `number` (ex: `30`) - _the y-coordinate to spawn a hero_
 
 ___
 
