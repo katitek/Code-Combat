@@ -1,4 +1,4 @@
-## _Defense of Plainswood_
+## _Winding Trail_
 
 #### _Legend says:_
 > Protect the peasant village of Plainswood from the ogres.
@@ -19,8 +19,8 @@
 + _Optional: Emperor's gloves_
 
 #### _Solutions:_
-+ **[JavaScript](kithgardGates.js)**
-+ **[Python](kithgard_gates.py)**
++ **[JavaScript](windTrail.js)**
++ **[Python](wind_trail.py)**
 
 #### _Rewards:_
 + 30-45 xp

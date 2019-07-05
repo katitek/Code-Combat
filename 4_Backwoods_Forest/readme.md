@@ -1,7 +1,7 @@
 ### Backwoods Forest levels
 
 + Required Levels (red)
-    + [Defense of Plainswood](088-Defense_of_Plainswood/)
+    + [Defense of Plainswood](089-Defense_of_Plainswood/)
     + [Winding Trail](090-Winding_Trail/)
     + [Nine Gems](091-Nine_Gems/)
     + [Woodland Cubbies](093-Woodland_Cubbies/)
@@ -41,7 +41,7 @@
     + [Siege of Stonehold](202-Siege_of_Stonehold/)
 
 + Premium Levels (blue)
-    + [Boom! and Bust](089-Boom!_and_Bust/)
+    + [Boom! and Bust](088-Boom!_and_Bust/)
     + [One Wrong Step](092-One_Wrong_Step/)
     + [Forest Evasion](094-Forest_Evasion/)
     + [Backwoods Ambush (practice)](095-Backwoods_Ambush/)
