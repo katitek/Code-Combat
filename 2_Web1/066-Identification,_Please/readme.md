@@ -57,34 +57,3 @@ The `id` attribute is to assign a unique **identifier** to an element. This make
 ```
 
 ___
-
-###### _`text-decoration` attribute_
-
-The `text-decoration` property specifies how the text should be decorated. `strike-through` and `underline` are example property values.
-
-**Example:**
-
-```html
-<style>
-    .important {
-        text-decoration: underline;
-    }
-</style>
-```
-
-___
-
-###### _`background-color` attribute_
-
-The `background-color` property changes the background color of an element.
-
-**Example:**
-
-```html
-<style>
-    div {
-        /* Set the background color to blue. */
-        background-color: blue;
-    }
-</style>
-```

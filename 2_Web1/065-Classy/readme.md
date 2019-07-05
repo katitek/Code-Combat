@@ -46,14 +46,3 @@ The `class` attribute is used to make styling elements easier. Assign the attrib
 ```
 
 ___
-
-###### _`<pre>` Tag_
-
-The `<pre>` tag displays text with the same spacing for each letter including space characters. This is what is called a mono-spaced font. Think of using a typewriter.
-
-**Example:**
-
-```html
-<pre>This text will appear with even spacing
-     ...</pre>
-```

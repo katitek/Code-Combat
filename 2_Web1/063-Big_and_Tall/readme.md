@@ -39,35 +39,3 @@ If _both_ width and height are set, then image will force resize to match those 
 ```
 
 ___
-
-###### _`width` attribute_
-
-The `width` property sets how wider an element should display on the page.
-
-**Example:**
-
-```html
-<style>
-    img {
-        /* All images will now be 200 pixels wide. */
-        width:200px;
-    }
-</style>
-```
-
-___
-
-###### _`height` attribute_
-
-The `color` property sets how tall an element should display on the page.
-
-**Example:**
-
-```html
-<style>
-    img {
-        /* All images will now be 300 pixels tall. */
-        height:300px;
-    }
-</style>
-```

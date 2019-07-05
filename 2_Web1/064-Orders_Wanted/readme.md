@@ -25,19 +25,6 @@ ___
 
 ###### _Ordered list_
 
-The `<ol>` tag is for creating **ordered lists** on a page. The contained `<li>` elements have an order, like a list of instructions.
-
-**Example:**
-
-```html
-<h3>Instructions for Winning</h3>
-<ol>
-    <li>Consider the objective.</li>
-    <li>Attempt to solve.</li>
-    <li>Go back to 1.</li>
-</ol>
-```
-
 Ordered list `<ol>` automatically add numbers as bullet points for `<li>` (before `<li>` list items).
 
 Use to create a numbered list when order is important!
@@ -55,3 +42,5 @@ Results in:
 1. Gold Medalist
 2. Silver Medalist
 3. Bronze Medalist
+
+___
