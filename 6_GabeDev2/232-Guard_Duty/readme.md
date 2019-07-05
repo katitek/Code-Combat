@@ -1,13 +1,13 @@
-### _Guard Duty_
-##### It's a massacre down here...
+## _Guard Duty_
+> It's a massacre down here...
 
-##### _Legend says:_
+#### _Legend says:_
 > Someone forgot to defend the pass! Add a soldier and program them to defend!
 
-##### _Goals:_
+#### _Goals:_
 + _Defeat all the ogres_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -15,19 +15,19 @@
 + **While Loops**
 + **Functions**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](guardDuty.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _MUST GET LONELY OUT HERE._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Give your soldier instructions using event handler functions!
 

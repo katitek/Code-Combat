@@ -1,30 +1,30 @@
-### _Jailbreak_
+## _Jailbreak_
 
-##### _Legend says:_
+#### _Legend says:_
 > What if you only need to defeat some of the enemies?
 
-##### _Goals:_
+#### _Goals:_
 + _Add a goal to defeat 4 ogres_
 + _Play and win the game!_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](Jailbreak.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _DON'T OVERDO IT._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 `addDefeatGoal()` sets up a goal to defeat all the enemies in the game.
 

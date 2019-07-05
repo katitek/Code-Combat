@@ -1,13 +1,13 @@
-### _Adventure Time_
+## _Adventure Time_
 
-##### _Legend says:_
+#### _Legend says:_
 > Spawn enemies as time passes.
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn at least 5 ogres_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -15,19 +15,19 @@
 + **Accessing Properties**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](adventureTime.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _TIME KEEPS ON TICKING._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In this level, `spawnTime` is a variable we're using to track when the next `"munchkin"` should spawn. In the beginning, it's set to zero, which means an ogre will spawn at the start of the game.
 

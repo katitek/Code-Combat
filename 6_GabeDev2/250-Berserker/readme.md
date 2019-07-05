@@ -1,30 +1,30 @@
-### _Berserker_
+## _Berserker_
 
-##### _Legend says:_
+#### _Legend says:_
 > Ogres think that fences can stop game masters.
 
-##### _Goals:_
+#### _Goals:_
 + _Increase and decrease the hero's scale_
 + _Destroy at least 3 fences_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](berserker.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WALLS? THERE WERE SOME WALLS?!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 **Grab mushroom and go through the fences!!!**
 

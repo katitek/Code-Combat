@@ -1,9 +1,9 @@
-### _Quizlet_
+## _Quizlet_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create a quiz of questions and group them using pseudo-psychological methods!
 
-##### _Goals:_
+#### _Goals:_
 + _Change he quiz title's `<h1>`_
 + _Change he first question's `<h2>`_
 + _Give question #2 4 answers_
@@ -15,23 +15,23 @@
 + _Have 4 answers with `data-value="C"`_
 + _Have 4 answers with `data-value="D"`_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Quizlet.html)**
 + **[Result](https://codecombat.com/play/web-dev-level/5d0f593cdee0ea004978cf2a)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60 xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _None_
 
 ___
 
-##### _HINTS_
+### _HINTS_
 
 Make your own personality quiz!
 

@@ -1,28 +1,28 @@
-### _Clickthrough_
+## _Clickthrough_
 
-##### _Legend says:_
+#### _Legend says:_
 > Interactive elements are a staple of the web!
 
-##### _Goals:_
+#### _Goals:_
 + _Change the button's background using JavaScript_
 + _Click the button_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Clickthrough.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NOW YOU'RE THINKING WITH EVENTS!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 You can bind events to certain elements using the `.on()` function.
 
@@ -56,7 +56,7 @@ The `function` keyword is for defining custom user-functions. `functions` are im
 
 ___
 
-##### _Events_
+#### _Events_
 
 Events are things that can happen during use of your website. A button gets `"click"`ed on the `"mousemove"`s over an image.
 

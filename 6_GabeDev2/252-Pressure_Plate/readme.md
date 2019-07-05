@@ -1,29 +1,29 @@
-### _Pressure Plate_
+## _Pressure Plate_
 
-##### _Legend says:_
+#### _Legend says:_
 > Use pressure plates to trigger fun game effects!
 
-##### _Goals:_
+#### _Goals:_
 + _Activate all the fire spewers_
 + _Spawn at least 30 munchkins_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](pressurePlate.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WATCH YOUR STEP!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 `"collide"` events can tell you when two objects collide, but what about objects that don't collide?
 

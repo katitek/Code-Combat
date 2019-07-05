@@ -1,31 +1,31 @@
-### _Game of Coins Step 2: Score_
+## _Game of Coins Step 2: Score_
 
-##### _Legend says:_
+#### _Legend says:_
 > Let's add some challenge to our game.
 
-##### _Goals:_
+#### _Goals:_
 + _Reduce score with time_
 + _Increase score on collected items_
 + _The game score can't be less than zero_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](goc2.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE GAME DESIGNER SHOULD MAKE A GAME INTERESTING._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In the second level of the Pac-Man style arcade game series, we will add some challenge to the game.
 

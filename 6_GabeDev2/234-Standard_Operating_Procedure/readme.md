@@ -1,28 +1,28 @@
-### _Standard Operating Procedure_
+## _Standard Operating Procedure_
 
-##### _Legend says:_
+#### _Legend says:_
 > Use the same SOP for all unit types!
 
-##### _Goals:_
+#### _Goals:_
 + _Have all units attack_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](sop.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WITHOUT SOP YOU'D BE SOL._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Event handers get information about the event that triggered them:
 + The `event.target` property contains the unit that is executing the event handler.

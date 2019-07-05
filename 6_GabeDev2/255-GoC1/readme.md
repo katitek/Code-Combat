@@ -1,30 +1,30 @@
-### _Game of Coins Step 1: Layout_
+## _Game of Coins Step 1: Layout_
 
-##### _Legend says:_
+#### _Legend says:_
 > Let's start to make a game.
 
-##### _Goals:_
+#### _Goals:_
 + _Add more forest iles_
 + _Add more coins_
 + _Add more mushrooms_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](goc1.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE LEVEL DESIGNER SHOULD BE PATIENT._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In the next few levels, we're going to build a Pac-Man style arcade game.
 

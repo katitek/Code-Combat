@@ -1,13 +1,13 @@
-### _Randowm Reposte_
+## _Randowm Reposte_
 
-##### _Legend says:_
+#### _Legend says:_
 > Surprise attacks come from random directions!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn at least 8 ogres_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -15,19 +15,19 @@
 + **Accessing Properties**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](randowmReposte.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 10 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _BE UNPREDICTABLE!_
 
 ___
 
-##### _Random_
+### _HINTS_
 
 You can generate a random number using `game.randomInteger(min, max)`:
 

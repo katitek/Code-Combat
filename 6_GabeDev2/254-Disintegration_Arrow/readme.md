@@ -1,29 +1,29 @@
-### _Disintegration Arrow_
+## _Disintegration Arrow_
 
-##### _Legend says:_
+#### _Legend says:_
 > Let's clear that battlefield.
 
-##### _Goals:_
+#### _Goals:_
 + _Destroy at least 50 defeated ogres_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](disintegrationArrow.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _DON'T LEAVE A MESS AFTER YOURSELF. EVEN IT'S OGRES._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Previously, we've used the `destroy` method to remove obstacles or non-collected items.
 

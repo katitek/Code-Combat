@@ -1,28 +1,28 @@
-### _Eventful Selectors_
+## _Eventful Selectors_
 
-##### _Legend says:_
+#### _Legend says:_
 > Use a single event listener to act on multiple elements.
 
-##### _Goals:_
+#### _Goals:_
 + _Bold one of the `h2`s_
 + _Strike-through at least 3 list items_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Eventful_Selectors.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THIS IS SOME POWERFUL CODE!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 When an event function is called, it adds a variabled called `this`.
 

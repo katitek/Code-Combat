@@ -1,29 +1,29 @@
-### _Freeze Tag_
+## _Freeze Tag_
 
-##### _Legend says:_
+#### _Legend says:_
 > Let's play Tag.
 
-##### _Goals:_
+#### _Goals:_
 + _Change behavior for tagged archers_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](freezeTag.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _HM, IS IT FAIR TO PLAY WITH THE TELEKINESIS ABILITY?_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 When one object touches another object, it triggers a `"collide"` event.
 

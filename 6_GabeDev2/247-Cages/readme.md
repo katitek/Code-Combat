@@ -1,30 +1,30 @@
-### _Cages_
+## _Cages_
 
-##### _Legend says:_
+#### _Legend says:_
 > Fences won't protect ogres from the game master's rage.
 
-##### _Goals:_
+#### _Goals:_
 + _Destroy 2 fences_
 + _Defeat 2 monster generators_
 + _Beat the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](cages.js)**
 
 ##### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _CAGES PROTECT THOSE WHO ARE OUTSIDE OF THOSE WHO ARE INSIDE AND VICE VERSA._
 
 ___
 
-##### _Defeat and Destroy_
+### _HINTS_
 
 `unit.destroy()` removes a unit from the game. It's like un-spawning.
 

@@ -1,14 +1,14 @@
-### _Lernaean Hydra_
+## _Lernaean Hydra_
 
-##### _Legend says:_
+#### _Legend says:_
 > For each of our fallen comrades two will rise against you.
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn two munchkins for each defeated_
 + _Count defeated ogres with `game.defeated`_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -16,19 +16,19 @@
 + **Accessing Properties**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](lernaeanHydra.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _I THINK I NEED A FLAMETHROWER OR A TORCH AT LEAST._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Do you think that munchkins are weak? What if we spawn them again and again?
 

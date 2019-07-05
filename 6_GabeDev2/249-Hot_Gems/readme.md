@@ -1,31 +1,31 @@
-### _Hot Gems_
+## _Hot Gems_
 
-##### _Legend says:_
+#### _Legend says:_
 > Hot Gems can be dangerous. It's better to avoid them. Ok, maybe one... or two.
 
-##### _Goals:_
+#### _Goals:_
 + _Gems must reduce health_
 + _Gold coin must increase health_
 + _Collect at least 1 gem_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](hotGems.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE GREED HURTS US._
 
 ___
 
-##### _Collect Practice_
+### _HINTS_
 
 Let's practice using the `"collect"` event.
 

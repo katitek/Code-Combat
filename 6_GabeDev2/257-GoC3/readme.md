@@ -1,31 +1,31 @@
-### _Game of Coins Step 3: Enemies_
+## _Game of Coins Step 3: Enemies_
 
-##### _Legend says:_
+#### _Legend says:_
 > Let's add some enemies to our game.
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn a scout generator_
 + _Scout should be able "one-hit" the hero_
 + _Add survival goal_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](goc3.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE GAME PRODUCER SHOULD REMEMBER ABOUT COMPETITORS._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In step three of the Pac-Man style arcade game series, we will add enemies to the game.
 

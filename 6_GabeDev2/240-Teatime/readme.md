@@ -1,14 +1,14 @@
-### _Teatime_
+## _Teatime_
 
-##### _Legend says:_
+#### _Legend says:_
 > Don't forget to prepare and drink your evening health potion.
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn 3 potions with the same time interval_
 + _Spawn 6 throwers with the same time interval_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -16,19 +16,19 @@
 + **Accessing Properties**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](teaTime.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _TICKTACK, TICKTACK. THE TIME IS PLAYING AGAINST YOU, OGRES._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 You can have several timers and track them independently.
 Spawn munchkins and throwers with different intervals, because throwers are more dangerous.

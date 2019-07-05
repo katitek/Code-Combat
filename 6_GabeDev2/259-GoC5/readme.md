@@ -1,28 +1,28 @@
-### _Game of Coins Step 5: Balance_
+## _Game of Coins Step 5: Balance_
 
-##### _Legend says:_
+#### _Legend says:_
 > Small steps lead to big results.
 
-##### _Goals:_
+#### _Goals:_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](goc5.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE GAME TESTERS SHOULD FIND NOT ONLY BUGS BUT BALANCE PROBLEMS TOO._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In the final level of the Pac-man style arcade game series, we will balance the game.
 

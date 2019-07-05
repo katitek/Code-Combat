@@ -1,32 +1,32 @@
-### _Don't Touch Them_
+## _Don't Touch Them_
 
-##### _Legend says:_
+#### _Legend says:_
 > Set goals for ogre population.
 
-##### _Goals:_
+#### _Goals:_
 + _Add 3 Manual Goals_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Basic Game AI**
 + **Basic Event Handling**
 + **Create a playable, sharable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](dontTouchThem.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _IT'S TOO MUCH BLUE ON THAT FIELD._
 
 ___
 
-##### _Manual Goals_
+### _HINTS_
 
 Manual goals can be marked as either a success or failure. Also you can read the state of goals with the property `success`.
 

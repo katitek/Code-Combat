@@ -1,30 +1,30 @@
-### _Accounts Department_
+## _Accounts Department_
 
-##### _Legend says:_
+#### _Legend says:_
 > Coins and gems have different value. Count them carefully.
 
-##### _Goals:_
+#### _Goals:_
 + _Change game score based on values of items_
 + _Get at least 220 score_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](accountsDepartment.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 10 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _I THINK THOSE SKELETONS WERE AUDITORS._
 
 ___
 
-#### _Hints_
+### _HINTS_
 
 Let's look at a new type of events: `"collect"`.
 

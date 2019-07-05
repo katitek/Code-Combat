@@ -1,29 +1,29 @@
-### _Army Training 2_
+## _Army Training 2_
 
-##### _Legend says:_
+#### _Legend says:_
 > Direct your army in combat!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn 2 soldiers_
 + _Spawn 2 archers_
 + _Defeat the ogres_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](armyTraining2.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THEY UNDERESTIMATED YOUR TRAINING._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 If you hace a lot of units, use `game.setActionFor(unitType, eventType, eventHandlerFunction)` to set actions for all of them at once!
 

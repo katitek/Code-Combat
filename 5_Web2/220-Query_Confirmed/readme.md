@@ -1,29 +1,29 @@
-### _Query Confirmed_
+## _Query Confirmed_
 
-##### _Legend says:_
+#### _Legend says:_
 > Get introduced to the basics of the web's most popular library: jQuery.
 
-##### _Goals:_
+#### _Goals:_
 + _Change the image's width_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic HTML**
 + **Basic CSS**
 + **Basic Web Scripting**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](query_confirmed.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE WONDERS OF WEB SCRIPTING!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Change the size of the image, using the `css()` jQuery function.
 
@@ -34,14 +34,12 @@ image.css("background-color", "red");  // Sets the image's background color to r
 
 ___
 
-##### _jQuery_
+#### _jQuery_
 
 CodeCombat Web Development uses **jQuery** to make web-based JavaScript easier. **jQuery** introduces 2 new functions: `jQuery()` and `$()`. They both do the exact same thing, but the `$()` was added to simplify things. `$` is no different from `enemy` or `moveLeft` to JavaScript! CodeCombat uses the `$()` because it is easier to type, and is iconic for the _jQuery_ library.
 
-___
 
-
-`$` is a function, so remember to call it using parenthesis `(` and `)`. The most common `argument` to pass in is a `"string"`. Specifically, `$()` is expecting a CSS-style _selector_.
+> `$` is a function, so remember to call it using parenthesis `(` and `)`. The most common `argument` to pass in is a `"string"`. Specifically, `$()` is expecting a CSS-style _selector_.
 
 ```javascript
 var image = $("#theImage");

@@ -1,13 +1,13 @@
-### _Agony of Defeat_
+## _Agony of Defeat_
 
-##### _Legend says:_
+#### _Legend says:_
 > Snatching loose change from the jaws of defeat.
 
-##### _Goals:_
+#### _Goals:_
 + _Collect 8 coins_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -15,19 +15,19 @@
 + **Accessing Properties**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](agonyOfDefeat.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 10 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _IT'S ALL ABOUT THE LOOT DROPS._
 
 ___
 
-#### _Defeat_
+### _HINTS_
 
 When a unit i defeated, a `"defeat"` event is triggered:
 

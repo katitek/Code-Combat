@@ -1,28 +1,28 @@
-### _Animania_
+## _Animania_
 
-##### _Legend says:_
+#### _Legend says:_
 > Animation is about squishing and squashing elements!
 
-##### _Goals:_
+#### _Goals:_
 + _Add properties to myAnim's `from`_
 + _Add properties to myAnim's `to`_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Animania.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60 xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NOW THAT'S SOME MANIAC ANIMATION!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 `animation` and `@keyframe` are used for blending animations together.
 
@@ -43,7 +43,7 @@ img {
 
 ___
 
-##### _Animation_
+#### _Animation_
 
 The `animation` CSS property tells the browser how to display an element. It blends CSS properties over a certain amount of time.
 
@@ -71,7 +71,7 @@ The `animation` property applies a repeating animation to elements.
 
 ___
 
-##### _Keyframes_
+#### _Keyframes_
 
 The `@keyframes` CSS keyword is used to defining a path of CSS properties for the `animate` property to use.
 

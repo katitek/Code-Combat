@@ -1,28 +1,28 @@
-### _Precision Coloring_
+## _Precision Coloring_
 
-##### _Legend says:_
+#### _Legend says:_
 > Specify specific shades of colors using the rgb() CSS function!
 
-##### _Goals:_
+#### _Goals:_
 + _Give `.color5` a `background-color` using `rgb()`_
 + _Give `.color6` a `background-color` using `rgb()`_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Precision_Coloring.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60 xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _STAY WITHIN THE LINES!_
 
 ___
 
-##### _RGB_
+### _HINTS_
 
 `rgb()` is a CSS function like `scale()` or `rotate()`. It is a helper function for defining custom colors.
 

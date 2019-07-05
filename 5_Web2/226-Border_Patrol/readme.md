@@ -1,29 +1,29 @@
-### _Border Patrol_
+## _Border Patrol_
 
-##### _Legend says:_
+#### _Legend says:_
 > Adding borders to elements helps separate them from other elements
 
-##### _Goals:_
+#### _Goals:_
 + _Give `<img>` tags a border_
 + _Give `<ol>` tags a border_
 + _Give `<li>` tags a border_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Border_Patrol.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _WE NEED TO ESTABLISH SOME BOUNDARIES._
 
 ___
 
-##### _Border_
+### _HINTS_
 
 `border` is used to put a nice looking border around one's elements.
 

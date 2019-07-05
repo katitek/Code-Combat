@@ -1,30 +1,30 @@
-### _From Dust to Dust_
+## _From Dust to Dust_
 
-##### _Legend says:_
+#### _Legend says:_
 > You can create game objects. However you can destroy or ruin them.
 
-##### _Goals:_
+#### _Goals:_
 + _Block the forest passages and clear them later_
 + _Defeat 2 ogre generators_
 + _Beat the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](fromDustToDust.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NOW I AM BECOME GAME MASTER, THE DESTROYER OF WORLDS._
 
 ___
 
-##### _Defeat and Destroy_
+### _HINTS_
 
 The most time we `spawn` new objects for games. However, sometimes we need to remove them. There are two ways to do it:
 + units or attackable objects (ex. `generator`) can be "killed" with the method `.defeat()`.

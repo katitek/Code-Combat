@@ -1,12 +1,12 @@
-### _Center Formation_
+## _Center Formation_
 
-##### _Legend says:_
+#### _Legend says:_
 > Night is coming. Bring the soldiers in around the fire!
 
-##### _Goals:_
+#### _Goals:_
 + _Your hero must survive_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
@@ -14,19 +14,19 @@
 + **Accessing Properties**
 + **Functions**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](centerFormation.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _ATTEN-HUT!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 The `setActionFor` function can be used to control multiple units at once.
 

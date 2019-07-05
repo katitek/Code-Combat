@@ -1,31 +1,31 @@
-### _Run For Gold_
+## _Run For Gold_
 
-##### _Legend says:_
+#### _Legend says:_
 > The most valuable items disappear first.
 
-##### _Goals:_
+#### _Goals:_
 + _Destroy som e items after a while_
 + _Increase score according to the value of items_
 + _No more than 50 items on the firld at a time_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](runForGold.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE RIGHT PRIORITIES ARE THE KEY TO SUCCESS._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 To make this simple collecting game we need to master time management.
 

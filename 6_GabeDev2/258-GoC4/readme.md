@@ -1,31 +1,31 @@
-### _Game of Coins Step 4: Power-Ups_
+## _Game of Coins Step 4: Power-Ups_
 
-##### _Legend says:_
+#### _Legend says:_
 > We need something to stand against ogres.
 
-##### _Goals:_
+#### _Goals:_
 + _Score up for defeated ogres_
 + _Scale up and down the hero at least once_
 + _Defeat at least one ogre_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Event Data**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](goc4.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _THE GAME DEVELOPERS SHOULD POWER THE GAME ENGINE._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 In the fourth level of the Pac-Man arcade style game series, we will add power-ups that allow the hero to temporarily defeat enemies.
 

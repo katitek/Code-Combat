@@ -1,28 +1,28 @@
-### _Sibling Rivalry_
+## _Sibling Rivalry_
 
-##### _Legend says:_
+#### _Legend says:_
 > Select an element's neighbors to control the neighborhood!
 
-##### _Goals:_
+#### _Goals:_
 + _Select one image_
 + _Select one div_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Sibling_Rivalry.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _IN THIS CASE, THERE CAN ONLY BE ONE! HIGHLIGHTED ONE, THAT IS._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 The `siblings()` function returns a list of neighboring elements.
 

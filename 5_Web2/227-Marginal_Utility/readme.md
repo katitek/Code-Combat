@@ -1,28 +1,28 @@
-### _Marginal Utility_
+## _Marginal Utility_
 
-##### _Legend says:_
+#### _Legend says:_
 > Margins and padding are used to separate content.
 
-##### _Goals:_
+#### _Goals:_
 + _Give `<div>` elements a margin_
 + _Give `<div>` elements some padding_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Marginal_Utility.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _YOU'RE PADDING YOUR STATS WITH ALL THESE LEVELS!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 `margin`s and `padding` is used to create whitespace between other elements, and the edge of elements.
 
@@ -35,7 +35,7 @@ div {
 
 ___
 
-###### _`margin` attribute_
+#### _`margin`_
 
 The `margin` property controls the distance between elements.
 
@@ -57,7 +57,7 @@ The `margin` property controls the distance between elements.
 }
 ```
 
-###### _`padding` attribute_
+#### _`padding`_
 
 The `padding` property controls the distance between the edge of the element and the content in the element.
 

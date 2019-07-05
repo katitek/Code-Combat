@@ -1,13 +1,13 @@
-### _Chokepoint_
+## _Chokepoint_
 
-##### _Legend says:_
+#### _Legend says:_
 > Control all soldiers on patrol individually.
 
-##### _Goals:_
+#### _Goals:_
 + _All soldiers must survive_
 + _Defeat 10 munchkins_
 
-##### _Topics:_
+#### _Topics:_
 + **Strings**
 + **Variables**
 + **If Statements**
@@ -15,19 +15,19 @@
 + **While Loops**
 + **Accessing Properties**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](Chokepoint.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _ASPHYXIATION OF THE ENEMY'S ASSAULT!_
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 Use soldiers to defend the forest lanes.
 

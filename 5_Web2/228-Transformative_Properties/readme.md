@@ -1,30 +1,30 @@
-### _Transformative Properties_
+## _Transformative Properties_
 
-##### _Legend says:_
+#### _Legend says:_
 > Rotate, scale, or move elements using transform!
 
-##### _Goals:_
+#### _Goals:_
 + _Give `#imgE` a transform_
 + _Give `#imgF` a transform_
 + _Give `#imgG` a transform_
 + _Give `#imgH` a transform_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
 ##### _Solutions:_
 + **[HTML](Transformative_Properties.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _HOW MAJESTIC!_
 
 ___
 
-##### _Transformation_
+### _HINTS_
 
 The `transform` property is a modifier on the position, size, and rotation.
 

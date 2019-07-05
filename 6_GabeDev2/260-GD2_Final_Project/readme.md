@@ -1,31 +1,31 @@
-### _Game Dev 2 Final Project_
+## _Game Dev 2 Final Project_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create your own game! Add a hero, add some goals, and create an experience to share with others!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn at least 10 objects_
 + _Include the hero_
 + _Add a goal_
 + _Beat your completed level_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](gd2Final.js)**
 + **[Result](https://codecombat.com/play/game-dev-level/5d0e2309574ee500359c6fea)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 30 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _None_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Now it's time to build your own game!
 

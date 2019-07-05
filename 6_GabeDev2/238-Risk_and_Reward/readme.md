@@ -1,30 +1,30 @@
-### _Risk And Reward_
+## _Risk And Reward_
 
-##### _Legend says:_
+#### _Legend says:_
 > Some treasure is not worth the risk.
 
-##### _Goals:_
+#### _Goals:_
 + _Add a goal to collect 6 items_
 + _Win the game!_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Arguments**
 + **Strings**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](riskAndReward.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _GEMS AREN'T WORTH DYING OVER._
 
 ___
 
-###### _Hints_
+### _HINTS_
 
 `addCollectGoal()` sets up a goal to collect all the gems in the game.
 

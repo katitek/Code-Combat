@@ -1,32 +1,32 @@
-### _Stick Shift_
+## _Stick Shift_
 
-##### _Legend says:_
+#### _Legend says:_
 > Learn how to create custom goals for your games!
 
-##### _Goals:_
+#### _Goals:_
 + _Add a Manual Goal to Defeat the Boss_
 + _Win the game_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Syntax**
 + **Place game objects**
 + **Basic Game AI**
 + **Basic Event Handling**
 + **Create a playable, sharable game project**
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](stickShift.js)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 10 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _ASSUMING DIRECT CONTROL..._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Now you can create custom goals for your games!
 

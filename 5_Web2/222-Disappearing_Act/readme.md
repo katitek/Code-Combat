@@ -1,32 +1,32 @@
-### _Disappearing Act_
+## _Disappearing Act_
 
-##### _Legend says:_
+#### _Legend says:_
 > Make elements vanish and appear! Astound your enemies, bewilder your friends.
 
-##### _Goals:_
+#### _Goals:_
 + _Hide the image using `.hide()`_
 + _Click `#hideButton`_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Disappearing_Act.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _VANISHED BEFORE YOUR VERY EYES!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 The `show()` and `hide()` jQuery functions make elements appear and disappear.
 
-###### _`hide()` and `show()`_
+#### _`hide()` and `show()`_
 
 `hide` makes an element invisible.
 

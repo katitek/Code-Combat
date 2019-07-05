@@ -1,29 +1,29 @@
-### _Toggulation_
+## _Toggulation_
 
-##### _Legend says:_
+#### _Legend says:_
 > Toggle classes, on and off, to create improve interactability in the page!
 
-##### _Goals:_
+#### _Goals:_
 + _Toggle class `"expand"` on `h1`_
 + _Click the `h1`_
 + _Click the `img`_
 
-##### _Topics:_
+#### _Topics:_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[HTML](Toggulation.html)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 60  xp
 + 20 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _TOGGLED, ON, OFF, ON, OFF._
 
 ___
 
-###### _toggleClass_
+### _HINTS_
 
 `toggleClass()` will add or remove a class depending if an element already has that class on it.
 
