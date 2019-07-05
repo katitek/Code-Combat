@@ -52,3 +52,5 @@ Some goals might depend on other goals before being marked complete. In this lev
 For the current level, we wait until both "success" goals are completed and only after that, we set `dontTouchGoal`'s state to True.
 
 This is similar to how `addSurviveGoal` works. It only succeeds when all the other goals are complete.
+
+___

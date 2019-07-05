@@ -34,3 +34,5 @@ You can pass an argument to set up a specific amount of gems the player needs to
 # Collect 5 gems to win.
 game.addCollectGoal(5)
 ```
+
+___

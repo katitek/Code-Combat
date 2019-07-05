@@ -50,3 +50,5 @@ You can reduce score with each second or calculate it based on the final time (t
 There are many more ways to implement a scoring system in your game - you should be creative and think about how you might want to implement scoring in your final project.
 
 Part of game design is about thinking up something new!
+
+___

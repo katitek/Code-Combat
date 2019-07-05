@@ -39,3 +39,5 @@ You decide what parameters should be and how hard the game will be. Try to make 
 Try to change parameters one by one instead changing all of them for each iteration. It's hard to understand the influence of game parameters when you change several simultaneously.
 
 However sometimes game parameters have synergy and you can see results only when changing them together. There is no correct answer. Just test various sets of parameters and analyze the results.
+
+___

@@ -50,3 +50,5 @@ hame.spawnXY("munchkin", 30, 40);
 // All munchkins now have an event listener on `spawn` which calls sayMi when they spawn:
 game.setActionFor("munchkin", "spawn", sayMi)
 ```
+
+___

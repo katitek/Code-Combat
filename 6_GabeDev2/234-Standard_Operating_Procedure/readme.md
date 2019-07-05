@@ -76,3 +76,5 @@ function fightEnemies(event) {
 ```
 
 Now it works for all the soldiers, and for any other types of units like archers or munchkins, too!
+
+___

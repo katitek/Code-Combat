@@ -37,3 +37,5 @@ if game.scoutsSpawned >= 5:
     someGenerator.defeat()
     someWall.destroy()
 ```
+
+___

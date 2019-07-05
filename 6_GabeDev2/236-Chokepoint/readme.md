@@ -56,3 +56,5 @@ game.spawnXY("soldier", 30, 40);
 
 game.setActionFor("soldier", "spawn", defendNearestFriend);
 ```
+
+___

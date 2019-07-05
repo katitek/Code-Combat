@@ -47,4 +47,5 @@ def onDefeat(event):
 game.setActionFor("archer", "defeat", onDefeat)
 game.setActionFor("skeleton", "defeat", onDefeat)
 ```
+
 ___

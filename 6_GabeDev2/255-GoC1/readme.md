@@ -50,3 +50,5 @@ Use the keyboard or mouse for player control:
 The placing for so many objects could be boring. However, it's a part of Game Dev routine. Don't worry, you will learn how to automatize it in next courses. For the game, we've chosen to use a grid system for coins and forest tiles, because symmetry is simple and beautiful.
 
 For your future projects, you can place tiles as you want and get interesting layouts. Level design is about creativity.
+
+___

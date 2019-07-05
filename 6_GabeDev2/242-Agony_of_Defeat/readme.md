@@ -47,3 +47,5 @@ When a munchkin is defeated, spawn a `"gold-coin"` near the defeated munchkin's 
 
 When playing your game, you may notice that sometimes the munchkins don't seem to spawn a coin. 
 Don't worry - the coin is probably just being spawned on top of the player, who immediately collects it.
+
+___

@@ -34,3 +34,5 @@ You can pass an argument to set up a specific amount of enemies the player needs
 # Defeat 5 enemies to win.
 game.addDefeatGoal(5)
 ```
+
+___

@@ -46,3 +46,5 @@ but it's not clear for players because they have to compare the current time and
 Instead, we show the remaining time until the next potion.
 
 Unlike `game.time` we have to update that timer each game frame, so we've put in the function `updateTimers` which is called in the main game loop each game frame.
+
+___

@@ -45,3 +45,5 @@ The minimum value the integer can be is `min`, the maximum it can be is `max`.
 If you do `num = game.randomInteger(0, 3)`, `num` can be equal to `0`, `1`, `2`, `3`.
 
 In this level you see how to use this to spawn enemies in random locations, and also how to vary the timing of the enemy spawns.
+
+___

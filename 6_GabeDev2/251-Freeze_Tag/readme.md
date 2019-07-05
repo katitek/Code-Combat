@@ -30,3 +30,5 @@ When one object touches another object, it triggers a `"collide"` event.
 You can use it on other spawnables, not only the hero.
 
 In this game the hero can tag archers and "freeze" them, other archers can untag "frozen" archers. Don't mix up who is `event.target` and `event.other`.
+
+___

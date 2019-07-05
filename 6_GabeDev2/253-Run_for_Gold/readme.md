@@ -42,3 +42,5 @@ Also, we can save a timestamp as an item's property to track when it's time to `
 In this level, we're using the `"spawn"` event to track the state of each item inside a `while-true` loop.
 
 Inside the loop, when it's time to `destroy` the item, you don't need to break the loop because when an item/unit is destroyed the event handler is stopped too.
+
+___

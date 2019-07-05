@@ -67,3 +67,5 @@ player.on("collide", onCollide);
 In the given example the event triggers twice when the `player` collides with the `wall` and the `onCollide` function is called twice too. However, `target` and `other` will be swapped:
 + the player's event: `target` -> `player`, `other` -> `wall`
 + the wall's event: `target` -> `wall`, `other` -> `player`
+
+___

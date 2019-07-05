@@ -48,3 +48,5 @@ Adding enemies to our game will be simple if we use a `generator`.
 However enemies are spawned over the time, so we should use the `"spawn"` event to configure them as we want.
 
 Currently, we can't defeat enemies, so `"defeat"` event is not required. Also, it's better to make them slow, otherwise it will be a really hard game.
+
+___

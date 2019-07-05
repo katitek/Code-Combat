@@ -47,3 +47,5 @@ def onCollect(event):
 
 somebody.on("collect", onCollect)
 ```
+
+___

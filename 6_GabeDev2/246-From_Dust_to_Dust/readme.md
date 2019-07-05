@@ -40,3 +40,5 @@ scout.destroy() # Nothing here
 ```
 
 `defeat()` and `destroy()` are similar methods, however there is huge difference between them.
+
+___

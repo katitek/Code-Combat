@@ -58,3 +58,5 @@ var ogre1 = game.spawnXY("munchkin", 1, 1);
 game.setActionFor("munchkin", "spawn", onSpawn);  // For All "munchkin"s
 var ogre2 = game.spawnXY("munchkin", 2, 2);
 ```
+
+___

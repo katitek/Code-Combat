@@ -38,3 +38,5 @@ Players don't like to run from enemies all time... they need some way to fight b
 It doesn't have to be a real fight. It could be power-ups limited by time, traps, tricky actions (like jumping on their heads) and so on.
 
 Power-ups usually are time-limited, otherwise, they aren't power-ups but skill upgrades. Changing the power-up duration allows you to modify the difficulty of the game.
+
+___

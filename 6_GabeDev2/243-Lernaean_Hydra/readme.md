@@ -41,3 +41,5 @@ P.S.: Try to press the space button on your keyboard when many ogres are around 
 With `game.setActionFor`, you can set an event handler for all existing ogres, as well as any ogres spawned later.
 
 For this level, you need to use the `"spawn"` and `"defeat"` events.
+
+___
