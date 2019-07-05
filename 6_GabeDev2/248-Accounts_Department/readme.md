@@ -24,22 +24,7 @@
 
 ___
 
-##### _`"collect"` event_
-
-The `"collect"` event is triggered when a unit collect any item.
-
-**Example:**
-
-```javascript
-function onCollect(event) {
-    var unit = event.target;
-    var item = event.other;
-    unit.say("I've taken " + item.id);
-}
-
-var hero = game.spawnHeroXY("knight", 20, 20);
-hero.on("collect", onCollect);
-```
+#### _Hints_
 
 Let's look at a new type of events: `"collect"`.
 
@@ -79,25 +64,3 @@ The `"collect"` event is triggered when a collector "steps on" an item (collect 
 You can track those events and count them plus add your own actions for them (Ex. increase attack damage for potions). Be creative!
 
 ___
-
-##### _Events_
-
-> _Because I don't really remember - Am I posted it before or not._
-
-An **event** is something that happens in the game world.
-
-For example, a `"spawn"` event happens when a unit is created (spawned). A `"hear"` event happens when a unit hears another unit `say()` something.
-
-You can register a function as an **event handler** using the `on(eventType, eventHandler)` method.
-
-An **event handler** function is run when the specified type of event happens:
-
-```javascript
-// Define an event handler function:
-function onHear() {
-    pet.say("I heard something!");
-}
-
-// Register onHear as an event handler for "hear" events on the pet object.
-pet.on("hear", onHear);
-```

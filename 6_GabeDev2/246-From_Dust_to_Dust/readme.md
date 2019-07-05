@@ -40,29 +40,3 @@ scout.destroy() # Nothing here
 ```
 
 `defeat()` and `destroy()` are similar methods, however there is huge difference between them.
-
-`defeat()` is like `unit.health = 0` and can be applied only to units or attackable objects like `"generator"`. Also the "defeated" object remains in the game scene. Plus it increases `game.defeated` counter for enemy units. You can use it for "restricted zones", ruin some objects on events and so on.
-
-```javascript
-var generator = game.spawnXY("generator", 40, 34);
-
-while (true) {
-    if (game.time == 10) {
-        generator.defeat();   // It's ruined and we see some remained stones.
-        player.say("I haven't touched it. It was broken itself.");
-    }
-}
-```
-
-`destroy()` removes an object from the game scene and can be used for anything. Especially it useful for obstacles, because they don't have `health` and can't be `defeat`ed. You can remove obstacles for some events, for example, clear forest passage in this level. There are more usages for that method which we will see later.
-
-```javascript
-var potion = game.spawnXY("potion", 40, 34);
-
-while (true) {
-    if (game.time == 10) {
-        potion.destroy();  // Just an empty space.
-        player.say("Where is it? It was here just a second ago.");
-    }
-}
-```

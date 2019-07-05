@@ -29,20 +29,6 @@ ___
 
 ##### _Random_
 
-###### _`game.randomInteger(min, max)` method_
-
-Generate a random integer between `min` and `max`, inclusive.
-
-**Example:**
-
-```javascript
-game.randomInteger(0, 9);
-```
-
-**Required Parameters:**
-+ `min`: `number` (ex. `0`). _The minimum value the random integer can be_
-+ `max`: `number` (ex. `9`). _The maximum value the random integer can be_
-
 You can generate a random number using `game.randomInteger(min, max)`:
 
 ```python

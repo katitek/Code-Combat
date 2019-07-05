@@ -53,20 +53,3 @@ function soldierLogic(event) {
     var enemy = soldier.findNearestEnemy();
 }
 ```
-
-###### _`game.setActionFor(type, event, handler)` method_
-
-Sets an event handler on all units of a particular type, whether they are spawned before or after this command is executed.
-
-**Example:**
-
-```javascript
-game.setActionFor("munchkin", "spawn", runAway);
-game.setActionFor("soldier", "spawn", fightEnemies);
-game.setActionFor("archer", "spawn", fightEnemies);
-```
-
-**Required Parameters:**
-+ `type`: `string` (ex. `"soldier"`). _The type of unit to setActionFor_
-+ `event`: `string` (ex. `"spawn"`). _The type of event_
-+ `handler`: `function` (ex. `fightEnemiesd`). _The function that is called when the event is triggered_

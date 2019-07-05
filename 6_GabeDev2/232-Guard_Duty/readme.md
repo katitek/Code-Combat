@@ -29,8 +29,6 @@ ___
 
 ###### _Hints_
 
-[Previous methods and attributes.](https://github.com/katitek/Code-Combat/tree/master/1_Kithgard_Dungeon/023-Game_Grove)
-
 Give your soldier instructions using event handler functions!
 
 ```python
@@ -78,20 +76,3 @@ Consider what the above code does!
 + Finally, set the action on the munchkin's spawn trigger.
 
 It always helps to read through the code to understand what it does, before diving into the next problem.
-
-###### _`"spawn"` event_
-
-The `"spawn"` event is triggered when a unit is spawned.
-
-**Example:**
-
-```javascript
-function onSpawn(event) {
-    // This function is run when unit is spawned.
-    var unit = event.target;
-    unit.say("Reporting for duty!");
-}
-
-unit = game.spawnXY("soldier", 20, 20);
-unit.on("spawn", onSpawn);
-```

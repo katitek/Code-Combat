@@ -27,70 +27,7 @@
 
 ___
 
-##### _Coins_
-
-A collectable coins.
-
-###### _Gold coin_
-
-![](img/gold.png)
-
-**Default Stats:**
-+ `type: "gold-coin"`
-+ `voin.value = 3`
-
-**Example:**
-```python
-# usage code 
-game.spawnXY("gold-coin", 21, 20)
-```
-
-###### _Silver coin_
-
-![](img/silver.png)
-
-**Default Stats:**
-+ `type: "silver-coin"`
-+ `voin.value = 2`
-
-**Example:**
-```python
-# usage code 
-game.spawnXY("silver-coin", 21, 20)
-```
-
-###### _Bronze coin_
-
-![](img/bronze.png)
-
-**Default Stats:**
-+ `type: "bronze-coin"`
-+ `voin.value = 1`
-
-**Example:**
-```python
-# usage code 
-game.spawnXY("bronze-coin", 21, 20)
-```
-
-___
-
-##### _`"defeat"` event_
-
-The `"defeat"` event is triggered when a unit s defeated.
-
-**Example:**
-
-```javascript
-function onDefeat(event) {
-    var unit = event.target;
-    var x = unit.pos.x + game.randomInteger(-5, 5);
-    var y = unit.pos.y + game.randomInteger(-5, 5);
-    game.spawnXY("gold-coin", x, y);
-}
-
-game.setActionFor("munchkin", "defeat", onDefeat);
-```
+#### _Defeat_
 
 When a unit i defeated, a `"defeat"` event is triggered:
 

@@ -30,8 +30,6 @@ This is the first `game` development level.
 
 You will learn how to make your own games!
 
-[Theory, methods and objects of Game Development at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_gamedev)
-
 You need to spawn 4 more `"fence"`s (for a total of 8, including the ones given to you) to protect these villagers from marauding ogres:
 
 ```javascript

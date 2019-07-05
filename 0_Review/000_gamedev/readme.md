@@ -1,4 +1,4 @@
-## Code Combat Game Development Theory and Methods
+## Code Combat Game Development Methods and Objects
 ___
 
 
@@ -38,6 +38,22 @@ game.spawnPlayerXY("captain", 24, 37);
 + **`type`**: `string` (ex: `munchkin`) - _The type of hero to spawn._
 + **`x`**: `number` (ex: `30`) - _the x-coordinate to spawn a hero_
 + **`y`**: `number` (ex: `30`) - _the y-coordinate to spawn a hero_
+
+___
+
+#### _`game.spawnMaze(tileType, seed)`_
+
+> Spawns a randomly generated maze of `tileType` tiles. The first argument is a string, type of the object which is used to build a maze. The second argument is a number, changing the number will change the maze.
+
+**Example:**
+```javascript
+game.spawnMaze("forest", 5);
+game.spawnMaze("clump", 23);
+```
+
+**Required Parameters:**
++ **`tileType`**: `string` (ex: `"forest"`) - _The type of the maze tile._
++ **`seed`**: `number` (ex: `23`) - _The seed number used to generate a maze._
 
 ___
 
@@ -99,19 +115,101 @@ game.addSurviveGoal(20);
 
 ___
 
-#### _`game.spawnMaze(tileType, seed)`_
+#### _`game.addManualGoal(description)`_
 
-> Spawns a randomly generated maze of `tileType` tiles. The first argument is a string, type of the object which is used to build a maze. The second argument is a number, changing the number will change the maze.
+> Add a manually controlled game goal with a description.
 
 **Example:**
 ```javascript
-game.spawnMaze("forest", 5);
-game.spawnMaze("clump", 23);
+var someGoal = game.addManualGoal("Do the thing.");
+var nextGoal = game.addManualGoal("Do nothing.");
+
+// Checking the goal state.
+if (someGoal.success) {
+    hero.say("Done!");
+}
 ```
 
 **Required Parameters:**
-+ **`tileType`**: `string` (ex: `"forest"`) - _The type of the maze tile._
-+ **`seed`**: `number` (ex: `23`) - _The seed number used to generate a maze._
++ **`description`**: `string` (ex. `"Defeat the Boss."`) - _The text description of the goal_
+
+**Returns:**
++ `object`: The goal object.
+
+___
+
+#### _`game.setGoalState(goal, success)`_
+
+> Set the state of the goal, which you've defined earlier. This function change the goal's property `success`.
+
+**Example:**
+```javascript
+var someGoal = game.addManualGoal("Do the thing.");
+var nextGoal = game.addManualGoal("Do nothing.");
+
+//# Goal success!
+game.setGoalState(someGoal, true);
+
+// Goal failure! (ends the game)
+game.setGoalState(nextGoal, false);
+
+// Checking the goal state.
+if (someGoal.success) {
+    hero.say("Done!");
+}
+```
+
+**Required Parameters:**
++ **`goal`**: `object` (ex. `myGoal`) - _The goal object_
++ **`success`**: `boolean` (ex. `true`) - _The state of the goal: success or not_
+
+___
+
+#### _`game.db.add(key, value)`_
+
+> Use `db.add(key, value)` to increment (add to) a value stored in the database under a key. If a key doesn't exist in the database yet, its value starts at `0`
+
+**Example:**
+```javascript
+db.add("plays", 1);
+```
+
+**Required Parameters:**
++ **`key`**: `string` (ex: `"plays"`) - _The database key to store a value under._
++ **`value`**: `number` (ex: `1`) - _The value to increment by._
+
+___
+
+#### _`game.randomInteger(min, max)`_
+
+> Generate a random integer between `min` and `max`, inclusive.
+
+**Example:**
+```javascript
+game.randomInteger(0, 9);
+```
+
+**Required Parameters:**
++ **`min`**: `number` (ex. `0`) - _The minimum value the random integer can be_
++ **`max`**: `number` (ex. `9`) - _The maximum value the random integer can be_
+
+___
+
+#### _`game.setActionFor(type, event, handler)`_
+
+> Sets an event handler on all units of a particular type, whether they are spawned before or after this command is executed.
+
+**Example:**
+```javascript
+game.setActionFor("munchkin", "spawn", runAway);
+game.setActionFor("soldier", "spawn", fightEnemies);
+game.setActionFor("archer", "spawn", fightEnemies);
+```
+
+**Required Parameters:**
++ **`type`**: `string` (ex. `"soldier"`) - _The type of unit to setActionFor_
++ **`event`**: `string` (ex. `"spawn"`) - _The type of event_
++ **`handler`**: `function` (ex. `fightEnemiesd`) - _The function that is called when the event is triggered_
 
 ___
 
@@ -131,18 +229,164 @@ ui.track(player, "health");
 
 ___
 
-#### _`game.db.add(key, value)`_
+#### _`unit.on(eventName, eventHandlerFunction)`_
 
-> Use `db.add(key, value)` to increment (add to) a value stored in the database under a key. If a key doesn't exist in the database yet, its value starts at `0`
+> You can use the `unit.on(eventName, eventHandlerFunction)` function to assign custom behavior to a unit. The `eventHandlerFunction` argument is a function you define. You can put any code in here you want! You are the game developer after all.
 
 **Example:**
 ```javascript
-db.add("plays", 1);
+function munchkinLogic() {
+    while (true) {
+        var enemy = munchkin.findNearestEnemy();
+        if (enemy) {
+            munchkin.attack(enemy);
+        }
+    }
+}
+
+var munchkin = game.spawnXY("munchkin", 20, 20);
+munchkin.on("spawn", munchkinLogic);
 ```
 
 **Required Parameters:**
-+ **`key`**: `string` (ex: `"plays"`) - _The database key to store a value under._
-+ **`value`**: `number` (ex: `1`) - _The value to increment by._
++ **`eventName`**: `string` (ex: `"spawn"`) - _The event that will trigger handler function_
++ **`eventHandlerFunction`**: `function` (ex: `onSpawn`) - _The function that will be executed after event occurs_
+
+___
+
+#### _`unit.defeat()`_
+
+> `defeat()` is like `unit.health = 0` and can be applied only to units or attackable objects like `"generator"`. Also the "defeated" object remains in the game scene. Plus it increases `game.defeated` counter for enemy units. You can use it for "restricted zones", ruin some objects on events and so on.
+
+**Example:**
+```javascript
+var generator = game.spawnXY("generator", 40, 34);
+
+while (true) {
+    if (game.time == 10) {
+        generator.defeat();   // It's ruined and we see some remained stones.
+        player.say("I haven't touched it. It was broken itself.");
+    }
+}
+```
+
+___
+
+#### _`unit.destroy()`_
+
+> `destroy()` removes an object from the game scene and can be used for anything. Especially it useful for obstacles, because they don't have `health` and can't be `defeat`ed. You can remove obstacles for some events, for example, clear forest passage in this level. There are more usages for that method which we will see later.
+
+**Example:**
+```javascript
+var potion = game.spawnXY("potion", 40, 34);
+
+while (true) {
+    if (game.time == 10) {
+        potion.destroy();  // Just an empty space.
+        player.say("Where is it? It was here just a second ago.");
+    }
+}
+```
+
+___
+
+
+### Events
+
+___
+
+#### _Spawn_
+
+> The `"spawn"` event is triggered when a unit is spawned.
+
+**Example:**
+```javascript
+function onSpawn(event) {
+    // This function is run when unit is spawned.
+    var unit = event.target;
+    unit.say("Reporting for duty!");
+}
+
+unit = game.spawnXY("soldier", 20, 20);
+unit.on("spawn", onSpawn);
+```
+
+___
+
+#### _Defeat_
+
+> The `"defeat"` event is triggered when a unit s defeated.
+
+**Example:**
+```javascript
+function onDefeat(event) {
+    var unit = event.target;
+    var x = unit.pos.x + game.randomInteger(-5, 5);
+    var y = unit.pos.y + game.randomInteger(-5, 5);
+    game.spawnXY("gold-coin", x, y);
+}
+
+game.setActionFor("munchkin", "defeat", onDefeat);
+```
+
+___
+
+#### _Collect_
+
+> The `"collect"` event is triggered when a unit collect any item.
+
+**Example:**
+```javascript
+function onCollect(event) {
+    var unit = event.target;
+    var item = event.other;
+    unit.say("I've taken " + item.id);
+}
+
+var hero = game.spawnHeroXY("knight", 20, 20);
+hero.on("collect", onCollect);
+```
+
+___
+
+#### _Victory_
+
+> The `"victory"` event is triggered when a player successfully completes all of a game's goals.
+
+Example:
+```javascript
+function onVictory(event) {
+    db.add("plays", 1);
+}
+
+game.on("victory", onVictory);
+```
+
+___
+
+
+### Properties
+
+___
+
+#### _`game.time`_
+
+> `game.time` is the amount of time (in seconds) that has passed since the start of the game. The `game.time` property is equal to the number of `seconds` that have passed since the start of your game. Use `game.time` to spawn enemies over time (in this case, every 2 seconds) like this.
+
+
+**Example:**
+```python
+spawnTime = 0
+
+while True:
+    if game.time > spawnTime:
+        game.spawnXY("munchkin", 20, 40)
+        # Next spawnTime set to current game.time + 2
+        spawnTime = game.time + 2
+```
+
+**Start Value:**
++ _null_
 
 ___
 
@@ -168,7 +412,7 @@ ___
 
 ![](img/firetrap.png)
 
-+ `"fire-spawer"` - A gargoyle statue that shoots deadly fireballs. It has the following configurable properties:
++ `"fire-spewer"` - A gargoyle statue that shoots deadly fireballs. It has the following configurable properties:
     + `direction` - (string) can be set to `"horizontal"` or `"vertical"`
     + `disabled = false` - (boolean) can be `true` or `false`. True means it won't fire.
     + `spamInterval = 2` - (number) how many seconds it will fire for
@@ -200,6 +444,11 @@ ___
 
 ![](img/chest.png)
 
++ `"locked-chest"` - To open this chest you need a `silver-key`. Default stats:
+    + `chest.value = 100`
+
++ `"silver-key"` - Key to open locked chest.
+
 + `"potion-small"` - A small health potion. Heals 150 health when collected.
 
 ![](img/potionsmall.png)
@@ -215,6 +464,52 @@ ___
 + `"lightstone"` - A glowing magical stone. Skeletons will flee from anyone carrying a lightstone.
 
 ![](img/lightstone.png)
+
+___
+
+##### _Coins_
+
+> Gold coin
+
+![](img/gold.png)
+
+**Default Stats:**
++ `type: "gold-coin"`
++ `voin.value = 3`
+
+**Example:**
+```python
+# usage code 
+game.spawnXY("gold-coin", 21, 20)
+```
+
+> Silver coin
+
+![](img/silver.png)
+
+**Default Stats:**
++ `type: "silver-coin"`
++ `voin.value = 2`
+
+**Example:**
+```python
+# usage code 
+game.spawnXY("silver-coin", 21, 20)
+```
+
+> Bronze coin
+
+![](img/bronze.png)
+
+**Default Stats:**
++ `type: "bronze-coin"`
++ `voin.value = 1`
+
+**Example:**
+```python
+# usage code 
+game.spawnXY("bronze-coin", 21, 20)
+```
 
 ___
 
@@ -237,6 +532,31 @@ ___
     + `unit.maxSpeed = 11`
 
 ![](img/thrower.png)
+
++ `"scout"` -  The mediocre ogre unit. It's stronger than a munchkin. Has a melee attack. Default Stats:
+    + `unit.team = "ogres"`
+    + `unit.maxHealth = 75`
+    + `unit.attackDamage = 12`
+    + `unit.maxSpeed = 12`
+
+![](img/scout.png)
+
++ `"ogre"` -  A big ogre. Default Stats:
+    + `unit.team = "ogres"`
+    + `unit.maxHealth = 120`
+    + `unit.attackDamage = 18`
+    + `unit.maxSpeed = 5`
+
+![](img/ogre.png)
+
++ `"ogre-f"` -  A bigger ogre. Default Stats:
+    + `unit.team = "ogres"`
+    + `unit.maxHealth = 250`
+    + `unit.attackDamage = 30`
+    + `unit.maxSpeed = 7`
+    + P.S.: `unit.type = "ogre"` (not `"ogre-f"`)
+
+![](img/ogref.png)
 
 + `"skeleton"` - A tough enemy, but terrified of anyone holding a Lightstone. Default Stats:
     + `unit.team = "neutral"`
@@ -316,26 +636,5 @@ ___
     + `player.maxSpeed = 6`
 
 ![](img/champion.png)
-
-___
-
-
-### Events
-
-___
-
-#### _Victory_
-
-The `"victory"` event is triggered when a player successfully completes all of a game's goals.
-
-Example:
-
-```javascript
-function onVictory(event) {
-    db.add("plays", 1);
-}
-
-game.on("victory", onVictory);
-```
 
 ___

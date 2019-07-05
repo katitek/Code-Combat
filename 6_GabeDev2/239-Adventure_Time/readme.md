@@ -38,24 +38,3 @@ In the **while-true** loop, we check each time to see if `game.time` is greater 
 After spawning a new ogre, we update `spawnTime` to be equal to the current `game.time` plus however many seconds we want to wait in between spawns (in this case, we're using `2`).
 
 ___
-
-###### _`game.time` property_
-
-game.time is the amount of time (in seconds) that has passed since the start of the game.
-
-The `game.time` property is equal to the number of `seconds` that have passed since the start of your game.
-
-Use `game.time` to spawn enemies over time (in this case, every 2 seconds) like this:
-
-
-```python
-spawnTime = 0
-
-while True:
-    if game.time > spawnTime:
-        game.spawnXY("munchkin", 20, 40)
-        # Next spawnTime set to current game.time + 2
-        spawnTime = game.time + 2
-```
-
-**Start Value:** _null_

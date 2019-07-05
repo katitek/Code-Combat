@@ -47,30 +47,4 @@ def onDefeat(event):
 game.setActionFor("archer", "defeat", onDefeat)
 game.setActionFor("skeleton", "defeat", onDefeat)
 ```
-
-##### _New Emeny Units_
-
-+ `"scout"` -  The mediocre ogre unit. It's stronger than a munchkin. Has a melee attack. Default Stats:
-    + `unit.team = "ogres"`
-    + `unit.maxHealth = 75`
-    + `unit.attackDamage = 12`
-    + `unit.maxSpeed = 12`
-
-![](img/scout.png)
-
-+ `"ogre"` -  A big ogre. Default Stats:
-    + `unit.team = "ogres"`
-    + `unit.maxHealth = 120`
-    + `unit.attackDamage = 18`
-    + `unit.maxSpeed = 5`
-
-![](img/ogre.png)
-
-+ `"ogre-f"` -  A bigger ogre. Default Stats:
-    + `unit.team = "ogres"`
-    + `unit.maxHealth = 250`
-    + `unit.attackDamage = 30`
-    + `unit.maxSpeed = 7`
-    + P.S.: `unit.type = "ogre"` (not `"ogre-f"`)
-
-![](img/ogref.png)
+___
