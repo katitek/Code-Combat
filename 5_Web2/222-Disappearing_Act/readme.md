@@ -57,3 +57,5 @@ Hooking into `"click"` events allows you to script up behavior for hiding and re
     $(".infoDiv").parent().on('click', showInfoChild)
 </script>
 ```
+
+___

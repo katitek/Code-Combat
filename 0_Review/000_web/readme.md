@@ -373,6 +373,21 @@ ___
 
 ___
 
+#### _`cursor`_
+
+> The `cursor` property changes what the cursor looks like when mousing over certain elements. Some `<div>`s are clickable, so they are given the `pointer` property.
+
+**Example:**
+```html
+<style>
+    .selectable {
+        cursor: pointer;
+    }
+</style>
+``` 
+
+___
+
 #### _`font-size`_
 
 > The `font-size` property controls how big text should display.
@@ -386,6 +401,22 @@ ___
     }
 </style>
 ```
+
+___
+
+
+#### _`font-weight`_
+
+> The `font-weight` property sets the weight of the font. It can make it `bold` (thicker), or `light` (thinner).
+
+**Example:**
+```html
+<style>
+    .thickText {
+        font-weight:thick;
+    }
+</style>
+``` 
 
 ___
 
@@ -486,8 +517,35 @@ ___
 
 ___
 
+##### _`$(this)`_
 
-#### _`css(property)`_
+> `$(this)` returns a callback function's current target. Use it to find which specific element was selected when applying the same event listener to multiple elements.
+
+**Example:**
+```html
+<button>A</button>
+<button>B</button>
+<button>C</button>
+<script>
+    var button = $("button");
+    button.on("click", hideClicked);
+    function hideClicked() {
+        var target = $(this); // This sets 'target' to the clicked button.
+        target.hide(); // This hides that specific button, not all the buttons.
+    }
+</script>
+```
+
+**Required Parameters:**
++ **`this`**: `keyword` (ex. `this`) - _This is the context for the function_
+
+**Returns:**
++ `object`: jQuery object of function context
+
+___
+
+
+#### _`element.css(property)`_
 
 > `css` is used to get and set the CSS rules of a jQuery object.
 
@@ -516,7 +574,7 @@ ___
 
 ___
 
-#### _`on(event, callback)`_
+#### _`element.on(event, callback)`_
 
 > The `on` function takes two arguments. A string of an event to monitor, and a function to call when the event occurs.
 
@@ -537,5 +595,96 @@ ___
 **Required Parameters:**
 + **`event`**: `string` (ex. `"click"`) - _This is the event name._
 + **`callback`**: `function` (ex. `hideOnClick`) - _This is the function that is performed when the event is fulfilled._
+
+___
+
+#### _`element.hide()` and `element.show()`_
+
+> `hide` makes an element invisible.
+
+> `show` makes an element visible.
+
+**Example:**
+```html
+<div>
+    <h3>Information of Valuability</h3>
+    <div class="info">
+        Valued information goes here.
+    </div>
+</div>
+<script>
+    // Hide all infoDivs at the start of the script.
+    $(".infoDiv").hide();
+    function showInfoChild() {
+        // Show the clicked target's infoDiv.
+        $(".infoDiv", this).show()
+    }
+    $(".infoDiv").parent().on('click', showInfoChild)
+</script>
+```
+
+___
+
+#### _`element.toggleClass(class)`_
+
+> `toggleClass()` will add or remove a class depending if an element already has that class on it. If it has the class on it, it will remove it. if it doesn't have the class on it, it will add it.
+
+**Example:**
+```html
+<div id="mainElement" class="strike">
+    I contain information!
+</div>
+<style>
+    .strike {
+        text-decoration: line-through;
+    }
+</style>
+<script>
+    // Remove the "strike" class to the mainElement div.
+    var target = $("#mainElement");
+    target.toggleClass("strike");
+</script>
+```
+
+**Required Parameters:**
++ **`class`**: `string` (ex. `"selected"`) - _A string of a CSS class name._
+
+___
+
+#### _`element.addClass(class)` and `element.removeClass(class)`_
+
+> `addClass` adds a specific CSS class to an element.
+
+> `removeClass` removes a specific CSS class from an element.
+
+**Example:**
+```html
+<div id="mainElement">
+    I contain information!
+</div>
+
+<div id="secondElement" class="strike">
+    I contain information!
+</div>
+
+<style>
+    .strike {
+        text-decoration: line-through;
+    }
+</style>
+
+<script>
+    // Add the "strike" class to the mainElement div.
+    var targetToAdd = $("#mainElement");
+    targetToAdd.addClass("strike");
+
+    // Remove the "strike" class from the secondElement div
+    var targetToRemove = $("#secondElement");
+    targetToRemove.removeClass("strike");
+</script>
+```
+
+**Required Parameters:**
++ **`className`**: `string` (ex. `"selected"`) - _A string of a CSS class name_
 
 ___

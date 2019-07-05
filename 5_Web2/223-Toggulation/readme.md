@@ -55,3 +55,5 @@ if it doesn't have the class on it, it will add it.
 The `toggleClass()` is used to turn specific classes on and off. Think of it as a light switch. It either adds (on) the class, or it removes (off) the class, depending if the state before was (off) or (on).
 
 This is good for certain types of selectors, such as checklists or giant pug faces.
+
+___
