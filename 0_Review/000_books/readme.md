@@ -1,307 +1,236 @@
-## _Companions_
+## _Books_
 
 ___
 
-### _RAVEN_
+### _Pogrammaticon I_
 
-Every hero needs a companion! This raven has been ravin' about joining you! The raven can fly, so low obstacles are not a problem for it.
+Grants access to loops.
 
-![](img/raven.png)
+![](img/book1.png)
 
-#### _`pet`_ object
+#### `while-true loop` snippet
 
-Gain control of your loyal `pet`! It will follow you around until you give it an order.
-
-#### _`pet.fetch(item)`_ method
-
-The `pet` takes and brings to the owner some items (like potions).
+Using a `while-true loop` lets you run code over and over again. Put the code to repeat inside the `{` and `}` curly braces with four spaces before each line.
 
 **Example:**
 
 ```javascript
-var item = hero.findNearestItem();
-if (item.type == "potion") {
-    pet.fetch(item);
+// Example: looping through a maze.
+while (true) {
+    hero.moveRight();
+    hero.moveDown();
+    hero.moveRight();
+    hero.moveUp();
+}
+
+// Example: attack an enemy over and over.
+while (true) {
+    var enemy = hero.findNearestEnemy();
+    if (enemy) {
+        hero.attack(enemy);
+    }
+}
+```
+
+___
+
+### _Pogrammaticon II_
+
+Grants access to if and else.
+
+![](img/book2.png)
+
+> _Abilities granted early are supported_
++ `while-true loop`
+
+#### `if/else` snippet
+
+The `if` statement says, "if this is true, then do that".
+
+You can also add `else` to say, "otherwise, do something else instead".
+
+You can even combine `else` with `if` to say, "if this is true, then do that; otherwise, if _this_ is true, then do _that_; otherwise, do something else instead."
+
+**Example:**
+
+```javascript
+// Example: if you see an enemy, then attack it.
+var enemy = hero.findNearestEnemy();
+if (enemy) {
+    hero.attack(enemy);
+}
+
+// More examples
+var enemy = hero.findNearestEnemy();
+if (!enemy) {
+    // If there is *not* an enemy, then move...
+    hero.moveXY(30, 30);
+}
+else if (enemy.type == "thrower") {
+    // ... else if the enemy's type *equals* "thrower", then attack...
+    hero.attack(enemy);
+}
+else if (hero.isReady("cleave") && hero.distanceTo(enemy) < 10) {
+    // ... else if "cleave" is ready *and* the distance is *less than* 10m, then cleave...
+    hero.cleave(enemy);
+}
+else {
+    // ... else, shield.
+    hero.shield();
+}
+```
+
+#### `else` snippet
+
+The `else` clause can follow an `if` to do something _else_ when the _if_ condition is not true.
+
+**Example:**
+
+```javascript
+if (hero.isReady("cleave")) {
+    hero.cleave(enemy);
+}
+else {
+    hero.attack(enemy);
+}
+```
+
+___
+
+### _Pogrammaticon III_
+
+Grants access to break, while loops, and arrays.
+
+![](img/book3.png)
+
+> _Abilities granted early are supported_
++ `while-true loop`
++ `if/else`
++ `else`
+
+#### `while-loop` snippet
+
+The `while` loop lets you run code many times--as long as the condition is true.
+
+**Example:**
+
+```javascript
+var i = 10;
+while(i >= 0) {
+    hero.say("Counted to " + i);
+    i -= 1;
+}
+```
+
+#### `break` snippet
+
+The `break` statement terminates a loop.
+
+**Example:**
+
+```javascript
+while (true) {
+    var enemy = hero.findNearest(hero.findEnemies());
+    if (!enemy) {
+        break;
+    }
+    hero.attack(enemy);
+}
+hero.say("／人 ◕ ‿‿ ◕ 人＼");
+```
+
+#### `arrays` snippet
+
+Arrays map indices (integers) to array elements (any type of value).
+
+**Example:**
+
+```javascript
+var arr = ["hero is the first element", "hero is the second element"];
+hero.say(arr[0]);              // says "hero is the first element"
+hero.say(arr[1]);              // says "hero is the second element"
+hero.say(arr[arr.length - 1]); // says "hero is the second element
+
+arr[0] = 'new first element';
+arr.push('a third element');   // push() adds an element at the end
+```
+
+___
+
+
+### Flags
+
+___
+
+#### _BASIC FLAGS_
+
+Allows you to send real-time input to your hero by placing flags.
+
+![](img/basic.png)
+
+##### _`hero.findFlag(color)`_ method
+
+Returns your flag of the given `color`, if it exists. If color is unspecified, returns one of your flags regardless of color. The three flag colors are `"green"`, `"black"`, and `"violet"`.
+
+**Example:**
+
+```javascript
+var flag = hero.findFlag();
+if (flag) {
+    if (flag.color == "black") {
+        hero.buildXY("fire-trap", flag.pos.x, flag.pos.y);
+    }
+    hero.pickUpFlag(flag);
 }
 ```
 
 **Required Parameters:**
-+ `item`: `object` (ex. `hero.findNearestItem()`) - _The item to fetch_
-
-#### _`pet.findNearestByType(type)`_ method
-
-Return the nearest of all units or items with the given `type` that the pet can see, even non-combatants.
-
-**Example:**
-
-```javascript
-var potion = pet.findNearestByType("potion");
-pet.fetch(potion);
-```
-
-**Required Parameters:**
-+ `type`: `string` (ex. `"potion"`) - _The type of item to find_
++ `color`: `string` (ex. `"green"`). _The color of flag to return_
 
 **Returns:**
-+ `object`: The nearest unit or item
++ `object`: The flag object, if it exists.
 
-#### _`pet.moveXY(x, y)`_ method
+##### _`hero.pickUpFlag(flag)`_ method
 
-The `moveXY` method sets the pet's `targetPos` to the given (`x`, `y`) coordinates and also sets the pet's `action` to `move` and moves until reaching the destination.
-
-**Example:**
-
-```javascript
-pet.moveXY(24, 35);
-```
-
-**Required Parameters:**
-+ `x`: `number` (ex. `24`)
-+ `y`: `number` (ex. `35`)
-
-#### _`pet.on(eventType, eventHandler)`_ method
-
-The method assigns an event handler (a `function`) for `eventType`.
-
-**Possible `eventType`s:**
-+ `"spawn"`: when the pet appears;
-+ `"hear"`: when the pet hears something;
-
-**Required Parameters:**
-+ `eventType`: `string` (ex. `"spawn"`) - _The type of the event_
-+ `eventHandler`: `function` (ex. `onSpawn`) - _The event handler (function) which runs on the event_
-
-#### _`pet.say(message)`_ method
-
-Makes the pet say the given `message`.
-
-**Required Parameters:**
-+ `message`: `string` (ex. `"Hi!"`)
-
-___
-
-### _WOLF PUP_
-
-Every hero needs a companion! This wolf pup will loyally stand by your side!
-
-![](img/wolf.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-
-#### _`pet.catch(arrow)`_ method
-
-The pet is trying to `catch` the `arrow` (can't catch shells like bullets). If you haven't commanded the pet, then it catches near arrows itself.
-
-**Required Parameters:**
-+ `arrow`: `object` (ex. `hero.findEnemyMissiles()[0]`) - _The arrow to catch_
-
-#### _`pet.trick()`_ method
-
-The pet can make some trick. Just for fun.
-
-___
-
-### _COUGAR_
-
-Every hero needs a companion! This cougar will stand-by your hero's side against any challenge!
-
-![](img/cougar.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.chase(enemy)`_ method
-
-The pet chases a weak `enemy`. The enemy forgets about anything and trying to flee only. The pet can chase only enemies whose `maxHealth < hero.maxHealth / 10`.
+Moves to and removes a flag that was placed during real-time playback. Find the flag with `findFlag` first. The three flag colors are `"green"`, `"black"`, and `"violet"`.
 
 **Example:**
 
 ```javascript
-var ogre = hero.findNearestEnemy();
-if (ogre && ogre.maxHealth < hero.maxHealth / 10) {
-    pet.chase(ogre);
+var greenFlag = hero.findFlag("green");
+if (greenFlag) {
+    hero.pickUpFlag(greenFlag);
 }
 ```
 
 **Required Parameters:**
-+ `enemy`: `object` (ex. `hero.findNearestEnemy()`) - _The unit to chase_
++ `flag`: `flag` (ex. `hero.findDlag("green")`). _The flag to pick up_
 
 ___
 
-### _BROWN RAT_
+#### _DYNAMIC FLAGS_
 
-The sneaky brown rat is a perfect companion for the unscrupulous types.
+Instead of using pickUpFlag to go to a flag and then remove it, you can now remove a flag from anywhere.
 
-![](img/rat.png)
+![](img/dynamic.png)
 
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
+##### _`hero.removeFlag(flag)`_ method
 
-#### _`pet.distractionNoise()`_ method
+Removes a flag that was placed during real-time playback. Fails if the flag isn't on your team.
 
-The pet makes noise and distracts close enemies for few seconds.
+___
 
-**Example:**
+#### _ADVANCED FLAGS_
 
-```javascript
-if (pet.isReady("distraction-noise")) {
-    pet.distractionNoise();
-}
-```
+You can now access all flags in an array with findFlags.
 
-#### _`pet.isReady("ability")`_ method
+![](img/advanced.png)
 
-Returns whether the given `ability` is ready to be used by the pet again.
+##### _`hero.findFlags()`_ method
 
-**Example:**
-
-```javascript
-if (pet.isReady("chase")) {
-    hero.chase(enemy);
-}
-```
-
-**Required Parameters:**
-+ `ability`: `string` (ex. `"chase"`) - _The ability for which to check readiness_
+Returns all flags that have currently been placed during real-time playback on your team.
 
 **Returns:**
-+ `boolean`
-
-___
-
-### _BABY GRIFFIN_
-
-Every hero needs a companion! This tiny griffin will assist your hero in their quest.
-
-![](img/grif.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.carryUnit(target, x, y)`_ method
-
-The pet takes `target` and carries it to the point (`x`, `y`). The pet can carry only units whose `maxHealth < hero.maxHealth / 10`.
-
-___
-
-### _BABY GRIFFIN_
-
-Every hero needs a companion! This tiny griffin will assist your hero in their quest.
-
-![](img/grif.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.carryUnit(target, x, y)`_ method
-
-The pet takes `target` and carries it to the point (`x`, `y`). The pet can carry only units whose `maxHealth < hero.maxHealth / 10`.
-
-___
-
-### _MIMIC_
-
-Every hero needs a companion! This mimic will help you collect coins!
-
-![](img/mimic.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-___
-
-### _POLAR BEAR CUB_
-
-Every hero needs a companion! This young polar bear will follow you on your quest.
-
-![](img/bear.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.coldBlast()`_ method
-
-The pet freezes enemies around itself for few seconds.
-
-___
-
-### _BLUE FOX_
-
-The quick, blue fox jumps over the buried treasure.
-
-![](img/fox.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.shapeShift()`_ method
-
-The pet transform itself to the decoy -- the fleeing peasants. No enemy in the `30m` range can't stand to hit this easy target.
-
-___
-
-### _PUGICORN_
-
-No one knows the origins of the mysterious, majestic, pugicorn (we think Pender had something to do with it).
-
-![](img/puggy.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.charm(enemy)`_ method
-
-The pet charms an enemy `whose maxHealth < hero.maxHealth / 5` and the enemy protects the pet some time.
++ `array`: Flags
 
 ___
