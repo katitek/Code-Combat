@@ -40,13 +40,4 @@ I'm on my own line.
 i am now on my own line! :)
 ```
 
-**Example:**
-```html
-Dearest Deer,
-<br><br>
-I hope this message reaches you well.
-<br><br>
-Signed, Dear.
-```
-
 ___

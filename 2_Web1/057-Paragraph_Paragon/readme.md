@@ -52,19 +52,4 @@ Remember line-spacing doesn't matter to the computer! Using indentation and line
 </p>
 ```
 
-###### _`<p>` tag_
-
-The `<p>` tag is used to group text into **paragraphs**.
-
-Don't confuse it with the `<br>` tag which is used to force a line-break!
-
-**Example:**
-
-```html
-<p>
-    This text is in its own block. It is away from any other p-tag blocks.
-</p>
-<p>
-    This is another block of text. These two blocks of text are broken into paragraphs.
-</p>
-```
+___

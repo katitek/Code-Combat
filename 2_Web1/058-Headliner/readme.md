@@ -26,17 +26,6 @@ ___
 
 The `<h1>`, `<h2>`, and `<h3>` tags are used to define headers.
 
-They are good for labelling content.
-
-The `<h1>` tag creates **headers**. `<h1>` is the largest header and `<h6>` is the smallest.
-
-**Example:**
-
-```html
-<h1>What a Great Title</h1>
-<h3>A memoir</h3>
-```
-
 Headers are a way of labeling content. Add headers using `<h1>`, `<h2>` and `<h3>` tags. These are open and close tags, so include closing tags like `</h1>`.
 
 ```html
@@ -46,3 +35,5 @@ Headers are a way of labeling content. Add headers using `<h1>`, `<h2>` and `<h3
     angrily. I beat up ogres and get experience for winning.
 </p>
 ```
+
+___
