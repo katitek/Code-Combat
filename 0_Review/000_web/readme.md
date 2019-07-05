@@ -17,14 +17,14 @@ A `closing` tag tells the computer that it shouldn't apply any rules to the cont
 
 **Remember to close all tags, or your webpage will look weird!**
 
-```html
+```
 <p>I am a standalone paragraph! I'm pretty neat.</p>
 <p>I'm another paragraph, I'm cool too, I promise!</p>
 ```
 
 Remember line-spacing doesn't matter to the computer! Using indentation and line breaks, you can make your HTML nice and easy to read. It'll get more messy in the future, so it's a good habit to practice now!
 
-```html
+```
 <p>
     I'm still just a regular paragraph, nothing has changed.
 </p>
@@ -39,6 +39,18 @@ Remember line-spacing doesn't matter to the computer! Using indentation and line
 
 ___
 
+#### _Attributes_
+
+`attributes` are pieces of information or data which is included inside of the HTML `tags` themselves. For example, `<img>` tags have a mandatory attribute called `src` which is the URL "source" for the image.
+
+To add an `attribute` to an HTML tag, include it between the `<` and `>`. It must have a `=` and `"` surrounding the value assigned to that value. Not much different from creating a variable! But instead, you are setting the value for the `tag`.
+
+```
+<img src=""/file/db/thang.type/52cee45a76ebd5196b00003a/portrait.png" />
+```
+
+___
+
 
 ### HTML Tags
 
@@ -49,7 +61,7 @@ ___
 > The `<br>` tag places (forces) a **break** between two lines of text.
 
 **Example:**
-```html
+```
 Dearest Deer,
 <br><br>
 I hope this message reaches you well.
@@ -64,8 +76,7 @@ ___
 > The `<p>` tag is used to group text into **paragraphs**. Don't confuse it with the `<br>` tag which is used to force a line-break!
 
 **Example:**
-
-```html
+```
 <p>
     This text is in its own block. It is away from any other p-tag blocks.
 </p>
@@ -81,9 +92,22 @@ ___
 > The `<h1>`, `<h2>`, and `<h3>` tags are used to define **headers**.  `<h1>` is the largest header and `<h6>` is the smallest. They are good for labelling content.
 
 **Example:**
-```html
+```
 <h1>What a Great Title</h1>
 <h3>A memoir</h3>
+```
+
+___
+
+###### _Image_
+
+> The `<img>` tag is used for adding image to the page. The `<img>` tag requires _URL_ inside it's `src` attribute to understand what image to display.
+
+**Example:**
+```
+<img src='/file/db/thang.type
+    /54eb540b49fa2d5c905ddf1a/portrait.png'>
+    is a image on my webpage!
 ```
 
 ___
