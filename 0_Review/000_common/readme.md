@@ -412,3 +412,19 @@ hero.buildXY("fence", 20, 20);
 ```
 
 ___
+
+### _X, Y Coordinates_
+
+A position on the game map is represented as two numbers: `x` and `y` coordinates.
+
+`x` represents the **right-left** (horizontal) direction.
+
+`y` represents the **up-down** (vertical) direction.
+
+Moving in the **right** direction, the `x` number **increases**. Moving in the **left** direction, the `x` number **decreases**.
+
+Moving in the **up** direction, the `y` number **increases**. Moving in the **down** direction, the `y` number **decreases**.
+
+The bottom left corner of the map is `0, 0` (**x** is zero, **y** is zero).
+
+___
