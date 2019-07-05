@@ -357,6 +357,68 @@ ___
 
 ___
 
+#### _`border-color`_
+
+> The `border-color` property sets the color of the border, when one is defined with `border-style`.
+
+**Example:**
+```css
+<style>
+    div {
+        border-style: solid;
+        border-color: red;
+    }
+</style>
+```
+
+___
+
+#### _`border-style`_
+
+> The `border-style` property defines if a border should be displayed around an element. Suitable values are `solid`, `dotted`, `dashed`.
+
+**Example:**
+```css
+<style>
+    div {
+        border-style: dashed;
+    }
+</style>
+```
+
+___
+
+#### _`border-width`_
+
+> The `border-width` property controls how wide the border will be.
+
+**Example:**
+```css
+<style>
+    div {
+        border-style: dotted;
+        border-width: 2px;
+    }
+</style>
+```
+
+___
+
+#### _`border`_
+
+> The `border` property is a shorthand property for `border-style`, `border-width` and `border-color`. The property values can be in any order.
+
+**Example:**
+```css
+<style>
+    div {
+        border: 2px dotted green;
+    }
+</style>
+```
+
+___
+
 #### _`color`_
 
 > The `color` property changes the color of text inside an element.
@@ -430,6 +492,22 @@ ___
     img {
         /* All images will now be 300 pixels tall. */
         height:300px;
+    }
+</style>
+```
+
+___
+
+#### _`opacity`_
+
+> The `opacity` property controls how transparent an element is. A value of 0 shows nothing. A value of 1 shows everything.  With 1 think 100% visible. A value of 0.50 will thus be halfway transparent.
+
+**Example:**
+```html
+<style>
+    .muted {
+        /* Hide the element slightly. */
+        opacity: 0.25;
     }
 </style>
 ```
@@ -517,7 +595,7 @@ ___
 
 ___
 
-##### _`$(this)`_
+#### _`$(this)`_
 
 > `$(this)` returns a callback function's current target. Use it to find which specific element was selected when applying the same event listener to multiple elements.
 
@@ -686,5 +764,31 @@ ___
 
 **Required Parameters:**
 + **`className`**: `string` (ex. `"selected"`) - _A string of a CSS class name_
+
+___
+
+#### _`element.siblings([selector])`_
+
+> The `siblings()` function finds all neighboring elements to the element it was called on. An element is 'neighboring' if they are nested at the same depth in the HTML document. `siblings()` is useful when trying to find a programmatically-found element's neighbors. `siblings` returns a jQuery object of all neighboring elements. An element is a sibling if it is nested at the same level as the selected element.
+
+**Example:**
+```html
+<ul>
+    <li id="firstElement">One</li>
+    <li>Dos</li>
+    <li>Drei</li>
+</ul>
+<script>
+    // Hide all elements but One.
+    var target = $("#firstElement");
+    target.siblings().hide();
+</script>
+```
+
+**Optional Parameters:**
++ **`selector`**: `string` (ex. `".className"`) - _A string to only select elements matching the CSS selector_
+
+**Returns:**
++ `object`: jQuery object
 
 ___
