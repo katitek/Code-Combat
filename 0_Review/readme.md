@@ -18,6 +18,7 @@
     + [Ranger](000_armor_ran/)
 
 + Primary Weapon
+    + [Hammers](000_hammers/)
     + [Wizard](000_prime_wiz/)
     + [Warrior](000_prime_war/)
     + [Ranger](000_prime_ran/)
