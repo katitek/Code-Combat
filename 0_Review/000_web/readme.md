@@ -498,6 +498,21 @@ ___
 
 ___
 
+#### _`margin`_
+
+> The `margin` property controls the distance between elements. `margin` is used to increase the space between elements. This happens outside the `border` if one exists.
+
+**Example:**
+```html
+<style>
+    div {
+        margin: 20px;
+    }
+</style>
+```
+
+___
+
 #### _`opacity`_
 
 > The `opacity` property controls how transparent an element is. A value of 0 shows nothing. A value of 1 shows everything.  With 1 think 100% visible. A value of 0.50 will thus be halfway transparent.
@@ -508,6 +523,21 @@ ___
     .muted {
         /* Hide the element slightly. */
         opacity: 0.25;
+    }
+</style>
+```
+
+___
+
+#### _`padding`_
+
+> The `padding` property controls the distance between the edge of the element and the content in the element. `padding` is used to increase the space between the inside of the element and the edge of the element. This happens inside the `border`, if one exists.
+
+**Example:**
+```html
+<style>
+    div {
+        padding: 40px;
     }
 </style>
 ```
@@ -541,6 +571,51 @@ ___
         text-decoration: underline;
     }
 </style>
+```
+
+___
+
+#### _`transform`_
+
+> The `transform` property is a modifier on the position, size, and rotation. The `transform` CSS property applies certain methods to the layout of elements. Use it to twist and turn your elements in unique ways!
+
+**Example:**
+```html
+<style>
+    img {
+        transform: rotate(45deg) scale(2) translateX(10px);
+    }
+</style>
+```
+
+##### _`transform: rotate(angle)`_
+
+> `rotate` rotates an element by a certain amount. It requires a unit of type `deg` (which means **degrees**)
+
+```css
+img {
+    transform: rotate(-40deg);
+}
+```
+
+##### _`transform: translateX(x)` and `transform: translateY(y)`_
+
+> `translateX` and `translateY` moves an element left/right or up/down.
+
+```css
+img {
+    transform: translateY(-180px);
+}
+```
+
+##### _`transform: scale(value)`_
+
+> `scale` can make an element bigger (if the number is > 1) or smaller (if the number < 1)
+
+```css
+img {
+    transform: scale(0.25);
+}
 ```
 
 ___

@@ -33,6 +33,8 @@ div {
 }
 ```
 
+___
+
 ###### _`margin` attribute_
 
 The `margin` property controls the distance between elements.
@@ -76,3 +78,5 @@ The `padding` property controls the distance between the edge of the element and
     padding: 300px;
 }
 ```
+
+___
