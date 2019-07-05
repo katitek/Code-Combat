@@ -54,16 +54,6 @@ The `function` keyword is for defining custom user-functions. `functions` are im
 </div>
 ```
 
-###### _Button tag_
-
-The `<button>` tag adds a clickable button to the page.
-
-**Example:**
-
-```html
-<button>Submit</button>
-```
-
 ___
 
 ##### _Events_
@@ -73,29 +63,6 @@ Events are things that can happen during use of your website. A button gets `"cl
 It is possible to "hook" into these events with an `eventListener`. jQuery comes with a suite of tools to make it easier, but the easiest is the `on()` function.
 
 For any element, `on()` will listen for a specific event to happen, and then call it's desingated `callback` function.
-
-###### _on(eventName, functionName)_
-
-The `on` function takes two arguments. A string of an event to monitor, and a function to call when the event occurs.
-
-**Example:**
-
-```html
-<button id="theButton">Click me to hide me!</button>
-<script>
-    var button = $("#theButton");
-    function hideOnClick() {
-        // This only happens when the button is clicked.
-        button.hide();
-    }
-    // This is what calls the function above.
-    button.on("click", hideOnClick);
-</script>
-```
-
-**Required Parameters:**
-+ `eventName`: `string` (ex. `"click"`). _This is the event name._
-+ `callback`: `function` (ex. `hideOnClick`). _This is the function that is performed when the event is fulfilled._
 
 The structure of `on()` is simple, `on(eventName, functionName)`. `eventName` is a string of the event you want to listen to. Examples are: `"click"`, or `"mousemove"`, or `"keydown"`. The `functionName` is the name of a function you've created.
 
@@ -110,3 +77,5 @@ button.on("click", thiIsFunction);
 ```
 
 Note that the second argument, the `functionName` doesn't have it's own `()`. This is because at that moment you are not `calling` the function. It is simply informing the `on()` function of what function it should call when the time is right.
+
+___

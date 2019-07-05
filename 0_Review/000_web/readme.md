@@ -144,6 +144,14 @@ The `id` attribute is to assign a unique **identifier** to an element. This make
 
 ___
 
+#### _Events_
+
+Events are things that can happen during use of your website. A button gets `"click"`ed on the `"mousemove"`s over an image.
+
+It is possible to "hook" into these events with an `eventListener`. jQuery comes with a suite of tools to make it easier, but the easiest is the `on()` function.
+
+___
+
 
 ### HTML Tags
 
@@ -160,6 +168,21 @@ ___
         color: red
     }
 </style>
+```
+
+___
+
+#### _Script_
+
+> The `<script>` tag is for writing JavaScript to modify the page. It is possible to add event listeners and modify the webpage dynamically to make the page interactive.
+
+**Example:**
+```html
+<script>
+    // Set the text color for all divs to blue.
+    var divElement = $("div");
+    divElement.css("color", "blue");
+</script>
 ```
 
 ___
@@ -302,6 +325,17 @@ ___
 
 ___
 
+#### _Button_
+
+> The `<button>` tag adds a clickable button to the page.
+
+**Example:**
+```html
+<button>Submit</button>
+```
+
+___
+
 
 ### CSS Rules
 
@@ -415,5 +449,93 @@ ___
     }
 </style>
 ```
+
+___
+
+
+### jQuery Functions
+
+___
+
+
+#### _`$(query)`_
+
+> `$` is the `jQuery` function. It returns a jQuery object baesd on the `query` used.
+
+**Example:**
+```html
+<button id="theButton">Click me!</button>
+<div class="blogPost">
+    <h3>Today</h3>
+    <p>
+        I went to the beach.
+    </p>
+</div>
+<script>
+    var button = $("#theButton"); // Set "button" to the element with the id "theButton".
+    var blogPosts = $(".blogPost"); // Set "blogPosts" to an array of all elements with class "blogPost".
+    var paragraphs = $("p"); // Set "paragraphs" to an array of all "p" elements.
+</script>
+```
+
+**Required Parameters:**
++ **`query`**: `string` (ex. `".selected"`) - _This is a CSS selector_
+
+**Returns:**
++ `object`: jQuery object
+
+___
+
+
+#### _`css(property)`_
+
+> `css` is used to get and set the CSS rules of a jQuery object.
+
+**Example:**
+```html
+<div id="header">
+    <h1>Welcome!</h1>
+</div>
+<script>
+    // Get the element h1 header's current background-color.
+    var color = $("h1").css("background-color")
+    
+    // Set the element h1 header's background-color to "red".
+    $("h1").css("background-color", "red")
+</script>
+```
+
+**Required Parameters:**
++ **`property`**: `string` (ex. `"background-color"`) - _This is a CSS property name_
+
+**Optional Parameters:**
++ **`value`**: `string` (ex. `"red"`) - _If included, this is what to set the CSS property to._
+
+**Returns:**
++ `string`: `property value`
+
+___
+
+#### _`on(event, callback)`_
+
+> The `on` function takes two arguments. A string of an event to monitor, and a function to call when the event occurs.
+
+**Example:**
+```html
+<button id="theButton">Click me to hide me!</button>
+<script>
+    var button = $("#theButton");
+    function hideOnClick() {
+        // This only happens when the button is clicked.
+        button.hide();
+    }
+    // This is what calls the function above.
+    button.on("click", hideOnClick);
+</script>
+```
+
+**Required Parameters:**
++ **`event`**: `string` (ex. `"click"`) - _This is the event name._
++ **`callback`**: `function` (ex. `hideOnClick`) - _This is the function that is performed when the event is fulfilled._
 
 ___
