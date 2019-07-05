@@ -26,3 +26,5 @@ ___
 ###### _Hints_
 
 Add a collection goal, then spawn some gems for the player to collect!
+
+___

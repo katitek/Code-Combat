@@ -39,3 +39,5 @@ ui.track(game, "time");  // Will display the elapsed time in seconds
 ```
 
 For this level you should add a `ui.track` for `"defeated"` and defeat 6 munchkins in under 20 seconds!
+
+___

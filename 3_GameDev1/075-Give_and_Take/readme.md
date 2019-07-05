@@ -32,3 +32,5 @@ To make your games a little more interesting, try adding some `"fire-trap"`s and
 game.spawnXY("fire-trap", 40, 20);
 game.spawnXY("potion-small", 25, 20);
 ```
+
+___

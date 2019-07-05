@@ -48,3 +48,5 @@ game.spawnXY("fence", 39, 14);
 You should `spawnXY` fences at the same x coordinate (`39`), but vary the y coordinate.
 
 Each fence segment should be `4` metres more than the previous `"fence"`s y position.
+
+___

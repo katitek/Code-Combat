@@ -40,3 +40,5 @@ You can change a unit's behavior by setting its `behavior` property.
 `skeleton3.behavior = "RunsAway"` will make the unit run away from the player.
 
 Make sure to pick the right variable, like `skeleton3`, `ogre2`, `ogre3` or `archer1`!
+
+___

@@ -39,3 +39,5 @@ Change the number `1` to a different number, and you'll get different nazes.
 The maze for each number will always be the same!
 
 If you change `"forest"` for any other type of spawnables, then ... you'll see. Have a fun!
+
+___

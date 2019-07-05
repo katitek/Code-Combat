@@ -36,3 +36,5 @@ You can change it to shoot `"vertical"`ly like this:
 var spew = game.spawnXY("fire-spawer", 40, 40);
 spew.direction = "vertical";
 ```
+
+___

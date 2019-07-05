@@ -42,3 +42,5 @@ You'll learn more about how that works in the Game Dev 2 campaign!
 Game Dev 1 levels use a simplified database system to store values between games.
 
 In advanced Game Dev campaigns, you'll learn to use real databses, such as Amazon's DynamoDB.
+
+___

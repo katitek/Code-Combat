@@ -42,3 +42,5 @@ player.maxSpeed = 12;
 player.health = 600;
 player.attackDamage = 9001;
 ```
+
+___

@@ -1,26 +1,23 @@
 ## Web Development Theory and Methods by Code Combat
+
 ___
 
-### _Events_
 
-> _Because I don't really remember - Am I posted it before or not._
+### _HTML Tags_
 
-An **event** is something that happens in the game world.
+___
 
-For example, a `"spawn"` event happens when a unit is created (spawned). A `"hear"` event happens when a unit hears another unit `say()` something.
+#### _br_
 
-You can register a function as an **event handler** using the `on(eventType, eventHandler)` method.
+> The `<br>` tag places (forces) a **break** between two lines of text.
 
-An **event handler** function is run when the specified type of event happens:
-
-```javascript
-// Define an event handler function:
-function onHear() {
-    pet.say("I heard something!");
-}
-
-// Register onHear as an event handler for "hear" events on the pet object.
-pet.on("hear", onHear);
+**Example:**
+```html
+Dearest Deer,
+<br><br>
+I hope this message reaches you well.
+<br><br>
+Signed, Dear.
 ```
 
 ___

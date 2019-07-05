@@ -26,11 +26,7 @@ ___
 
 HTML `tags` are a way of telling the computer how to display certain content. While it is helpful to view text on multiple lines, the computer doesn't know if there should be a break between two lines unless you tell it to.
 
-###### _br_
-
 The `<br>` tag is the way you can do that! It will break text apart and put each part on it's own line.
-
-The `<br>` tag places (forces) a **break** between two lines of text.
 
 ```html
 I'm on my own line.
@@ -52,3 +48,5 @@ I hope this message reaches you well.
 <br><br>
 Signed, Dear.
 ```
+
+___

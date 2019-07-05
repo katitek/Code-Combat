@@ -34,3 +34,5 @@ game.spawnXY("thrower", 10, 10);  // Ogre Spear Thrower
 game.spawnXY("soldier", 22, 20);  // Human Soldier
 game.spawnXY("archer", 30, 20);  // Human Archer
 ```
+
+___

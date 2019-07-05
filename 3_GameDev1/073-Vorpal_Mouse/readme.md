@@ -28,3 +28,5 @@ ___
 When playing a game, you can click on the ground to move and an ogre to attack it!
 
 This level, all you need to do is click PLAY, then defeat all the ogres!
+
+___

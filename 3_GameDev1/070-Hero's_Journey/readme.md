@@ -32,3 +32,5 @@ One type of goal is a **move** goal - somewhere the player needs to get to:
 ```javascript
 game.addMoveGoalXY(10, 15);
 ```
+
+___

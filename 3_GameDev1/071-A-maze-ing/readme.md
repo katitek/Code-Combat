@@ -27,3 +27,5 @@ ___
 Now you can use `game.spawnXY()` to spawn a `"forest"` tile, and a `"chest"` of gems!
 
 Also, you can add a goal to collect all gems with `game.addCollectGoal()`.
+
+___

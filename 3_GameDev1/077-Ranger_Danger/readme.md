@@ -38,3 +38,5 @@ Archers are long-ranged damage dealers, but they have low health.
 Soldiers are close-ranged tanky units, with lots of health.
 
 In this level, compare the brawler's health between 3 soldiers and 1 archer, versus 1 soldier and 3 archers!
+
+___

@@ -38,3 +38,5 @@ Remember, when you want to set properties on a spawned object, you need to assig
 var myGen = game.spawnXY("generator", 40, 40);
 myGen.spawnType = "munchkin";
 ```
+
+___

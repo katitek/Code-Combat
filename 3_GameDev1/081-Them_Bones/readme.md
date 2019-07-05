@@ -47,3 +47,5 @@ generator.spawnDelay = 5;
 `generator.spawnType` is a string, representing the type of enemy to spawn. 
 
 `generator.spawnDelay` is a number, representing the delay in seconds between spawns.
+
+___
