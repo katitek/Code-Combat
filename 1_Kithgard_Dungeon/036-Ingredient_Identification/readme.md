@@ -1,34 +1,34 @@
-### _Ingredient Identification_
+## _Ingredient Identification_
 
-##### _Legend says:_
+#### _Legend says:_
 > Variables are like labeled bottles that hold data.
 
-##### _Goals:_
+#### _Goals:_
 + _Label the bottles using variables_
 + _Assign a value to each variable_
 + _Bonus: clean code (no warnings)_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Variables**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](ingredientIdentification.js)**
 + **[Python](ingredient_identification.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 20 xp
 + 29 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _USE VARIABLE NAMES THAT MAKE YOUR CODE EASY TO UNDERSTAND!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 These magical bottles hold data.
 
@@ -51,3 +51,5 @@ Some extra things to keep in mind:
 Other things you might notice aren't really rules, but are common "conventions" that many programmers use, such as:
 
 + If a variable has multiple words, use capital letters or underscores to separate them, like `myAwesomeVariable` or `my_awesome_variable`
+
+___

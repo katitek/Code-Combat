@@ -1,43 +1,43 @@
-### _The Final Kithmaze_
+## _The Final Kithmaze_
 
-##### _Legend says:_
+#### _Legend says:_
 > To escape you must find your way through an elder Kithman's maze.
 
-##### _Goals:_
+#### _Goals:_
 + _Your hero must survive_
 + _Defeat the ogres_
 + _Navigate the maze_
 + _Collect the Gems_
 + _Under 10 statements_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Variables**
 + **While Loops**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elementals codex 1+_
 + _Optional: Emperor's gloves_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](theFinalKithmaze.js)**
 + **[Python](the_final_kithmaze.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 20-40 xp
 + 26-52 gems
 + Crude Builder's Hummer
 
 ![](img/crude_hummer.jpg)
 
-##### _Victory words:_
+#### _Victory words:_
 + _YOU'RE DEADLY. INFINITELY DEADLY._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/kithmaze4.jpg)
 
@@ -51,3 +51,5 @@ Inside your while-true loop, if you define an `enemy` variable, it will refer to
 Pay attention to where your while-true loop should repeat so that you don't move further than you need to.
 
 Make sure that you call `findNearestEnemy()` when you can actually see the ogre munchkin with clear line of sight.
+
+___

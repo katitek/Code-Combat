@@ -1,39 +1,39 @@
-### _Radiant Aura_
+## _Radiant Aura_
 
-##### _Legend says:_
+#### _Legend says:_
 > Skeletons. Fearsome, or fearful?
 
-##### _Goals:_
+#### _Goals:_
 + _Collect the lightstones_
 + _Escape from the skeletones_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **While Loops**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Jumping boots_
 + _Optional: Elemental codex 1+_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](radiantAura.js)**
 + **[Python](radiant_aura.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 38 xp
 + 42 gems
 + Leather Chainmail Tunic
 
 ![](img/leather_tunic.jpg)
 
-##### _Victory words:_
+#### _Victory words:_
 + _OOH, SHINY!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Lightstones scare undead, but only for a few seconds.
 
@@ -43,3 +43,5 @@ _All you need to do is:_
 + Grab a Lightstone
 + Move past a skeleton
 + Repeat
+
+___

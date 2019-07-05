@@ -1,38 +1,38 @@
-### _True Names_
+## _True Names_
 
-##### _Legend says:_
+#### _Legend says:_
 > Learn an enemy's true name to defeat it.
 
-##### _Goals:_
+#### _Goals:_
 + _Attack Brak twice (defeat is enough)_
 + _Collect the gem_
 + _Attack Treg twice (defeat is enough)_
 + _Your hero must survive_
 + _Bonus: Clean code (no warnings)_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Longrange weapon with enough damage_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](trueNames.js)**
 + **[Python](true_names.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 13-20 xp
 + 21-32 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _BRAK AND TREG HAVE LEARNED NOT TO MESS WITH YOU._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/true_names.jpeg)
 
@@ -52,32 +52,7 @@ Keep in mind a few things to beat this level:
 
 ___
 
-##### _Strings_
-
-A `string` is a piece of **text** information. To tell the computer about a string, surround **text** with `"`.
-
-For example,
-
-```javascript
-"Brak";  // This is a string!
-"Hello, world";
-"soldier";
-```
-
-Often times the use of a `string` is as an argument in a **method**.
-
-For example,
-
-```javascript
-// The hero's attack method requires a name or unit:
-hero.attack("Brak");
-// The hero can say things to help debug:
-hero.say("Bonjour: blue-marble.");
-```
-
-___
-
-##### _Attacking (Strings)_
+### _Attacking (Strings)_
 
 Escaping the Dungeon of Kithgard is dangerous work. Sometimes a little muscle is required to break out!
 
@@ -94,3 +69,5 @@ hero.attack("Brak");
 // You must attack twice to defeat munchkins:
 hero.attack("Brak");
 ```
+
+___

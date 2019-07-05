@@ -1,36 +1,36 @@
-### _Mightier Than the Sword_
+## _Mightier Than the Sword_
 
-##### _Legend says:_
+#### _Legend says:_
 > Open more secret doors, this time using variables.
 
-##### _Goals:_
+#### _Goals:_
 + _Open the doors_
 + _Use variables in your say statements_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 + **Variables**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simpla boots
 + _Optional: Elemental codex 1+_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](mightierThanTheSword.js)**
 + **[Python](mightier_than_the_sword.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 19 xp
 + 27 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NEVER UNDERESTIMATE THE POWER OF A PEN._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 A _variable_ lets you hold on to a value for later. Some of those values are **strings** like names or phrases.
 
@@ -61,3 +61,5 @@ hero.say(phrase);  // Hero says "This is a phrase"
 ```
 
 Note that a variable is _not_ a string, so you don't put quotes around it.
+
+___

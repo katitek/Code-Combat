@@ -1,38 +1,40 @@
-### _Game Grove_
+## _Game Grove_
 
-##### _Legend says:_
+#### _Legend says:_
 > Create your own game!
 
-##### _Goals:_
+#### _Goals:_
 + _Spawn a maze_
 + _Spawn a hero_
 + _Add a goal_
 + _Beat your completed level_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Basic HTML**
 + **Place game objects**
 + **Construct mazes**
 + **Create a playable, sharable game project**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + None
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](gameGrove.js)**
 + **[Python](game_grove.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 30 xp
 + 10 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _DON'T BE AFRAID TO EXPERIMENT! YOU NEVER KNOW WHAT YOU'LL FIND._
 
 ___
 
-##### _Hints_
+### _HINTS_
+
+[Theory, methods and objects of Game Development at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_gamedev)
 
 Spawn a maze with:
 
@@ -49,7 +51,5 @@ This level shows off some fun new spawnables:
 `"locked-chest"`s can only be opened with a key, like the `"silver-key"`
 
 `"fire-spewer"`s shoot fireballs to the left and right.
-
-[Theory, methods and objects of Game Development at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_gamedev)
 
 ___

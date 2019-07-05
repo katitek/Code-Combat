@@ -1,35 +1,35 @@
-### _Hack and Dash_
+## _Hack and Dash_
 
-##### _Legend says:_
+#### _Legend says:_
 > Escape the Dungeon Sprite with the help of a speed potion.
 
-##### _Goals:_
+#### _Goals:_
 + _Escape the trap_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 + **While Loops**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simpla boots
 + _Optional: Elemental codex 1+_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](hackAndDash.js)**
 + **[Python](hack_and_dash.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 29 xp
 + 27 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _SIDE EFFECTS MAY INCLUDE DIZZINESS AND INSOMNIA._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/hack-and-dash.jpg)
 
@@ -45,23 +45,3 @@ Inside the **while-loop** you'll want to `moveDown()`. Use an argument to  `move
 Don't worry, the Sprite is activated by stepping on the X, so you'll have time to grab the potion!
 
 ___
-
-##### _Code Before While_
-
-Code cannot be added after a `while-true` loop, but there can be code that is executed before a `while-true`.
-
-This is because a **programm** that tells the `hero` what to do reads the lines one-by-one.
-It will only get "stuck" in a `while-true` loop once it reaches it.
-
-For example:
-
-```javascript
-hero.moveUp();     // This code happens first
-hero.moveRight();  // This line happens second
-
-while (true) {     // This line happens third, starting the loop
-    hero.attack("Burt");  // This line happens fourth, fifth, sixth etc.
-}
-
-hero.say("I'm free!");  // This line NEVER happens
-```

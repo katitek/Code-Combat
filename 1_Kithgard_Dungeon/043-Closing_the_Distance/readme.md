@@ -1,41 +1,41 @@
-### _Closing the Distance_
+## _Closing the Distance_
 
-##### _Legend says:_
+#### _Legend says:_
 > Some enemies will require different battle tactics.
 
-##### _Goals:_
+#### _Goals:_
 + _Your hero must survive_
 + _Defeat the ogres_
 + _Grab the Gem_
 + _Bonus: no code problems_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Variables**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elementals codex 1+_
 + _Optional: Emperor's gloves_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](theFinalKithmaze.js)**
 + **[Python](the_final_kithmaze.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 23-35 xp
 + 32-48 gems
 + Tarnished Bronze Helmet
 
 ![](img/bronze_helmet.jpg)
 
-##### _Victory words:_
+#### _Victory words:_
 + _A NEW ENEMY VANQUISHED._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Ogre throwers do much more damage than ogre munchkins.
 
@@ -46,3 +46,5 @@ When you call the `findNearestEnemy` method, you **must store the result in a va
 Remember: when you use `findNearestEnemy`, you need to be in line of sight of an enemy, or you won't be able to see her.
 
 This level introduces a new type of ogre, the ogre thrower, who does much more damage than the ogre munchkins you have been fighting. There are many more kinds of ogres awaiting you in future worlds.
+
+___

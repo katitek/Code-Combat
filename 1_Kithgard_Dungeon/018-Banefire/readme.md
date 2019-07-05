@@ -1,37 +1,39 @@
-### _Banefire_
+## _Banefire_
 
-##### _Legend says:_
+#### _Legend says:_
 > Dance around the fire, or your bones will be the next to burn.
 
-##### _Goals:_
+#### _Goals:_
 + _Defeat the guard_
 + _You and your ally must survive_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Emperor's gloves_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](benefire.js)**
 + **[Python](benefire.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 22 xp
 + 22 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _READY! AIM! FIRE!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 You and your archer friend need to get past that guard. He looks big and slow.
 
 Maybe if you distract him, while your ally lines up a shot?
 
-_Head over to the forums and tell us what you think!_
+> _Head over to the forums and tell us what you think!_
+
+___

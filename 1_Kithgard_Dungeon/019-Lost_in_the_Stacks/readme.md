@@ -1,35 +1,35 @@
-### _Lost in the Stacks_
+## _Lost in the Stacks_
 
-##### _Legend says:_
+#### _Legend says:_
 > Use code blocks to find your way out of the library
 
-##### _Goals:_
+#### _Goals:_
 + _Move around the room_
 + _Under 6 statements_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **While Loops**
 + **Reading the Docs**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elemental codex 1+_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](lostInTheStacks.js)**
 + **[Python](lost_in_the_stacks.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 20 xp
 + 16 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NO HUMAN WOULD STACK BOOKS LIKE THIS._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/lost-in-the-stacks.jpeg)
 
@@ -69,3 +69,5 @@ while (true) {
 ```
 
 Tells your program to repeat the code inside the **code block** over and over!
+
+___

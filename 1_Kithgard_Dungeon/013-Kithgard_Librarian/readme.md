@@ -1,26 +1,26 @@
-### _Kithgard Librarian_
+## _Kithgard Librarian_
 
-##### _Legend says:_
+#### _Legend says:_
 > Seek help from a friendly Librarian!
 
-##### _Goals:_
+#### _Goals:_
 + _Say the password_
 + _Move to the **X**_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 + **Reading the Docs**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](kithgardLibrarian.js)**
 + **[Python](kithgard_librarian.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 19 xp
 + 15 gems
 + Librerian hero
@@ -31,12 +31,12 @@
 
 ![](img/enchanted_stick.jpg)
 
-##### _Victory words:_
+#### _Victory words:_
 + _EVEN OGRES NEED A GOOD LIBRARIAN!_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/kithgard-librarian.jpeg)
 
@@ -52,8 +52,10 @@ Like this:
 
 **The password for the Library Door is `"Hush"`.**
 
-_Tip: use the `say()` command to say the password!_
+> _Tip: use the `say()` command to say the password!_
 
-_Tip: Remember to use quotes around the password to make it a string, and use correct capitalization._
+> _Tip: Remember to use quotes around the password to make it a string, and use correct capitalization._
 
-Be sure to check Hints on future levels if you're having trouble! 
+Be sure to check Hints on future levels if you're having trouble!
+
+___

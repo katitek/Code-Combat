@@ -1,28 +1,28 @@
-### _Known Enemy_
+## _Known Enemy_
 
-##### _Legend says:_
+#### _Legend says:_
 > Using your first variable to achieve victory.
 
-##### _Goals:_
+#### _Goals:_
 + _Your hero must survive_
 + _Defeat the three ogres_
 + _Bonus: clean code (no warnings)_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 + **Variables**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Boots
 + Weapon
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](knownEnemy.js)**
 + **[Python](known_enemy.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 19-38 xp
 + 27-41 gems
 + Crude Glasses
@@ -33,12 +33,12 @@
 
 ![](img/cougar.jpg)
 
-##### _Victory words:_
+#### _Victory words:_
 + _KEEP YOUR UNKNOWN ENEMIES CLOSER._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/known_enemy.png)
 
@@ -72,38 +72,3 @@ When you use quotes: `"Kratt"`, you are making a **string**.
 When you don't use quotes: `enemy1`, you are referencing the `enemy1` **variable**.
 
 ___
-
-##### _Variables (simple)_
-
-`variables` are a way of storing information to use over and over.
-
-`variables` are made up a **name** and an `=`. The `=` (**equals**) assigns the variable information to the **name**.
-
-```javascript
-// JavaScript must DECLARE variables using var (or let in ES5+)
-var boop = "Snoot";
-// Read as: create a variable named boop and set it equal to "Snoot"
-// Now boop can be used in place of "Snoot" anythere in your code.
-```
-
-Further,
-
-```javascript
-var enemy1 = "Kratt";  // enemy1 now stores "Kratt"
-hero.attack("Kratt");  // Is the same as:
-hero.attack(enemy1);   // this!
-```
-
-`variables` **names** are **NOT** linked to their content at all! A `variable` can have **ANY name**!
-
-Example:
-
-```javascript
-var hello = "Kratt";
-var kratt = "Kratt";
-var dance = "Kratt";  // hello, kratt and dance all are the same thing!
-
-hero.attack(hello);
-hero.attack(kratt);
-hero.attack(dance);
-```

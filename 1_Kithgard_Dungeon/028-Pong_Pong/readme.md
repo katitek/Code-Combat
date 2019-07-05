@@ -1,36 +1,36 @@
-### _Pong Pong_
+## _Pong Pong_
 
-##### _Legend says:_
+#### _Legend says:_
 > Challenge: write the shortest solution using all the programming skills you've learned so far!
 
-##### _Goals:_
+#### _Goals:_
 + _Keep the balls in the air_
 + _30 lines of code or less_
 + _Bonus: 9 lines of code or less_
 + _Bonus: 6 lines of code or less_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Reading the Docs**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Wolf companion
 + Fast enough hero
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](pongPong.js)**
 + **[Python](pong_pong.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 37 xp
 + 55 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _NOW YOU KNOW HOW TO JUGGLE AND HOW TO CODE! YOU CAN WRITE IT IN YOUR NOTEBOOK. I DON'T HAVE TIME TO EXPLAIN! THE BOOK OF CODE._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/pongpong_.png)
 
@@ -51,3 +51,5 @@ As a reward, here's a hint!
 If you want to use fewer lines, use `hero.say()` to say the string `"fetch"`.
 
 Your wolf friend will then make sure that `"ball"` doesn't hit the ground, so your hero only has to worry about `"ball2"`!
+
+___

@@ -1,38 +1,38 @@
-### _The Gauntlet B_
+## _The Gauntlet B_
 
-##### _Legend says:_
+#### _Legend says:_
 > Use all of your skills to survive the gauntlet.
 
-##### _Goals:_
+#### _Goals:_
 + _Your hero must survive_
 + _Defeat all 4 ogres_
 + _Under 6 statements_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Variables**
 + **While Loops**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elementals codex 1+_
 + _Optional: Emperor's gloves_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](theGauntletB.js)**
 + **[Python](the_gauntlet_b.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 21 xp
 + 27 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _CRAWLING DUNGEONS?_
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/the_gauntlet.jpeg)
 
@@ -45,3 +45,5 @@ With your powers of looping and variables, it should be no sweat to take down al
 3. one to store the nearest enemy into a variable,
 4. and two to attack,
 5. because munchkins take two hits with your current sword
+
+___

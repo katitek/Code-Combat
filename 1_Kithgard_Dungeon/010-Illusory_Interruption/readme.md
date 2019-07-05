@@ -1,34 +1,34 @@
-### _Illusory Interruption_
+## _Illusory Interruption_
 
-##### _Legend says:_
+#### _Legend says:_
 > Distract the guards, then escape.
 
-##### _Goals:_
+#### _Goals:_
 + _Distract the guards_
 + _Get the Gem_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elemental codex 1+_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](illusoryInterruption.js)**
 + **[Python](illusory_interruption.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 12 xp
 + 17 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _EXACTLY THE KIND OF DIVERSION WE COULD'VE USED._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 Step on the `Red X` to launch the decoy.
 
@@ -39,3 +39,5 @@ You can't sneak past the guards unless they're distracted. Luckily, someone left
 Stepping on the X will activate the decoy.
 
 _Tip: You can move multiple spaces by passing arguments to the move command, like `moveRight(3)`_
+
+___

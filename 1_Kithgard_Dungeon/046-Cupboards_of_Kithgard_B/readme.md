@@ -1,37 +1,37 @@
-### _Cupboards of Kithgard B_
+## _Cupboards of Kithgard B_
 
-##### _Legend says:_
+#### _Legend says:_
 > Who knows what horrors lurk in the Cupboards of Kithgard?
 
-##### _Goals:_
+#### _Goals:_
 + _Break open the Cupboard_
 + _Under 7 statements_
 
-##### _Topics:_
+#### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Strings**
 + **While Loops**
 
-##### _Items we've got (- or need):_
+#### _Items we've got (- or need):_
 + Simple boots
 + _Optional: Elementals codex 1+_
 + _Optional: Emperor's gloves_
 
-##### _Solutions:_
+#### _Solutions:_
 + **[JavaScript](cupboardsOfKithgardB.js)**
 + **[Python](cupboards_of_kithgard_b.py)**
 
-##### _Rewards:_
+#### _Rewards:_
 + 18 xp
 + 18 gems
 
-##### _Victory words:_
+#### _Victory words:_
 + _ONE SKELETON IN THE CUPBOARD IS WORTH TWO IN THE BUSH._
 
 ___
 
-##### _Hints_
+### _HINTS_
 
 ![](img/cupboards_of_kithgard.jpeg)
 
@@ -47,3 +47,5 @@ while (true) {
 The ogre guards might be too much for you to handle. Maybe you'll find something useful in the `"Cupboard"`?
 
 First, move close to the `"Cupboard"` (stand on the red X). It looks locked, so you'll have to attack it repeatedly using a **while-true loop** to break it open.
+
+___
