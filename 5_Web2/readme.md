@@ -1,5 +1,9 @@
 ### Web Development 2nd Island levels
 
++ [Web Development Theory at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_web/)
+
+> There are 10 addition levels that are copies of previous levels - you will be able to complete them if you haven't practice JavaScript so far.
+
 + Premium Levels
     + [Query Confirmed](220-Query_Confirmed/)
     + [Clickthrough](221-Clickthrough/)
@@ -13,5 +17,3 @@
     + [Animania](229-Animania/)
     + [Precision Coloring](230-Precision_Coloring/)
     + [Quizlet](231-Quizlet/)
-
-> There are 10 addition levels that are copies of previous levels - you will be able to complete them if you haven't practice JavaScript so far.
