@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](thePrisoner.js)**
-+ **[Python](the_prisoner.py)** `(6,4s)`
++ **[Python](the_prisoner.py "Top-5: 6.4s")**
 
 #### _Rewards:_
 + 22 xp

@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](favorableOdds.js)**
-+ **[Python](favorable_odds.py)** `(2,87s)`
++ **[Python](favorable_odds.py "#1 : 2.87s")**
 
 #### _Rewards:_
 + 14-21 xp
