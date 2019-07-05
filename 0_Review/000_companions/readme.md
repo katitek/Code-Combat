@@ -205,27 +205,6 @@ The pet takes `target` and carries it to the point (`x`, `y`). The pet can carry
 
 ___
 
-### _BABY GRIFFIN_
-
-Every hero needs a companion! This tiny griffin will assist your hero in their quest.
-
-![](img/grif.png)
-
-+ `pet`
-+ `pet.fetch(item)`
-+ `pet.findNearestByType(type)`
-+ `pet.isReady("ability")`
-+ `pet.moveXY(x, y)`
-+ `pet.on(eventType, eventHandler)`
-+ `pet.say(message)`
-+ `pet.trick()`
-
-#### _`pet.carryUnit(target, x, y)`_ method
-
-The pet takes `target` and carries it to the point (`x`, `y`). The pet can carry only units whose `maxHealth < hero.maxHealth / 10`.
-
-___
-
 ### _MIMIC_
 
 Every hero needs a companion! This mimic will help you collect coins!
