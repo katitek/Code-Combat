@@ -51,8 +51,8 @@ game.addMoveGoalXY(23, 47);
 ```
 
 **Required Parameters:**
-**`x`** - `number` (ex: `30`) - _The x coordinate to add a goal._
-**`y`** - `number` (ex: `30`) - _The y-coordinate to add a goal._
++ **`x`**: `number` (ex: `30`) - _The x coordinate to add a goal._
++ **`y`**: `number` (ex: `30`) - _The y-coordinate to add a goal._
 
 ___
 
@@ -66,7 +66,7 @@ game.addCollectGoal();
 ```
 
 **Optional Parameters:**
-**`amount`** - `number` (ex: `5`) - _The amount of items that need to be collected._
++ **`amount`**: `number` (ex: `5`) - _The amount of items that need to be collected._
 
 ___
 
@@ -80,7 +80,7 @@ game.addDefeatGoal();
 ```
 
 **Optional Parameters:**
-**`amount`** - `number` (ex: `5`) - _The amount of items that need to be defeated._
++ **`amount`**: `number` (ex: `5`) - _The amount of items that need to be defeated._
 
 ___
 
@@ -95,7 +95,7 @@ game.addSurviveGoal(20);
 ```
 
 **Optional Parameters:**
-**`seconds`** - `number` (ex: `20`) - _The number of seconds the player must survive for._
++ **`seconds`**: `number` (ex: `20`) - _The number of seconds the player must survive for._
 
 ___
 
@@ -110,8 +110,8 @@ game.spawnMaze("clump", 23);
 ```
 
 **Required Parameters:**
-**`tileType`** - `string` (ex: `"forest"`) - _The type of the maze tile._
-**`seed`** - `number` (ex: `23`) - _The seed number used to generate a maze._
++ **`tileType`**: `string` (ex: `"forest"`) - _The type of the maze tile._
++ **`seed`**: `number` (ex: `23`) - _The seed number used to generate a maze._
 
 ___
 
@@ -126,8 +126,8 @@ ui.track(player, "health");
 ```
 
 **Required Parameters:**
-**`obj`** - `object` (ex: `game`) - _The object containing a property you want to show._
-**`prop`** - `string` (ex: `"time"`) - _The name (as a string!) of the property you want to show._
++ **`obj`**: `object` (ex: `game`) - _The object containing a property you want to show._
++ **`prop`**: `string` (ex: `"time"`) - _The name (as a string!) of the property you want to show._
 
 ___
 
@@ -141,8 +141,8 @@ db.add("plays", 1);
 ```
 
 **Required Parameters:**
-**`key`** - `string` (ex: `"plays"`) - _The database key to store a value under._
-**`value`** - `number` (ex: `1`) - _The value to increment by._
++ **`key`**: `string` (ex: `"plays"`) - _The database key to store a value under._
++ **`value`**: `number` (ex: `1`) - _The value to increment by._
 
 ___
 
