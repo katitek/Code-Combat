@@ -50,47 +50,6 @@ _What type of Dog are you?_ Is a suitable title, while, **What's your favorite f
 
 ___
 
-###### _`display` attribute_
-
-The `display` property is used for hiding elements. `none` hides an element, `inline` shows the element and is the default value.
-
-**Example:**
-
-```html
-<style>
-  .secret {
-    display: none;
-  }
-</style>
-```
-
-###### _`text-transform` attribute_
-
-The `text-transform` property determines capitalization of words.
-
-**Example:**
-
-```html
-<style>
-    .upCase {
-        text-transform: uppercase;
-    }
-
-    .lowCase {
-        text-transform: lowercase;
-    }
-
-    .capital {
-        text-transform: capitalize;
-    }
-</style>
-<p class="upCase">This text will be uppercased.</p>
-<p class="lowCase">ALL OF THIS TEXT WILL appear As lower CaSe.</p>
-<p class="capital">All of the words in this sentence will start with a capital letter.</p>
-```
-
-___
-
 ##### _Conditional statements in Web_
 
 ###### _`if` keyword_
@@ -230,3 +189,5 @@ else {
 <div class="helper">Yep.</div>
 <div class="helper">Nah.</div>
 ```
+
+___

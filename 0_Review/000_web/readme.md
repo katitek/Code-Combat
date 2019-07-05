@@ -144,6 +144,142 @@ The `id` attribute is to assign a unique **identifier** to an element. This make
 
 ___
 
+#### _Conditions_
+
+---
+
+##### _`if`_
+
+> `if` statements are used to control the flow of your program. `if` statements are used to ask a question (called a `conditional`), and performs an action if the answer is `true`.
+
+To help understand `if` statements, read them out loud:
+```javascript
+if (element.hasClass("selected")) {
+    element.css("background-color", "blue");
+}
+```
+
+or, in normal language:
+```
+if element has the "selected" class, set the element's background-color to blue.
+```
+
+**Example:**
+```html
+<script>
+    var header = $("#header");
+    if(header.css("background-color") == "rgb(255, 0, 0)") {
+        header.css("background-color", "blue");
+    }
+</script>
+<style>
+    #header {
+        background-color: rgb(255, 0, 0);
+    }
+</style>
+<div id="header">
+    <h1>Welcome!</h1>
+</div>
+```
+
+---
+
+##### _`else if`_
+
+> `else if` statements perform an action only if the previous `if` and `else if` statements were `false` and then own `conditional` is `true`. `else if` statements have their own question `conditional` that they ask.
+
+To help understand `if` statements, read them out loud:
+```javascript
+if(element.hasClass("muted")) {
+    // Code in here only runs if the element has the class "muted".
+}
+else if (element.hasClass("selected")) {
+    // Code in here only runs if:
+    // element DOESN'T have the class "muted".
+    // The element DOES have the class "selected".
+}
+```
+
+**Example:**
+```html
+<script>
+    var elements = $(".helper");
+    function hideNope() {
+        var target = $(this);
+        if(target.text() == "Yep.") {
+            target.show();
+        } else if (target.text() == "Nope.") {
+            target.hide();
+        }
+    }
+    elements.on("click",hideNope);
+</script>
+<style>
+    .helper {
+        width:64px;
+        height:64px;
+        background-color:blue;
+    }
+</style>
+<div class="helper">
+    Nope.
+</div>
+<div class="helper">
+    Yep.
+</div>
+```
+
+---
+
+##### _`else`_
+
+> `else` statements perform an action only if **all** previous `if` and `else if` statements were `false`. They do **not** have their own `conditional`.
+
+```javascript
+if(element.hasClass("muted")) {
+    // This code only runs if element has the class "muted".
+}
+else if (element.hasClass("selected")) {
+    // This code only runs if:
+    // The element doesn't have the class "muted".
+    // The element has the class "selected".
+}
+else {
+    //This code only runs if all of the above are false
+}
+```
+
+**Example:**
+```html
+<script>
+    var elements = $(".helper");
+    function hideNope() {
+        var target = $(this);
+        if(target.text() == "Yep.") {
+            target.show();
+        } else if (target.text() == "Nope.") {
+            target.hide();
+        } else {
+            target.addClass("nahFound")
+        }
+    }
+    elements.on("click",hideNope);
+</script>
+<style>
+    .helper {
+        background-color:blue;
+    }
+    .nahFound {
+        font-size:large;
+    }
+</style>
+<div class="helper">Nope.</div>
+<div class="helper">Yep.</div>
+<div class="helper">Nah.</div>
+```
+
+___
+
 #### _Events_
 
 Events are things that can happen during use of your website. A button gets `"click"`ed on the `"mousemove"`s over an image.
@@ -337,7 +473,23 @@ ___
 ___
 
 
-### CSS Rules
+### CSS Properties
+
+___
+
+#### _`animation`_
+
+> The `animation` CSS property tells the browser how to display an element. It blends CSS properties over a certain amount of time. The `animation` property applies a repeating animation to elements.
+
+**Example:**
+```html
+<style>
+    img {
+        animation: grow 2s infinite;
+    }
+    /* The following keyframes is named 'grow'. */
+</style>
+```
 
 ___
 
@@ -362,7 +514,7 @@ ___
 > The `border-color` property sets the color of the border, when one is defined with `border-style`.
 
 **Example:**
-```css
+```html
 <style>
     div {
         border-style: solid;
@@ -378,7 +530,7 @@ ___
 > The `border-style` property defines if a border should be displayed around an element. Suitable values are `solid`, `dotted`, `dashed`.
 
 **Example:**
-```css
+```html
 <style>
     div {
         border-style: dashed;
@@ -393,7 +545,7 @@ ___
 > The `border-width` property controls how wide the border will be.
 
 **Example:**
-```css
+```html
 <style>
     div {
         border-style: dotted;
@@ -409,7 +561,7 @@ ___
 > The `border` property is a shorthand property for `border-style`, `border-width` and `border-color`. The property values can be in any order.
 
 **Example:**
-```css
+```html
 <style>
     div {
         border: 2px dotted green;
@@ -447,6 +599,21 @@ ___
     }
 </style>
 ``` 
+
+___
+
+#### _`display`_
+
+> The `display` property is used for hiding elements. `none` hides an element, `inline` shows the element and is the default value.
+
+**Example:**
+```html
+<style>
+  .secret {
+    display: none;
+  }
+</style>
+```
 
 ___
 
@@ -575,6 +742,32 @@ ___
 
 ___
 
+#### _`text-transform`_
+
+> The `text-transform` property determines capitalization of words.
+
+**Example:**
+```html
+<style>
+    .upCase {
+        text-transform: uppercase;
+    }
+
+    .lowCase {
+        text-transform: lowercase;
+    }
+
+    .capital {
+        text-transform: capitalize;
+    }
+</style>
+<p class="upCase">This text will be uppercased.</p>
+<p class="lowCase">ALL OF THIS TEXT WILL appear As lower CaSe.</p>
+<p class="capital">All of the words in this sentence will start with a capital letter.</p>
+```
+
+___
+
 #### _`transform`_
 
 > The `transform` property is a modifier on the position, size, and rotation. The `transform` CSS property applies certain methods to the layout of elements. Use it to twist and turn your elements in unique ways!
@@ -586,36 +779,6 @@ ___
         transform: rotate(45deg) scale(2) translateX(10px);
     }
 </style>
-```
-
-##### _`transform: rotate(angle)`_
-
-> `rotate` rotates an element by a certain amount. It requires a unit of type `deg` (which means **degrees**)
-
-```css
-img {
-    transform: rotate(-40deg);
-}
-```
-
-##### _`transform: translateX(x)` and `transform: translateY(y)`_
-
-> `translateX` and `translateY` moves an element left/right or up/down.
-
-```css
-img {
-    transform: translateY(-180px);
-}
-```
-
-##### _`transform: scale(value)`_
-
-> `scale` can make an element bigger (if the number is > 1) or smaller (if the number < 1)
-
-```css
-img {
-    transform: scale(0.25);
-}
 ```
 
 ___
@@ -632,6 +795,97 @@ ___
         width:200px;
     }
 </style>
+```
+
+___
+
+
+### CSS Functions
+
+___
+
+#### _`@keyframes`_
+
+> The `@keyframes` CSS keyword is used to defining a path of CSS properties for the `animate` property to use. `from` is what the animation should start at. `to` is what the animation should end up as. The `@keyframes` selector creates a set of keyframes for the animation to follow. It is referenced by the animation property.
+
+**Example:**
+```html
+<style>
+    /* The following keyframes is named 'grow'. */
+    @keyframes grow {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(2);
+        }
+    }
+    /* This animation will start at default size and grow to 
+        double size. */
+</style>
+```
+
+___
+
+#### _`rgb(red, green, blue)`_
+
+> `rgb()` is a CSS function like `scale()` or `rotate()`. It is a helper function for defining custom colors. It has 3 arguments: `red`, `green` and `blue`. Which is where `rgb()` gets its name from. A higher number means more of that color will be represented in the final color that is rendered. The arguments can be any number between `0` through `255`
+
+**Example:**
+```css
+p {
+    /* This is white! */
+    color: rgb(255, 255, 255);
+}
+
+div {
+    /* This is black! */
+    background-color: rgb(0, 0, 0);
+}
+
+img {
+    /* This is orange */
+    background-color: rgb(255, 127, 0);
+}
+```
+
+___
+
+#### _`rotate(angle)`_
+
+> `rotate` rotates an element by a certain amount. It requires a unit of type `deg` (which means **degrees**)
+
+**Example:**
+```css
+img {
+    transform: rotate(-40deg);
+}
+```
+
+___
+
+#### _`scale(value)`_
+
+> `scale` can make an element bigger (if the number is > 1) or smaller (if the number < 1)
+
+**Example:**
+```css
+img {
+    transform: scale(0.25);
+}
+```
+
+___
+
+#### _`translateX(x)` and `translateY(y)`_
+
+> `translateX` and `translateY` moves an element left/right or up/down.
+
+**Example:**
+```css
+img {
+    transform: translateY(-180px);
+}
 ```
 
 ___
