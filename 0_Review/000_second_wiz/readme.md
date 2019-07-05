@@ -139,7 +139,7 @@ ___
 
 Enables Dispel. Increases Regen to 101 hit points per second. Reduces Grow and Shrink cooldown times to 1.3 seconds.
 
-![](img/life5.png)
+![](img/Life5.png)
 
 + `hero.canCast(spell [, target])`
 + `hero.cast(spell, target)`
