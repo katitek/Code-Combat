@@ -721,6 +721,10 @@ We can also combine this with other mathematical operators like `+`:
 + `2 + 2 == 4` (this is `true`)
 + `2 + 2 == 5` (this is `false`)
 
+___
+
+### _Comparison_
+
 Comparisons are expressions that resolve to true or false.
 
 ```javascript

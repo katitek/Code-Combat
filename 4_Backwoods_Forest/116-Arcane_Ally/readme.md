@@ -18,8 +18,8 @@
 + Shield
 
 #### _Solutions:_
-+ **[JavaScript](shRush.js)**
-+ **[Python](sh_rush.py)**
++ **[JavaScript](arcane.js)**
++ **[Python](arcane.py)**
 
 #### _Rewards:_
 + 74 xp
