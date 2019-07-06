@@ -520,6 +520,22 @@ if (fruit) {
 
 ___
 
+### _Conditional Statement: if_
+
+The `if` statement says: "**if** _this_ is `true`, **then** do _that_"
+
+```javascript
+if (2 + 2 == 4) {
+    hero.say("2 + 2 equals 4!");  // Happens all the time, because 2 + 2 is 4!
+}
+
+if (2 + 3 == 4) {
+    hero.say("2 + 3 equals 4!");  // Will never happen, because 2 + 3 isn't 4!
+}
+```
+
+___
+
 ### _Nesting_
 
 You will often need to perform additional `if/else` checks within an existing `if` and `else` blocks.
@@ -643,5 +659,31 @@ if 1 or 2:  # means that either "1" or "2" conditions have to be met
 if 1 and 2:  # means that both "1" and "2" conditions to be met
     hero.say("both of them are here")
 ```
+
+___
+
+### _Boolean_
+
+A **boolean** value means that something is either `true` or `false`.
+
+Whether or not something is considered `true` or `false` is a complicated subject in programming, but for now we will start you off with a simple example.
+
+___
+
+### _Comparison: Equals_
+
+Use **comparison operators** to compare two values. The result of a comparison will be either True or False.
+
+The first comparison operator we'll use is the **equality operator**. In Python and JavaScript, this is written as: `==`.
+
+Note that this is **two equal-signs together** `==`, as opposed to `=` which is the **assignment operator** used to assign a value to a variable! _Confusing these two is a common mistake by new programmers!_
+
+We use `==` like this:
++ `4 == 4` (this is `true`)
++ `4 == 5` (this is `false`)
+
+We can also combine this with other mathematical operators like `+`:
++ `2 + 2 == 4` (this is `true`)
++ `2 + 2 == 5` (this is `false`)
 
 ___
