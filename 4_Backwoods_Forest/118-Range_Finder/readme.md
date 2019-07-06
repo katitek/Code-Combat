@@ -13,7 +13,7 @@
 + **Variables**
 
 #### _Items we've got (- or need):_
-+ Unholy Tome 1+
++ None
 
 #### _Solutions:_
 + **[JavaScript](rangeFinder.js)**
