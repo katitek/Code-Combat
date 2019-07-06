@@ -35,7 +35,7 @@ ___
 
 ![](img/patrol_buster.jpeg)
 
-`if`-statements are fundamental tool for prrogrammers. Create them by typing:
+`if`-statements are fundamental tool for programmers. Create them by typing:
 
 ```javascript
 var enemy = hero.findNearestEnemy();
