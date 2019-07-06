@@ -495,6 +495,31 @@ In this case, everything in the `if` block never happens, because 3 will never b
 
 ___
 
+### _If-statements (simple)_
+
+`if`-statements are used to only perform actions if something (the _conditional_ of the `if`-statement) is `true`.
+
+```javascript
+if (conditional) {
+    // Code inside here executes if "conditional" is true.
+}
+```
+
+The `conditional` can be used to check existence, whether something is close or far, or the type of a unit.
+
+```javascript
+var tree = hero.findNearestTree();
+var fruit = hero.pluckFruit(tree);  // A tree doesn't always have fruit.
+// The fruit variable potentially holds information about a tree's fruit.
+
+if (fruit) {
+    // If the variable fruit holds information, then code inside the if-statement occurs.
+    hero.eat(fruit);
+}
+```
+
+___
+
 ### _Nesting_
 
 You will often need to perform additional `if/else` checks within an existing `if` and `else` blocks.
