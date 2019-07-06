@@ -18,8 +18,8 @@
 + _Optional: Elementals codex 1+_
 
 #### _Solutions:_
-+ **[JavaScript](oneWrongStep.js)**
-+ **[Python](one_wrong_step.py)**
++ **[JavaScript](woodlandCub.js)**
++ **[Python](woodland_cub.py)**
 
 #### _Rewards:_
 + 47 xp
