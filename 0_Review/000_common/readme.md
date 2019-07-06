@@ -456,6 +456,22 @@ The bottom left corner of the map is `0, 0` (**x** is zero, **y** is zero).
 
 ___
 
+### _Positions_
+
+Each item object (and each unit) has a `pos` property, which stands for its position. And each `pos` is itself an object, which has `x` and `y` properties that you can use with `moveXY` and `buildXY`.
+
+```javascript
+var enemy = hero.findNearestEnemy();
+
+if (enemy) {
+    var p = enemy.pos;
+    hero.say(p.x);
+    hero.say(p.y);
+}
+```
+
+___
+
 ### _If-statements_
 
 `if`-statements are used to control the **flow** of a program. They can be used to check if a certain **condition** is `true`.
@@ -615,6 +631,26 @@ else alert("no");
 ```
 
 Which arrangement to use? Whatever is most readable for you. Conciseness is nice, but you don't want code to get too dense.
+
+___
+
+### _Nested If-Statements_
+
+In order to make your strategy work, you have to use _nested_ `if`-statements. That's where you put an `if`-statement _inside_ another `if`-statement to make more complex choices inside choices. (Yo dawg...)
+
+```javascript
+if (gem) {
+    if (gem.pos.x == 34) {
+        hero.say("left!");
+    } else {
+        hero.say("right!");
+    }
+} else {
+    hero.say("middle!");
+}
+```
+
+Note that the nested `if`-statement has extra indentation to show that it's _inside_ the first one. The extra indentation is our way of showing that the left and right branches are in the inner `if`-statement, while the middle branch is part of the outer `if`-statement.
 
 ___
 
