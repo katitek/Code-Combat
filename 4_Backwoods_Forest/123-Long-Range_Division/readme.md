@@ -17,7 +17,6 @@
 
 #### _Items we've got (- or need):_
 + Weapon
-+ Armor (500+ HP)
 
 #### _Solutions:_
 + **[JavaScript](longRangeDiv.js)**
