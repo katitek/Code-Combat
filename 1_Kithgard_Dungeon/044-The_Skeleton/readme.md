@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](theSkeleton.js)**
-+ **[Python](the_skeleton.py)**
++ **[Python](the_skeleton.py "9.5s")**
 
 #### _Rewards:_
 + 35 xp

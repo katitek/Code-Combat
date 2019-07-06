@@ -23,7 +23,7 @@
 
 #### _Solutions:_
 + **[JavaScript](theFinalKithmaze.js)**
-+ **[Python](the_final_kithmaze.py)** (`10s`)
++ **[Python](the_final_kithmaze.py "Top-10: 10s")**
 
 #### _Rewards:_
 + 20-40 xp

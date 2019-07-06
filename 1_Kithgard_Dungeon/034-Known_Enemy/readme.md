@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](knownEnemy.js)**
-+ **[Python](known_enemy.py)**
++ **[Python](known_enemy.py "2.8s")**
 
 #### _Rewards:_
 + 19-38 xp

@@ -24,7 +24,7 @@
 + _Optional: Precious ring_
 
 #### _Solutions:_
-+ **[JavaScript](kithgardBrawl.js)**
++ **[JavaScript](kithgardBrawl.js "7 level")**
 + **[Python](kithgard_brawl.py)**
 
 #### _Rewards:_

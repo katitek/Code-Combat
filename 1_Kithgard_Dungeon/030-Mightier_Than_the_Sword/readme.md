@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](mightierThanTheSword.js)**
-+ **[Python](mightier_than_the_sword.py)** (`6,93s`)
++ **[Python](mightier_than_the_sword.py "#2: 6,93s")**
 
 #### _Rewards:_
 + 19 xp

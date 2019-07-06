@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](tacticalStrike.js)**
-+ **[Python](tactical_strike.py)** (`2,8s`)
++ **[Python](tactical_strike.py "#3 : 2.8s")**
 
 #### _Rewards:_
 + 24-36 xp

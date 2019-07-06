@@ -19,7 +19,7 @@
 
 #### _Solutions:_
 + **[JavaScript](kithgardGates.js)**
-+ **[Python](kithgard_gates.py)**
++ **[Python](kithgard_gates.py "5.6s")**
 
 #### _Rewards:_
 + 29-43 xp

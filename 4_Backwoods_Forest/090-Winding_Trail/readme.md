@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](windTrail.js)**
-+ **[Python](wind_trail.py)** `(8,47s)`
++ **[Python](wind_trail.py "#1 - 8.47s")**
 
 #### _Rewards:_
 + 31-55 xp

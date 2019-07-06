@@ -22,7 +22,7 @@
 
 #### _Solutions:_
 + **[JavaScript](destroyingAngel.js)**
-+ **[Python](destroying_angel.py)**
++ **[Python](destroying_angel.py "Top-5 : 3.8s")**
 
 #### _Rewards:_
 + 42-62 xp

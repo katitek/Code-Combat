@@ -20,7 +20,7 @@
 + _Optional: Precious ring_
 
 #### _Solutions:_
-+ **[JavaScript](cavernSurvival.js)**
++ **[JavaScript](cavernSurvival.js "9053")**
 + **[Python](cavern_survival.py)**
 
 #### _Rewards:_

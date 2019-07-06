@@ -18,7 +18,7 @@
 
 #### _Solutions:_
 + **[JavaScript](theSecondKithmaze.js)**
-+ **[Python](the_second_kithmaze.py)** `(6,4s)`
++ **[Python](the_second_kithmaze.py "Top-10: 6,4s")**
 
 #### _Rewards:_
 + 13-27 xp

@@ -23,7 +23,7 @@
 
 #### _Solutions:_
 + **[JavaScript](breakout.js)**
-+ **[Python](breakout.py)** (`3,27s`)
++ **[Python](breakout.py "#2: 3.27s")**
 
 #### _Rewards:_
 + 30 xp

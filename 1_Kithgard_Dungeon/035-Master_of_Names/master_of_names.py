@@ -1,4 +1,4 @@
-hero.moveXY(30, 25);
+hero.moveXY(30, 25)
 
 while True:
     enemy = hero.findNearestEnemy()

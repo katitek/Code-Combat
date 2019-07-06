@@ -20,7 +20,7 @@
 
 #### _Solutions:_
 + **[JavaScript](masterOfNames.js)**
-+ **[Python](master_of_names.py)**
++ **[Python](master_of_names.py "9.1s")**
 
 #### _Rewards:_
 + 20-30 xp

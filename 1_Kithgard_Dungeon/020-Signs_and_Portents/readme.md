@@ -17,7 +17,7 @@
 
 #### _Solutions:_
 + **[JavaScript](signsAndPortents.js)**
-+ **[Python](signs_and_portents.py)** `(17,4s)`
++ **[Python](signs_and_portents.py "Top-10: 17,4s")**
 
 #### _Rewards:_
 + 17 xp

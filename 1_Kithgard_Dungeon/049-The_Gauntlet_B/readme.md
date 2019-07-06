@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](theGauntletB.js)**
-+ **[Python](the_gauntlet_b.py)**
++ **[Python](the_gauntlet_b.py "#2 : 4.2s")**
 
 #### _Rewards:_
 + 21 xp

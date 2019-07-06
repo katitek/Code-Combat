@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](theFinalKithmaze.js)**
-+ **[Python](the_final_kithmaze.py)** (`4,2s`)
++ **[Python](the_final_kithmaze.py "#2 - 4.2s")**
 
 #### _Rewards:_
 + 23-35 xp

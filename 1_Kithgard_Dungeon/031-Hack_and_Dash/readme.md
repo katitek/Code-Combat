@@ -18,7 +18,7 @@
 
 #### _Solutions:_
 + **[JavaScript](hackAndDash.js)**
-+ **[Python](hack_and_dash.py)** (`8,88s`)
++ **[Python](hack_and_dash.py "#2 : 8,88s")**
 
 #### _Rewards:_
 + 29 xp

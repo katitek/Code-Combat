@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](lovelyKitchen.js)**
-+ **[Python](lovely_kitchen.py)** (`3,2s`)
++ **[Python](lovely_kitchen.py "Top-5 : 3.2s")**
 
 #### _Rewards:_
 + 21-32 xp
