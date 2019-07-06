@@ -763,3 +763,66 @@ if (x >= 10)
 As x  is greater than 10, this statement will resolve to true.
 
 ___
+
+### _Python Inside_
+
+Python is a great programming language! It allows you to work quickly and integrate systems more effectively. It is easy to read and use, and the interactive mode makes it simple to test short sections of code. Python is available under an open-source license.
+
+
+#### Methods
+
+_They do stuff!_ Methods are the commands you give the computer. Above is an example of calling a **method**. In this case `moveRight`.
+
+Since this is one of Tharin's methods, you use `self` to say that it's your own unit's method you're running, not someone else's. Without it, it's unclear where to find the `moveRight` method.
+
+The parentheses following a method just mean 'run it'. Without them, nothing happens.
+
+A method's **argument** is placed between its parentheses. Arguments specify exactly what the command should do. Here, `say()` tells the hero to say something, and `"Hello!"` tells him what he should say. (It has to be in quotes because it's a text string, and text strings need quotes.)
+
+You separate multiple arguments with commas. In `moveXY(5, 6)`, the `5` is the first argument (the x position), and the `6` is the second argument (the y position). (Numbers don't use quotes.)
+
+
+#### Variables
+
+_Let's give things nicknames!_
+
+A variable is a simple way to store almost anything! As in the first two lines above, a coder often stores a character or an object as a variable in order to use it easily as an argument for a method. If a coder frequently uses a certain text string, storing it as a variable lessens the amount of effort required to type it all out. The last three lines show examples of variables that represent numerical values. If a number is stored as a variable, that variable can later be used in equations, or simply to keep track of progress.
+
+To create a variable, you type the variable name, an equals sign, then what you want to store. If your variable name has multiple words, you can't put spaces between them, but capitalizing every word but the first will make it easier to read--for example, `lowestHealthFriend` instead of `lowesthealthfriend`. This is usually termed camelCase. Speaking of capitalization, spelling is not the only thing that names a variable--capitalization does, too. For this reason, once you create a variable using one capitalization, you must avoid typing the capitalization differently later in your code. For example, will not work because "enemy" and "Enemy" are not the same. Watch your shift key!
+
+
+#### Truthy and Falsy
+
+Anything before the colon in the `if` statement must be 'truthy' for the `if` block to happen. If the value is 'falsy', then the `else` block (if there is one) runs instead. There are several falsy values in Python:
+
+```python
+None
+False     # boolean
+0         # integer
+0.0       # float
+0L        # long integer
+0.0+0.0j  # complex
+""        # empty string
+[]        # empty list
+()        # empty tuple
+{}        # empty dictionary
+```
+
+Everything else is truthy:
++ All objects
++ All arrays that are not empty
++ All numbers that are not 0 (even imaginary numbers!)
++ All strings that are not empty
++ `True` (boolean)
+
+
+#### If and Else statements in Python
+
+Programming is all about handling various situations automatically. Your main tool for doing different things based on the state of things are `if` and `else`. They look something like this: In this case, everything in the `if` block (everything after the word `if` and before the word `else`) never happens, because 3 will never be greater than 9. So only the lines in the `else` block ever run. 
+
+Notice that the items that you want to happen if the statement is true are indented exactly four spaces in from the `if` statement itself. This is how we let the computer know which statement we want to run only when the statement is in fact true.
+
+Also note the colon after the `if` statements, and the fact that they are absent for the rest of the block. These end the statement and let the computer know that you have completed the “test” you want to perform, and to get ready for the instructions of what to do after the test. 
+
+
+___
