@@ -760,6 +760,6 @@ var x = 16;
 if (x >= 10)
 ```
 
-As x  is greater than 10, this statement will resolve to true. 
+As x  is greater than 10, this statement will resolve to true.
 
 ___
