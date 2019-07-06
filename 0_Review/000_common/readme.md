@@ -339,6 +339,33 @@ hero.attack(dance);
 
 ___
 
+### _Variables (Basic)_
+
+`variables` can store more information than just `strings` or **numbers**. They also can store references to things in the world!
+
+The `hero` doesn't know the names to all the munchkins in the dungeon. But, if they can **see** a unit, they can provide a reference to that unit.
+
+**Example:**
+```javascript
+// Remember JavaScript variables must be DECLARED with var
+var target = hero.findNearestEnemy();
+
+// Now they can attack their target:
+hero.attack(target);
+hero.attack(target);  // All without knowing their name!
+```
+
+But don't forget that `variables` can store other information too! Variables can store strings, numbers, boolean(true or false), and many other things.
+
+**As an example:**
+```javascript
+var theHero = hero;
+var aNumber = 2;
+var coolString = "cool";
+```
+
+___
+
 ### _Finding Nearby Enemies_
 
 With glasses, the `hero` has access to the `findNearestEnemy` **method**.
@@ -426,5 +453,170 @@ Moving in the **right** direction, the `x` number **increases**. Moving in the *
 Moving in the **up** direction, the `y` number **increases**. Moving in the **down** direction, the `y` number **decreases**.
 
 The bottom left corner of the map is `0, 0` (**x** is zero, **y** is zero).
+
+___
+
+### _If-statements_
+
+`if`-statements are used to control the **flow** of a program. They can be used to check if a certain **condition** is `true`.
+
+`if`-statements are like `while`, but instead of `true`, a _conditional_ should be checked against.
+
+Commonly, `if` can be used to check if a unit **exists** by adding it after the `if`.
+
+**Example:**
+```javascript
+var enemy = hero.findNearestEnemy();
+
+if (enemy) {
+    // The enemy exists
+    // Probably should attack here!
+}
+
+// This always happens whether or not there is an enemy!
+```
+
+Programming is all about handling various situations automatically. Your main tool for doing different things based on the state of things are `if` and `else`. They look something like this:
+
+```javascript
+var a = 3;
+var b = 9;
+
+if (a > b) {
+    hero.say("Math is broken!");
+    hero.soundTheAlarm();
+} else {
+    hero.say("Math is still sound. All is well.");
+    hero.sleep();
+}
+```
+
+In this case, everything in the `if` block never happens, because 3 will never be greater than 9. So only the lines in the `else`block ever run.
+
+___
+
+### _Nesting_
+
+You will often need to perform additional `if/else` checks within an existing `if` and `else` blocks.
+
+```javascript
+if (1) {
+    hero.say("One exists! Does Two?");
+    if (2) {
+        hero.say("Two exists too!");
+    }
+    else {
+        hero.say("Two is gone!");
+    }
+}
+else {
+    hero.say("One is not there, try Three!");
+    if (3) {
+        hero.say("Three is here!");
+    }
+    else {
+        hero.say("Three is gone too! Four is our only hope!");
+        if (4) {
+            hero.say("Four is here to save the day!");
+        }
+        else {
+            hero.say("We're doomed!");
+        }
+    }
+}
+```
+
+___
+
+### _Compact version_
+
+**JavaScript only**
+
+Both `if` and `else` do not need brackets if only one things to happen:
+
+```javascript
+// long versions, with braaces
+
+// Style #0
+if (1)
+{
+    alert("yes");
+}
+else
+{
+    alert("no");
+}
+
+// Style #1
+if (1) {
+    alert("yes");
+}
+else {
+    alert("no");
+}
+
+// Style #2
+if (1) {
+    alert("yes");
+} else {
+    alert("no")
+}
+
+// short version, no braces
+if (1)
+    alert("yes");
+else
+    alert("no");
+
+// inline version
+if (1) alert("yes");
+else alert("no");
+```
+
+Which arrangement to use? Whatever is most readable for you. Conciseness is nice, but you don't want code to get too dense.
+
+___
+
+### _Truthy and Falsy_
+
+Anything between (and) after the if must be _truthy_ for the if block to happen. If the value is _falsy_, then the else block (if there is one) runs instead. There are only a few _falsy_ values:
+
+```javascript
+undefined
+null
+0  // Zero
+NaN  // A special Number in JavaScript
+""  // Empty string
+false
+```
+
+Everything else is _truthy_:
+
+```javascript
+// objects
+// arrays
+// numbers that are not 0 or NaN
+// strings that are not empty
+true
+```
+
+___
+
+### _Usage of `not`, `or` and `and`_
+
+```python
+if 1:
+    hero.say("one is here")
+elif not 1:  # means that "1" condition is not met
+    hero.say("one is not here")
+    if 2:
+        hero.say("2 is here")
+
+if 1 or 2:  # means that either "1" or "2" conditions have to be met
+    hero.say("either of them is here")
+
+if 1 and 2:  # means that both "1" and "2" conditions to be met
+    hero.say("both of them are here")
+```
 
 ___
