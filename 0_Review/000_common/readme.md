@@ -662,11 +662,46 @@ if 1 and 2:  # means that both "1" and "2" conditions to be met
 
 ___
 
-### _Boolean_
+### _What is Boolean_
 
-A **boolean** value means that something is either `true` or `false`.
+Boolean describes a type of data, just like String or Number describe different types of data.
+
+A string is text, usually written inside of double quotes, like `"This is a string"`
+
+A boolean is a value that is either  `true` or `false`. It is written slightly differently depending on what programming language you use.
+
+In Python a boolean is either `True` or `False` (with capitalized first letters).
+
+In JavaScript and CoffeeScript, a boolean is either `true` or `false` (no capital letters!).
 
 Whether or not something is considered `true` or `false` is a complicated subject in programming, but for now we will start you off with a simple example.
+
+___
+
+### _Why do we use booleans?_
+
+When coding, it's useful to determine if a question is true or false!
+
+One type of question often asked is **EQUALITY**: "Is A equal to B?"
+
+To ask this question in code, we use the **equality operator** which is usually written as `==`.
+
+Think of `==` as meaning _"is equal to?"_. So To ask: "A is equal to? B" you write `A == B`.
+
+___
+
+### _Important Notes_
+
+Remember when we assigned values to a variable using code like:
+`enemy = hero.findNearestEnemy()`?
+
+Notice that the **assignment operator** is a single `=`.
+
+The **equality operator** uses two `==`.
+
+Many tears have been shed by programmers trying to find a bug caused by using one `=` instead of two!
+
+Also, note that the **string** `"true"` is not the same thing as the **boolean** `true`, though in this level, the Burl will accept your answer if you say either one. Burls are nice that way.
 
 ___
 
@@ -685,5 +720,46 @@ We use `==` like this:
 We can also combine this with other mathematical operators like `+`:
 + `2 + 2 == 4` (this is `true`)
 + `2 + 2 == 5` (this is `false`)
+
+Comparisons are expressions that resolve to true or false.
+
+```javascript
+if (1 < 10)
+```
+
+Because 1 _is_ less than 10, this if statement is true.
+
+Whereas:
+
+```javascript
+if (15 < 10)
+```
+
+As 15 is _not_ less than 10, this if statement is false.
+
+This becomes very useful in Code Combat for comparing variables with specific numbers and only performing an action when something occurs. For example, it only makes sense to use your "cleave" action  if the enemy is close enough. Otherwise, the cleave does not do damage to your enemy and it is wasted.
+
+```javascript
+var distance = hero.distanceTo(enemy);
+
+if (distance < 10) {
+    if (hero.isReady("cleave")) {
+        hero.cleave(enemy);
+    }
+}
+```
+
+This IF statement will only attempt to cleave an enemy if the distance is less than 10.
+
+There is also >=, which will return true if the number or variable is equal to or greater than the second input.
+
+Whereas:
+
+```javascript
+var x = 16;
+if (x >= 10)
+```
+
+As x  is greater than 10, this statement will resolve to true. 
 
 ___
