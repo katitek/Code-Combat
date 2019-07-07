@@ -986,6 +986,34 @@ hero.say(x);
 
 ___
 
+### _Functions: Return_
+
+A function can `return` a value back to where the function was called.
+
+You have used function return values a lot:
+
+```javascript
+var enemy = hero.findNearestEnemy();
+```
+
+In this example, you **assign the value returned by** `hero.findNearestEnemy()` to the variable `enemy`.
+
+Functions you write can also return values, using the `return` keyword:
+
+```javascript
+function add(a, b) {
+    return a + b;
+}
+
+var sum = add(2, 3);
+hero.say(sum);
+// The hero says: 5
+```
+
+**Note** that `return` immediately exits the function and returns the given value back to the caller.
+
+___
+
 
 ### _Events_
 
