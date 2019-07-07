@@ -17,9 +17,7 @@
 + **Boolean OR**
 
 #### _Items we've got (- or need):_
-+ Wolf Pet
-+ _Optional: Elemental codex 1+_
-+ _Optional: Boots with jump available_
++ Weapon
 
 #### _Solutions:_
 + **[JavaScript](forestShadow.js)**

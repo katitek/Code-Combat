@@ -751,6 +751,52 @@ We don't have to worry about the reference error if there isn't an enemy, becase
 
 ___
 
+### _Boolean: OR_
+
+The boolean OR operator allows you to combine two other boolean operations.
+
+For example:
+
+```javascript
+if (a || b) {
+    // either a OR b are true, or both are true
+} else {
+    // both a and b are false
+}
+```
+
+So, the OR operator evaluates to TRUE if one or both of the values to either side are true, and FALSE only if both the values are false.
+
+```javascript
+true || true  // == true
+true || false  // == true
+false || true  // == true
+false || false  // == false
+```
+
+The logical **OR** operator can make your code readable and help to avoid repetition. For example instead several `if` statements:
+
+```javascript
+if (condition1) {
+    // do something
+}
+if (condition2) {
+    // do the same again
+}
+```
+
+you can put them in one:
+
+```javascript
+if (condition1 || condition2) {
+    // do something
+}
+```
+
+Avoiding to repeat the same code is a good practice because it makes your code readable. Also if you want to change some code and logic you can do it one place.
+
+___
+
 ### _What is Boolean_
 
 Boolean describes a type of data, just like String or Number describe different types of data.
