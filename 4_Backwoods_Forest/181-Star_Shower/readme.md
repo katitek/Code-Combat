@@ -16,7 +16,7 @@
 + **Boolean OR**
 
 #### _Items we've got (- or need):_
-+ Weapon
++ None
 
 #### _Solutions:_
 + **[JavaScript](starShower.js)**
