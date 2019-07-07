@@ -18,6 +18,7 @@
 
 #### _Items we've got (- or need):_
 + Pet
++ _Optional: Brown Rat (super fast)_
 
 #### _Solutions:_
 + **[JavaScript](forestLogging.js)**
