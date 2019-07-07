@@ -16,7 +16,7 @@
 + **Boolean Equality**
 
 #### _Items we've got (- or need):_
-+ **Don't use longrange glasses**
++ Weapon
 
 #### _Solutions:_
 + **[JavaScript](endangered.js)**

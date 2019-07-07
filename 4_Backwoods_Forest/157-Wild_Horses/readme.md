@@ -10,7 +10,6 @@
 + None
 
 #### _Items we've got (- or need):_
-+ **Don't use longrange glasses**
 
 #### _Solutions:_
 + **[JavaScript](wildHorse.js)**
