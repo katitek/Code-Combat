@@ -27,7 +27,7 @@
 + 71 gems
 
 #### _Victory words:_
-+ _OOH, A PIECE OF CANDY. OOH, A PIECE OF CANDY._
++ _I WONDER WHAT WONDERS AWAIT!_
 
 ___
 
