@@ -866,3 +866,70 @@ Also note the colon after the `if` statements, and the fact that they are absent
 
 
 ___
+
+### _Functions_
+
+Functions are an important part of coding. 
+
+You've been using functions all along: any time you write code like:
+
+```python
+hero.attack(enemy)
+```
+
+...you are "calling" (or "invoking") a function called `attack`.
+
+The actual code that gets executed when you call `attack` is long and complex. Imagine if you had to write 25 lines of code in your program each time you wanted to swing your sword!
+
+That's the first benefit of functions: they reduce a whole bunch of code down into one line.
+
+Not only does this save you from having to re-type the same code over and over, it also makes your code easier to understand, because it takes what might really be complicated logic ("Ok so I want to attack. Do I have a weapon? Am I close enough to hit with my weapon? How long does it take to use my weapon? Do I hit? Do I cause damage?"), and makes it an easy to understand idea: `attack`.
+
+Now you will not only be calling functions, you will **define** your own functions!
+
+Defining a function has two parts: the **name** and the **body**.
+
+The name is the thing you will use to call the function later, like `attack`.
+
+The body is the code that will be executed when the function is called.
+
+There are also sometimes **arguments** (like the `enemy` in `attack(enemy)`) but we will get into that in future levels.
+
+___
+
+### _Defining a Function_
+
+A function has a **name** and a **body**.
+
+The code inside the **body** of a function is not run until the function is **called**.
+
+This is how to define and call a function (javascript):
+
+```javascript
+// The function's name is "myFunction"
+function myFunction() {
+    // This is the function's body.
+    // Commands here will only run when the function is called
+    hero.say("myFunction has been called!");
+}
+
+// This is no longer in the body of the function.
+// This is line calls the function named myFunction
+myFunction();
+```
+
+Python:
+
+```python
+# The function's name is "my_function"
+def my_function():
+    # This is the function's body.
+    # Commands here will only run when the function is called
+    hero.say("my_function has been called!")
+
+# This is no longer in the body of the function.
+# This is line calls the function named my_function
+my_function();
+```
+
+___
