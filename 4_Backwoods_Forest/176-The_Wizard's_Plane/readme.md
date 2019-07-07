@@ -13,7 +13,7 @@
 + **Arithmetics**
 
 #### _Items we've got (- or need):_
-+ Pet
++ None
 
 #### _Solutions:_
 + **[JavaScript](wizPlane.js)**
