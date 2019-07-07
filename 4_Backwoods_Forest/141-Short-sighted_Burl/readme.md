@@ -15,7 +15,7 @@
 + **Functions**
 
 #### _Items we've got (- or need):_
-+ Weapon
++ **Not so fast hero**
 
 #### _Solutions:_
 + **[JavaScript](shortBurl.js)**
