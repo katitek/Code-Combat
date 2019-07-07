@@ -15,7 +15,7 @@
 + **Functions**
 
 #### _Items we've got (- or need):_
-+ None
++ Pet
 
 #### _Solutions:_
 + **[JavaScript](guardDog.js)**
