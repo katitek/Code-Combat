@@ -812,6 +812,29 @@ We can also combine this with other mathematical operators like `+`:
 
 ___
 
+### _Boolean: Not Equals (`!=`)_
+
+The sympol `!=` MEANS **is NOT EQUAL to**.
+
+It is the opposite of `==` which means **is EQUAL to**.
+
+For example, if you wanted to attack all the enemies, except for the `"burl"`s you could use `!=`:
+
+```javascript
+var enemy = hero.findNearestEnemy;
+if (enemy) {
+    if (enemy.type != "burl") {
+        hero.attack(enemy);
+    }
+}
+```
+
+In this example,
+`enemy.type != "burl"` is **TRUE** if `enemy.type` is `"munchkin"`
+`enemy.type != "burl"` is **FALSE** if `enemy.type` is `"burl"`
+
+___
+
 ### _Comparison_
 
 Comparisons are expressions that resolve to true or false.
