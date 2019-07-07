@@ -1,3 +1,6 @@
+# You need Elemental codex 1+ to cast "Haste"
+# You need special boots to Jump
+
 hero.cast("haste", hero)
 hero.moveXY(12, 34)
 hero.say("Wake up, wolf!")
