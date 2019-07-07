@@ -960,3 +960,25 @@ my_function();
 ```
 
 ___
+
+### _Events_
+
+An **event** is something that happens in the game world.
+
+For example, a `"spawn"` event happens when a unit is created (spawned). A `"hear"` event happens when a unit hears another unit `say()` something.
+
+You can register a function as an **event handler** using the `on(eventType, eventHandler)` method.
+
+An **event handler** function is run when the specified type of event happens:
+
+```python
+# Define an event handler function:
+def on_hear():
+    pet.say("I heard something!")
+
+# Register on_hear as an event handler for "hear" events on the pet object.
+
+pet.on("hear", on_hear)
+```
+
+___
