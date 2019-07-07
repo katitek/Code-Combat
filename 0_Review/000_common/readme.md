@@ -897,6 +897,33 @@ There are also sometimes **arguments** (like the `enemy` in `attack(enemy)`) but
 
 ___
 
+**Functions** are an important part of writing code! They can be used to separate individual parts of code to help understand each bit easier.
+
+**Functions** can do much more than just do some actions independent of any input! Using **arguments** and **parameters**, **functions** are capable of acting on what is sent in.
+
+An **argument** is the information included between the `()` when any given **function** is called.
+
+A **parameter** is a variable containing the information passed in from a **function**. It is just a predefined variable containing any information sent in!
+
+```javascript
+// 'target' after the function name is called a parameter.
+// Think of a parameter as a new variable containing information from outside the function!
+function chackAndAttack(target) {
+    // 'target' is a predefined variable by the parameter, so nothing more needed to use it!
+    if (target) {  // Check if the 'target' exists
+        hero.attack(target);  // If so, attack
+    }
+}
+
+var enemy = hero.findNearestEnemy();
+// Below, the variable 'enemy' is an argument.
+// Including 'arguments' when calling functions lets them behave differently depending on the input!
+// In this case, we'll attack whatever enemy is passed in!
+checkAndAttack(enemy);
+```
+
+___
+
 ### _Defining a Function_
 
 A function has a **name** and a **body**.
