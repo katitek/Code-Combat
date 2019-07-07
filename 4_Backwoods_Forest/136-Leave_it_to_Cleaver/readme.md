@@ -1,18 +1,18 @@
 ## _Leave it to Cleaver_
 
 #### _Legend says:_
-> Use a custom function with parameters to simplify your code!
+> Defend the homestead with function parameters.
 
 #### _Goals:_
 + _Defeat the ogres_
 
 #### _Topics:_
-+ **Basic Syntax**
-+ **Arguments**
++ **Strings**
 + **Variables**
 + **While Loops**
 + **If Statements**
-+ **Functions**
++ **If/Else Statements**
++ **Nested If Statements**
 
 #### _Items we've got (- or need):_
 + Long Sword
