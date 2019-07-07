@@ -698,6 +698,59 @@ if 1 and 2:  # means that both "1" and "2" conditions to be met
 
 ___
 
+### _Boolean: AND_
+
+The boolean AND operator allows you to combine two other boolean operations.
+
+For example:
+
+```javascript
+if (a && b) {
+    // both a AND b are true
+} else {
+    // either a or b are false, or both are false
+}
+```
+
+So, the AND operator evaluates to TRUE only if both of the values to either side are true, and FALSE if either of (or both of) the values are false.
+
+```javascript
+true && true  // == true
+true && false  // == false
+false && true  // == false
+false && false  // == false
+```
+
+___
+
+The **AND** operator has a short-circuit evaluation feature.
+
+This means that if the first expression before `and` is `false` (or null), then the second expression after the operator isn't executed or evaluated.
+
+We can use it when we need to read a property of an object, but we aren't sure the object exists.For example, when we need to read an enemy's type, first we should be sure that enemy exists or we'll get the error:
+
+```javascript
+var enemy = hero.findNearestEnemy();
+if (enemy) {
+    if (enemy.type == "burl") {
+        // Do something
+    }
+}
+```
+
+But we can make it shorter:
+
+```javascript
+var enemy = hero.findNearestEnemy();
+if (enemy && enemy.type == "burl") {
+    // Do something
+}
+```
+
+We don't have to worry about the reference error if there isn't an enemy, becase the second part isn't evaluated in this case.
+
+___
+
 ### _What is Boolean_
 
 Boolean describes a type of data, just like String or Number describe different types of data.
