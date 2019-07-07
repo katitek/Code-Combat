@@ -16,8 +16,7 @@
 + **Functions**
 
 #### _Items we've got (- or need):_
-+ **No longrange glasses**
-+ **No Ring of Speed**
++ Boots
 
 #### _Solutions:_
 + **[JavaScript](seekHide.js)**
