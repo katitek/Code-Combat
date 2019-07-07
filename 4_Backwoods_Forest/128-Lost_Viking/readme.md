@@ -15,7 +15,7 @@
 + **Array Indexes**
 
 #### _Items we've got (- or need):_
-+ Book of Life 1
++ Boots
 
 #### _Solutions:_
 + **[JavaScript](viking.js)**
