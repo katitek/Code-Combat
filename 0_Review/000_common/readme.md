@@ -961,6 +961,32 @@ my_function();
 
 ___
 
+### _Return Statement_
+
+Functions can contain several (or many) instructions to make you can clearer and more readable. Also, functions allow avoiding repetition of code.
+
+The function can return values and you can use them to get some data from them. You've met it before, when you used `hero.findNearestEnemy()`.
+
+To return a value from a function, use the keyword `return` in the function. Place the value (or variable) which you want to return after that.
+
+```javascript
+function someFunction() {
+    // ...
+    return 3;  // the function returns 3
+}
+```
+
+You can save function's result in a variable and use it further in your code:
+
+```javascript
+var x  = someFunction();
+// No x equals 3
+hero.say(x);
+```
+
+___
+
+
 ### _Events_
 
 An **event** is something that happens in the game world.
