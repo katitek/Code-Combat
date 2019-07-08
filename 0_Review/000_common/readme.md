@@ -1083,6 +1083,23 @@ my_function();
 
 ___
 
+### _Multiple Argumets_
+
+Some **methods** can take multiple **arguments**!
+
+To insert multiple **arguments** into a **method**, include `,` between each of the **arguments**.
+
+**Methods** like `buildXY` require a very strict order for their **arguments** so be sure to check for examples and read the guide.
+
+```python
+# buildXY takes 3 arguments!
+# That means you need 2 commas to separate all 3 arguments.
+hero.buildXY("fence", 20, 20)
+hero.buildXY("fire-trap", 40, 40)
+```
+
+___
+
 ### _Return Statement_
 
 Functions can contain several (or many) instructions to make you can clearer and more readable. Also, functions allow avoiding repetition of code.
