@@ -1,5 +1,6 @@
-// Soldiers will slowly arrive, but the ogres will overwhelm them.
-// A basic attack loop isn't going to be enough to keep you alive.
+// Sneak through the forest and ambush the shaman.
+// Listen to 'Commander Craig' for warning of approaching enemy.
+// Place flags after pressing Submit.
 while (true) {
     var enemy = hero.findNearestEnemy();
     var flag = hero.findFlag();
