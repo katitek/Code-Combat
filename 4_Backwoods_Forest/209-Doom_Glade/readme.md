@@ -15,8 +15,8 @@
 + **Nested If Statements**
 
 #### _Solutions:_
-+ **[JavaScript](doomGlade.js)**
-+ **[Python](doom_glade.py)**
++ **[JavaScript](doomGlade.js)** _warrior_
++ **[Python](doom_glade.py)** _wizard_
 
 #### _Rewards:_
 + 119 xp

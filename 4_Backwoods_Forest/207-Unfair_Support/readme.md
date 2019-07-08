@@ -16,8 +16,8 @@
 + **Nested If Statements**
 
 #### _Solutions:_
-+ **[JavaScript](unfair.js)**
-+ **[Python](unfair.py)**
++ **[JavaScript](unfair.js)** _warrior_
++ **[Python](unfair.py)** _wizard_
 
 #### _Rewards:_
 + 112 xp

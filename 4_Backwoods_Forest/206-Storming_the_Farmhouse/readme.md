@@ -17,8 +17,8 @@
 + **Nested If Statements**
 
 #### _Solutions:_
-+ **[JavaScript](stormingFarm.js)**
-+ **[Python](storming_farm.py)**
++ **[JavaScript](stormingFarm.js)** _warrior_
++ **[Python](storming_farm.py)** _wizard_
 
 #### _Rewards:_
 + 74-110 xp

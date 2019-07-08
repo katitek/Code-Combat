@@ -19,8 +19,8 @@
 + Flag
 
 #### _Solutions:_
-+ **[JavaScript](siege.js)**
-+ **[Python](siege.py)**
++ **[JavaScript](siege.js)** _warrior_
++ **[Python](siege.py)** _wizard_
 
 #### _Rewards:_
 + 129 xp

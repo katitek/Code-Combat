@@ -17,8 +17,8 @@
 + **Nested If Statements**
 
 #### _Solutions:_
-+ **[JavaScript](forestPass.js)**
-+ **[Python](forest_pass.py)**
++ **[JavaScript](forestPass.js)** _warrior_
++ **[Python](forest_pass.py)** _wizard_
 
 #### _Rewards:_
 + 97 xp

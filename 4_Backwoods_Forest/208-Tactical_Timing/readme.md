@@ -17,8 +17,8 @@
 + **Nested If Statements**
 
 #### _Solutions:_
-+ **[JavaScript](tacticalTiming.js)**
-+ **[Python](tactical_timing.py)**
++ **[JavaScript](tacticalTiming.js)** _warrior_
++ **[Python](tactical_timing.py)** _wizard_
 
 #### _Rewards:_
 + 115 xp

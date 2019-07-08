@@ -17,8 +17,8 @@
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](reinforce.js)**
-+ **[Python](reinforce.py)**
++ **[JavaScript](reinforce.js)** _warrior_
++ **[Python](reinforce.py)** _wizard_
 
 #### _Rewards:_
 + 120 xp
