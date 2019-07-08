@@ -30,7 +30,7 @@
     + [Mad Maxer Strikes Back](287-Mad_Maxer_Strikes_Back/)
     + [Mad Maxer Sells Out](288-Mad_Maxer_Sells_Out/)
     + [Mad Maxer Gets Greedy](289-Mad_Maxer_Gets_Greedy/)
-    + [Mad Maxer: Redemption](290-Mad_Maxer:_Redemption/)
+    + [Mad Maxer: Redemption](290-Mad_Maxer_Redemption/)
     + [Sarven Sum](291-Sarven_Sum/)
     + [Sand Mushrooms](292-Sand_Mushrooms/)
     + [Bookkeeper](293-Bookkeeper/)
