@@ -1,7 +1,7 @@
 ## _Buddy's Name_
 
 #### _Legend says:_
-> I think that cougar should be in a university.
+> You have a pet, but what is its name? Let's ask.
 
 #### _Goals:_
 + _Get to know the pet's name._
