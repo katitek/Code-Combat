@@ -16,7 +16,8 @@
 + **Accessing Properties**
 
 #### _Items we've got (- or need):_
-+ Flag
++ Weapon
++ _Optional: flags_
 
 #### _Solutions:_
 + **[JavaScript](rich.js)**
