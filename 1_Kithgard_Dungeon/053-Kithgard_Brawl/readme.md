@@ -25,7 +25,7 @@
 
 #### _Solutions:_
 + **[JavaScript](kithgardBrawl.js "7 level")**
-+ **[Python](kithgard_brawl.py)**
++ **[Python](kithgard_brawl.py)** _8 lvl comming soon_
 
 #### _Rewards:_
 + up to `~200`  xp

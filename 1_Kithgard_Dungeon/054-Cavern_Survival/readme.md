@@ -21,7 +21,7 @@
 
 #### _Solutions:_
 + **[JavaScript](cavernSurvival.js "9053")**
-+ **[Python](cavern_survival.py)**
++ **[Python](cavern_survival.py)** _comming soon_
 
 #### _Rewards:_
 + 135  xp
