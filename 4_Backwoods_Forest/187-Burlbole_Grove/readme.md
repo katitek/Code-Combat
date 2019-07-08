@@ -17,7 +17,6 @@
 
 #### _Items we've got (- or need):_
 + Weapon
-+ Longrange glasses
 
 #### _Solutions:_
 + **[JavaScript](burboleGrove.js)**
