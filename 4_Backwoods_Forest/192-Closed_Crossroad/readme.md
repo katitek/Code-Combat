@@ -16,7 +16,7 @@
 + **Functions**
 
 #### _Items we've got (- or need):_
-+ None
++ Hammer
 
 #### _Solutions:_
 + **[JavaScript](closedCross.js)**
