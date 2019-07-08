@@ -1,57 +1,77 @@
-## _The Dunes_
+## _The Mighty Sand Yak_
 
 #### _Legend says:_
-> Behold, the desert, full of glory, danger, and sand. Lots of sand.
+> Test your nerves by dodging huge sand yaks on the open dunes!
 
 #### _Goals:_
-+ _Attack ogres_
-+ _Collect all the coins_
++ _Dodge four yaks._
 
 #### _Topics:_
-+ **Strings**
++ **Basci Syntax**
 + **Variables**
 + **While Loops**
 + **If Statements**
-+ **Nested If Statements**
++ **Boolean Greater/Less**
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](theDunes.js)** _warrior_
-+ **[Python](the_dunes.py)** _wizard_
++ **[JavaScript](mightyYak.js)** _warrior_
++ **[Python](mighty_yak.py)** _wizard_
 
 #### _Rewards:_
-+ 79 xp
-+ 45 gems
++ 120 xp
++ 140 gems
 
 #### _Victory words:_
-+ _VAST EXPANSES OF TREASURE, GLORY, AND SAND UNFOLD BEFORE YOU._
++ _YES, YES, YOU ARE MOVING WITH THE RHYTHM OF THE DESERT._
 
 ___
 
 ### _HINTS_
 
-Check the `enemy.type` to decide which enemies to attack.
+![](img/the_mighty_sand_yak.jpeg)
+
+**If** a yak gets within 10 meters, dodge to the right by adding 10 to `hero.pos.x`!
 
 ```javascript
-if(enemy.type == "sand-yak" || enemy.type == "burl") {
-    // Don't attack these types of enemies.
-} else {
-    // Else it's a different type, so attack.
-}
+var x = hero.pos.x;
+var y = hero.pos.y;
+
+x = x + 10;
+hero.moveXY(x, y);
 ```
 
-Remember the Endangered Burl level? In this level, we check the `enemy.type` property to make sure you attack only ogres, not `"sand-yak"` or `"burl"` enemies.
-
-Sand yaks are mighty, ferocious beasts of varying sizes and speeds. If you attack or get too close to them, they'll trample you in seconds, but if you keep your distance, they'll stay peaceful.
-
-Check out how the sample code uses the **OR** operator:
+Use the `x` variable and the `+=` operator to add 10 to the number held within.
 
 ```javascript
-if (enemy.type == "sand-yak" || enemy.type == "burl") {
-    // Don't attack! Keep collectiong coins.
-}
+x += 10;  // This increases the number stored in x by 10
 ```
 
-It means, _if_ this _or_ that, _then_... This lets you combine the `"sand-yak"` and `"burl"` type checks into one if statement.
+Use `moveXY` aling the new `x` and `y` to move towards the oasis.
+
+The `hero.pos` porperty represents your hero's current position. This `pos` object has two properties, `x` and `y`.
+
+```javascript
+var x = hero.pos.x;
+var y = hero.pos.y;
+```
+
+These are **numbers**, representing the hero's position on the map.
+
+So, if you want to move your hero 10 meters to the right of their current position, that would be:
+
+```javascript
+x = x + 10;
+```
+
+And `y` would be the same (no movement up or down).
+
+Move to the new coordinates with `hero.moveXY(x, y)`.
+
+You might sometimes see this all written on one line, like:
+
+```javascript
+hero.moveXY(hero.pos.x + 10, hero.pos.y);
+```
 
 ___
