@@ -1175,3 +1175,25 @@ pet.on("hear", on_hear)
 ```
 
 ___
+
+### _Event Handler_
+
+An **event handler** is a function that will be executed when an **event** happens.
+
+You use `pet.on(eventType, eventHandler)` to assign an event handler for an event type, like `"hear"`.
+
+The event handler can be any function you define. It should accept one parameter, the event's data. You'll learn more about the event data later.
+
+For example:
+
+```python
+def some_function(event):
+    pet.say("Ahhh")
+    pet.say("Bbbbzzzz")
+
+pet.on("hear", some_function)
+```
+
+_**Note**: You don't use `()` after `someFunction` in `pet.on("hear", someFunction)`. The `()` means that the function is immediately called. Instead we are passing the function as an argument to `.on()` so that it can be called later, when a `"hear"` event happens._
+
+___
