@@ -12,6 +12,6 @@
 4. [Backwoods Forest](4_Backwoods_Forest/)
 5. [Web Development 2nd Island](5_Web2/)
 6. [Game Development 2nd Island](6_GabeDev2/)
-7. Sarven Desert
+7. [Sarven Desert](7_Sarven_Desert/)
 
 ###### by _Katik_

@@ -96,6 +96,11 @@
     + [Long Road](171-Long_Road/)
     + [Forest Jogging](172-Forest_Jogging/)
     + [Airdrop](173-Airdrop/)
+    + [Buddy's Name](213-Buddy's_Name/)
+    + [Buddy's Name A (practice)](214-Buddy's_Name_A/)
+    + [Buddy's Name B (practice)](215-Buddy's_Name_B/)
+    + [Pet Quiz](212-Pet_Quiz/)
+    + [Phd Kitty](211-Phd_Kitty/)
     + [Forest Cannon Dancing](174-Forest_Cannon_Dancing/)
     + [The Wizard's Haunt](175-The_Wizard's_Haunt/)
     + [The Wizard's Plane](176-The_Wizard's_Plane/)
@@ -126,11 +131,6 @@
     + [Tactical Timing](208-Tactical_Timing/)
     + [Doom Glade](209-Doom_Glade/)
     + [Defend the Garrison](210-Defend_the_Garrison/)
-    + [Phd Kitty](211-Phd_Kitty/)
-    + [Pet Quiz](212-Pet_Quiz/)
-    + [Buddy's Name](213-Buddy's_Name/)
-    + [Buddy's Name A (practice)](214-Buddy's_Name_A/)
-    + [Buddy's Name B (practice)](215-Buddy's_Name_B/)
 
 + Replayable Brawls
     + [Backwoods Brawl](216-Backwoods_Brawl/)
