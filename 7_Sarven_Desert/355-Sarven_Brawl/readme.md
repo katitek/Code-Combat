@@ -10,8 +10,8 @@
 + None
 
 #### _Solutions:_
-+ **[JavaScript](sacredStatue.js)** _6 lvl_
-+ **[Python](sacred_statue.py)** _7 lvl comming soon_
++ **[JavaScript](sarvenBrawl.js)** _6 lvl_
++ **[Python](sarven_brawl.py)** _7 lvl comming soon_
 
 #### _Rewards:_
 + 60-300 xp
