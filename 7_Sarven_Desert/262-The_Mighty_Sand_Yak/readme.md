@@ -7,7 +7,7 @@
 + _Dodge four yaks._
 
 #### _Topics:_
-+ **Basci Syntax**
++ **Basic Syntax**
 + **Variables**
 + **While Loops**
 + **If Statements**
