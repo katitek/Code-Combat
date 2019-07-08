@@ -20,8 +20,8 @@
 + **[Python](the_dunes.py)** _wizard_
 
 #### _Rewards:_
-+ 135 xp
-+ 124 gems
++ 79 xp
++ 45 gems
 
 #### _Victory words:_
 + _VAST EXPANSES OF TREASURE, GLORY, AND SAND UNFOLD BEFORE YOU._

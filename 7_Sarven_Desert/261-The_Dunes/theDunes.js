@@ -1,14 +1,22 @@
-// Teach your pet to answer questions!
+// Collect coins. Ignore "sand-yak"s and "burl"s.
 
-// Luckily, all the answers are "2"
-function sayTwo(event) {
-    // Use pet.say() to answer "2"
-    pet.say("2");
+while (true) {
+    var enemy = hero.findNearestEnemy();
+    var item = hero.findNearestItem();
+    if (enemy) {
+        if (enemy.type == "sand-yak" || enemy.type == "burl") {
+            // Don't attack! Collect coins.
+            if (item) {
+                hero.moveXY(item.pos.x, item.pos.y);
+            }
+        } else {
+            // Else, attack. 
+            hero.attack(enemy);
+        }
+    } else if (item) {
+        // Collect coins: move to item's position.
+        hero.moveXY(item.pos.x, item.pos.y);
+    } else {
+        hero.moveXY(41, 31);
+    }
 }
-
-// Use pet.on() to handle "hear" events with sayTwo
-pet.on("hear", sayTwo);
-// Now relax and watch the show.
-hero.say("One plus one is...?");
-hero.say("x^3 - 6x^2 + 12x - 8 = 0. What is x...?");
-hero.say("How many moons does Mars have...?");
