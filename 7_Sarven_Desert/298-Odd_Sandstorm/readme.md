@@ -21,11 +21,11 @@
 + **[Python](odd_sandstorm.py)**
 
 #### _Rewards:_
-+ 162 xp
-+ 76 gems
++ 267 xp
++ 206 gems
 
 #### _Victory words:_
-+ _EXCELLENTLY TIMED!_
++ _THE PEASANTS ARE EVEN MORE GRATEFUL TO BE ALIVE THAN USUAL._
 
 ___
 
