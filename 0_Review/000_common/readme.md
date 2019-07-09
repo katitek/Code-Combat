@@ -1220,6 +1220,37 @@ if (enemy) {
 
 ___
 
+### _Array Indexes_
+
+A variable is a name you can use to store a value.
+
+An array is a name you can use to store a lot of values - like a list of related values.
+
+In an array, each value is stored at a certain **index**.
+
+An **index** is just a number.
+
+So, an array is a numbered list:
+
+0. Chocolate
+1. Stroopwafels
+2. Cupcakes
+3. Ice Cream
+
+You can represent this as an array:
+
+```javascript
+var snacks = [];
+
+// The first item is index zero!
+snacks[0] = "Chocolate";
+snacks[1] = "Stroopwafels";
+snacks[2] = "Cupcakes";
+snacks[3] = "Ice Cream";
+```
+
+___
+
 ### _Building Defenses_
 
 When the `hero` has a **hummer**, they can build defenses like `"fence"`s and `"fire-trap"`s.
