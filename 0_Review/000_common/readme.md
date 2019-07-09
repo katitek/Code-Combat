@@ -1340,3 +1340,17 @@ if (hero.time < 30) {
 ```
 
 ___
+
+### _Hero: Gold_
+
+The Quartz Sense Stone allows you to determine how much gold you have using the `hero.gold` property.
+
+For example, some buildable items cost gold to build:
+
+```javascript
+if (hero.gold >= 25) {
+    hero.buildXY("decoy", hero.pos.x, hero.pos.y);
+}
+```
+
+___
