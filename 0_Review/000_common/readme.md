@@ -1197,3 +1197,19 @@ pet.on("hear", some_function)
 _**Note**: You don't use `()` after `someFunction` in `pet.on("hear", someFunction)`. The `()` means that the function is immediately called. Instead we are passing the function as an argument to `.on()` so that it can be called later, when a `"hear"` event happens._
 
 ___
+
+### _Game: Health_
+
+Code Combat units have two properties relating to health:
++ `unit.maxHealth` is the unit's maximum total health.
++ `unit.health` is the unit's current health.
+
+So, if you want to do something when your hero is down to half health, you could do:
+
+```javascript
+if (hero.health < hero.maxHealth / 2) {
+    // Run away
+}
+```
+
+___
