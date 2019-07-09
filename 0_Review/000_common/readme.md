@@ -419,38 +419,6 @@ hero.buildXY("fire-trap", 40, 40);
 
 ___
 
-### _X, Y Coordinates_
-
-A position on the game map is represented as two numbers: `x` and `y` coordinates.
-
-`x` represents the **right-left** (horizontal) direction.
-
-`y` represents the **up-down** (vertical) direction.
-
-Moving in the **right** direction, the `x` number **increases**. Moving in the **left** direction, the `x` number **decreases**.
-
-Moving in the **up** direction, the `y` number **increases**. Moving in the **down** direction, the `y` number **decreases**.
-
-The bottom left corner of the map is `0, 0` (**x** is zero, **y** is zero).
-
-___
-
-### _Positions_
-
-Each item object (and each unit) has a `pos` property, which stands for its position. And each `pos` is itself an object, which has `x` and `y` properties that you can use with `moveXY` and `buildXY`.
-
-```javascript
-var enemy = hero.findNearestEnemy();
-
-if (enemy) {
-    var p = enemy.pos;
-    hero.say(p.x);
-    hero.say(p.y);
-}
-```
-
-___
-
 ### _If-statements_
 
 `if`-statements are used to control the **flow** of a program. They can be used to check if a certain **condition** is `true`.
@@ -1174,6 +1142,57 @@ pet.on("hear", some_function)
 ```
 
 _**Note**: You don't use `()` after `someFunction` in `pet.on("hear", someFunction)`. The `()` means that the function is immediately called. Instead we are passing the function as an argument to `.on()` so that it can be called later, when a `"hear"` event happens._
+
+___
+
+### _X, Y Coordinates_
+
+A position on the game map is represented as two numbers: `x` and `y` coordinates.
+
+`x` represents the **right-left** (horizontal) direction.
+
+`y` represents the **up-down** (vertical) direction.
+
+Moving in the **right** direction, the `x` number **increases**. Moving in the **left** direction, the `x` number **decreases**.
+
+Moving in the **up** direction, the `y` number **increases**. Moving in the **down** direction, the `y` number **decreases**.
+
+The bottom left corner of the map is `0, 0` (**x** is zero, **y** is zero).
+
+___
+
+### _Positions_
+
+Most of the things you interact with in the game (your hero, enemies, allies, coins, etc) have a position on the game map.
+
+Remember that a position has an `x` coordinate and a `y` coordinate.
+
+A thing's position can be accessed with the `pos` property.
+
+The x coordinate can be accessed with the `x` property of the `pos` object.
+
+The y coordinate can be accessed with the `y` property of the `pos` object.
+
+```javascript
+var item = hero.findNearestItem();
+
+// Move to the item's position:
+hero.moveXY(item.pos.x, item.pos.y);
+```
+
+___
+
+Each item object (and each unit) has a `pos` property, which stands for its position. And each `pos` is itself an object, which has `x` and `y` properties that you can use with `moveXY` and `buildXY`.
+
+```javascript
+var enemy = hero.findNearestEnemy();
+
+if (enemy) {
+    var p = enemy.pos;
+    hero.say(p.x);
+    hero.say(p.y);
+}
+```
 
 ___
 
