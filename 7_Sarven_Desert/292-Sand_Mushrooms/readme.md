@@ -15,8 +15,8 @@
 + **Event Concurrency**
 
 #### _Solutions:_
-+ **[JavaScript](sandMushrooms.js)** _warrior_
-+ **[Python](sand_mushrooms.py)** _wizard_
++ **[JavaScript](sandMushrooms.js)**
++ **[Python](sand_mushrooms.py)**
 
 #### _Rewards:_
 + 190 xp

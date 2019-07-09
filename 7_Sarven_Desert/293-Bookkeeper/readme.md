@@ -17,8 +17,8 @@
 + **Break Statements**
 
 #### _Solutions:_
-+ **[JavaScript](bookkeeper.js)** _warrior_
-+ **[Python](bookkeeper.py)** _wizard_
++ **[JavaScript](bookkeeper.js)**
++ **[Python](bookkeeper.py)**
 
 #### _Rewards:_
 + 162 xp
