@@ -1,22 +1,46 @@
-def getKey(name):
-    key = pet.findNearestByType(name)
-    if key:
-        pet.fetch(key)
+def attackIt():
+    while True:
+        flag = hero.findFlag()
+        if flag:
+            if flag.color == "green":
+                break
+            hero.jumpTo(flag.pos)
+            hero.pickUpFlag(flag)
+    
+        if hero.canCast("summon-burl"):
+            hero.cast("summon-burl")
+        if hero.canCast("summon-undead"):
+            hero.cast("summon-undead")
+        if hero.canCast("raise-dead"):
+            hero.cast("raise-dead")
+    
+        enemy = hero.findNearestEnemy()
 
-def onSpawn(event):
-    getKey("bronze-key")
-    getKey("silver-key")
-    getKey("gold-key")
+        if enemy and enemy.type != "sand-yak":
+            distance = hero.distanceTo(enemy)
 
+            if distance < 25 and hero.canCast("fear"):
+                hero.cast("fear", enemy)
+            elif distance < 30 and hero.canCast("chain-lightning"):
+                hero.cast("chain-lightning", enemy)
+            elif distance < 30 and hero.canCast("poison-cloud"):
+                hero.cast("poison-cloud", enemy)
+            elif distance < 15 and hero.canCast("drain-life"):
+                hero.cast("drain-life", enemy)
+            elif distance < 45:
+                hero.attack(enemy)
+            
+        if hero.health < hero.maxHealth / 2:
+            friend = hero.findNearest(hero.findFriends())
+            if friend and friend.type != "burl" and hero.distanceTo(friend) <= 15:
+                hero.cast("drain-life", friend)
 
-pet.on("spawn", onSpawn)
 
 while True:
-    enemy = hero.findNearestEnemy()
-    if enemy and enemy.team == "ogres":
-        hero.attack(enemy)
-    
-    if hero.health < 300:
-        potion = pet.findNearestByType("potion")
-        if potion:
-            hero.moveXY(potion.pos.x, potion.pos.y)
+    flag = hero.findFlag()
+    if flag:
+        if flag.color == "black":
+            hero.pickUpFlag(flag)
+            attackIt()
+        else:
+            hero.pickUpFlag(flag)

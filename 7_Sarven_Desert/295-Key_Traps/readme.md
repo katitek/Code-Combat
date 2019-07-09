@@ -1,49 +1,45 @@
-## _Key Traps_
+## _The Trials_
 
 #### _Legend says:_
-> Those keys are so close, but don't hurry to take them yourself.
+> Three desert trials await your hero in this player-created endurance challenge. _Warning: **extra super amazing difficult battle!**_
 
 #### _Goals:_
-+ _Free the paladin_
++ _Defeat the Oracle of Zha and all the ogres._
 
 #### _Topics:_
-+ **Strings**
-+ **Variables**
-+ **While Loops**
-+ **Nested If Statements**
-+ **Accessing Properties**
-+ **Event Concurrency**
++ None
 
 #### _Solutions:_
-+ **[JavaScript](keyTraps.js)**
-+ **[Python](key_traps.py)**
++ **[JavaScript](theTrials.js)**
++ **[Python](the_trials.py)**
 
 #### _Rewards:_
-+ 160 xp
-+ 190 gems
++ 622 xp
++ 460 gems
 
 #### _Victory words:_
-+ _FIND KEYS FOR THE TRAPS TO GET THE KEYS FROM THE TRAPS._
++ _YOUR FACTION STANDING WITH OASIS DWELLERS GOT BETTER._
 
 ___
 
 ### _HINTS_
 
-![](img/keytraps.jpg)
+_This level was created by player **Kevin Holland**. It is mega hard._
 
-You must to free the paladin. To do it you need three keys.
+Welcome to The Trials of Mordrath, where you have the opportunity to prove your mettle in an invasion of no fewer than four ogre encampments!
 
-Use your pet to get those keys. Don't try to collect them with your hero.
+Read hints to get more careful instructions.
 
-You've got skills required for this level in recent levels. If you have problems with this level try to return and resharpen your skills.
+This is a challenge level. So you can complete it many ways.
 
-Be careful with item types and typos. Item types are **strings**.
+___
 
-Just to remind you:
+Start by reaching the Oasis of Marr. As soon as you begin, magic mushrooms will appear around it. (Hint: You can view a trial's name and information, just like a character's, by clicking it!) The mushrooms will completely heal you once you have collected them all. Afterwards, you will face an onslaught climaxing with the oasis' huge guardian!
 
-```javascript
-var potion = pet.findNearestByType("potion");
-pet.fetch(potion);
-```
+Repeat this process for the next two trials, the Oasis of Anele and the Temple of Mirth.
+
+If you survive, the Trial Master will heal you completely once again for your final test at the Monument to the Old Gods.
+
+To those who dare to challenge the armies of the Oracle of Zha, Godspeed and good fortune--you will need it!
 
 ___
