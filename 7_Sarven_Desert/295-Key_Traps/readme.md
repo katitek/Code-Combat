@@ -7,7 +7,12 @@
 + _Defeat the Oracle of Zha and all the ogres._
 
 #### _Topics:_
-+ None
++ **Strings**
++ **Variables**
++ **While Loops**
++ **Nested If Statements**
++ **Accessing Properties**
++ **Event Concurrency**
 
 #### _Solutions:_
 + **[JavaScript](theTrials.js)**
