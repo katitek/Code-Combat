@@ -275,6 +275,30 @@ while (true) {
 
 ___
 
+### _Loops: Break_
+
+Sometimes you want to stop a loop early. You can do this with the `break` statement:
+
+```javascript
+var i = 0;
+while (true) {
+    if (i >= 10) {
+        break;
+    }
+
+    i += 1;
+}
+hero.say(i);
+```
+
+In this example, the loop will increment `i` from `0` to `10`, then the `break` statement will exit the loop before `i` is incremented to `11`.
+
+The code after the loop then executes, and the hero will say `10`.
+
+You can think of this as **breaking out** of the loop.
+
+___
+
 ### _Variables_
 
 A _variable_ lets you hold on to a value for later. Some of those values are **strings** like names or phrases.
