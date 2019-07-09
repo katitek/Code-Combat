@@ -9,8 +9,8 @@
 
 #### _Topics:_
 + **Basic Syntax**
++ **Arguments**
 + **Variables**
-+ **Basic Syntax**
 + **While Loops with Conditionals**
 + **If Statements**
 + **Boolean Greater/Less**
