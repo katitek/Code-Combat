@@ -15,7 +15,7 @@
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](strandedInTheDunes.js)**
++ **[JavaScript](strandedInTheDunes.js)** _warrior_
 + **[Python](stranded_in_the_dunes.py)** _wizard_
 
 #### _Rewards:_
