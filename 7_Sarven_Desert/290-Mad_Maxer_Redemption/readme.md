@@ -16,8 +16,8 @@
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](madMaxerRedemption.js)** _warrior_
-+ **[Python](mad_maxer_redemption.py)** _wizard_
++ **[JavaScript](madMaxerRedemption.js)**
++ **[Python](mad_maxer_redemption.py)**
 
 #### _Rewards:_
 + 283 xp
