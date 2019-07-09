@@ -1177,22 +1177,6 @@ _**Note**: You don't use `()` after `someFunction` in `pet.on("hear", someFuncti
 
 ___
 
-### _Game: Health_
-
-Code Combat units have two properties relating to health:
-+ `unit.maxHealth` is the unit's maximum total health.
-+ `unit.health` is the unit's current health.
-
-So, if you want to do something when your hero is down to half health, you could do:
-
-```javascript
-if (hero.health < hero.maxHealth / 2) {
-    // Run away
-}
-```
-
-___
-
 ### _Building Defenses_
 
 When the `hero` has a **hummer**, they can build defenses like `"fence"`s and `"fire-trap"`s.
@@ -1210,6 +1194,40 @@ For example:
 
 ```javascript
 hero.buildXY("fence", 20, 20);
+```
+
+___
+
+### _Game: Health_
+
+Code Combat units have two properties relating to health:
++ `unit.maxHealth` is the unit's maximum total health.
++ `unit.health` is the unit's current health.
+
+So, if you want to do something when your hero is down to half health, you could do:
+
+```javascript
+if (hero.health < hero.maxHealth / 2) {
+    // Run away
+}
+```
+
+___
+
+### _Game: Time_
+
+The `hero.time` property is the age of the game world measured in seconds.
+
+When you click "Run" or "Submit", the age starts at `0`, and increases from there.
+
+You can use this to choose actions based on the passage of time, like:
+
+```javascript
+if (hero.time < 30) {
+    // Do something for the first 10 seconds.
+} else if (hero.time < 30) {
+    // Do something between 10 and 30 seconds.
+}
 ```
 
 ___
