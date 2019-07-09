@@ -419,27 +419,6 @@ hero.buildXY("fire-trap", 40, 40);
 
 ___
 
-### _Building Defenses_
-
-When the `hero` has a **hummer**, they can build defenses like `"fence"`s and `"fire-trap"`s.
-
-However, the `hero` need to know the exact **coordinate** location of where to build! That is why the **method** is called `buildXY`, because it needs an `x` and `y` position.
-
-Mouse-over the level map and after a second the **coordinates** will appear. Use this to guide where to `buildXY`.
-
-The **arguments** in order are:
-+ item *type* as a `string` such as `"fence"` and `"fire-trap"`.
-+ item position `x`, which is always a number.
-+ item position `y`, which is always a number.
-
-For example:
-
-```javascript
-hero.buildXY("fence", 20, 20);
-```
-
-___
-
 ### _X, Y Coordinates_
 
 A position on the game map is represented as two numbers: `x` and `y` coordinates.
@@ -1210,6 +1189,27 @@ So, if you want to do something when your hero is down to half health, you could
 if (hero.health < hero.maxHealth / 2) {
     // Run away
 }
+```
+
+___
+
+### _Building Defenses_
+
+When the `hero` has a **hummer**, they can build defenses like `"fence"`s and `"fire-trap"`s.
+
+However, the `hero` need to know the exact **coordinate** location of where to build! That is why the **method** is called `buildXY`, because it needs an `x` and `y` position.
+
+Mouse-over the level map and after a second the **coordinates** will appear. Use this to guide where to `buildXY`.
+
+The **arguments** in order are:
++ item *type* as a `string` such as `"fence"` and `"fire-trap"`.
++ item position `x`, which is always a number.
++ item position `y`, which is always a number.
+
+For example:
+
+```javascript
+hero.buildXY("fence", 20, 20);
 ```
 
 ___
