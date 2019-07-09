@@ -7,7 +7,7 @@
 + _Get humans to the south_
 
 #### _Topics:_
-+ **Basci Syntax**
++ **Basic Syntax**
 
 #### _Solutions:_
 + **[JavaScript](doubleGaps.js)**
