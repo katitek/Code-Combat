@@ -299,6 +299,26 @@ You can think of this as **breaking out** of the loop.
 
 ___
 
+### _Loops: Continue_
+
+If you're inside a loop, and want to skip the current iteration and start over with the next iteration, you use the `continue` statement.
+
+```javascript
+while (true) {
+    var enemy = hero.findNearestEnemy();
+    if (!enemy) {
+        continue;
+    }
+
+    // The hero will only say something if there's an enemy.
+    hero.say("I see an enemy.");
+}
+```
+
+When the code reaches a `continue` statement, it skips the rest of the loop and jumps back to the top.
+
+___
+
 ### _While-Conditional Loops_
 
 A **while-loop** consists of a `while` statement followed by a **condition**.
