@@ -1,66 +1,46 @@
-## _Kithgard Enchanter_
+## _Underground Business_
 
 #### _Legend says:_
-> Return to Kithgard Dungeon, this time with the power of functions!
+> Treasures are everywhere. As well as traps and skeletons.
 
 #### _Goals:_
-+ _Avoid the spikes_
-+ _Collect the gems_
++ _Collect 300 gold_
++ _Escape from the dungeon_
 
 #### _Topics:_
 + **Basic Syntax**
-+ **Arguments**
-+ **Variables**
-+ **Arithmetic**
-+ **Functions**
-+ **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](kithgardEnchanter.js)** _warrior_
-+ **[Python](kithgard_enchanter.py)** _wizard_
++ **[JavaScript](kithgardEnchanter.js)** _wizard_
++ **[Python](kithgard_enchanter.py)** _warrior_
 
 #### _Rewards:_
-+ 145 xp
-+ 69 gems
++ 160 xp
++ 160 gems
 
 #### _Victory words:_
-+ _NOW YOU CAN COBBLE TOGETHER YOUR OWN SIMPLE BOOTS!_
++ _NEXT, WE NEED COFFEE AND DONUT MAGNET ABILITY._
 
 ___
 
 ### _HINTS_
 
-Remember the simpler times, back in Kithgard Dungeon when you were running for your life with nothing but a pair of Simple Boots?
+![](img/undeground.png)
 
-Well, this time you don't even have the boots!
+While peasants mine some gold from crystals you need to collect treasures some way. The Mimic pet can help you with it.
 
-You'll need to enchant your own boots with `moveRight`, `moveUp` and `moveDown` **functions**!
+The Mimic has a unique ability -- Treasure Magnet. Just send it round the dungeon and all treasures will be yours.
 
-___
+P.S.: Don't forget to protect peasants.
 
-Functions are an important part of coding.
+The Mimic loves gold and gold like the Mimic, that's why treasures are attracted by that pretty moving chest. However, the Mimic can't collect gold, so don't forget bring gold trail back to your hero.
 
-You've been using functions all along: any time you write code like:
+You don't need do anything special to pull coins, just move with your pet near treasures and it will follow by the Mimic.
 
 ```javascript
-hero.attack(enemy);
+var coin = pet.findNearestByType("gold-coin");
+pet.moveXY(coin.pos.x, coin.pos.y);
+pet.moveXY(hero.pos.x, hero.pos.y);
 ```
-+ you are **calling** (or **invoking**) a function called `attack`.
-
-The actual code that gets executed when you call `attack` is long and complex. Imagine if you had to write 25 lines of code in your program each time you wanted to swing your sword!
-
-That's the first benefit of functions: they reduce a whole bunch of code down into one line. 
-
-Not only does this save you from having to re-type the same code over and over, it also makes your code easier to understand, because it takes what might really be complicated logic ("Ok so I want to attack. Do I have a weapon? Am I close enough to hit with my weapon? How long does it take to use my weapon? Do I hit? Do I cause damage?"), and makes it an easy to understand idea: `attack`.
-
-Now you will not only be calling functions, you will **define** your own functions!
-
-Defining a function has two parts: the **name** and the **body**.
-
-The name is the thing you will use to call the function later, like `attack`.
-
-The body is the code that will be executed when the function is called.
-
-There are also sometimes **arguments** (like the `attack(enemy)`) but we will get into that in future levels.
 
 ___
