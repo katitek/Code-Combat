@@ -299,6 +299,41 @@ You can think of this as **breaking out** of the loop.
 
 ___
 
+### _While-Conditional Loops_
+
+A **while-loop** consists of a `while` statement followed by a **condition**.
+
+The loop will continue to execute **while** the **condition** is **TRUE**.
+
+The familiar **while-true-loop** looks loke:
+
+```javascript
+var count = 0;
+while (true) {
+    // Count from zero to infinity
+    count += 1;
+}
+```
+
+This is actually the same thing as a **while-condition-loop**, but the condition is always TRUE, so the loop never ends.
+
+We could count from zero to 10 using a while-condition loop like:
+
+```javascript
+var count = 0;
+while (count < 10) {
+    count += 1;
+}
+
+hero.say(count);
+```
+
+In this example, the while-loop will continue until `count` is `10` (because `10 < 10` is **FALSE**), and then exit.
+
+When the loop exits, the `hero.say(count)` code will run, and the hero will say `10`.
+
+___
+
 ### _Variables_
 
 A _variable_ lets you hold on to a value for later. Some of those values are **strings** like names or phrases.
