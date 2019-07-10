@@ -4,17 +4,49 @@ ___
 
 
 **Table of Contents:**
+
 + [Rings](#rings)
-  * [TARNISHED COPPER BAND](#tarnished-copper-band)
-  * [WOODEN STRAND](#wooden-strand)
-  * [THORNPRICK](#thornprick)
-  * [STEEL RING](#steel-ring)
+  * [Tarnished Copper Band](#tarnished-copper-band)
+  * [Wooden Strand](#wooden-strand)
+  * [Thornprick](#thornprick)
+  * [Steel Ring](#steel-ring)
+  * [Tomb Ring](#tomb-ring)
+  * [The Precious](#the-precious)
+  * [Ring of Speed](#ring-of-speed)
+
 + [Neckplaces](#neckplace)
+  * [Rough Sense Stone](#rough-sense-stone)
+  * [Polished Sense Stone](#polished-sense-stone)
+  * [Quartz Sense Stone](#quartz-sense-stone)
+  * [Polished Agate Sense Stone](#polished-agate-sense-stone)
+  * [Fire Opal Sense Stone](#fire-opal-sense-stone)
+  * [Sapphire Sense Stone](#sapphire-sense-stone)
+
 + [Glasses](#glasses)
+  * [Crude Glasses](#crude-glasses)
+  * [Wooden Glasses](#wooden-glasses)
+  * [Fine Wooden Glasses](#fine-wooden-glasses)
+  * [Mahogany Glasses](#mahogany-glasses)
+  * [Kithgard Worker's Glasses](#kithgard-worker's-glasses)
+  * [Hardened Steel Glasses](#hardened-steel-glasses)
+  * [Crude Telephoto Glasses](#crude-telephoto-glasses)
+  * [Fine Telephoto Glasses](#fine-telephoto-glasses)
+  * [Enchanted Lenses](#enchanted-lenses)
+  * [Twilight Glasses](#twilight-glasses)
+
 + [Watches](#watches)
+  * [Sundal Wristwatch](#sundal-wristwatch)
+  * [Simple Wristwatch](#simple-wristwatch)
+  * [Engraved Wristwatch](#engraved-wristwatch)
+  * [Gilt Wristwatch](#gilt-wristwatch)
+
 + [Belts](#belts)
+  * [Leather Belt](#leather-belt)
+  * [Trap Belt](#trap-belt)
+  * [Caltrop Belt](#caltrop-belt)
 
 ___
+
 
 ### Rings
 
