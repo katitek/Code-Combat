@@ -354,6 +354,29 @@ When the loop exits, the `hero.say(count)` code will run, and the hero will say 
 
 ___
 
+### _Looping over Items in an Array with While_
+
+Looping through the items in an array is called "iterating" over the array.
+
+You can do this with a `while` loop by using an `index` variable to count each array item.
+
+You can stop when you've reached the **length** of the array:
+
+```javascript
+var snacks = ["Chocolate", "Stroopwafels", "Cupcakes", "Ice Cream"];
+
+var index = 0;
+// Use snacks.length to get the length of the snacks array
+while (index < snacks.length) {
+    var snack = snacks[index];
+    hero.say("I like " + snack);
+    // Increment the index:
+    index += 1;
+}
+```
+
+___
+
 ### _Variables_
 
 A _variable_ lets you hold on to a value for later. Some of those values are **strings** like names or phrases.
