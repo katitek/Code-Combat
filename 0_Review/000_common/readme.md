@@ -1,6 +1,10 @@
 ## Code Combat Theory and Methods
 ___
 
+[TOC]
+
+___
+
 ### _Calling Methods_
 
 The `hero` has actions or **methods** they can perform based on what gear they have.

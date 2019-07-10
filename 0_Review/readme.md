@@ -2,33 +2,35 @@
 
 > Items available for 35 level
 
-#### Content:
+#### Programming Tutorials
++ [Common](000_common/)
++ [Game Development](000_gamedev/)
++ [Web](000_web/)
 
-+ Programming Tutorials
-    + [Common](000_common/)
-    + [Game Development](000_gamedev/)
-    + [Web](000_web/)
 
+#### Heroes
 + [Heroes](000_heroes/)
 
+
+#### Items
 + Armor
     + [Boots and Gloves](000_armor_boots/)
-    + [Wizard](000_armor_wiz/)
-    + [Warrior](000_armor_war/)
-    + [Ranger](000_armor_ran/)
+    + [Warrior's Armor](000_armor_war/)
+    + [Ranger's Armor](000_armor_ran/)
+    + [Wizard's Armor](000_armor_wiz/)
 
 + Primary Weapon
     + [Hammers](000_hammers/)
-    + [Wizard](000_prime_wiz/)
-    + [Warrior](000_prime_war/)
-    + [Ranger](000_prime_ran/)
+    + [Warrior's Swords](000_prime_war/)
+    + [Ranger's Crossbows and Guns](000_prime_ran/)
+    + [Wizard's Staffs](000_prime_wiz/)
 
 + Secondary
-    + [Wizard](000_second_wiz/)
-    + [Warrior](000_second_war/)
-    + [Ranger](000_second_ran/)
+    + [Warrior's Shields](000_second_war/)
+    + [Ranger's Bombs and Daggers](000_second_ran/)
+    + [Wizard's Spellbooks](000_second_wiz/)
 
-+ Items
++ Misc
     + [Companions](000_companions/)
-    + [Books and Flags](000_books/)
     + [Accessories](000_accessories/)
+    + [Books and Flags](000_books/)
