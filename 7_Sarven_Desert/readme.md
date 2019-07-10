@@ -8,6 +8,7 @@
     + [Bookkeeper](293-Bookkeeper/)
     + [Brown Noise](284-Brown_Noise/)
     + [Canyon of Storms](304-Canyon_of_Storms/)
+    + [Chain of Command](345-Chain_of_Command/)
     + [Chase Them](285-Chase_Them/)
     + [Continuous Alchemy](309-Continuous_Alchemy/)
     + [Coordinated Defense](320-Coordinated_Defense/)
@@ -49,6 +50,7 @@
     + [Recruiting Queue](321-Recruiting_Queue/)
     + [Safety Blanket](315-Safety_Blanket/)
     + [Sand Mushrooms](292-Sand_Mushrooms/)
+    + [Sand Snakes](336-Sand_Snakes/)
     + [Sarven Gaps](267-Sarven_Gaps/)
     + [Sarven Outpost](297-Sarven_Outpost/)
     + [Sarven Rescue](310-Sarven_Rescue/)
@@ -76,7 +78,6 @@
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
 
-    + [Sand Snakes](336-Sand_Snakes/)
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Pet Translator](338-Pet_Translator/)
     + [Pet Engineer](339-Pet_Engineer/)
@@ -85,7 +86,6 @@
     + [Pet Adjutant](342-Pet_Adjutant/)
     + [Alchemic Power](343-Alchemic_Power/)
     + [Hot Gate](344-Hot_Gate/)
-    + [Chain of Command](345-Chain_of_Command/)
     + [Sacred Grove](346-Sacred_Grove/)
     + [Pied Piper](347-Pied_Piper/)
     + [Air Bridge](348-Air_Bridge/)
