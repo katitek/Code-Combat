@@ -5,7 +5,18 @@ ___
 
 **Table of Contents:**
 + [Boots](#boots)
+    * [Simple Boots](#simple-boots)
+    * [Leather Boots](#leather-boots)
+    * [Reinforced Boots](#reinforced-boots)
+    * [Softened Leather Boots](#softened-leather-boots)
+    * [Compound Boots](#compound-boots)
+    * [Defensive Boots](#defensive-boots)
+    * [Fine Boots](#fine-boots)
+    * [Boots of Jumping](#boots-of-jumping)
+    * [Boots of Leaping](#boots-of-leaping)
 + [Gloves](#gloves)
+    * [Worker's Gloves](#worker)
+    * [Emperor's Gloves](#emperor)
 
 ___
 
