@@ -1,7 +1,7 @@
 friendNames = ['Joan', 'Ronan', 'Nikita', 'Augustus']
 friendIndex = 0
 
-while friendIndex < friendNames.length:
+while friendIndex < len(friendNames):
     friendName = friendNames[friendIndex]
     hero.say(friendName + ', go home!')
     friendIndex += 1

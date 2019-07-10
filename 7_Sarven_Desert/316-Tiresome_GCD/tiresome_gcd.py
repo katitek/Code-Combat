@@ -7,7 +7,7 @@ def bruteforceGCD(a, b):
         if cycles > 100:
             hero.say("Calculating is hard. I'm tired.")
             break
-        if a % counter == 0 && b % counter == 0:
+        if a % counter == 0 and b % counter == 0:
             break
         counter -= 1
     hero.say("I used " + cycles + " cycles")
