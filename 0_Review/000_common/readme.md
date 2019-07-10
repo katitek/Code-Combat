@@ -1,7 +1,7 @@
 ## Code Combat Theory and Methods
 ___
 
-[TOC]
+[TOCM]
 
 ___
 
