@@ -15,8 +15,8 @@ ___
     * [Boots of Jumping](#boots-of-jumping)
     * [Boots of Leaping](#boots-of-leaping)
 + [Gloves](#gloves)
-    * [Worker's Gloves](#worker)
-    * [Emperor's Gloves](#emperor)
+    * [Worker's Gloves](#worker-s-gloves)
+    * [Emperor's Gloves](#emperor-s-gloves)
 
 ___
 
