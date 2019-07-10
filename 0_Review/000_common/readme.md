@@ -22,7 +22,7 @@ ___
 * [True and False](#true-and-false)
     + [Truthy and Falsy](#truthy-and-falsy)
     + [What is Boolean](#what-is-boolean)
-    + [Why do we use booleans](#why-do-we-use-boolean)
+    + [Why do we use booleans](#why-do-we-use-booleans)
     + [Important Notes](#important-notes)
     + [Comparison](#comparison)
     + [Comparison Equals](#comparison-equals)
