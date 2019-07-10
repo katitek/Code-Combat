@@ -8,9 +8,6 @@ ___
 + [Heroes](#heroes)
 + [Items](#items)
 
-
-> Items that available for 35-level-hero.
-
 ___
 
 #### Programming Tutorials
@@ -28,6 +25,9 @@ ___
 
 
 #### Items
+
+> Items that available for 35-level-hero.
+
 + Armor
     + [Boots and Gloves](000_armor_boots/)
     + [Warrior's Armor](000_armor_war/)
