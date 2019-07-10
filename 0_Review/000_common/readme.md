@@ -1275,6 +1275,39 @@ if (enemy) {
 
 ___
 
+### _Arrays_
+
+**Arrays** are a way of storing lots of information for use in the future! Think of them like a list of variables.
+
+Previously, variables needed to be defined for each item:
+
+```javascript
+var enemyName1 = "Borker";
+var enemyName2 = "Pally";
+var enemyName3 = "Cindy";
+```
+
+But with an **array**, a single variable can hold multiple **elements**:
+
+```javascript
+var enemyNames = ["Borker", "Pally", "Cindy"];
+```
+
+Observe the correct way to create an an **array** is to use opening and closing **square-brackets**: `[` and `]` and to separate each **element** with a `comma`: `,`.
+
+To **access** a specific element, use the variable name plus the **square-brackets** with a **number** inside.
+
+_**Important**: **arrays** are `0`-indexed which means the very first element is actually `0`! NOT `1`._
+
+```javascript
+var enemyNames = ["Borker", "Pally", "Cindy"];
+hero.say(enemyNames[0]);  // The hero says: "Borker"
+hero.say(enemyNames[1]);  // The hero says: "Pally"
+hero.say(enemyNames[2]);  // The hero says: "Cindy"
+```
+
+___
+
 ### _Array Indexes_
 
 A variable is a name you can use to store a value.
