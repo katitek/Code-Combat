@@ -26,15 +26,15 @@ ___
     + [Important Notes](#important-notes)
     + [Comparison](#comparison)
     + [Comparison Equals](#comparison-equals)
-    + [Usage of `not`, `or` and `and`](#usage)
+    + [Usage of `not`, `or` and `and`](#usage-of-bool)
     + [Boolean Not Equals](#boolean-not-equals)
     + [Boolean AND](#boolean-and)
     + [Boolean OR](#boolean-or)
 
 * [If and Else](#if-and-else)
-    + [If-statements I](#conditional-statement-if)
-    + [If-statements II](#if-statements-i)
-    + [If-statements III](#if-statements-ii)
+    + [If-statements I](#if-statements-i)
+    + [If-statements II](#if-statements-ii)
+    + [If-statements III](#if-statements-iii)
     + [Nesting](#nesting)
     + [Nested If-Statements](#nested-if-statements)
     + [Compact version](#compact-version)
@@ -495,7 +495,9 @@ We can also combine this with other mathematical operators like `+`:
 
 ___
 
-### _Usage of `not`, `or` and `and`_
+### _Usage of Bool_
+
+> Usage of `not`, `or` and `and`
 
 ```python
 if 1:
@@ -1066,7 +1068,7 @@ hero.attack();  // The hero doesn't know what to attack! This is an error!
 
 ___
 
-### _Multiple Argumets_
+### _Multiple Arguments_
 
 Some **methods** can take multiple **arguments**!
 

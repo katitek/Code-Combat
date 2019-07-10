@@ -51,10 +51,11 @@ ___
     * [@keyframes](#keyframes)
     * [RGB](#rgb)
     * [rotate](#rotate)
+    * [scale](#scale)
     * [translateX and translateY](#translatex-and-translatey)
 * [jQuery Functions](#jquery-functions)
-    * [$](#$)
-    * [$(this)](#$)
+    * [$](#dollar)
+    * [$(this)](#dollar-this)
     * [css](#css)
     * [on](#on)
     * [hide and show](#hide-and-show)
@@ -962,7 +963,7 @@ ___
 ___
 
 
-#### _$_
+#### _Dollar_
 `$(query)`
 
 > `$` is the `jQuery` function. It returns a jQuery object baesd on the `query` used.
@@ -991,7 +992,8 @@ ___
 
 ___
 
-#### _`$(this)`_
+#### _Dollar This_
+`$(this)`
 
 > `$(this)` returns a callback function's current target. Use it to find which specific element was selected when applying the same event listener to multiple elements.
 

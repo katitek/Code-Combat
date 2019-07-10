@@ -6,9 +6,9 @@ ___
 **Table of Contents:**
 
 + [Books](#books)
-    * [Pogrammaticon I](#programmaticon-i)
-    * [Pogrammaticon II](#programmaticon-ii)
-    * [Pogrammaticon III](#programmaticon-iii)
+    * [Pogrammaticon I](#pogrammaticon-i)
+    * [Pogrammaticon II](#pogrammaticon-ii)
+    * [Pogrammaticon III](#pogrammaticon-iii)
 
 + [Flags](#flags)
     * [Basic Flags](#basic-flags)

@@ -9,7 +9,7 @@ ___
     * [Sharpsong](#sharpsong)
     * [Bone Dagger](#bone-dagger)
     * [Dragontooth](#dragontooth)
-* [Throwable Daggers](#throable-daggers)
+* [Throwable Daggers](#throwable-daggers)
     * [Crude Dagger](#crude-dagger)
     * [Moonlit Blade](#moonlit-blade)
     * [Undergrowth Dagger](#undergrowth-dagger)

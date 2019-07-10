@@ -8,8 +8,8 @@ ___
 + [Robes](#robes)
     * [Thin Burlap Robe](#thin-burlap-robe)
     * [Thick Burlap Robe](#thick-burlap-robe)
-    * [Lambswool Robe](#lambswool-robe)
-    * [Enchanted Lambswool Robe](#enchanted-lambswool-robe)
+    * [Lambswool Cloak](#lambswool-cloak)
+    * [Enchanted Lambswool Cloak](#enchanted-lambswool-cloak)
     * [Musty Linen Robe](#musty-linen-robe)
     * [Tailored Linen Robe](#tailored-linen-robe)
     * [Torn Silk Cloak](#torn-silk-cloak)
@@ -72,7 +72,7 @@ ___
 
 ___
 
-#### _MUSTY LINEN ROB_
+#### _MUSTY LINEN ROBE_
 
 Smells like the old musty cabinet to Narnia...
 

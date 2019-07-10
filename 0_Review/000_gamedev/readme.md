@@ -269,6 +269,10 @@ game.setActionFor("archer", "spawn", fightEnemies);
 
 ___
 
+### Unit
+
+___
+
 #### _On_
 `unit.on(eventName, eventHandlerFunction)`
 
