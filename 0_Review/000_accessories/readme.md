@@ -5,6 +5,10 @@ ___
 
 **Table of Contents:**
 + [Rings](#rings)
+  * [TARNISHED COPPER BAND](#tarnished-copper-band)
+  * [WOODEN STRAND](#wooden-strand)
+  * [THORNPRICK](#thornprick)
+  * [STEEL RING](#steel-ring)
 + [Neckplaces](#neckplace)
 + [Glasses](#glasses)
 + [Watches](#watches)
