@@ -2,6 +2,17 @@
 
 ___
 
+
+**Table of Contents:**
++ [Boots](#boots)
++ [Gloves](#gloves)
+
+___
+
+### Boots
+
+___
+
 #### _SIMPLE BOOTS_
 
 Allows your `hero` to move using simple Up, Right, Down, and Left commands.

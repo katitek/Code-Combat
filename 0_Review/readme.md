@@ -1,16 +1,20 @@
-## Reviews of items
+## Code Combat Knowledge Database
 
 ___
 
 
 **Table of Contents:**
-+ [Programming](#programming-tutorials)
++ [Programming Tutorials](#programming-tutorials)
 + [Heroes](#heroes)
 + [Items](#items)
+    - [Armor](#armor)
+    - [Primary Weapon](#primary-weapon)
+    - [Secondary](#secondary)
+    - [Misc](#misc)
 
 ___
 
-#### Programming Tutorials
+### Programming Tutorials
 + [Common](000_common/)
 + [Game Development](000_gamedev/)
 + [Web](000_web/)
@@ -18,13 +22,13 @@ ___
 ___
 
 
-#### Heroes
+### Heroes
 + [Heroes](000_heroes/)
 
 ___
 
 
-#### Items
+### Items
 
 > Items that available for 35-level-hero.
 

@@ -1,11 +1,15 @@
 ## Code Combat adventure
 
+___
+
 > Expirience of 2019, june - july:
 + _(base)_ __JavaScript__ solutions.
 + _(advanced)_ __Python__ solutions.
 
+___
+
 #### Table of contents:
-0. [Reviews](0_Review)
+0. [Knowledge Database](0_Review)
 1. [Kithgard Dungeon](1_Kithgard_Dungeon/)
 2. [1st Web Development Island](2_Web1/)
 3. [1st Game Development Island](3_GameDev1/)
@@ -14,4 +18,8 @@
 6. [Game Development 2nd Island](6_GabeDev2/)
 7. [Sarven Desert](7_Sarven_Desert/)
 
+___
+
 ###### by _Katik_
+
+___

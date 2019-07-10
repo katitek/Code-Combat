@@ -2,6 +2,13 @@
 ___
 
 
+**Table of Contents:**
++ [Methods](#methods)
++ [Hats](#hats)
+
+___
+
+
 ### Methods
 
 ___

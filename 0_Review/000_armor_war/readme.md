@@ -3,6 +3,13 @@
 ___
 
 
+**Table of Contents:**
++ [Body Armor](#body-armor)
++ [Hats](#hats)
+
+___
+
+
 ### Body Armor
 
 ___
