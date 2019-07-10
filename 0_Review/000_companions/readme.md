@@ -2,6 +2,21 @@
 
 ___
 
+
+**Table of Contents:**
+
+* [Raven](#raven)
+* [Wolf Pup](#wolf-pup)
+* [Cougar](#cougar)
+* [Brown Rat](#brown-rat)
+* [Baby Griffin](#baby-griffin)
+* [Mimik](#mimic)
+* [Polar Bear Cub](#polar-bear-cub)
+* [Blue Fox](#blue-fox)
+* [Pugicorn](#pugicorn)
+
+___
+
 ### _RAVEN_
 
 Every hero needs a companion! This raven has been ravin' about joining you! The raven can fly, so low obstacles are not a problem for it.

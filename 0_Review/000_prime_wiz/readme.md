@@ -1,4 +1,25 @@
-## _Weapon - Ranger_
+## _Weapon - Wizard_
+
+___
+
+
+**Table of Contents:**
+
+* [Enchanted Stick](#enchanted-stick)
+* [Simple Wand](#simple-wand)
+* [Twisted Pine Wand](#twisted-pine-wand)
+* [Oak Wand](#oak-wand)
+* [Mahogany Staff](#mahogany-staff)
+* [Balsa Staff](#balsa-staff)
+* [Oak Sphere Staff](#oak-sphere-staff)
+* [Banded Redwood Wand](#banded-redwood-wand)
+* [Steel Wand](#steel-wand)
+* [Obsidian Staff](#obsidian-staff)
+* [Lightning Twig](#lightning-twig)
+* [Crystal Wand](#crystal-wand)
+* [Sulphur Staff](#sulphur-staff)
+* [Golden Wand](#golden-wand)
+* [Vine Staff](#vine-staff)
 
 ___
 

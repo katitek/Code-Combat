@@ -3,11 +3,73 @@
 ___
 
 
+**Table of Contents:**
+
+* [Theory](#theory)
+    * [HTML Start and End Tags](#html-start-and-end-tags)
+    * [Attributes](#attributes)
+    * [Cascading Style Sheets](#cascading-style-sheets)
+    * [Classes](#classes)
+    * [ID Attribute](#id-attribute)
+    * [Conditions](#conditions)
+    * [Events](#events)
+* [HTML Tags](#html-tags)
+    * [Style](#style)
+    * [Script](#script)
+    * [Div](#division)
+    * [Line Break](#line-brake)
+    * [Header](#header)
+    * [Paragraph](#paragraph)
+    * [Pre](#pre)
+    * [Image](#image)
+    * [Unordered List](#unordered-list)
+    * [Ordered list](#ordered-list)
+    * [List Item](#list-item)
+    * [button](#button)
+* [CSS Properties](#css-properties)
+    * [animation](#animation)
+    * [background-color](#background-color)
+    * [border-color](#border-color)
+    * [border-style](#border-style)
+    * [border-width](#border-width)
+    * [border](#border)
+    * [color](#color)
+    * [cursor](#cursor)
+    * [display](#display)
+    * [font-size](#font-size)
+    * [font-weight](#font-weight)
+    * [height](#height)
+    * [margin](#margin)
+    * [opacity](#opacity)
+    * [padding](#padding)
+    * [text-align](#text-align)
+    * [text-decoration](#butttext-decorationon)
+    * [text-transform](#text-transform)
+    * [transform](#transform)
+    * [width](#width)
+* [CSS Functions](#css-functions)
+    * [@keyframes](#keyframes)
+    * [RGB](#rgb)
+    * [rotate](#rotate)
+    * [translateX and translateY](#translatex-and-translatey)
+* [jQuery Functions](#jquery-functions)
+    * [$](#$)
+    * [$(this)](#$)
+    * [css](#css)
+    * [on](#on)
+    * [hide and show](#hide-and-show)
+    * [toggleClass](#toggleclass)
+    * [addClass and removeClass](#addclass-and-removeclass)
+    * [siblings](#siblings)
+
+___
+
+
 ### Theory
 
 ___
 
-#### _HTML Start/End Tags_
+#### _HTML Start and End Tags_
 
 HTML has a few special `empty`tags, like `<br>`, but a majority of HTML tags require a `start` and `end` tag. Or, more commonly: `opening` and `closing` tags.
 
@@ -51,7 +113,7 @@ To add an `attribute` to an HTML tag, include it between the `<` and `>`. It mus
 
 ___
 
-#### _Cascading Style Sheets (CSS)_
+#### _Cascading Style Sheets_
 
 Cascading Style Sheets, or CSS, is the web's way of formatting the various parts of a website.
 
@@ -477,7 +539,7 @@ ___
 
 ___
 
-#### _`animation`_
+#### _animation_
 
 > The `animation` CSS property tells the browser how to display an element. It blends CSS properties over a certain amount of time. The `animation` property applies a repeating animation to elements.
 
@@ -493,7 +555,7 @@ ___
 
 ___
 
-#### _`background-color`_
+#### _background-color_
 
 > The `background-color` property changes the background color of an element.
 
@@ -509,7 +571,7 @@ ___
 
 ___
 
-#### _`border-color`_
+#### _border-color_
 
 > The `border-color` property sets the color of the border, when one is defined with `border-style`.
 
@@ -525,7 +587,7 @@ ___
 
 ___
 
-#### _`border-style`_
+#### _border-style_
 
 > The `border-style` property defines if a border should be displayed around an element. Suitable values are `solid`, `dotted`, `dashed`.
 
@@ -540,7 +602,7 @@ ___
 
 ___
 
-#### _`border-width`_
+#### _border-width_
 
 > The `border-width` property controls how wide the border will be.
 
@@ -556,7 +618,7 @@ ___
 
 ___
 
-#### _`border`_
+#### _border_
 
 > The `border` property is a shorthand property for `border-style`, `border-width` and `border-color`. The property values can be in any order.
 
@@ -571,7 +633,7 @@ ___
 
 ___
 
-#### _`color`_
+#### _color_
 
 > The `color` property changes the color of text inside an element.
 
@@ -587,7 +649,7 @@ ___
 
 ___
 
-#### _`cursor`_
+#### _cursor_
 
 > The `cursor` property changes what the cursor looks like when mousing over certain elements. Some `<div>`s are clickable, so they are given the `pointer` property.
 
@@ -602,7 +664,7 @@ ___
 
 ___
 
-#### _`display`_
+#### _display_
 
 > The `display` property is used for hiding elements. `none` hides an element, `inline` shows the element and is the default value.
 
@@ -617,7 +679,7 @@ ___
 
 ___
 
-#### _`font-size`_
+#### _font-size_
 
 > The `font-size` property controls how big text should display.
 
@@ -634,7 +696,7 @@ ___
 ___
 
 
-#### _`font-weight`_
+#### _font-weight_
 
 > The `font-weight` property sets the weight of the font. It can make it `bold` (thicker), or `light` (thinner).
 
@@ -649,7 +711,7 @@ ___
 
 ___
 
-#### _`height`_
+#### _height_
 
 > The `height` property sets how tall an element should display on the page.
 
@@ -665,7 +727,7 @@ ___
 
 ___
 
-#### _`margin`_
+#### _margin_
 
 > The `margin` property controls the distance between elements. `margin` is used to increase the space between elements. This happens outside the `border` if one exists.
 
@@ -680,7 +742,7 @@ ___
 
 ___
 
-#### _`opacity`_
+#### _opacity_
 
 > The `opacity` property controls how transparent an element is. A value of 0 shows nothing. A value of 1 shows everything.  With 1 think 100% visible. A value of 0.50 will thus be halfway transparent.
 
@@ -696,7 +758,7 @@ ___
 
 ___
 
-#### _`padding`_
+#### _padding_
 
 > The `padding` property controls the distance between the edge of the element and the content in the element. `padding` is used to increase the space between the inside of the element and the edge of the element. This happens inside the `border`, if one exists.
 
@@ -711,7 +773,7 @@ ___
 
 ___
 
-#### _`text-align`_
+#### _text-align_
 
 > The `text-align` property sets where in an element text and other elements should be. `left` and `right` are example attribute values.
 
@@ -727,7 +789,7 @@ ___
 
 ___
 
-#### _`text-decoration`_
+#### _text-decoration_
 
 > The `text-decoration` property specifies how the text should be decorated. `strike-through` and `underline` are example property values.
 
@@ -742,7 +804,7 @@ ___
 
 ___
 
-#### _`text-transform`_
+#### _text-transform_
 
 > The `text-transform` property determines capitalization of words.
 
@@ -768,7 +830,7 @@ ___
 
 ___
 
-#### _`transform`_
+#### _transform_
 
 > The `transform` property is a modifier on the position, size, and rotation. The `transform` CSS property applies certain methods to the layout of elements. Use it to twist and turn your elements in unique ways!
 
@@ -783,7 +845,7 @@ ___
 
 ___
 
-#### _`width`_
+#### _width_
 
 > The `width` property sets how wider an element should display on the page.
 
@@ -804,7 +866,7 @@ ___
 
 ___
 
-#### _`@keyframes`_
+#### _Keyframes_
 
 > The `@keyframes` CSS keyword is used to defining a path of CSS properties for the `animate` property to use. `from` is what the animation should start at. `to` is what the animation should end up as. The `@keyframes` selector creates a set of keyframes for the animation to follow. It is referenced by the animation property.
 
@@ -827,7 +889,8 @@ ___
 
 ___
 
-#### _`rgb(red, green, blue)`_
+#### _RGB_
+`rgb(red, green, blue)`_
 
 > `rgb()` is a CSS function like `scale()` or `rotate()`. It is a helper function for defining custom colors. It has 3 arguments: `red`, `green` and `blue`. Which is where `rgb()` gets its name from. A higher number means more of that color will be represented in the final color that is rendered. The arguments can be any number between `0` through `255`
 
@@ -851,7 +914,8 @@ img {
 
 ___
 
-#### _`rotate(angle)`_
+#### _Rotate_
+`rotate(angle)`
 
 > `rotate` rotates an element by a certain amount. It requires a unit of type `deg` (which means **degrees**)
 
@@ -864,7 +928,8 @@ img {
 
 ___
 
-#### _`scale(value)`_
+#### _Scale_
+`scale(value)`
 
 > `scale` can make an element bigger (if the number is > 1) or smaller (if the number < 1)
 
@@ -877,7 +942,8 @@ img {
 
 ___
 
-#### _`translateX(x)` and `translateY(y)`_
+#### _translateX and translateY_
+`translateX(x)` and `translateY(y)`
 
 > `translateX` and `translateY` moves an element left/right or up/down.
 
@@ -896,7 +962,8 @@ ___
 ___
 
 
-#### _`$(query)`_
+#### _$_
+`$(query)`
 
 > `$` is the `jQuery` function. It returns a jQuery object baesd on the `query` used.
 
@@ -952,7 +1019,8 @@ ___
 ___
 
 
-#### _`element.css(property)`_
+#### _CSS_
+`element.css(property)`
 
 > `css` is used to get and set the CSS rules of a jQuery object.
 
@@ -981,7 +1049,8 @@ ___
 
 ___
 
-#### _`element.on(event, callback)`_
+#### _ON_
+`element.on(event, callback)`
 
 > The `on` function takes two arguments. A string of an event to monitor, and a function to call when the event occurs.
 
@@ -1005,7 +1074,8 @@ ___
 
 ___
 
-#### _`element.hide()` and `element.show()`_
+#### _HIDE and SHOW_
+`element.hide()` and `element.show()`
 
 > `hide` makes an element invisible.
 
@@ -1032,7 +1102,8 @@ ___
 
 ___
 
-#### _`element.toggleClass(class)`_
+#### _TOGGLECLASS_
+`element.toggleClass(class)`
 
 > `toggleClass()` will add or remove a class depending if an element already has that class on it. If it has the class on it, it will remove it. if it doesn't have the class on it, it will add it.
 
@@ -1058,7 +1129,8 @@ ___
 
 ___
 
-#### _`element.addClass(class)` and `element.removeClass(class)`_
+#### _ADDCLASS and REMOVECLASS_
+`element.addClass(class)` and `element.removeClass(class)`
 
 > `addClass` adds a specific CSS class to an element.
 
@@ -1096,7 +1168,8 @@ ___
 
 ___
 
-#### _`element.siblings([selector])`_
+#### _SIBLINGS_
+`element.siblings([selector])`
 
 > The `siblings()` function finds all neighboring elements to the element it was called on. An element is 'neighboring' if they are nested at the same depth in the HTML document. `siblings()` is useful when trying to find a programmatically-found element's neighbors. `siblings` returns a jQuery object of all neighboring elements. An element is a sibling if it is nested at the same level as the selected element.
 

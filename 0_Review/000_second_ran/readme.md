@@ -1,4 +1,27 @@
-## _Secondary - Warrior_
+## _Secondary - Ranger_
+
+___
+
+
+**Table of Contents:**
+
+* [Daggers](#daggers)
+    * [Sharpsong](#sharpsong)
+    * [Bone Dagger](#bone-dagger)
+    * [Dragontooth](#dragontooth)
+* [Throwable Daggers](#throable-daggers)
+    * [Crude Dagger](#crude-dagger)
+    * [Moonlit Blade](#moonlit-blade)
+    * [Undergrowth Dagger](#undergrowth-dagger)
+    * [Weighted Throwing Knives](#weighted-throwing-knives)
+    * [Razordisc](#razordisc)
+* [Bombs](#bombs)
+    * [Weak Charge](#weak-charge)
+    * [Powder Charge](#powder-charge)
+    * [Knightfire Charge](#knightfire-charge)
+    * [Glitterbomb](#glitterbomb)
+    * [Sparkbomb](#sparkbomb)
+    * [Boom Ball](#boom-ball)
 
 ___
 

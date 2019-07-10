@@ -4,13 +4,35 @@ ___
 
 
 **Table of Contents:**
-+ [Body Armor](#body-armor)
+
++ [Robes](#robes)
+    * [Thin Burlap Robe](#thin-burlap-robe)
+    * [Thick Burlap Robe](#thick-burlap-robe)
+    * [Lambswool Robe](#lambswool-robe)
+    * [Enchanted Lambswool Robe](#enchanted-lambswool-robe)
+    * [Musty Linen Robe](#musty-linen-robe)
+    * [Tailored Linen Robe](#tailored-linen-robe)
+    * [Torn Silk Cloak](#torn-silk-cloak)
+    * [Goldspun Silk Cloak](#goldspun-silk-cloak)
+    * [Griffin Wool Robe](#griffin-wool-robe)
+    * [Embroidered Griffin Wool Robe](#embroidered-griffin-wool-robe)
+
 + [Hats](#hats)
+    * [Faux Fur Hat](#faux-fur-hat)
+    * [Threadbare Burlap Wizards Hat](#threadbare-burlap-wizards-hat)
+    * [Floppy Lambswool Hat](#floppy-lambswool-hat)
+    * [Stiff Lambswool Hat](#stiff-lambswool-hat)
+    * [Viking Helmet](#viking-helmet)
+    * [Hand-Sewn Linen Wizard's Hat](#hand)
+    * [Ragged Silk Cloak](#ragged-silk-hat)
+    * [Goldspun Silk Hat](#goldspun-silk-hat)
+    * [Griffin Wool Hat](#griffin-wool-hat)
+    * [Embroidered Griffin Wool Hat](#embroidered-griffin-wool-hat)
 
 ___
 
 
-### Body Armor
+### Robes
 
 ___
 

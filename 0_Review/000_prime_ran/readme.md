@@ -2,6 +2,27 @@
 
 ___
 
+
+**Table of Contents:**
+
+* [Crude Crossbow](#crude-crossbow)
+* [Large Bolt Crossbow](#large-bolt-crossbow)
+* [Oak Crossbow](#oak-crossbow)
+* [Hunting Rifle](#hunting-rifle)
+* [Simple Rifle](#simple-rifle)
+* [Boomrod](#boomrod)
+* [Bolt Spitter](#bolt-spitter)
+* [Boltsaw](#boltsaw)
+* [Lightning Stick](#lightning-stick)
+* [Ron Defender](#ron-defender)
+* [Deadeye Crossbow](#deadeye-crossbow)
+* [Reinforced Crossbow](#reinforced-crossbow)
+* [Rapidfire Rifle](#rapidfire-rifle)
+* [Precision Rifle](#precision-rifle)
+* [Gift of the Trees](#gift-of-the-trees)
+
+___
+
 ### _CRUDE CROSSBOW_
 
 Modest range and damage; it's the beginner crossbow. But hey, it's cheap!

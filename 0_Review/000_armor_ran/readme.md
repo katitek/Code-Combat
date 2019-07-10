@@ -4,13 +4,38 @@ ___
 
 
 **Table of Contents:**
-+ [Body Armor](#body-armor)
-+ [Hats](#hats)
++ [Chainmail Tunics](#chainmail-tunics)
+    * [Leather Chainmail Tunic](#leather-chainmail-tunic)
+    * [Fine Leather Chainmail Tunic](#fine-leather-chainmail-tunic)
+    * [Iron Chainmail Tunic](#iron-chainmail-tunic)
+    * [Reinforced Iron Chainmail Tunic](#reinforced-iron-chainmail-tunic)
+    * [Rusted Steel Scale Chainmail Tunic](#rusted-steel-scale-chainmail-tunic)
+    * [Polished Steel Scale Chainmail Tunic](#polished-steel-scale-chainmail-tunic)
+    * [Emerald Chainmail Tunic](#emerald-chainmail-tunic)
+    * [Hardened Emerald Chainmail Tunic](#hardened-emerald-chainmail-tunic)
+    * [Dragonscale Chainmail Tunic](#dragonscale-chainmail-tunic)
+    * [Riveted Dragonscale Chainmail Tunic](#riveted-dragonscale-chainmail-tunic)
+
++ [Common Hats](#hats)
+    * [Faux Fur Hat](#faux-fur-hat)
+    * [Viking Helmet](#viking-helmet)
+
++ [Chainmail Coifs](#chainmail-coifs)
+    * [Leather Chainmail Coif](#leather-chainmail-coif)
+    * [Fine Leather Chainmail Coif](#fine-leather-chainmail-coif)
+    * [Iron Chainmail Coif](#iron-chainmail-coif)
+    * [Reinforced Iron Chainmail Coif](#reinforced-iron-chainmail-coif)
+    * [Rusted Steel Scale Chainmail Coif](#rusted-steel-scale-chainmail-coif)
+    * [Polished Steel Scale Chainmail Coif](#polished-steel-scale-chainmail-coif)
+    * [Emerald Chainmail Coif](#emerald-chainmail-coif)
+    * [Hardened Emerald Chainmail Coif](#hardened-emerald-chainmail-coif)
+    * [Dragonscale Chainmail Coif](#dragonscale-chainmail-coif)
+    * [Riveted Dragonscale Chainmail Coif](#riveted-dragonscale-chainmail-coif)
 
 ___
 
 
-### Body Armor
+### Chainmail Tunics
 
 ___
 
@@ -123,6 +148,22 @@ Grants a little extra protection for your noggin.
 
 ___
 
+#### _VIKING HELMET_
+
+This ferocious helmet triples bash knockback (if you have a bashing shield).
+
+![](img/viking.png)
+
++ Health: `+50`
++ Bash Mass: `+200%`
+
+___
+
+
+### Chainmail Coifs
+
+___
+
 #### _LEATHER CHAINMAIL COIF_
 
 ![](img/leathercoif.png)
@@ -152,17 +193,6 @@ ___
 ![](img/reinforcedcoif.png)
 
 + Health: `+44`
-
-___
-
-#### _VIKING HELMET_
-
-This ferocious helmet triples bash knockback (if you have a bashing shield).
-
-![](img/viking.png)
-
-+ Health: `+50`
-+ Bash Mass: `+200%`
 
 ___
 

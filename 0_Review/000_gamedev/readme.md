@@ -4,16 +4,54 @@ ___
 
 **Table of Contents:**
 + [Methods](#methods)
-+ [Hats](#hats)
+    * [Game Methods](#game)
+        - [Spawn XY](#spawnxy)
+        - [Spawn Player XY](#spawnplayerxy)
+        - [Spawn Maze](#spawnmaze)
+        - [Add Move Goal XY](#addmovegoalxy)
+        - [Add Collect Goal](#addcollectgoal)
+        - [Add Defeat Goal](#adddefeatgoal)
+        - [Add Survive Goal](#addsurvivegoal)
+        - [Add Manual Goal](#addmanualgoal)
+        - [Set Goal State](#setgoalstate)
+        - [DB Add](#dbadd)
+        - [Random Integer](#randominteger)
+        - [Set Action For](#setactionfor)
+    * [Unit Methods](#unit)
+        - [On](#on)
+        - [Defeat](#defeat-u)
+        - [Destroy](#destroy)
+    * [Other Methods](#other)
+        - [UI Track](#ui-track)
++ [Events](#events)
+    * [Spawn](#spawn)
+    * [Collect](#collect)
+    * [Collide](#collide)
+    * [Defeat](#defeat)
+    * [Victory](#victory)
++ [Properties](#properties)
+    * [Game Time](#game-time)
++ [Objects](#objects)
+    * [Level Objects](#level-objects)
+    * [Land Marks](#land-marks)
+    * [Collectable](#collectable)
+    * [Units](#units)
+    * [Heroes](#heroes)
 
 ___
 
 
-### Methods
+## Methods
 
 ___
 
-#### _`game.spawnXY(type, x, y)`_
+### Game
+
+___
+
+#### _SpawnXY_
+
+`game.spawnXY(type, x, y)`
 
 > Spawn something at the given `x`, `y` coordinates.
 
@@ -32,7 +70,8 @@ game.spawnXY("gem", 30, 30);
 
 ___
 
-#### _`game.spawnPlayerXY(type, x, y)`_
+#### _SpawnPlayerXY_
+`game.spawnPlayerXY(type, x, y)`
 
 > Spawn a `hero` for the player to control at the given `x`, `y` coordinates.
 
@@ -48,7 +87,8 @@ game.spawnPlayerXY("captain", 24, 37);
 
 ___
 
-#### _`game.spawnMaze(tileType, seed)`_
+#### _SpawnMaze_
+`game.spawnMaze(tileType, seed)`
 
 > Spawns a randomly generated maze of `tileType` tiles. The first argument is a string, type of the object which is used to build a maze. The second argument is a number, changing the number will change the maze.
 
@@ -64,7 +104,8 @@ game.spawnMaze("clump", 23);
 
 ___
 
-#### _`game.addMoveGoalXY(x, y)`_
+#### _AddMoveGoalXY_
+`game.addMoveGoalXY(x, y)`
 
 > Add a movement goal at `x`, `y` coordinates. A movement goal is represented in the game by a red X mark. The player will have to move to all the movement goals in order to win.
 
@@ -79,7 +120,8 @@ game.addMoveGoalXY(23, 47);
 
 ___
 
-#### _`game.addCollectGoal(amount)`_
+#### _AddCollectGoal_
+`game.addCollectGoal(amount)`
 
 > Adds a goal to the game: The player must collect gems! The argument specifies the number of collectable items the player needs to collect. If there is no argument, the player must collect all the items._
 
@@ -93,7 +135,8 @@ game.addCollectGoal();
 
 ___
 
-#### _`game.addDefeatGoal(amount)`_
+#### _AddDefeatGoal_
+`game.addDefeatGoal(amount)`
 
 > Adds a goal to the game: The player must defeat enemies! The argument specifies the number of enemies that need to be defeated. If there is no argument, the player must defeat all the enemies.
 
@@ -107,7 +150,8 @@ game.addDefeatGoal();
 
 ___
 
-#### _`game.addSurviveGoal(seconds)`_
+#### _AddSurviveGoal_
+`game.addSurviveGoal(seconds)`
 
 > Adds a goal to the game: If no argument is given, the player must survive until all other goals are completed. If a number argument is given, the player must survive for that many seconds.
 
@@ -122,7 +166,8 @@ game.addSurviveGoal(20);
 
 ___
 
-#### _`game.addManualGoal(description)`_
+#### _AddManualGoal_
+`game.addManualGoal(description)`
 
 > Add a manually controlled game goal with a description.
 
@@ -145,7 +190,8 @@ if (someGoal.success) {
 
 ___
 
-#### _`game.setGoalState(goal, success)`_
+#### _SetGoalState_
+`game.setGoalState(goal, success)`
 
 > Set the state of the goal, which you've defined earlier. This function change the goal's property `success`.
 
@@ -172,7 +218,8 @@ if (someGoal.success) {
 
 ___
 
-#### _`game.db.add(key, value)`_
+#### _DBAdd_
+`game.db.add(key, value)`
 
 > Use `db.add(key, value)` to increment (add to) a value stored in the database under a key. If a key doesn't exist in the database yet, its value starts at `0`
 
@@ -187,7 +234,8 @@ db.add("plays", 1);
 
 ___
 
-#### _`game.randomInteger(min, max)`_
+#### _RandomInteger_
+`game.randomInteger(min, max)`
 
 > Generate a random integer between `min` and `max`, inclusive.
 
@@ -202,7 +250,8 @@ game.randomInteger(0, 9);
 
 ___
 
-#### _`game.setActionFor(type, event, handler)`_
+#### _SetActionFor_
+`game.setActionFor(type, event, handler)`
 
 > Sets an event handler on all units of a particular type, whether they are spawned before or after this command is executed.
 
@@ -220,23 +269,8 @@ game.setActionFor("archer", "spawn", fightEnemies);
 
 ___
 
-#### _`ui.track(obj, prop)`_
-
-> Use `ui.track(obj, "prop")` to display a value of a `obj.prop` to the player
-
-**Example:**
-```javascript
-ui.track(game, "time");
-ui.track(player, "health");
-```
-
-**Required Parameters:**
-+ **`obj`**: `object` (ex: `game`) - _The object containing a property you want to show._
-+ **`prop`**: `string` (ex: `"time"`) - _The name (as a string!) of the property you want to show._
-
-___
-
-#### _`unit.on(eventName, eventHandlerFunction)`_
+#### _On_
+`unit.on(eventName, eventHandlerFunction)`
 
 > You can use the `unit.on(eventName, eventHandlerFunction)` function to assign custom behavior to a unit. The `eventHandlerFunction` argument is a function you define. You can put any code in here you want! You are the game developer after all.
 
@@ -261,7 +295,8 @@ munchkin.on("spawn", munchkinLogic);
 
 ___
 
-#### _`unit.defeat()`_
+#### _Defeat-u_
+`unit.defeat()`
 
 > `defeat()` is like `unit.health = 0` and can be applied only to units or attackable objects like `"generator"`. Also the "defeated" object remains in the game scene. Plus it increases `game.defeated` counter for enemy units. You can use it for "restricted zones", ruin some objects on events and so on.
 
@@ -279,7 +314,8 @@ while (true) {
 
 ___
 
-#### _`unit.destroy()`_
+#### _Destroy_
+`unit.destroy()`
 
 > `destroy()` removes an object from the game scene and can be used for anything. Especially it useful for obstacles, because they don't have `health` and can't be `defeat`ed. You can remove obstacles for some events, for example, clear forest passage in this level. There are more usages for that method which we will see later.
 
@@ -297,8 +333,29 @@ while (true) {
 
 ___
 
+### Other
 
-### Events
+___
+
+#### _UI Track_
+`ui.track(obj, prop)`
+
+> Use `ui.track(obj, "prop")` to display a value of a `obj.prop` to the player
+
+**Example:**
+```javascript
+ui.track(game, "time");
+ui.track(player, "health");
+```
+
+**Required Parameters:**
++ **`obj`**: `object` (ex: `game`) - _The object containing a property you want to show._
++ **`prop`**: `string` (ex: `"time"`) - _The name (as a string!) of the property you want to show._
+
+___
+
+
+## Events
 
 > An **event** is something that happens in the game world. For example, a `"spawn"` event happens when a unit is created (spawned). A `"hear"` event happens when a unit hears another unit `say()` something.
 
@@ -317,7 +374,7 @@ pet.on("hear", onHear);
 
 ___
 
-#### _Spawn_
+### _Spawn_
 
 > The `"spawn"` event is triggered when a unit is spawned.
 
@@ -335,7 +392,7 @@ unit.on("spawn", onSpawn);
 
 ___
 
-#### _Collect_
+### _Collect_
 
 > The `"collect"` event is triggered when a unit collect any item.
 
@@ -353,7 +410,7 @@ hero.on("collect", onCollect);
 
 ___
 
-#### _Collide_
+### _Collide_
 
 > The `"collide"` event is triggered when an object collides with another object (obstacles or units).
 
@@ -371,7 +428,7 @@ unit.on("collide", onSpawn);
 
 ___
 
-#### _Defeat_
+### _Defeat_
 
 > The `"defeat"` event is triggered when a unit s defeated.
 
@@ -389,7 +446,7 @@ game.setActionFor("munchkin", "defeat", onDefeat);
 
 ___
 
-#### _Victory_
+### _Victory_
 
 > The `"victory"` event is triggered when a player successfully completes all of a game's goals.
 
@@ -405,11 +462,11 @@ game.on("victory", onVictory);
 ___
 
 
-### Properties
+## Properties
 
 ___
 
-#### _`game.time`_
+### _Game Time_
 
 > `game.time` is the amount of time (in seconds) that has passed since the start of the game. The `game.time` property is equal to the number of `seconds` that have passed since the start of your game. Use `game.time` to spawn enemies over time (in this case, every 2 seconds) like this.
 
@@ -431,11 +488,11 @@ while True:
 ___
 
 
-### Spawnable Objects
+## Objects
 
 ___
 
-#### Level Objects
+### Level Objects
 
 
 + `"fence"` - A square obstacle, 4 meters on a side.
@@ -471,10 +528,10 @@ ___
 
 ___
 
-#### _Land Marks_
+### _Land Marks_
 
 
-##### `x-mark-stone`
+#### `x-mark-stone`
 
 > An X Mark made of stone.
 
@@ -495,7 +552,7 @@ while(true) {
 }
 ```
 
-##### `x-mark-bones`
+#### `x-mark-bones`
 
 > An X Mark made of bones.
 
@@ -516,7 +573,7 @@ while(true) {
 }
 ```
 
-##### `x-mark-wood`
+#### `x-mark-wood`
 
 > An X Mark made of wood.
 
@@ -539,7 +596,7 @@ while(true) {
 
 ___
 
-#### Collectable
+### Collectable
 
 
 + `"gem"` - A collectable gemstone. Default stats:
@@ -573,9 +630,8 @@ ___
 
 ![](img/lightstone.png)
 
-___
 
-##### _Coins_
+#### _Coins_
 
 > Gold coin
 
@@ -619,9 +675,8 @@ game.spawnXY("silver-coin", 21, 20)
 game.spawnXY("bronze-coin", 21, 20)
 ```
 
-___
 
-##### _Mushroom_
+#### _Mushroom_
 
 > It's a collectable item. It doesn't have any effects by default. Use it as you want.
 
@@ -638,7 +693,7 @@ game.spawnXY("mushroom", 21, 20)
 
 ___
 
-#### Units
+### Units
 
 
 + `"munchkin"` - The weakest ogre unit. Has a melee attack. Default Stats:
@@ -710,7 +765,7 @@ ___
 
 ___
 
-#### Heroes:
+### Heroes:
 
 
 + `"knight"` - Sir Tharin Thunderfist. Default Stats:

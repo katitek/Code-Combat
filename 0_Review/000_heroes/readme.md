@@ -2,9 +2,39 @@
 
 ___
 
+
+**Table of Contents:**
+
++ [Hero Say Method](#hero-say)
+
++ [Standart Heroes](#standart-heroes)
+    * [captain Anya Weston](#captain-anya-weston)
+    * [sir Tharin Thunderfist](#sir-tharin-thunderfist)
+    * [lady Ida Justheart](#lady-ida-justheart)
+    * [Alejandro the Duelist](#alejandro-the-duelist)
+
++ [Silver Heroes](#silver-heroes)
+    * [Amara Arrowhead](#amara-arrowhead)
+    * [miss Hushbaum](#miss-hushbaum)
+    * [Hattori Hanzō](#hattori-hanzō)
+
++ [Premium Heroes](#premium-heroes)
+    * [Pender Spellbane](#pender-spellbane)
+    * [Senick Steelclaw](#senick-steelclaw)
+    * [Omarn Brewstone](#omarn-brewstone)
+    * [Gordon the Stalwart](#gordon-the-stalwart)
+    * [Naria of the Leaf](#naria-of-the-leaf)
+    * [Arryn Stonewall](#arryn-stonewall)
+    * [Nalfar Cryptor](#nalfar-cryptor)
+    * [Okar Stompfoot](#okar-stompfoot)
+    * [Ritic the Cold](#ritic-the-cold)
+
+___
+
 > First of all, from start we've got one natural ability.
 
-#### `hero.say(message)` method
+#### _Hero Say_
+`hero.say(message)` method
 
 Makes the hero say the given message. Anything within `20` meters will hear it.
 

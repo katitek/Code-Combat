@@ -1,9 +1,27 @@
-## _Secondary - Warrior_
+## Shields
 
 ___
 
 
-### Shields
+**Table of Contents:**
+
+* [Wooden Shield](#wooden-shield)
+* [Bronze Shield](#bronze-shield)
+* [Polished Bronze Shield](#polished-bronze-shield)
+* [Sturdy Bronze Shield](#sturdy-bronze-shield)
+* [Iron Shield](#iron-shield)
+* [Defensive Infantry Shield](#defensive-infantry-shield)
+* [Crude Spike](#crude-spike)
+* [Infantry Shield](#infantry-shield)
+* [Steel Shield](#steel-shield)
+* [Painted Steel Shield](#painted-steel-shield)
+* [Steel Striker](#steel-striker)
+* [Obsidian Shield](#obsidian-shield)
+* [The Monolith](#the-monolith)
+* [Engraved Obsidian Shield](#engraved-obsidian-shield)
+* [Worn Dragonshield](#worn-dragonshield)
+* [Enameled Dragonshield](#enameled-dragonshield)
+* [Deflector](#deflector)
 
 ___
 

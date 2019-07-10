@@ -4,13 +4,37 @@ ___
 
 
 **Table of Contents:**
-+ [Body Armor](#body-armor)
-+ [Hats](#hats)
+
++ [Breast Plates](#breastplates)
+    * [Tarnished Bronze Breastplate](#tarnished-bronze-breastplate)
+    * [Polished Bronze Breastplate](#polished-bronze-breastplate)
+    * [Rusted Iron Breastplate](#rusted-iron-breastplate)
+    * [Heavy Iron Breastplate](#heavy-iron-breastplate)
+    * [Steel Breastplate](#steel-breastplate)
+    * [Painted Steel Breastplate](#painted-steel-breastplate)
+    * [Obsidian Breastplate](#obsidian-breastplate)
+    * [Engraved Obsidian Breastplate](#engraved-obsidian-breastplate)
+    * [Worn Dragonplate](#worn-dragonplate)
+    * [Enameled Dragonplate](#enameled-dragonplate)
+
++ [Helmets](#helmets)
+    * [Faux Fur Hat](#faux-fur-hat)
+    * [Tarnished Bronze Helmet](#tarnished-bronze-helmet)
+    * [Polished Bronze Helmet](#polished-bronze-helmet)
+    * [Viking Helmet](#viking-helmet)
+    * [Rusted Iron Helmet](#rusted-iron-helmet)
+    * [Heavy Iron Helmet](#heavy-iron-helmet)
+    * [Steel Helmet](#steel-helmet)
+    * [Painted Steel Helmet](#painted-steel-helmet)
+    * [Obsidian Helmet](#obsidian-helmet)
+    * [Engraved Obsidian Helmet](#engraved-obsidian-helmet)
+    * [Worn Dragonplate Helmet](#worn-dragonplate-helmet)
+    * [Enameled Dragonplate Helmet](#enameled-dragonplate-helmet)
 
 ___
 
 
-### Body Armor
+### Breastplates
 
 ___
 
@@ -115,7 +139,7 @@ Marks you as someone with discerning tastes.
 ___
 
 
-### Hats
+### Helmets
 
 ___
 

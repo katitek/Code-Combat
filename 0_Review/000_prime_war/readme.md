@@ -2,6 +2,26 @@
 
 ___
 
+
+**Table of Contents:**
+
+* [Simple Sword](#simple-sword)
+* [Roughedge](#roughedge)
+* [Sharpened Sword](#sharpened-sword)
+* [Simple Katana](#simple-katana)
+* [Long Sword](#long-sword)
+* [Short Sword](#short-sword)
+* [Darksteel Blade](#darksteel-blade)
+* [Great Sword](#great-sword)
+* [Claymore](#claymore)
+* [Edge of Darkness](#edge-of-darkness)
+* [Kithsteel Blade](#kithsteel-blade)
+* [Runesword](#runesword)
+* [Sword of the Forgotten](#sword-of-the-forgotten)
+* [Sword of the Temple Guard](#sword-of-the-temple-guard)
+
+___
+
 ### _SIMPLE SWORD_
 
 A simple introductory sword.

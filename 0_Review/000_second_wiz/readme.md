@@ -3,6 +3,30 @@
 ___
 
 
+**Table of Contents:**
+
+* [Druid](#druid)
+    * [Book of Life I](#book-of-life-I)
+    * [Book of Life II](#book-of-life-II)
+    * [Book of Life III](#book-of-life-II)
+    * [Book of Life IV](#book-of-life-IV)
+    * [Book of Life V](#book-of-life-V)
+* [Elemental](#elemental)
+    * [Elemental Codex I](#elemental-codex-I)
+    * [Elemental Codex II](#elemental-codex-II)
+    * [Elemental Codex III](#elemental-codex-III)
+    * [Elemental Codex IV](#elemental-codex-IV)
+    * [Elemental Codex V](#elemental-codex-V)
+* [Necromance](#necromance)
+    * [Unholy Tome I](#unholy-tome-I)
+    * [Unholy Tome II](#unholy-tome-II)
+    * [Unholy Tome III](#unholy-tome-III)
+    * [Unholy Tome IV](#unholy-tome-IV)
+    * [Unholy Tome V](#unholy-tome-V)
+
+___
+
+
 ### _Druid_
 
 ___
