@@ -2,11 +2,14 @@
 
 ___
 
-> Items available for 35 level
 
+**Table of Contents:**
 + [Programming](#programming-tutorials)
 + [Heroes](#heroes)
 + [Items](#items)
+
+
+> Items that available for 35-level-hero.
 
 ___
 
@@ -15,9 +18,13 @@ ___
 + [Game Development](000_gamedev/)
 + [Web](000_web/)
 
+___
+
 
 #### Heroes
 + [Heroes](000_heroes/)
+
+___
 
 
 #### Items
@@ -42,3 +49,5 @@ ___
     + [Companions](000_companions/)
     + [Accessories](000_accessories/)
     + [Books and Flags](000_books/)
+
+___
