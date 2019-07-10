@@ -77,9 +77,9 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
+    + [Pet Translator](338-Pet_Translator/)
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Pet Translator](338-Pet_Translator/)
     + [Pet Engineer](339-Pet_Engineer/)
     + [Dangerous Key](340-Dangerous_Key/)
     + [Olympic Race](341-Olympic_Race/)
