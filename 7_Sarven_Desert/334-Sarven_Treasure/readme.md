@@ -26,12 +26,6 @@ ___
 
 ### _HINTS_
 
-![](img/distraction.jpg)
-
-Protect the peasants from ogres. They are artful and will try to distract you from the peasants. Search and defeat the furthest ogres first!
-
-Complete existing functions to get the perfect defence against cunning ogres.
-
-Functional decomposition makes your code cleaner. Small functions with one task are more readable and easier for maintenance. You have skills and knowledge to complete those function from recent levels.
+None
 
 ___
