@@ -76,7 +76,6 @@
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
 
-    + [Sarven Siege](335-Sarven_Siege/)
     + [Sand Snakes](336-Sand_Snakes/)
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Pet Translator](338-Pet_Translator/)
@@ -100,6 +99,7 @@
 + Replayable Brawls
     + [Sacred Statue](356-Sacred_Statue/)
     + [Sarven Brawl](355-Sarven_Brawl/)
+    + [Sarven Siege](335-Sarven_Siege/)
     + [Sarven Treasure](334-Sarven_Treasure/)
 
 + Multiplayer Levels
