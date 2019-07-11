@@ -53,6 +53,7 @@
     + [Pet Adjutant](342-Pet_Adjutant/)
     + [Pet Engineer](339-Pet_Engineer/)
     + [Pet Translator](338-Pet_Translator/)
+    + [Pied Piper](347-Pied_Piper/)
     + [Preferential Treatment](328-Preferential_Treatment/)
     + [Recruiting Queue](321-Recruiting_Queue/)
     + [Sacred Grove](346-Sacred_Grove/)
@@ -87,7 +88,6 @@
 
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Pied Piper](347-Pied_Piper/)
     + [Air Bridge](348-Air_Bridge/)
     + [Brittle Morale](349-Brittle_Morale/)
     + [Diamond Dozen](350-Diamond_Dozen/)
