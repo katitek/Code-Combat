@@ -47,6 +47,7 @@
     + [Oasis](263-Oasis/)
     + [Odd Sandstorm](298-Odd_Sandstorm/)
     + [Operation 'Killdeer'](273-Operation_Killdeer/)
+    + [Pet Engineer](339-Pet_Engineer/)
     + [Pet Translator](338-Pet_Translator/)
     + [Preferential Treatment](328-Preferential_Treatment/)
     + [Recruiting Queue](321-Recruiting_Queue/)
@@ -79,12 +80,11 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Pet Engineer](339-Pet_Engineer/)
+    + [Pet Adjutant](342-Pet_Adjutant/)
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Dangerous Key](340-Dangerous_Key/)
     + [Olympic Race](341-Olympic_Race/)
-    + [Pet Adjutant](342-Pet_Adjutant/)
     + [Hot Gate](344-Hot_Gate/)
     + [Sacred Grove](346-Sacred_Grove/)
     + [Pied Piper](347-Pied_Piper/)
