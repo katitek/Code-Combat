@@ -53,5 +53,6 @@ ___
 + [Companions](000_companions/)
 + [Accessories](000_accessories/)
 + [Books and Flags](000_books/)
++ [Stars](000_stars/)
 
 ___
