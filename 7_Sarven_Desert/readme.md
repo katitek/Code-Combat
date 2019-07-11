@@ -1,6 +1,7 @@
 ### Sarven Desert levels
 
 + Levels
+    + [Alchemic Power](343-Alchemic_Power/)
     + [Bait and Switch](311-Bait_and_Switch/)
     + [Bank Raid](323-Bank_Raid/)
     + [Bash 'Em All](330-Bash_Em_All/)
@@ -78,10 +79,9 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Alchemic Power](343-Alchemic_Power/)
+    + [Pet Engineer](339-Pet_Engineer/)
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Pet Engineer](339-Pet_Engineer/)
     + [Dangerous Key](340-Dangerous_Key/)
     + [Olympic Race](341-Olympic_Race/)
     + [Pet Adjutant](342-Pet_Adjutant/)
