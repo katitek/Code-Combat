@@ -47,6 +47,7 @@
     + [No Pain No Gain](305-No_Pain_No_Gain/)
     + [Oasis](263-Oasis/)
     + [Odd Sandstorm](298-Odd_Sandstorm/)
+    + [Olympic Race](341-Olympic_Race/)
     + [Operation 'Killdeer'](273-Operation_Killdeer/)
     + [Pet Adjutant](342-Pet_Adjutant/)
     + [Pet Engineer](339-Pet_Engineer/)
@@ -84,7 +85,6 @@
 
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Olympic Race](341-Olympic_Race/)
     + [Hot Gate](344-Hot_Gate/)
     + [Sacred Grove](346-Sacred_Grove/)
     + [Pied Piper](347-Pied_Piper/)
