@@ -28,6 +28,7 @@
     + [Dust](312-Dust/)
     + [Fast and Furry-ous](266-Fast_and_Furry-ous/)
     + [Hoarding Gold](299-Hoarding_Gold/)
+    + [Hot Gate](344-Hot_Gate/)
     + [Hunter Valley](264-Hunter_Valley/)
     + [Interception](271-Interception/)
     + [Keeping Time](278-Keeping_Time/)
@@ -85,7 +86,6 @@
 
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Hot Gate](344-Hot_Gate/)
     + [Sacred Grove](346-Sacred_Grove/)
     + [Pied Piper](347-Pied_Piper/)
     + [Air Bridge](348-Air_Bridge/)
