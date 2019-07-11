@@ -72,6 +72,7 @@
     + [Sarven Sum](291-Sarven_Sum/)
     + [Second Gem](322-Second_Gem/)
     + [Shine Getter](331-Shine_Getter/)
+    + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Spinach Power](306-Spinach_Power/)
     + [Stranded in the Dunes](281-Stranded_in_the_Dunes/)
     + [Team Work](319-Team_Work/)
@@ -88,8 +89,6 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-
-    + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Diamond Dozen](350-Diamond_Dozen/)
     + [Gas Attack](351-Gas_Attack/)
     + [Fair Battle](352-Fair_Battle/)
