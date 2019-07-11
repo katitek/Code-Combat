@@ -1,5 +1,7 @@
 ### Sarven Desert levels
 
+> Arithmetic, counters, while-loops, break, continue, arrays, string comparison, finding min/max
+
 + Levels
     + [Air Bridge](348-Air_Bridge/)
     + [Alchemic Power](343-Alchemic_Power/)

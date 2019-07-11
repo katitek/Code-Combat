@@ -1,5 +1,7 @@
 ### 1st Game Development Island levels
 
+> Learn how to build your own levels!
+
 + [Methods and objects of Game Development at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_gamedev)
 
 + Premium Levels

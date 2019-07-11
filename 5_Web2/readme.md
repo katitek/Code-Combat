@@ -1,5 +1,7 @@
 ### Web Development 2nd Island levels
 
+> Keep learning HTML, scripting and more!
+
 + [Web Development Theory at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_web/)
 
 > There are 10 addition levels that are copies of previous levels - you will be able to complete them if you haven't practice JavaScript so far.

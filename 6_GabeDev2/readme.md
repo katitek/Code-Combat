@@ -1,5 +1,7 @@
 ### Game Development 2nd Island levels
 
+> Simple AI Scripting, Customizable Units and Goals
+
 + [Methods and objects of Game Development at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_gamedev)
 
 + Premium Levels

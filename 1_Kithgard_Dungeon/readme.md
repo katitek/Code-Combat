@@ -1,5 +1,7 @@
 ### Kithgard Dungeon levels (codeCombat)
 
+> Syntax, methods, parameters, strings, loops, variables
+
 ##### Levels completed:
 + Required Levels (Red)
     + [Cell Commentary](009-Cell_Commentary/)

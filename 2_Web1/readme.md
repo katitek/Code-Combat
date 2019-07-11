@@ -1,5 +1,7 @@
 ### 1st Web Development Island levels
 
+> Learn HTML, scripting and more!
+
 + [Web Development Theory at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_web/)
 
 + Premium Levels

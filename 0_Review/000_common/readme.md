@@ -69,6 +69,7 @@ ___
     + [Event Handler](#event-handler)
     + [X, Y Coordinates](#x-y-coordinates)
     + [Positions](#positions)
+    + [moveXY vs move](#movexy-vs-move)
     + [Game Health](#game-health)
     + [Game Time](#game-time)
     + [Hero Gold](#hero-gold)
@@ -1470,6 +1471,32 @@ if (enemy) {
     hero.say(p.y);
 }
 ```
+
+___
+
+### _moveXY vs move_
+
+With `move`, you specify a **position** to move to.
+
+Positions are objects with an `x` property and a `y` property. You've used these before, with `moveXY` like:
+
+```javascript
+hero.moveXY(coin.pos.x, coin.pos.y);
+```
+
+but with `move` you'd just pass the `pos` object as the argument, like:
+
+```javascript
+hero.move(coin.pos);
+```
+
+#### _Block Execution or Continue Execution?_
+
+With `moveXY` **your program will stop executing** until your hero has reached the specified `(x, y)` location.
+
+With `move` your hero will **move toward** the `pos` you pass in, but **your program will continue to execute**.
+
+This means that your hero will take a few steps in the direction of `pos`, but then your program will continue to run, so you can interrupt that movement by taking different actions in the next loops of your code.
 
 ___
 

@@ -1,5 +1,7 @@
 ### Backwoods Forest levels
 
+> If/else, boolean logic, relational operators, functions, object properties, event handling, input handling
+
 + Required Levels (Red)
     + [Back to Back](104-Back_to_Back/)
     + [Backwoods Fork](135-Backwoods_Fork/)
