@@ -55,6 +55,7 @@
     + [Pet Translator](338-Pet_Translator/)
     + [Preferential Treatment](328-Preferential_Treatment/)
     + [Recruiting Queue](321-Recruiting_Queue/)
+    + [Sacred Grove](346-Sacred_Grove/)
     + [Safety Blanket](315-Safety_Blanket/)
     + [Sand Mushrooms](292-Sand_Mushrooms/)
     + [Sand Snakes](336-Sand_Snakes/)
@@ -86,7 +87,6 @@
 
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Sacred Grove](346-Sacred_Grove/)
     + [Pied Piper](347-Pied_Piper/)
     + [Air Bridge](348-Air_Bridge/)
     + [Brittle Morale](349-Brittle_Morale/)
