@@ -30,6 +30,7 @@
     + [Double Gaps](270-Double_Gaps/)
     + [Dust](312-Dust/)
     + [Fast and Furry-ous](266-Fast_and_Furry-ous/)
+    + [Gas Attack](351-Gas_Attack/)
     + [Hoarding Gold](299-Hoarding_Gold/)
     + [Hot Gate](344-Hot_Gate/)
     + [Hunter Valley](264-Hunter_Valley/)
@@ -91,7 +92,6 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Gas Attack](351-Gas_Attack/)
     + [Fair Battle](352-Fair_Battle/)
     + [Clash of Clones](354-Clash_of_Clones/)
 
