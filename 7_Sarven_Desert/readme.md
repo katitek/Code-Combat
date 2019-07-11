@@ -1,6 +1,7 @@
 ### Sarven Desert levels
 
 + Levels
+    + [Air Bridge](348-Air_Bridge/)
     + [Alchemic Power](343-Alchemic_Power/)
     + [Bait and Switch](311-Bait_and_Switch/)
     + [Bank Raid](323-Bank_Raid/)
@@ -89,7 +90,6 @@
 
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Air Bridge](348-Air_Bridge/)
     + [Diamond Dozen](350-Diamond_Dozen/)
     + [Gas Attack](351-Gas_Attack/)
     + [Fair Battle](352-Fair_Battle/)

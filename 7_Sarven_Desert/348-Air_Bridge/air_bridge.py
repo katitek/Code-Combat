@@ -1,13 +1,20 @@
-def findStrongestEnemy(enemies):
-    strongest = None
-    strongestHealth = 0
-    for enemy in enemies:
-        if enemy.health > strongestHealth:
-            strongest = enemy
-            strongestHealth = enemy.health
-    return strongest
+def onSpawn(e):
+    remainingPeasants = 3
+    while remainingPeasants > 0:
+        pet.moveXY(40, 55)
+        peasant = pet.findNearestByType("peasant")
+        if peasant:
+            pet.carryUnit(peasant, 40, 34)
+            remainingPeasants -= 1
+
+    munchkin = pet.findNearestByType("munchkin")
+    if munchkin:
+        pet.carryUnit(munchkin, 41, 19)
 
 
-leader = findStrongestEnemy(hero.findEnemies())
-if leader:
-    hero.say(leader)
+pet.on("spawn", onSpawn);
+
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy and hero.distanceTo(enemy) < 10:
+        hero.attack(enemy)

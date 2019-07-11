@@ -1,60 +1,40 @@
-## _Brittle Morale_
+## _Air Bridge_
 
 #### _Legend says:_
-> When the commander falls, the enemy shall retreat.
+> SOS! SOS! We need a helicopter!
 
 #### _Goals:_
-+ _Defeat the ogre leader_
++ _Evacuate 3 peasants_
 
 #### _Topics:_
-+ **Variables**
-+ **While Loops with Conditionals**
-+ **Return Statements**
-+ **Accessing Properties**
-+ **Array Indexes**
-+ **Array Length**
++ **Basic Syntax**
 
 #### _Solutions:_
-+ **[JavaScript](battleMorale.js)**
-+ **[Python](battle_morale.py)**
++ **[JavaScript](airBridge.js)**
++ **[Python](air_bridge.py)**
 
 #### _Rewards:_
 + 256 xp
 + 191 gems
 
 #### _Victory words:_
-+ _YOU BROKE THEIR BONES, AND THEIR SPIRIT!_
++ _COULD YOU BRING A PRINCESS?_
 
 ___
 
 ### _HINTS_
 
-![](img/brittle.png)
+The peasants are trapped. We need to help them and clear the minefield. The Grffin Baby pet can help us with this task. It can carry units whose `maxHealth < 0.1 * hero.maxHealth` as items.
 
-You only have one arrow, so you need to defeat the ogre leader first!
+`pet.carryUnit(unit, x, y)`
 
-Loop over all the `enemies` and compare their `health`. The one with the most `health` is the boss!
+Bring peasants and then use a munchkin to clear the minefield.
 
-To find the leader ogre, you need to implement a function to find the ogre with the most health.
-
-The function should take in an array containing enemies and should return a single ogre.
-
-Use the `enemy.health` value as the point of comparison.
-
-Remember how to iterate over an array:
+The unique ability of the Griffin Baby is `carryUnit`. Just say who and where to deliver an unit.
 
 ```javascript
-var array = ["A", "B", "C", "D", "E"];
-var index = 0;
-
-while (index < array.length) {
-    hero.say(array[index]);  // First the hero says "A", then "B", and so on.
-    // Increment the index.
-    // This lets you check every index, and adds an end condition for the while loop.
-    index += 1;
-}
-
-hero.say("That's the ABCs!");
+var thrower = pet.findNearestByType("thrower");
+pet.carryUnit(thrower, hero.pos.x + 3, hero.pos.y);
 ```
 
 ___
