@@ -11,8 +11,8 @@
 + **Basic Syntax**
 
 #### _Solutions:_
-+ **[JavaScript](sacretGrove.js)**
-+ **[Python](sacred_grove.py)**
++ **[JavaScript](piedPiper.js)**
++ **[Python](piedPiper.py)**
 
 #### _Rewards:_
 + 190 xp

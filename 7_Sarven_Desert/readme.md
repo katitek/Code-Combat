@@ -7,6 +7,7 @@
     + [Bash 'Em All](330-Bash_Em_All/)
     + [Basin Stampede](265-Basin_Stampede/)
     + [Bookkeeper](293-Bookkeeper/)
+    + [Brittle Morale](349-Brittle_Morale/)
     + [Brown Noise](284-Brown_Noise/)
     + [Canyon of Storms](304-Canyon_of_Storms/)
     + [Chain of Command](345-Chain_of_Command/)
@@ -89,7 +90,6 @@
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
     + [Air Bridge](348-Air_Bridge/)
-    + [Brittle Morale](349-Brittle_Morale/)
     + [Diamond Dozen](350-Diamond_Dozen/)
     + [Gas Attack](351-Gas_Attack/)
     + [Fair Battle](352-Fair_Battle/)

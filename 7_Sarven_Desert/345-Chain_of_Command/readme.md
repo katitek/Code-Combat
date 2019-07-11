@@ -16,8 +16,8 @@
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](sandSnakes.js)**
-+ **[Python](sand_snakes.py)**
++ **[JavaScript](chainOfCommand.js)**
++ **[Python](chain_of_command.py)**
 
 #### _Rewards:_
 + 190 xp
