@@ -13,6 +13,7 @@
     + [Canyon of Storms](304-Canyon_of_Storms/)
     + [Chain of Command](345-Chain_of_Command/)
     + [Chase Them](285-Chase_Them/)
+    + [Clash of Clones](354-Clash_of_Clones/)
     + [Continuous Alchemy](309-Continuous_Alchemy/)
     + [Coordinated Defense](320-Coordinated_Defense/)
     + [Crossroads](269-Crossroads/)
@@ -92,8 +93,6 @@
     + [Wishing Well](353-Wishing_Well/)
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
-
-    + [Clash of Clones](354-Clash_of_Clones/)
 
 + Replayable Brawls
     + [Sacred Statue](356-Sacred_Statue/)

@@ -9,6 +9,7 @@ ___
     * [Pogrammaticon I](#pogrammaticon-i)
     * [Pogrammaticon II](#pogrammaticon-ii)
     * [Pogrammaticon III](#pogrammaticon-iii)
+    * [Pogrammaticon IV](#pogrammaticon-iV)
 
 + [Flags](#flags)
     * [Basic Flags](#basic-flags)
@@ -174,6 +175,98 @@ hero.say(arr[arr.length - 1]); // says "hero is the second element
 
 arr[0] = 'new first element';
 arr.push('a third element');   // push() adds an element at the end
+```
+
+___
+
+### _Pogrammaticon IV_
+
+Grants access to for-loops, object literals, and functions.
+
+![](img/book4.png)
+
+> _Abilities granted early are supported_
++ `while-true loop`
++ `if/else`
++ `else`
++ `while loop`
++ `break`
++ `arrays`
+
+
+#### `for-loop` snippet
+
+The `for` loop lets you run code many times. It has four parts:
++ initial setup: `var i = 0;`  (run at the beginning)
++ loop condition: `i < 10;`  (code runs while this is true)
++ loop iteration: `i += 1`  (runs after every iteration)
++ main loop code: `this.say("Counted to " + i);`
+
+**Example:**
+
+```javascript
+var enemies = hero.findEnemies();
+for(var i = 0; i < enemies.length; i += 1) {
+    var enemy = enemies[i];
+    hero.say('I see you, ' + enemy.id);
+}
+```
+
+#### `continue` snippet
+
+The `continue` statement skips this iteration of a loop and goes to the next one.
+
+**Example:**
+
+```javascript
+var friends = hero.findFriends();
+for (var friendIndex = 0; friendIndex < friends.length; friendIndex++) {
+    var friend = friends[friendIndex];
+    if (hero.commandableTypes.indexOf(friend.type) == -1) {
+        continue;
+    }
+    hero.command(friend, "attack", friend.findNearestEnemy());
+}
+```
+
+#### `functions` snippet
+
+JavaScript functions let you create a reusable block of code.
+
+**Example:**
+
+```javascript
+function square(number) {
+    return number * number;
+}
+
+// For functions that need to access `hero`,
+// make them properties of `hero`.
+hero.moveUpAndDown = function(times) {
+    for(var i = 0; i < times; ++i) {
+        hero.moveUp();
+        hero.moveDown();
+    }
+};
+
+var times = square(2);      // times is now 4
+hero.moveUpAndDown(times);  // will move up and down 4 times
+```
+
+#### `objects` snippet
+
+JavaScript objects map keys (strings) to properties (any type of value).
+
+**Example:**
+
+```javascript
+var start = {x: 30, y: 35};
+foo.id = 'Starting Position';
+var end = {x: 50, y: 35, id: 'Ending Position'};
+var range = {start: start};
+range[end.id] = end;
+
+var foo = {"Keys with spaces": "need quotes", shortKeys: "don't"};
 ```
 
 ___
