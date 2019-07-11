@@ -11,7 +11,7 @@
     + [Dance-Off](363-Dance-Off/)
     + [Alpine Rally](364-Alpine_Rally/)
     + [Cloudrip Commander](365-Cloudrip_Commander/)
-    + [?](366-/)
+    + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [?](367-/)
     + [?](368-/)
     + [?](369-/)
