@@ -23,6 +23,7 @@
     + [Decoy Drill](300-Decoy_Drill/)
     + [Desert Combat](302-Desert_Combat/)
     + [Desert Delta](317-Desert_Delta/)
+    + [Diamond Dozen](350-Diamond_Dozen/)
     + [Distraction Maneuver](333-Distraction_Maneuver/)
     + [Don't Rush, Be Quiet](313-Don't_Rush,_Be_Quiet/)
     + [Double Cheek](301-Double_Cheek/)
@@ -86,13 +87,12 @@
     + [Wandering Souls](329-Wandering_Souls/)
     + [Weakest Quickest](286-Weakest_Quickest/)
     + [While Ogres Were Sleeping](327-While_Ogres_Were_Sleeping/)
+    + [Wishing Well](353-Wishing_Well/)
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Diamond Dozen](350-Diamond_Dozen/)
     + [Gas Attack](351-Gas_Attack/)
     + [Fair Battle](352-Fair_Battle/)
-    + [Wishing Well](353-Wishing_Well/)
     + [Clash of Clones](354-Clash_of_Clones/)
 
 + Replayable Brawls
