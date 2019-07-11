@@ -29,6 +29,7 @@
     + [Double Cheek](301-Double_Cheek/)
     + [Double Gaps](270-Double_Gaps/)
     + [Dust](312-Dust/)
+    + [Fair Battle](352-Fair_Battle/)
     + [Fast and Furry-ous](266-Fast_and_Furry-ous/)
     + [Gas Attack](351-Gas_Attack/)
     + [Hoarding Gold](299-Hoarding_Gold/)
@@ -92,7 +93,6 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Fair Battle](352-Fair_Battle/)
     + [Clash of Clones](354-Clash_of_Clones/)
 
 + Replayable Brawls
