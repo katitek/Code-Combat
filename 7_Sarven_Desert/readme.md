@@ -17,6 +17,7 @@
     + [Crux of the Desert](277-Crux_of_the_Desert/)
     + [Cubic Minefield](308-Cubic_Minefield/)
     + [Cursed Valley](275-Cursed_Valley/)
+    + [Dangerous Key](340-Dangerous_Key/)
     + [Decoy Drill](300-Decoy_Drill/)
     + [Desert Combat](302-Desert_Combat/)
     + [Desert Delta](317-Desert_Delta/)
@@ -47,6 +48,7 @@
     + [Oasis](263-Oasis/)
     + [Odd Sandstorm](298-Odd_Sandstorm/)
     + [Operation 'Killdeer'](273-Operation_Killdeer/)
+    + [Pet Adjutant](342-Pet_Adjutant/)
     + [Pet Engineer](339-Pet_Engineer/)
     + [Pet Translator](338-Pet_Translator/)
     + [Preferential Treatment](328-Preferential_Treatment/)
@@ -80,10 +82,8 @@
     + [Yakstraction](303-Yakstraction/)
     + [Zig Zag and Zoom](314-Zig_Zag_and_Zoom/)
 
-    + [Pet Adjutant](342-Pet_Adjutant/)
 
     + [Soldier, Ogre and Peasant](337-Soldier,_Ogre_and_Peasant/)
-    + [Dangerous Key](340-Dangerous_Key/)
     + [Olympic Race](341-Olympic_Race/)
     + [Hot Gate](344-Hot_Gate/)
     + [Sacred Grove](346-Sacred_Grove/)
