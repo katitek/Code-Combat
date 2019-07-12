@@ -14,11 +14,19 @@
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
-    + [?](369-/)
     + [?](370-/)
+    + [?](371-/)
+    + [?](372-/)
+    + [?](373-/)
+    + [?](374-/)
+    + [?](375-/)
+    + [?](376-/)
+    + [?](377-/)
+    + [?](378-/)
+    + [?](379-/)
 
 + Replayable Brawls
-    + [?](.../)
+    + [Cloudrip Brawl](369-Cloudrip_Brawl/)
 
 + Multiplayer Levels
     + [?](.../)
