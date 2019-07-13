@@ -1,4 +1,4 @@
-## _Maniac Munchkins_
+## _JavaScript: Maniac Munchkins_
 
 #### _Legend says:_
 > Defend yourself while munchkins attack! Break open a chest and take the spoils.
@@ -15,20 +15,15 @@
 + **If/else Statements**
 + **Nested If Statements**
 
-#### _Items we've got (- or need):_
-+ Weapon
-+ Glasses
-
 #### _Solutions:_
 + **[JavaScript](maniac.js)**
-+ **[Python](maniac.py)**
 
 #### _Rewards:_
-+ 77 xp
-+ 44 gems
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _HAI-KIBA!_
++ _SUCH CRAZY MUNCHKINS._
 
 ___
 
