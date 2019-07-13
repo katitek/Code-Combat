@@ -20,7 +20,7 @@
 
     + [JavaScript: True Names](372-JS_True_Names/)
     + [JavaScript: Fire Dancing](373-JS_Fire_Dancing/)
-    + [?](374-/)
+    + [JavaScript: Lost in the Stacks](374-JS_Lost_in_the_Stacks/)
     + [?](375-/)
     + [?](376-/)
     + [?](377-/)
