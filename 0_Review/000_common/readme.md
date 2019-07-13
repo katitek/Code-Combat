@@ -73,6 +73,7 @@ ___
     + [Game Health](#game-health)
     + [Game Time](#game-time)
     + [Hero Gold](#hero-gold)
+    + [Hero Debug](#hero-debug)
 
 
 ___
@@ -1545,5 +1546,11 @@ if (hero.gold >= 25) {
     hero.buildXY("decoy", hero.pos.x, hero.pos.y);
 }
 ```
+
+___
+
+### _Hero Debug_
+
+Works like JavaScript's `console.log`, taking any number of arguments and printing them out. Output appears in your JS console.
 
 ___
