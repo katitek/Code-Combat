@@ -1,4 +1,4 @@
-## _Stillness in Motion_
+## _JavaScript: Stillness in Motion_
 
 #### _Legend says:_
 > Remain centered with nested if-statements.
@@ -15,20 +15,15 @@
 + **Nested If Statements**
 + **Boolean Greater/Less**
 
-#### _Items we've got (- or need):_
-+ Long Sword
-+ Shield
-
 #### _Solutions:_
 + **[JavaScript](inMotion.js)**
-+ **[Python](in_motion.py)**
 
 #### _Rewards:_
-+ 68 xp
-+ 47 gems
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _SEEK QUIESCENCE WITHIN MOVEMENT - TAI CHI PRINCIPLE_
++ _YOU REMAINED PERFECTLY STILL! WHILE SWINGING THAT SWORD LIKE CRAZY._
 
 ___
 

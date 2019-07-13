@@ -25,6 +25,6 @@
     + [JavaScript: Patrol Buster](376-JS_Patrol_Buster/)
     + [JavaScript: Back to Back](377-JS_Back_to_Back/)
     + [JavaScript: Maniac Munchkins](378-JS_Maniac_Munchkins/)
-    + [JavaScript: Stillness in Motion](379-JS_/)
+    + [JavaScript: Stillness in Motion](379-JS_Stillness_in_Motion/)
     + [JavaScript: A Fine Mint](380-JS_/)
     + [JavaScript: Return to Thornbush Farm](381-JS_/)
