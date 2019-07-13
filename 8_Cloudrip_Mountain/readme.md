@@ -15,7 +15,7 @@
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
     + [Zoo Keeper](383-Zoo_Keeper/)
-    + [?](384-/)
+    + [Noble Sacrifice](384-Noble_Sacrifice/)
     + [?](385-/)
     + [?](386-/)
     + [?](387-/)
