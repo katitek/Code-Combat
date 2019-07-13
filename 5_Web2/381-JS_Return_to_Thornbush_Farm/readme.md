@@ -1,4 +1,4 @@
-## _Return to Thornbush Farm_
+## _JavaScript: Return to Thornbush Farm_
 
 #### _Legend says:_
 > Ogres are invading again, and the only cure is more parameters!
@@ -15,22 +15,15 @@
 + **If Statement**
 + **Functions**
 
-#### _Items we've got (- or need):_
-+ Hammer
-
 #### _Solutions:_
 + **[JavaScript](returnToFarm.js)**
-+ **[Python](return_to_farm.py)**
 
 #### _Rewards:_
-+ 80 xp
-+ 45 gems
-+ **Basic Flag**
-
-![](img/flag.jpg)
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _THOSE OGRES BOUGHT THE FARM._
++ _DON'T GET TOO CLOSE TO THOSE BUSHES!_
 
 ___
 
