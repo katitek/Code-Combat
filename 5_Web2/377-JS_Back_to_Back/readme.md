@@ -1,4 +1,4 @@
-## _Back to Back_
+## _JavaScript: Back to Back_
 
 #### _Legend says:_
 > Patrol the village entrances, but stay defensive.
@@ -6,7 +6,6 @@
 #### _Goals:_
 + _Villagers must survive_
 + _Elimininate the ogres_
-+ _Bonus: cleen code (no warnings)_
 
 #### _Topics:_
 + **Basic Sintax**
@@ -16,26 +15,15 @@
 + **If Statements**
 + **If/else Statements**
 
-#### _Items we've got (- or need):_
-+ Weapon
-
 #### _Solutions:_
 + **[JavaScript](backBlack.js)**
-+ **[Python](back_black.py)**
 
 #### _Rewards:_
-+ 35-52 xp
-+ 41-61 gems
-+ **Long Sword**
-
-![](img/long.jpg)
-
-+ **Sundial Wristwatch**
-
-![](img/sandal.jpg)
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _YOU'VE GOT EYES IN THE BACK OF YOUR HEAD!_
++ _BACK AGAIN!_
 
 ___
 

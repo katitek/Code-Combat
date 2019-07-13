@@ -13,9 +13,6 @@
 + **If Statements**
 + **While Loops**
 
-#### _Items we've got (- or need):_
-+ Weapon
-
 #### _Solutions:_
 + **[JavaScript](patrBust.js)**
 

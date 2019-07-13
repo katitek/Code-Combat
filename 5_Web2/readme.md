@@ -23,7 +23,7 @@
     + [JavaScript: Lost in the Stacks](374-JS_Lost_in_the_Stacks/)
     + [JavaScript: Master of Names](375-JS_Master_of_Names/)
     + [JavaScript: Patrol Buster](376-JS_Patrol_Buster/)
-    + [JavaScript: Back to Back](377-JS_/)
+    + [JavaScript: Back to Back](377-JS_Back_to_Back/)
     + [JavaScript: Maniac Munchkins](378-JS_/)
     + [JavaScript: Stillness in Motion](379-JS_/)
     + [JavaScript: A Fine Mint](380-JS_/)
