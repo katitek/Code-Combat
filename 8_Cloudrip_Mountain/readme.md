@@ -17,7 +17,7 @@
     + [Zoo Keeper](383-Zoo_Keeper/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
-    + [?](386-/)
+    + [Protect and Serve](386-Protect_and_Serve/)
     + [?](387-/)
     + [?](388-/)
     + [?](389-/)
