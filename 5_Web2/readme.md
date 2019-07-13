@@ -4,8 +4,6 @@
 
 + [Web Development Theory at Code Combat](https://github.com/katitek/Code-Combat/tree/master/0_Review/000_web/)
 
-> There are 10 addition levels that are copies of previous levels - you will be able to complete them if you haven't practice JavaScript so far.
-
 + Premium Levels
     + [Animania](229-Animania/)
     + [Border Patrol](226-Border_Patrol/)
@@ -19,3 +17,14 @@
     + [Sibling Rivalry](225-Sibling_Rivalry/)
     + [Toggulation](223-Toggulation/)
     + [Transformative Properties](228-Transformative_Properties/)
+
+    + [JavaScript: True Names](372-JS_True_Names/)
+    + [?](373-/)
+    + [?](374-/)
+    + [?](375-/)
+    + [?](376-/)
+    + [?](377-/)
+    + [?](378-/)
+    + [?](379-/)
+    + [?](380-/)
+    + [?](381-/)

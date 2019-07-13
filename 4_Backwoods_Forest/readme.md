@@ -58,6 +58,7 @@
     + [Backwoods Standoff B (practice)](114-Backwoods_Standoff_B/)
     + [Bonemender](126-Bonemender/)
     + [Boom! and Bust](088-Boom!_and_Bust/)
+    + [Boulder Woods](371-Boulder_Woods/)
     + [Brawler Hunt](183-Brawler_Hunt/)
     + [Buddy's Name](213-Buddy's_Name/)
     + [Buddy's Name A (practice)](214-Buddy's_Name_A/)
@@ -91,6 +92,7 @@
     + [Long Road](171-Long_Road/)
     + [Lost Viking](128-Lost_Viking/)
     + [Mail Interceptor](145-Mail_Interceptor/)
+    + [Mega-Munchkin Attacks](370-Mega-Munchkin_Attacks/)
     + [Metal Detector](185-Metal_Detector/)
     + [Munchkin Harvest](122-Munchkin_Harvest/)
     + [Munchkin Swarm](127-Munchkin_Swarm/)
@@ -133,8 +135,6 @@
     + [Village Warder](139-Village_Warder/)
     + [White Rabbit](177-White_Rabbit/)
     + [Wonderglade](188-Wonderglade/)
-    + [Mega-Munchkin Attacks](370-Mega-Munchkin_Attacks/)
-    + [Boulder Woods](371-Boulder_Woods/)
 
 + Replayable Brawls
     + [Backwoods Brawl](216-Backwoods_Brawl/)
