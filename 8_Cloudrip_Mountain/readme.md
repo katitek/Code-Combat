@@ -19,7 +19,7 @@
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
     + [Protect and Serve](386-Protect_and_Serve/)
     + [Hunting Party](387-Hunting_Party/)
-    + [?](388-/)
+    + [Borrowed Sword](388-Borrowed_Sword/)
     + [?](389-/)
     + [?](390-/)
     + [?](391-/)
