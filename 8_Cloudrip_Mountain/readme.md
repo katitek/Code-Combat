@@ -14,8 +14,6 @@
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
-    + [?](370-/)
-    + [?](371-/)
     + [?](372-/)
     + [?](373-/)
     + [?](374-/)
