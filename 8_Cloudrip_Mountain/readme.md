@@ -14,7 +14,16 @@
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
-    + [?](383-/)
+    + [Zoo Keeper](383-Zoo_Keeper/)
+    + [?](384-/)
+    + [?](385-/)
+    + [?](386-/)
+    + [?](387-/)
+    + [?](388-/)
+    + [?](389-/)
+    + [?](390-/)
+    + [?](391-/)
+    + [?](392-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
