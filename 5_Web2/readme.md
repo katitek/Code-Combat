@@ -19,7 +19,7 @@
     + [Transformative Properties](228-Transformative_Properties/)
 
     + [JavaScript: True Names](372-JS_True_Names/)
-    + [?](373-/)
+    + [JavaScript: Fire Dancing](373-JS_Fire_Dancing/)
     + [?](374-/)
     + [?](375-/)
     + [?](376-/)

@@ -15,7 +15,6 @@
 
 #### _Solutions:_
 + **[JavaScript](trueNames.js)**
-+ **[Python](true_names.py)**
 
 #### _Rewards:_
 + 60 xp
