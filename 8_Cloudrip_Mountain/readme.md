@@ -18,7 +18,7 @@
     + [Noble Sacrifice](384-Noble_Sacrifice/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
     + [Protect and Serve](386-Protect_and_Serve/)
-    + [?](387-/)
+    + [Hunting Party](387-Hunting_Party/)
     + [?](388-/)
     + [?](389-/)
     + [?](390-/)
