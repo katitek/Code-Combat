@@ -26,5 +26,5 @@
     + [JavaScript: Back to Back](377-JS_Back_to_Back/)
     + [JavaScript: Maniac Munchkins](378-JS_Maniac_Munchkins/)
     + [JavaScript: Stillness in Motion](379-JS_Stillness_in_Motion/)
-    + [JavaScript: A Fine Mint](380-JS_/)
+    + [JavaScript: A Fine Mint](380-JS_A_Fine_Mint/)
     + [JavaScript: Return to Thornbush Farm](381-JS_/)

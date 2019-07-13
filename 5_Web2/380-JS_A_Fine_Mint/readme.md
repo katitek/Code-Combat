@@ -1,4 +1,4 @@
-## _A Fine Mint_
+## _JavaScript: A Fine Mint_
 
 #### _Legend says:_
 > Ogre Peons are trying to steal your coins! Don't let them snag your rightful earnings!
@@ -15,19 +15,15 @@
 + **Accessing Properties**
 + **Functions**
 
-#### _Items we've got (- or need):_
-+ Weapon
-
 #### _Solutions:_
 + **[JavaScript](fineMint.js)**
-+ **[Python](fine_mint.py)**
 
 #### _Rewards:_
-+ 79 xp
-+ 45 gems
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _CHA-CHING!_
++ _WHAT A HAY DOLLAR!_
 
 ___
 
