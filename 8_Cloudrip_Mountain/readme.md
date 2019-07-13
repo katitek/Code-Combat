@@ -20,7 +20,7 @@
     + [Protect and Serve](386-Protect_and_Serve/)
     + [Hunting Party](387-Hunting_Party/)
     + [Borrowed Sword](388-Borrowed_Sword/)
-    + [?](389-/)
+    + [Vital Powers](389-Vital_Powers/)
     + [?](390-/)
     + [?](391-/)
     + [?](392-/)
