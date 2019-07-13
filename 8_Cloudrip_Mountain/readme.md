@@ -21,9 +21,17 @@
     + [Hunting Party](387-Hunting_Party/)
     + [Borrowed Sword](388-Borrowed_Sword/)
     + [Vital Powers](389-Vital_Powers/)
-    + [?](390-/)
+    + [Ring Bearer](390-Ring_Bearer/)
     + [?](391-/)
     + [?](392-/)
+    + [?](393-/)
+    + [?](394-/)
+    + [?](395-/)
+    + [?](396-/)
+    + [?](397-/)
+    + [?](398-/)
+    + [?](399-/)
+    + [?](400-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
