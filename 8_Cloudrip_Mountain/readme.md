@@ -16,7 +16,7 @@
     + [Timber Turncoat](368-Timber_Turncoat/)
     + [Zoo Keeper](383-Zoo_Keeper/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
-    + [?](385-/)
+    + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
     + [?](386-/)
     + [?](387-/)
     + [?](388-/)
