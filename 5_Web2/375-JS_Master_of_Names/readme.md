@@ -1,4 +1,4 @@
-## _Master of Names_
+## _JavaScript: Master of Names_
 
 #### _Legend says:_
 > Use your new coding powers to target nameless enemies.
@@ -6,31 +6,21 @@
 #### _Goals:_
 + _Your hero must survive_
 + _Defeat the three ogres_
-+ _Bonus: clean code (no warnings)_
 
 #### _Topics:_
 + **Basic Sintax**
 + **Arguments**
 + **Variables**
 
-#### _Items we've got (- or need):_
-+ Boots
-+ Weapon
-+ _Optional: good weapon_
-
 #### _Solutions:_
 + **[JavaScript](masterOfNames.js)**
-+ **[Python](master_of_names.py "9.1s")**
 
 #### _Rewards:_
-+ 20-30 xp
-+ 29-43 gems
-+ Wooden Shield
-
-![](img/wooden_shield.jpg)
++ 60 xp
++ 20 gems
 
 #### _Victory words:_
-+ _SOON YOU WILL BE MASTER OF PROGRAMMING!_
++ _VAR ISN'T JUST SOMETHING PIRATES MAY SAY._
 
 ___
 
