@@ -11,6 +11,8 @@
     + [Dance-Off](363-Dance-Off/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
+    + [Library Tactician](398-Library_Tactician/)
+    + [Misty Island Mine](397-Misty_Island_Mine/)
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
@@ -29,8 +31,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [Misty Island Mine](397-Misty_Island_Mine/)
-    + [?](398-/)
     + [?](399-/)
     + [?](400-/)
 
