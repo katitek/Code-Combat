@@ -32,7 +32,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](400-/)
     + [?](401-/)
     + [?](402-/)
     + [?](403-/)
@@ -46,6 +45,7 @@
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
+    + [Cloudrip Treasure](400-Cloudrip_Treasure/)
 
 + Multiplayer Levels
     + [Zero Sum](382-Zero_Sum/)
