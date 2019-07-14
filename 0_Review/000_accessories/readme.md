@@ -13,6 +13,7 @@ ___
   * [Tomb Ring](#tomb-ring)
   * [The Precious](#the-precious)
   * [Ring of Speed](#ring-of-speed)
+  * [Ring of Flowers](#ring-of-flowers)
 
 + [Neckplaces](#neckplace)
   * [Rough Sense Stone](#rough-sense-stone)
@@ -211,6 +212,43 @@ This ring turns even the slowest of heroes into a speed demon.
 ![](img/ringspeed.png)
 
 + Speed: `+5m/s`
+
+___
+
+#### _RING OF FLOWERS_
+
+> Given on "The Two Flowers" level
+
+Pretty wildflowers grow wherever you walk when wearing this ring.
+
+![](img/flowers.png)
+
+##### `hero.toggleFlowers(grow)` method
+
+Toggles whether flowers are grown or not.
+
+**Example:**
+
+```javascript
+hero.toggleFlowers(true);
+```
+
+**Required Parameters:**
++ `grow`: `boolean` (ex. `true`). _Boolean for whether flowers are on or not_
+
+
+##### `hero.setFlowersColor(color)` method
+
+Sets the color of the flowers. Options are pink, red, yellow, blue, purple, white, or random.
+
+**Example:**
+
+```javascript
+hero.setFlowersColor("red");
+```
+
+**Required Parameters:**
++ `color`: `string` (ex. `"red"`). _The color you want the flowers to be_
 
 ___
 

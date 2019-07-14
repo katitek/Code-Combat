@@ -4,9 +4,8 @@
 > If the Ring Bearer is defeated, the Two Flowers fall.
 
 #### _Goals:_
-+ _Acquire some Yeti essence_
-+ _Summon undead at ritual stones_
-+ _Defeat the Rotting General and his minions_
++ _The flowers must grow to full size_
++ _Hector must survive_
 
 #### _Topics:_
 + **Strings**
@@ -17,39 +16,37 @@
 + **Accessing Properties**
 
 #### _Solutions:_
-+ **[JavaScript](restlessDead.js)**
-+ **[Python](restless_dead.py)**
++ **[JavaScript](theTwoFlowers.js)**
++ **[Python](the_two_flowers.py)**
 
 #### _Rewards:_
-+ 377 xp
-+ 174 gems
++ 358 xp
++ 168 gems
++ **Ring of Flowers**
+
+![](img/ring.jpg)
 
 #### _Victory words:_
-+ _R.I.P._
++ _LET IT GROW, LET IT GROW._
 
 ___
 
 ### _HINTS_
 
-Use the `findSoldierOffset` function to find a soldier's radial offset.
+Write a `commandSoldiers` and `pickUpNearestCoin` function to survive the attack!
 
-Add that number to the peasant's position to create a circular protection area around the ring-bearing peasant!
+Remember to call the functions you write inside your `while-true` loop.
 
-For this level, you should use the functions that we supplied to calculate where a soldier should move to, in order to form a ring of soldiers around the peasant.
+For this level, the Two Flowers are connected to the peasant.
 
-You don't have to fully understand what those functions do to use them, other than the inputs and outputs of `findSoldierOffset(soldiers, i)`.
+If the peasant is damaged, the Two Flowers will take damage and shrink instead of the peasant.
 
-The first argument `soldiers` is the array containing all of your soldiers.
+If the peasant is damaged and the Two Flowers are normal sized flowers, the peasant will take damage instead!
 
-The second argument `i` is the index of the soldier (in the soldiers array) that you want to find the offset position for.
+When the peasant isn't taking damage, the flowers will grow.
 
-The `findSoldierOffset` function returns an `{x, y}` object containing the offset position the soldier at position `i` should stand, relative to the peasant.
+Use your knowledge of commanding units to fill out the `commandSoldiers` and `pickUpNearestCoin` functions.
 
-To calculate where the soldier should move to, you add the offset to the peasant's position like this:
-
-```javascript
-var moveTo = {"x": peasant.pos.x + offset.x, "y": peasant.pos.y + offset.y};
-hero.command(soldier, "move", moveTo);
-```
+**Remember to uncomment the function calls inside the loop when they're written!**
 
 ___
