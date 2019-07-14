@@ -23,6 +23,7 @@
     + [Ring Bearer](390-Ring_Bearer/)
     + [Slalom](359-Slalom/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
+    + [The Spy Among Us](403-The_Spy_Among_Us/)
     + [The Geometry of Flowers](393-The_Geometry_of_Flowers/)
     + [The Two Flowers](392-The_Two_Flowers/)
     + [Timber Guard](367-Timber_Guard/)
@@ -34,7 +35,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](403-/)
     + [?](404-/)
     + [?](405-/)
     + [?](406-/)
