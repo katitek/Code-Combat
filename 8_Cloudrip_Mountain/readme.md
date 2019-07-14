@@ -9,6 +9,7 @@
     + [Cloudrip Commander](365-Cloudrip_Commander/)
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
+    + [Echo of War](405-Echo_of_War/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
     + [In My Name](404-In_My_Name/)
@@ -36,7 +37,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](405-/)
     + [?](406-/)
     + [?](407-/)
     + [?](408-/)
