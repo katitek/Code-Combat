@@ -3,6 +3,7 @@
 > Object literals, remote method invocation, for-loops, complex functions, drawing, modulo
 
 + Levels
+    + [Aggressive Mimicry](409-Aggressive_Mimicry/)
     + [Alpine Rally](364-Alpine_Rally/)
     + [Black Diamond](360-Black_Diamond/)
     + [Borrowed Sword](388-Borrowed_Sword/)
@@ -40,7 +41,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](409-/)
     + [?](410-/)
 
 + Replayable Brawls
