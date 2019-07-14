@@ -28,11 +28,11 @@
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
     + [Treasure Cave](361-Treasure_Cave/)
+    + [Uneasy Truce](401-Uneasy_Truce/)
     + [Vital Powers](389-Vital_Powers/)
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](401-/)
     + [?](402-/)
     + [?](403-/)
     + [?](404-/)

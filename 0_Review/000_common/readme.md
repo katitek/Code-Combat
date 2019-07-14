@@ -18,6 +18,7 @@ ___
         - [If and Else statements in Python](#if-and-else-statements-in-python)
     + [Arrays](#arrays)
     + [Array Indexes](#array-indexes)
+    + [Adding to an Array](#adding-to-an-array)
 
 * [True and False](#true-and-false)
     + [Truthy and Falsy](#truthy-and-falsy)
@@ -357,6 +358,26 @@ snacks[0] = "Chocolate";
 snacks[1] = "Stroopwafels";
 snacks[2] = "Cupcakes";
 snacks[3] = "Ice Cream";
+```
+
+___
+
+### _Adding to an Array_
+
+You can add items to the end of an array like this:
+
+```javascript
+// Initialize empty array:
+var myArray = [];
+
+// Add the string "foo" to the end:
+myArray.push("foo");
+
+// myArray is now: ["foo"]
+
+myArray.push("bar");
+
+// myArray is now: ["foo", "bar"]
 ```
 
 ___
