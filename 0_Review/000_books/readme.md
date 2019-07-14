@@ -332,6 +332,18 @@ Instead of using pickUpFlag to go to a flag and then remove it, you can now remo
 
 Removes a flag that was placed during real-time playback. Fails if the flag isn't on your team.
 
+**Example:**
+
+```javascript
+var greenFlag = hero.findFlag("green");
+if (greenFlag && hero.distanceTo(greenFlag) < 5) {
+    hero.removeFlag(greenFlag);
+}
+```
+
+**Required Parameters:**
++ `flag`: `flag` (ex. `hero.findDlag("green")`). _The flag to remove_
+
 ___
 
 #### _ADVANCED FLAGS_
@@ -345,6 +357,6 @@ You can now access all flags in an array with findFlags.
 Returns all flags that have currently been placed during real-time playback on your team.
 
 **Returns:**
-+ `array`: Flags
++ `array`: Flags - _An array of visible flags_
 
 ___

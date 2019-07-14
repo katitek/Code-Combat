@@ -14,6 +14,7 @@ ___
   * [The Precious](#the-precious)
   * [Ring of Speed](#ring-of-speed)
   * [Ring of Flowers](#ring-of-flowers)
+  * [Ring of Earth](#ring-of-earth)
 
 + [Neckplaces](#neckplace)
   * [Rough Sense Stone](#rough-sense-stone)
@@ -249,6 +250,40 @@ hero.setFlowersColor("red");
 
 **Required Parameters:**
 + `color`: `string` (ex. `"red"`). _The color you want the flowers to be_
+
+___
+
+#### _RING OF EARTH_
+
+Mother Nature herself fashioned this ring out of the deepest roots of Backwoods Forest.
+
+![](img/ringearth.png)
+
+castEarthskin:
+
++ `hero.canCast()`
++ `hero.cast()`
++ `hero.spells`
+
+##### `hero.cast("earthskin", target)` method
+
+Casts a `"earthskin"` spell on `target` if within `30m`, increasing its health by a factor of 1.5 for `5` seconds.
+
+**Default Stats:**
++ name: `"earthskin"`
++ time: `0.75s`
++ rangeM: `30m`
++ duration: `5s`
++ cooldown: `10s`
+
+**Example:**
+
+```javascript
+hero.cast("earthskin", hero);
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero`). _The target on which to cast "earthskin"_
 
 ___
 
