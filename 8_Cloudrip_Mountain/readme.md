@@ -19,6 +19,7 @@
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
+    + [Northwest](407-Northwest/)
     + [Ogre Gorge Gouger](362-Ogre_Gorge_Gouger/)
     + [Pesky Yaks](399-Pesky_Yaks/)
     + [Protect and Serve](386-Protect_and_Serve/)
@@ -38,7 +39,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](407-/)
     + [?](408-/)
     + [?](409-/)
     + [?](410-/)
