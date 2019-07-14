@@ -1,7 +1,7 @@
 ## _Hunters and Prey_
 
 #### _Legend says:_
-> A large mountain grove: great for practicing your Flower Art skills!_
+> Ogres are hunting your reindeer. Who hunts the hunters?
 
 #### _Goals:_
 + _Your reindeer must survive_

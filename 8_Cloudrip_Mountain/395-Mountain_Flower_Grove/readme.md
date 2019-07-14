@@ -1,7 +1,7 @@
 ## _Mountain Flower Grove_
 
 #### _Legend says:_
-> A large mountain grove: great for practicing your Flower Art skills!_
+> A large mountain grove: great for practicing your Flower Art skills!
 
 #### _Goals:_
 + _Draw something with at least 1000 flowers_

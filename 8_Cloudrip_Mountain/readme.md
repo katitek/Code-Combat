@@ -29,7 +29,7 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](397-/)
+    + [Misty Island Mine](397-Misty_Island_Mine/)
     + [?](398-/)
     + [?](399-/)
     + [?](400-/)
