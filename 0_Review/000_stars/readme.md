@@ -6,6 +6,7 @@ ___
 **Table of Contents:**
 
 * [Boss Star I](#boss-star-i)
+* [Boss Star II](#boss-star-ii)
 
 ___
 
@@ -75,5 +76,37 @@ _(you may not be able to summon all of these types)_
 > `array`
 
 These are all the method names that you can call on allied minion units.
+
+___
+
+### _Boss Star II_
+
+Summons and commands soldiers and archers.
+
+![](img/star2.png)
+
+> Available skills:
++ `hero.costOf`
++ `hero.summon(summonType)` (+ `"archer"` type)
++ `hero.command()`
++ `hero.commandableMethods` (+ `"buildXY"` command)
++ `hero.commandableTypes` (+ `"griffin-rider"` and `"peasant"` commandable types)
+
+
+#### `hero.built`
+
+> `array`
+
+A list of units the hero has built or summoned. You can use information from these units to help decide on a building strategy.
+
+**Example:**
+
+```javascript
+var summonTypes = ["archer", "soldier", "griffin-rider", "archer"];
+var summonType = summonTypes[hero.built.length % summonTypes.length];
+if hero.gold >= hero.costOf(summonType) {
+    hero.summon(summonType);
+}
+```
 
 ___
