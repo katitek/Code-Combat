@@ -10,6 +10,7 @@
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
     + [Echo of War](405-Echo_of_War/)
+    + [Highlanders](408-Highlanders/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
     + [Ice Hunter](406-Ice_Hunter/)
@@ -39,7 +40,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](408-/)
     + [?](409-/)
     + [?](410-/)
 
