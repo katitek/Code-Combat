@@ -39,9 +39,19 @@
     + [Uneasy Truce](401-Uneasy_Truce/)
     + [Vital Powers](389-Vital_Powers/)
     + [What in Carnation](394-What_in_Carnation/)
+    + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](410-/)
+    + [?](411-/)
+    + [?](412-/)
+    + [?](413-/)
+    + [?](414-/)
+    + [?](415-/)
+    + [?](416-/)
+    + [?](417-/)
+    + [?](418-/)
+    + [?](419-/)
+    + [?](420-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
