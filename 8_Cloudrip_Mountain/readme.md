@@ -9,7 +9,9 @@
     + [Cloudrip Commander](365-Cloudrip_Commander/)
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
+    + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
+    + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
     + [Ogre Gorge Gouger](362-Ogre_Gorge_Gouger/)
@@ -27,8 +29,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
-    + [?](396-/)
     + [?](397-/)
     + [?](398-/)
     + [?](399-/)
