@@ -199,7 +199,6 @@ Grants Haste, which increases speed 2x for 4.5 seconds with a 10 second cooldown
 
 Casts a `"haste"` spell on `target` if within 30m, causing faster movement and attack speed by a factor of `2` for `5` seconds.
 
-**Level 1 Stats:**
 + Name: `"haste"`
 + Speed: `+ 100%`
 + Duration: `5s`
@@ -232,7 +231,23 @@ Grants Slow, which reduces a target's speed by 50% for 5 seconds with a 10 secon
 
 ##### _`hero.cast("slow", target)`_ method
 
-Casts a `"slow"` spell on target if within `spells.slow.rangem`, slowing down its movement and attack (and all passage of time) by a factor of `spells.slow.factor` for `spells.slow.duration seconds`.
+Casts a `"slow"` spell on target if within `30m`, slowing down its movement and attack (and all passage of time) by a factor of `0.5` for `5` seconds.
+
++ Name: `"slow"`
++ Speed: `- 50%`
++ Duration: `5s`
++ Range: `30m`
++ Time: `0.5s`
++ Cooldown: `10s`
+
+**Example:**
+
+```javascript
+hero.cast("slow", hero.findNearestEnemy());
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`) - _The target on which to cast "slow"_
 
 ___
 
@@ -251,7 +266,23 @@ Grants Shockwave, which deals 50 damage to enemies in a 20 meter radius around t
 
 ##### _`hero.cast("shockwave", target)`_ method
 
-Casts a `"shockwave"` spell on `target` if within `spells.shockwave.rangem`, blasting it back away from the caster and dealing up to `spells.shockwave.damage` to units caught in the epicenter.
+Casts a `"shockwave"` spell on `target` if within `20m`, blasting it back away from the caster and dealing up to `spells.shockwave.damage` to units caught in the epicenter.
+
+**Level 5 Stats:**
++ Name: `"shockwave"`
++ Damage: `125`
++ Range: `20m`
++ Time: `0.75s`
++ Cooldown: `15s`
+
+**Example:**
+
+```javascript
+hero.cast("shockwave", hero.findNearestEnemy());
+```
+
+**Optional Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`) - _The target on which to cast "shockwave", if not centered on caster._
 
 ___
 
@@ -271,7 +302,21 @@ Grants Swap. Increases Shockwave's damage to 79 with increased knockback.
 
 ##### _`hero.cast("swap", target)`_ method
 
-Casts a `"swap"` spell on `target` if within `spells.swap.rangem`, swapping its position with yours.
+Casts a `"swap"` spell on `target` if within `30m`, swapping its position with yours.
+
++ Name: `"swap"`
++ Range: `30m`
++ Time: `0.25s`
++ Cooldown: `5s`
+
+**Example:**
+
+```javascript
+hero.cast("swap", hero.findNearestEnemy());
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`) - _The target on which to cast "swap"_
 
 ___
 
@@ -292,7 +337,23 @@ Grants Flame Armor. Increases Shockwave's damage to 125 with increased knockback
 
 ##### _`hero.cast("flame-armor", target)`_ method
 
-Casts a `"flame-armor"` spell on target if within `spells['flame-armor'].rangem`, granting `spells['flame-armor'].healthFactorx` health and `maxHealth` for `spells['flame-armor'].duration` seconds. During that time, any enemy that attacks with a melee weapon takes `spells['flame-armor'].damage` damage each time they attack.
+Casts a `"flame-armor"` spell on `target` if within `40m`, granting `1.4` `health` and `maxHealth` for `10` seconds. During that time, any enemy that attacks with a melee weapon takes `30` damage each time they attack.
+
++ Name: `"flame-armor"`
++ Damage: `30`
++ Health: `+40%`
++ Range: `40m`
++ Time: `0.5s`
++ Cooldown: `5s`
+
+**Example:**
+
+```javascript
+hero.cast("flame-armor", hero);
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero`) - _The target on which to cast "flame-armor"_
 
 ___
 

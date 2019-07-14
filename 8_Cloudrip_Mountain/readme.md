@@ -11,6 +11,7 @@
     + [Dance-Off](363-Dance-Off/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
+    + [In My Name](404-In_My_Name/)
     + [Library Tactician](398-Library_Tactician/)
     + [Misty Island Mine](397-Misty_Island_Mine/)
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
@@ -35,7 +36,6 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](404-/)
     + [?](405-/)
     + [?](406-/)
     + [?](407-/)
