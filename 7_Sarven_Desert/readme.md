@@ -35,6 +35,7 @@
     + [Fair Battle](352-Fair_Battle/)
     + [Fast and Furry-ous](266-Fast_and_Furry-ous/)
     + [Gas Attack](351-Gas_Attack/)
+    + [Goalkeeper](412-Goalkeeper/)
     + [Hoarding Gold](299-Hoarding_Gold/)
     + [Hot Gate](344-Hot_Gate/)
     + [Hunter Valley](264-Hunter_Valley/)
