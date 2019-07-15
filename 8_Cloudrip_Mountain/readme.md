@@ -8,6 +8,7 @@
     + [Black Diamond](360-Black_Diamond/)
     + [Borrowed Sword](388-Borrowed_Sword/)
     + [Cloudrip Commander](365-Cloudrip_Commander/)
+    + [Cluttered Corridors](415-Cluttered_Corridors/)
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
     + [Echo of War](405-Echo_of_War/)
@@ -44,7 +45,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](415-/)
     + [?](416-/)
     + [?](417-/)
     + [?](418-/)
