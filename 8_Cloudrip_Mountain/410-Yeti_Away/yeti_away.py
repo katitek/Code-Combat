@@ -4,7 +4,7 @@ def startsWith(phrase, word):
     for i in range(len(word)):
         if phrase[i] != word[i]:
             return False
-    return true
+    return True
 
 
 guides = hero.findFriends()

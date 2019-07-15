@@ -17,6 +17,7 @@
     + [Ice Hunter](406-Ice_Hunter/)
     + [In My Name](404-In_My_Name/)
     + [Library Tactician](398-Library_Tactician/)
+    + [Medic School](413-Medic_School/)
     + [Misty Island Mine](397-Misty_Island_Mine/)
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
@@ -42,7 +43,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](413-/)
     + [?](414-/)
     + [?](415-/)
     + [?](416-/)
