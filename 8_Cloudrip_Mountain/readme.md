@@ -37,6 +37,7 @@
     + [The Spy Among Us](403-The_Spy_Among_Us/)
     + [The Geometry of Flowers](393-The_Geometry_of_Flowers/)
     + [The Two Flowers](392-The_Two_Flowers/)
+    + [Three-step Password](418-Three-step_Password/)
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
     + [Treasure Cave](361-Treasure_Cave/)
@@ -47,7 +48,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](418-/)
     + [?](419-/)
     + [?](420-/)
 
