@@ -32,6 +32,7 @@
     + [Protect and Serve](386-Protect_and_Serve/)
     + [Rational Defense](419-Rational_Defense/)
     + [Reading Rumble](416-Reading_Rumble/)
+    + [Reindeer Wakeup](423-Reindeer_Wakeup/)
     + [Restless Dead](391-Restless_Dead/)
     + [Ring Bearer](390-Ring_Bearer/)
     + [Slalom](359-Slalom/)
@@ -52,7 +53,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](423-/)
     + [?](424-/)
     + [?](425-/)
     + [?](426-/)

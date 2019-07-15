@@ -72,11 +72,11 @@ hero.cast("drain-life", hero.findNearestEnemy());
 
 ##### _`hero.cast("regen", target)`_ method
 
-Casts a `"regen"` spell on `target` if within `30m`, giving the target an extra `2.4` HP every `0.2s` for `5` seconds.
+Casts a `"regen"` spell on `target` if within `30m`, giving the target an extra `20.2` HP every `0.2s` for `5` seconds.
 
-**Level 1 Stats:**
+**Level 5 Stats:**
 + Name: `"regen"`
-+ Regen: `2.4/0.2s` (`12/s`)
++ Regen: `20.2/0.2s` (`101/s`)
 + Duration: `5s`
 + Range: `30m`
 + Time: `0.75s`
@@ -111,7 +111,26 @@ Grants Shrink, which halves a target's health and doubles its speed for 5 second
 
 ##### _`hero.cast("shrink", target)`_ method
 
-Casts a `"shrink"` spell on `target` if within `spells.shrink.rangem`, causing shrinkage, faster movement by a factor of `spells.shrink.speedFactor`, and weaker attacks by a factor of `spells.shrink.healthFactor` for `spells.shrink.duration` seconds.
+Casts a `"shrink"` spell on `target` if within `30m`, causing shrinkage, faster movement by a factor of `2`, and weaker attacks by a factor of `0,5` for `5` seconds.
+
+**Level 5 Stats:**
++ Name: `"shrink"`
++ Health: `-50%`
++ Scale: `-1`
++ Speed: `+100%`
++ Duration: `5s`
++ Range: `30m`
++ Time: `0.75s`
++ Cooldown: `1.3s`
+
+**Example:**
+
+```javascript
+hero.cast("shrink", hero.getNearestEnemy());
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.getNearestEnemy()`) - _The target to shrink_
 
 
 ##### _`hero.spells`_ property
@@ -135,7 +154,26 @@ Grants Grow, which doubles a target's health and halves its speed for 5 seconds 
 
 ##### _`hero.cast("grow", target)`_ method
 
-Casts a `"grow"` spell on `target` if within `spells.grow.rangem`, causing growth, slower movement by a factor of `spells.grow.speedFactor`; and greater health and stronger attacks by a factor of `spells.grow.healthFactor` for `spells.grow.duration seconds`.
+Casts a `"grow"` spell on `target` if within `30m`, causing growth, slower movement by a factor of `0.5`; and greater health and stronger attacks by a factor of `2` for `5` seconds.
+
+**Level 5 Stats:**
++ Name: `"grow"`
++ Health: `+100%`
++ Scale: `+1`
++ Speed: `-50%`
++ Duration: `5s`
++ Range: `30m`
++ Time: `0.75s`
++ Cooldown: `1.3s`
+
+**Example:**
+
+```javascript
+hero.cast("grow", target);
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestFriend()`) - _The target to grow_
 
 ___
 
@@ -155,7 +193,21 @@ Grants Time Warp. Increases Regeneration to 51.5 hit points per second. Reduces 
 
 ##### _`hero.cast("time-warp")`_ method
 
-Casts a mighty `'time-warp'` spell, which adjusts the speed of all units (including the `hero` and any `missiles`) caught within `spells.time-warp.radiusm` by a factor of `spells.time-warp.factor` for `spells.time-warp.durations`.
+Casts a mighty `'time-warp'` spell, which adjusts the speed of all units (including the `hero` and any `missiles`) caught within `20m` by a factor of `0.25` for `4s`.
+
+**Level 5 Stats:**
++ Name: `"time-warp"`
++ Speed: `-75%`
++ Duration: `4s`
++ Range: `20m`
++ Time: `0.5s`
++ Cooldown: `7.5s`
+
+**Example:**
+
+```javascript
+hero.cast("time-warp");
+```
 
 ___
 
@@ -176,7 +228,24 @@ Enables Dispel. Increases Regen to 101 hit points per second. Reduces Grow and S
 
 ##### _`hero.cast("dispel", target)`_ method
 
-Casts a `"dispel"` spell on `target` if within `spells.dispel.rangem`, dispeling all effects.
+Casts a `"dispel"` spell on `target` if within `40m`, dispeling all effects.
+
+**Level 5 Stats:**
++ Name: `"dispel"`
++ Range: `40m`
++ Time: `0.4s`
++ Cooldown: `2s`
+
+**Example:**
+
+```javascript
+if (hero.canCast("dispel", enemy) && enemy.hasEffect("grow")) {
+    hero.cast("dispel", enemy);
+}
+```
+
+**Required Parameters:**
++ `target`: `object` (ex. `hero.findNearestEnemy()`) - _The target on which to cast "dispel"_
 
 ___
 
