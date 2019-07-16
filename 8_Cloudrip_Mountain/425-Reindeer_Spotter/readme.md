@@ -15,8 +15,8 @@
 + **Assigning Properties**
 
 #### _Solutions:_
-+ **[JavaScript](raindeerWakeup.js)**
-+ **[Python](raindeer_wakeup.py)**
++ **[JavaScript](reindeerSpotter.js)**
++ **[Python](reindeer_spotter.py)**
 
 #### _Rewards:_
 + 259 xp
