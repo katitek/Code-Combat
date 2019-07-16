@@ -36,6 +36,7 @@
     + [Fast and Furry-ous](266-Fast_and_Furry-ous/)
     + [Gas Attack](351-Gas_Attack/)
     + [Goalkeeper](412-Goalkeeper/)
+    + [Golden Mirage](424-Golden_Mirage/)
     + [Hoarding Gold](299-Hoarding_Gold/)
     + [Hot Gate](344-Hot_Gate/)
     + [Hunter Valley](264-Hunter_Valley/)
