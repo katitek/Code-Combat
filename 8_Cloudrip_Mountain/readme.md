@@ -14,6 +14,7 @@
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
     + [Danger Valley](429-Danger_Valley/)
+    + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Echo of War](405-Echo_of_War/)
     + [Flawless Pairs](420-Flawless_Pairs/)
     + [Highlanders](408-Highlanders/)
@@ -60,7 +61,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](432-/)
     + [?](433-/)
     + [?](434-/)
     + [?](435-/)
