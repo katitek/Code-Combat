@@ -60,7 +60,7 @@ var  a = [null, "one". "two"];
 hero.say(a[1]);  // Says "one"
 hero.say(a[2]);  // Says "two"
 hero.say(a[0]);  // Says nothing
-hero.say(a[3]);  // Says "one"
+hero.say(a[3]);  // Error! Array starts at 0 and ends at 2.
 ```
 
 You can also change the elements of an array however you like:
