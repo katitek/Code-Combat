@@ -4,7 +4,7 @@ powerMap = wizard.powerMap
 
 
 def convert(row, col):
-    return {x: 16 + col * 12, y: 16 + row * 12}
+    return {"x": 16 + col * 12, "y": 16 + row * 12}
 
 
 for i in range(len(powerMap)):
@@ -12,7 +12,7 @@ for i in range(len(powerMap)):
         point = powerMap[i][j]
         if point > 0:
             pos = convert(i, j)
-            hero.moveXY(pos.x, pos.y)
+            hero.moveXY(pos["x"], pos["y"])
             hero.say("VENI")
             enemy = hero.findNearestEnemy()
             if enemy:

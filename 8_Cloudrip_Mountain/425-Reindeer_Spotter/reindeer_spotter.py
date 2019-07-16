@@ -5,7 +5,7 @@ friends = hero.findFriends()
 for reindeer in friends:
     for i in range(len(penPositions)):
         penPos = penPositions[i]
-        if penPos.x == reindeer.pos.x and penPos.y == reindeer.pos.y:
+        if penPos["x"] == reindeer.pos.x and penPos["y"] == reindeer.pos.y:
             penOccupants[i] = reindeer.id
             break
 

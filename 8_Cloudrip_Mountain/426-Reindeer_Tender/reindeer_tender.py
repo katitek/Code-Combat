@@ -6,7 +6,7 @@ for i in range(len(friends)):
     reindeer = friends[i]
     for j in range(len(penPositions)):
         penPos = penPositions[j]
-        if penPos.x == reindeer.pos.x and penPos.y == reindeer.pos.y:
+        if penPos["x"] == reindeer.pos.x and penPos["y"] == reindeer.pos.y:
             penOccupants[j] = reindeer
             friends[i] = None
             break
