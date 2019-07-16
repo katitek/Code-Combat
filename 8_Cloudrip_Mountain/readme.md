@@ -18,6 +18,7 @@
     + [Echo of War](405-Echo_of_War/)
     + [Flawless Pairs](420-Flawless_Pairs/)
     + [Grid Minefield](434-Grid_Minefield/)
+    + [Grid Search](435-Grid_Search/)
     + [Highlanders](408-Highlanders/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
@@ -63,7 +64,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](435-/)
     + [?](436-/)
     + [?](437-/)
     + [?](438-/)
