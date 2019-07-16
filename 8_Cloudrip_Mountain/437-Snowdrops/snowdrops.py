@@ -8,7 +8,7 @@ cells = [
     {"row": 6, "col": 1}, {"row": 6, "col": 3}, {"row": 6, "col": 4}, {"row": 7, "col": 0}]
 
 for i in range(len(cells)):
-    row = cells[i].row
-    col = cells[i].col
+    row = cells[i]["row"]
+    col = cells[i]["col"]
     if row < forestMap.length and col < forestMap[row].length and forestMap[row][col] == 0:
         hero.say("Row " + row + " Column " + col + " Fire!")
