@@ -7,6 +7,7 @@
     + [Alpine Rally](364-Alpine_Rally/)
     + [Black Diamond](360-Black_Diamond/)
     + [Borrowed Sword](388-Borrowed_Sword/)
+    + [Cannon Landing Force](427-Cannon_Landing_Force/)
     + [Cloudrip Commander](365-Cloudrip_Commander/)
     + [Cluttered Corridors](415-Cluttered_Corridors/)
     + [Convenient Enemy](417-Convenient_Enemy/)
@@ -55,7 +56,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](427-/)
     + [?](428-/)
     + [?](429-/)
     + [?](430-/)
