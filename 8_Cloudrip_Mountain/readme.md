@@ -30,6 +30,7 @@
     + [Noble Sacrifice](384-Noble_Sacrifice/)
     + [Northwest](407-Northwest/)
     + [Ogre Gorge Gouger](362-Ogre_Gorge_Gouger/)
+    + [Perimeter Defense](431-Perimeter_Defense/)
     + [Pesky Yaks](399-Pesky_Yaks/)
     + [Power Points](428-Power_Points/)
     + [Protect and Serve](386-Protect_and_Serve/)
@@ -59,7 +60,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](431-/)
     + [?](432-/)
     + [?](433-/)
     + [?](434-/)
