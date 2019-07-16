@@ -16,8 +16,8 @@
 + **Boolean Greater/Less**
 
 #### _Solutions:_
-+ **[JavaScript](perimeterDefense.js)**
-+ **[Python](perimeter_defense.py)**
++ **[JavaScript](dangerousTracks.js)**
++ **[Python](dangerous_tracks.py)**
 
 #### _Rewards:_
 + 379 xp

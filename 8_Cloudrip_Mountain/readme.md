@@ -35,6 +35,7 @@
     + [Pesky Yaks](399-Pesky_Yaks/)
     + [Power Points](428-Power_Points/)
     + [Protect and Serve](386-Protect_and_Serve/)
+    + [Quick-Fort](433-Quick-Fort/)
     + [Rational Defense](419-Rational_Defense/)
     + [Reading Rumble](416-Reading_Rumble/)
     + [Reindeer Spotter](425-Reindeer_Spotter/)
@@ -61,7 +62,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](433-/)
     + [?](434-/)
     + [?](435-/)
     + [?](436-/)
