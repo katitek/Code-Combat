@@ -16,6 +16,7 @@
     + [Danger Valley](429-Danger_Valley/)
     + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Echo of War](405-Echo_of_War/)
+    + [FizzBuzz Path](443-FizzBuzz_Path/)
     + [Flawless Pairs](420-Flawless_Pairs/)
     + [Grid Minefield](434-Grid_Minefield/)
     + [Grid Search](435-Grid_Search/)
@@ -71,7 +72,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](443-/)
     + [?](444-/)
     + [?](445-/)
     + [?](446-/)
