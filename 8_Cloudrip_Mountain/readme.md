@@ -49,6 +49,7 @@
     + [Sleepwalkers](430-Sleepwalkers/)
     + [Snowdrops](437-Snowdrops/)
     + [Steelclaw Gap](438-Steelclaw_Gap/)
+    + [Subarray Retreat](439-Subarray_Retreat/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
     + [The Spy Among Us](403-The_Spy_Among_Us/)
     + [The Geometry of Flowers](393-The_Geometry_of_Flowers/)
@@ -67,7 +68,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](439-/)
     + [?](440-/)
 
 + Replayable Brawls
