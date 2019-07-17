@@ -7,6 +7,7 @@ ___
 
 * [Boss Star I](#boss-star-i)
 * [Boss Star II](#boss-star-ii)
+* [Boss Star III](#boss-star-iii)
 
 ___
 
@@ -87,10 +88,10 @@ Summons and commands soldiers and archers.
 
 > Available skills:
 + `hero.costOf`
-+ `hero.summon(summonType)` (+ `"archer"` type)
++ `hero.summon(summonType)` (`"soldier"`, `"archer"`)
 + `hero.command()`
-+ `hero.commandableMethods` (+ `"buildXY"` command)
-+ `hero.commandableTypes` (+ `"griffin-rider"` and `"peasant"` commandable types)
++ `hero.commandableMethods` (`"move"`, `"attack"`, `"defend"`, `"buildXY"`)
++ `hero.commandableTypes` (`"soldier"`, `"archer"`, `"griffin-rider"`, `"peasant"`)
 
 
 #### `hero.built`
@@ -108,5 +109,21 @@ if hero.gold >= hero.costOf(summonType) {
     hero.summon(summonType);
 }
 ```
+
+___
+
+### _Boss Star III_
+
+Summons and commands soldiers, archers, griffin riders, and peasants.
+
+![](img/star3.png)
+
+> Available skills:
++ `hero.costOf`
++ `hero.summon(summonType)` (`"soldier"`, `"archer"`, `"griffin-rider"`, `"peasant"`)
++ `hero.command()`
++ `hero.commandableMethods` (`move`, `attack`, `defend`, `cast`, `buildXY`, `shield`)
++ `hero.commandableTypes` (`"soldier"`, `"archer"`, `"griffin-rider"`, `"peasant"`, `"paladin"`)
++ `hero.built`
 
 ___

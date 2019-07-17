@@ -28,6 +28,7 @@
     + [Loud Quietness](414-Loud_Quietness/)
     + [Medic School](413-Medic_School/)
     + [Misty Island Mine](397-Misty_Island_Mine/)
+    + [Mixed Unit Tactics](441-Mixed_Unit_Tactics/)
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
     + [Mountain Mercenaries](366-Mountain_Mercenaries/)
     + [Noble Sacrifice](384-Noble_Sacrifice/)
@@ -69,7 +70,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](441-/)
     + [?](442-/)
     + [?](443-/)
     + [?](444-/)
