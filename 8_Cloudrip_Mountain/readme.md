@@ -43,6 +43,7 @@
     + [Reindeer Spotter](425-Reindeer_Spotter/)
     + [Reindeer Tender](426-Reindeer_Tender/)
     + [Reindeer Wakeup](423-Reindeer_Wakeup/)
+    + [Resource Valleys](440-Resource_Valleys/)
     + [Restless Dead](391-Restless_Dead/)
     + [Ring Bearer](390-Ring_Bearer/)
     + [Slalom](359-Slalom/)
@@ -68,7 +69,16 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](440-/)
+    + [?](441-/)
+    + [?](442-/)
+    + [?](443-/)
+    + [?](444-/)
+    + [?](445-/)
+    + [?](446-/)
+    + [?](447-/)
+    + [?](448-/)
+    + [?](449-/)
+    + [?](450-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
