@@ -50,6 +50,7 @@
     + [Slalom](359-Slalom/)
     + [Sleepwalkers](430-Sleepwalkers/)
     + [Snowdrops](437-Snowdrops/)
+    + [Sowing Fire](442-Sowing_Fire/)
     + [Steelclaw Gap](438-Steelclaw_Gap/)
     + [Subarray Retreat](439-Subarray_Retreat/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
@@ -70,7 +71,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](442-/)
     + [?](443-/)
     + [?](444-/)
     + [?](445-/)
