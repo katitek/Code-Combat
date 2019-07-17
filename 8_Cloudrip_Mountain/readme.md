@@ -64,6 +64,7 @@
     + [Timber Guard](367-Timber_Guard/)
     + [Timber Turncoat](368-Timber_Turncoat/)
     + [To Arms!](436-To_Arms!/)
+    + [Toil and Trouble](446-Toil_and_Trouble/)
     + [Treasure Cave](361-Treasure_Cave/)
     + [Triage](402-Triage/)
     + [Twins Power](422-Twins_Power/)
@@ -73,7 +74,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](446-/)
     + [?](447-/)
     + [?](448-/)
     + [?](449-/)
