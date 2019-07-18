@@ -4,10 +4,7 @@
 > Do you think it's easy to grow the perfect lawn in the mountains?
 
 #### _Goals:_
-+ _All humans must survive_
-+ _Disable the top trap_
-+ _Disable the middle trap_
-+ _Disable the bottom trap_
++ _Pay the fair price for the garden_
 
 #### _Topics:_
 + **Basic Syntax**

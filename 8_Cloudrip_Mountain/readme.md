@@ -53,6 +53,7 @@
     + [Resource Valleys](440-Resource_Valleys/)
     + [Restless Dead](391-Restless_Dead/)
     + [Ring Bearer](390-Ring_Bearer/)
+    + [Ritual of Rectangling](451-Ritual_of_Rectangling/)
     + [Slalom](359-Slalom/)
     + [Sleepwalkers](430-Sleepwalkers/)
     + [Snowdrops](437-Snowdrops/)
@@ -78,7 +79,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](451-/)
     + [?](452-/)
     + [?](453-/)
     + [?](454-/)
