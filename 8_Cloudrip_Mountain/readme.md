@@ -94,6 +94,7 @@
     + [Toil and Trouble](446-Toil_and_Trouble/)
     + [Treasure Cave](361-Treasure_Cave/)
     + [Triage](402-Triage/)
+    + [Trojan Yeti](478-Trojan_Yeti/)
     + [Twins Power](422-Twins_Power/)
     + [Uneasy Truce](401-Uneasy_Truce/)
     + [Vital Powers](389-Vital_Powers/)
@@ -104,7 +105,6 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](478-/)
     + [?](479-/)
     + [?](480-/)
 

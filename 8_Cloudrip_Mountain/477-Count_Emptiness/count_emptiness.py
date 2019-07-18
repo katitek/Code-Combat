@@ -3,6 +3,6 @@ def moveNSteps(n):
 
 
 riddle = hero.findNearestEnemy().riddle
-trimmed = riddle.trim()
-moveNSteps(riddle.length - trimmed.length)
+trimmed = riddle.strip()
+moveNSteps(len(riddle) - len(trimmed))
 hero.say("Gotcha!")
