@@ -38,6 +38,7 @@
     + [Loud Quietness](414-Loud_Quietness/)
     + [Make Advances](449-Make_Advances/)
     + [Medic School](413-Medic_School/)
+    + [Mined Gems](463-Mined_Gems/)
     + [Misty Island Mine](397-Misty_Island_Mine/)
     + [Mixed Unit Tactics](441-Mixed_Unit_Tactics/)
     + [Mountain Flower Grove](395-Mountain_Flower_Grove/)
@@ -90,7 +91,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](463-/)
     + [?](464-/)
     + [?](465-/)
     + [?](466-/)
