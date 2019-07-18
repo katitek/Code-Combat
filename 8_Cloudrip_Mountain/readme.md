@@ -31,6 +31,7 @@
     + [Gardener](460-Gardener/)
     + [Grid Minefield](434-Grid_Minefield/)
     + [Grid Search](435-Grid_Search/)
+    + [Grim Determination](468-Grim_Determination/)
     + [Highlanders](408-Highlanders/)
     + [How much?](450-How_much/)
     + [Humantron](458-Humantron/)
@@ -95,7 +96,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](468-/)
     + [?](469-/)
     + [?](470-/)
 
