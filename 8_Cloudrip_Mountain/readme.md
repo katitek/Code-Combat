@@ -8,6 +8,7 @@
     + [Area of Yetis](465-Area_of_Yetis/)
     + [Bits And Trits](453-Bits_And_Trits/)
     + [Black Diamond](360-Black_Diamond/)
+    + [Bone Dance](467-Bone_Dance/)
     + [Borrowed Sword](388-Borrowed_Sword/)
     + [Cannon Landing Force](427-Cannon_Landing_Force/)
     + [Circumference of Yaks](464-Circumference_of_Yaks/)
@@ -94,7 +95,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](467-/)
     + [?](468-/)
     + [?](469-/)
     + [?](470-/)
