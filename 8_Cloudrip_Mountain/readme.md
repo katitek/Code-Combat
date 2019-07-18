@@ -17,6 +17,7 @@
     + [Convenient Enemy](417-Convenient_Enemy/)
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
+    + [Danger Picklock](466-Danger_Picklock/)
     + [Danger Valley](429-Danger_Valley/)
     + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Deadly Discs](448-Deadly_Discs/)
@@ -93,7 +94,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](466-/)
     + [?](467-/)
     + [?](468-/)
     + [?](469-/)
