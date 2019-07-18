@@ -50,6 +50,7 @@
     + [Rational Defense](419-Rational_Defense/)
     + [Reading Rumble](416-Reading_Rumble/)
     + [Reaping Fire](444-Reaping_Fire/)
+    + [Rectangle Formation](457-Rectangle_Formation/)
     + [Reindeer Spotter](425-Reindeer_Spotter/)
     + [Reindeer Tender](426-Reindeer_Tender/)
     + [Reindeer Wakeup](423-Reindeer_Wakeup/)
@@ -84,7 +85,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](457-/)
     + [?](457-/)
     + [?](459-/)
     + [?](460-/)
