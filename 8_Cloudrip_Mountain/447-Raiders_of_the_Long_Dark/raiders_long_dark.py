@@ -19,19 +19,19 @@ def heroFight():
 
 
 def heroAdvance():
-    hero.move({x: peasant.pos.x - 5, y: peasant.pos.y})
+    hero.move({"x": peasant.pos.x - 5, "y": peasant.pos.y})
 
 
 def choosePeasantStrategy():
-    if hero.isPathClear(peasant, {x: peasant.pos.x, y: peasant.pos.y + 8}):
+    if hero.isPathClear(peasant, {"x": peasant.pos.x, "y": peasant.pos.y + 8}):
         return "build-above"
-    if hero.isPathClear(peasant, {x: peasant.pos.x, y: peasant.pos.y - 8}):
+    if hero.isPathClear(peasant, {"x": peasant.pos.x, "y": peasant.pos.y - 8}):
         return "build-below"
     return "follow"
 
 
 def peasantAdvance():
-    hero.command(peasant, "move", {x: arryn.pos.x - 5, y: arryn.pos.y})
+    hero.command(peasant, "move", {"x": arryn.pos.x - 5, "y": arryn.pos.y})
 
 
 def peasantBuild(x,y):
