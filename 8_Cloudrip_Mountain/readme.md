@@ -42,6 +42,7 @@
     + [Library Tactician](398-Library_Tactician/)
     + [Loud Quietness](414-Loud_Quietness/)
     + [Make Advances](449-Make_Advances/)
+    + [Match Cord](470-Match_Cord/)
     + [Medic School](413-Medic_School/)
     + [Mined Gems](463-Mined_Gems/)
     + [Misty Island Mine](397-Misty_Island_Mine/)
@@ -96,7 +97,16 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](470-/)
+    + [?](471-/)
+    + [?](472-/)
+    + [?](473-/)
+    + [?](474-/)
+    + [?](475-/)
+    + [?](476-/)
+    + [?](477-/)
+    + [?](478-/)
+    + [?](479-/)
+    + [?](480-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
