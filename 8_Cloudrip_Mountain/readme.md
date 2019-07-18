@@ -100,9 +100,9 @@
     + [What in Carnation](394-What_in_Carnation/)
     + [Yak Heist](474-Yak_Heist/)
     + [Yeti Away](410-Yeti_Away/)
+    + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](476-/)
     + [?](477-/)
     + [?](478-/)
     + [?](479-/)
