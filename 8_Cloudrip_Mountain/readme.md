@@ -97,10 +97,10 @@
     + [Vital Powers](389-Vital_Powers/)
     + [Volcano Fighters](454-Volcano_Fighters/)
     + [What in Carnation](394-What_in_Carnation/)
+    + [Yak Heist](474-Yak_Heist/)
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](474-/)
     + [?](475-/)
     + [?](476-/)
     + [?](477-/)
