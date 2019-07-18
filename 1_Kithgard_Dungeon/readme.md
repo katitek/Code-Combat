@@ -42,6 +42,7 @@
     + [Favorable Odds (practice)](017-Favorable_Odds/)
     + [Forgetful Gemsmith (practice)](003-Forgetful_Gemsmith/)
     + [Illusory Interruption (practice)](010-Illusory_Interruption/)
+    + [Kithgard Apprentice](469-Kithgard_Apprentice/)
     + [Kounter Kithwise (practice)](005-Kounter_Kithwise/)
     + [Loop Da Loop](016-Loop_Da_Loop/)
     + [Lost in the Stacks](019-Lost_in_the_Stacks/)

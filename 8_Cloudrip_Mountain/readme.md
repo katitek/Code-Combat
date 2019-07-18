@@ -96,7 +96,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](469-/)
     + [?](470-/)
 
 + Replayable Brawls
