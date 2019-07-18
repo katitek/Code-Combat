@@ -77,11 +77,11 @@
     + [Twins Power](422-Twins_Power/)
     + [Uneasy Truce](401-Uneasy_Truce/)
     + [Vital Powers](389-Vital_Powers/)
+    + [Volcano Fighters](454-Volcano_Fighters/)
     + [What in Carnation](394-What_in_Carnation/)
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](454-/)
     + [?](455-/)
     + [?](456-/)
     + [?](457-/)
