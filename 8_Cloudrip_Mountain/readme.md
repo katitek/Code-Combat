@@ -99,6 +99,7 @@
     + [Trojan Yeti](478-Trojan_Yeti/)
     + [Twins Power](422-Twins_Power/)
     + [Uneasy Truce](401-Uneasy_Truce/)
+    + [Vision of Ogres](481-Vision_of_Ogres/)
     + [Vital Powers](389-Vital_Powers/)
     + [Volcano Fighters](454-Volcano_Fighters/)
     + [What in Carnation](394-What_in_Carnation/)
@@ -107,7 +108,6 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](481-/)
     + [?](482-/)
 
 + Replayable Brawls
