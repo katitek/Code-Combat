@@ -17,6 +17,7 @@
     + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Deadly Discs](448-Deadly_Discs/)
     + [Echo of War](405-Echo_of_War/)
+    + [Explosive Works](452-Explosive_Works/)
     + [FizzBuzz Path](443-FizzBuzz_Path/)
     + [Flawless Pairs](420-Flawless_Pairs/)
     + [Grid Minefield](434-Grid_Minefield/)
@@ -79,7 +80,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](452-/)
     + [?](453-/)
     + [?](454-/)
     + [?](455-/)
