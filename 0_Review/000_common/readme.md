@@ -48,6 +48,7 @@ ___
     + [Loops Break](#loops-break)
     + [Loops Continue](#loops-continue)
     + [Looping over Items in an Array with While](#looping-over-items-in-an-array-with-while)
+    + [Advanced While-loops](#advanced-while-loops)
 
 * [Methods](#methods)
     + [Calling Methods](#calling-methods)
@@ -1036,6 +1037,71 @@ while (index < snacks.length) {
     hero.say("I like " + snack);
     // Increment the index:
     index += 1;
+}
+```
+
+___
+
+### _Advanced While-loops_
+
+This level focuses on advanced while-loops usage. Listed below are concepts to help visualize what kind of loops are involved.
++ Moving multiple using towards a point.
++ Defeating all at any given stage before continuing through the rest of a loop.
++ Attacking an enemy until it is defeated.
++ Waiting until a peasant catches up with a potentially faster hero.
+
+An example of moving multiple units towards a point:
+
+```javascript
+var point = {x: 20, y: 20};
+var friends = hero.findFriends();  // In this level, there is only 1 friend!
+while (hero.distanceTo(point) > 0.5) {
+    hero.move(point);
+    // The hero.move() method allows the hero to
+    // perform actions inbetween steps!
+    for (var i = 0; i < friends.length; i++) {
+        // In this level, you won't need to use
+        // a for-loop with only 1 friend.
+        var friend = friends[i];
+        hero.command(friend, "move", point);
+    }
+}
+```
+
+An example of defeating all enemies inside a while loop:
+
+```javascript
+while (true) {
+    hero.moveXY(hero.pos.x + 20, hero.pos.y);
+    var enemy = hero.findNearestEnemy();
+    while (enemy) {
+        hero.attack(enemy);
+        enemy = hero.findNearestEnemy();
+    }
+}
+```
+
+An example of defeating an enemy before moving to the next one:
+
+```javascript
+var enemy = hero.findNearestEnemy();
+while (enemy.health > 0) {
+    hero.attack(enemy);
+    // This will continue to attack the enemy until
+    // it runs out of health
+}
+```
+
+An example of checking the distance with a unit other than the hero:
+
+```javascript
+var friend = hero.findNearest(hero.findFriends());
+var point = {x: 20, y: 20};
+while (friend.distanceTo(point) > 0.5) {
+    // Note nothing much changes than checking the distance
+    // from the peasant to the point
+    hero.move(point);
+    hero.command(friend, "move", point);
 }
 ```
 

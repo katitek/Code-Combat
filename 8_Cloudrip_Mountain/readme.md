@@ -22,6 +22,7 @@
     + [Danger Valley](429-Danger_Valley/)
     + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Deadly Discs](448-Deadly_Discs/)
+    + [Distracting Dungeon](471-Distracting_Dungeon/)
     + [Echo of War](405-Echo_of_War/)
     + [Explosive Works](452-Explosive_Works/)
     + [Fence Builder](459-Fence_Builder/)
@@ -97,7 +98,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](471-/)
     + [?](472-/)
     + [?](473-/)
     + [?](474-/)
