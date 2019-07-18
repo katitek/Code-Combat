@@ -62,6 +62,7 @@
     + [Restless Dead](391-Restless_Dead/)
     + [Ring Bearer](390-Ring_Bearer/)
     + [Ritual of Rectangling](451-Ritual_of_Rectangling/)
+    + [Safe Spot](462-Safe_Spot/)
     + [Slalom](359-Slalom/)
     + [Sleepwalkers](430-Sleepwalkers/)
     + [Snowdrops](437-Snowdrops/)
@@ -89,7 +90,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](462-/)
     + [?](463-/)
     + [?](464-/)
     + [?](465-/)
