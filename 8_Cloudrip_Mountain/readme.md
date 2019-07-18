@@ -5,6 +5,7 @@
 + Levels
     + [Aggressive Mimicry](409-Aggressive_Mimicry/)
     + [Alpine Rally](364-Alpine_Rally/)
+    + [Anonymous Bank](480-Anonymous_Bank/)
     + [Antipodes](472-Antipodes/)
     + [Area of Yetis](465-Area_of_Yetis/)
     + [Bits And Trits](453-Bits_And_Trits/)
@@ -106,7 +107,8 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](480-/)
+    + [?](481-/)
+    + [?](482-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)

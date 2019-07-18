@@ -5,7 +5,7 @@ def passagePosByNum(n):
 def onHear(event):
     message = event.message
     trimmed = message.strip()
-    hidden = message.length - trimmed.length
+    hidden = len(message) - len(trimmed)
     pos = passagePosByNum(hidden)
     pet.moveXY(pos.x, pos.y)
     pet.moveXY(2, pos.y)
