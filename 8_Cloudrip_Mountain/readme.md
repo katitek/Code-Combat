@@ -80,6 +80,7 @@
     + [Steelclaw Gap](438-Steelclaw_Gap/)
     + [Subarray Retreat](439-Subarray_Retreat/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
+    + [The Hunt Begins](473-The_Hunt_Begins/)
     + [The Spy Among Us](403-The_Spy_Among_Us/)
     + [The Geometry of Flowers](393-The_Geometry_of_Flowers/)
     + [The Two Flowers](392-The_Two_Flowers/)
@@ -99,7 +100,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](473-/)
     + [?](474-/)
     + [?](475-/)
     + [?](476-/)
