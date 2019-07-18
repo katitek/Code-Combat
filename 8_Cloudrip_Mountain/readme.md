@@ -17,6 +17,7 @@
     + [Clumsy Circle](461-Clumsy_Circle/)
     + [Cluttered Corridors](415-Cluttered_Corridors/)
     + [Convenient Enemy](417-Convenient_Enemy/)
+    + [Count Emptiness](477-Count_Emptiness/)
     + [Crag Tag](358-Crag_Tag/)
     + [Dance-Off](363-Dance-Off/)
     + [Danger Picklock](466-Danger_Picklock/)
@@ -103,7 +104,6 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](477-/)
     + [?](478-/)
     + [?](479-/)
     + [?](480-/)
