@@ -40,6 +40,7 @@
     + [Power Points](428-Power_Points/)
     + [Protect and Serve](386-Protect_and_Serve/)
     + [Quick-Fort](433-Quick-Fort/)
+    + [Raiders of the Long Dark](447-Raiders_of_the_Long_Dark/)
     + [Rational Defense](419-Rational_Defense/)
     + [Reading Rumble](416-Reading_Rumble/)
     + [Reaping Fire](444-Reaping_Fire/)
@@ -74,7 +75,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](447-/)
     + [?](448-/)
     + [?](449-/)
     + [?](450-/)
