@@ -10,6 +10,7 @@
     + [Borrowed Sword](388-Borrowed_Sword/)
     + [Cannon Landing Force](427-Cannon_Landing_Force/)
     + [Cloudrip Commander](365-Cloudrip_Commander/)
+    + [Clumsy Circle](461-Clumsy_Circle/)
     + [Cluttered Corridors](415-Cluttered_Corridors/)
     + [Convenient Enemy](417-Convenient_Enemy/)
     + [Crag Tag](358-Crag_Tag/)
@@ -88,7 +89,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](461-/)
     + [?](462-/)
     + [?](463-/)
     + [?](464-/)
