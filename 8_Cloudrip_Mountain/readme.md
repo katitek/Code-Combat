@@ -19,6 +19,7 @@
     + [Deadly Discs](448-Deadly_Discs/)
     + [Echo of War](405-Echo_of_War/)
     + [Explosive Works](452-Explosive_Works/)
+    + [Fence Builder](459-Fence_Builder/)
     + [FizzBuzz Path](443-FizzBuzz_Path/)
     + [Flawless Pairs](420-Flawless_Pairs/)
     + [Forest Garden](456-Forest_Garden/)
@@ -86,7 +87,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](459-/)
     + [?](460-/)
 
 + Replayable Brawls
