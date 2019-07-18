@@ -74,6 +74,7 @@
     + [Safe Spot](462-Safe_Spot/)
     + [Slalom](359-Slalom/)
     + [Sleepwalkers](430-Sleepwalkers/)
+    + [Slumbering Sample](475-Slumbering_Sample/)
     + [Snowdrops](437-Snowdrops/)
     + [Sowing Fire](442-Sowing_Fire/)
     + [Square Shield](455-Square_Shield/)
@@ -101,7 +102,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](475-/)
     + [?](476-/)
     + [?](477-/)
     + [?](478-/)
