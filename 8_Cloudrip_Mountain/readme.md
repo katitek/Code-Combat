@@ -25,6 +25,7 @@
     + [Dangerous Tracks](432-Dangerous_Tracks/)
     + [Deadly Discs](448-Deadly_Discs/)
     + [Distracting Dungeon](471-Distracting_Dungeon/)
+    + [Double Agent](479-Double_Agent/)
     + [Echo of War](405-Echo_of_War/)
     + [Explosive Works](452-Explosive_Works/)
     + [Fence Builder](459-Fence_Builder/)
@@ -105,7 +106,6 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](479-/)
     + [?](480-/)
 
 + Replayable Brawls
