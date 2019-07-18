@@ -5,10 +5,12 @@
 + Levels
     + [Aggressive Mimicry](409-Aggressive_Mimicry/)
     + [Alpine Rally](364-Alpine_Rally/)
+    + [Area of Yetis](465-Area_of_Yetis/)
     + [Bits And Trits](453-Bits_And_Trits/)
     + [Black Diamond](360-Black_Diamond/)
     + [Borrowed Sword](388-Borrowed_Sword/)
     + [Cannon Landing Force](427-Cannon_Landing_Force/)
+    + [Circumference of Yaks](464-Circumference_of_Yaks/)
     + [Cloudrip Commander](365-Cloudrip_Commander/)
     + [Clumsy Circle](461-Clumsy_Circle/)
     + [Cluttered Corridors](415-Cluttered_Corridors/)
@@ -91,8 +93,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [Circumference of Yaks](464-Circumference_of_Yaks/)
-    + [?](465-/)
     + [?](466-/)
     + [?](467-/)
     + [?](468-/)
