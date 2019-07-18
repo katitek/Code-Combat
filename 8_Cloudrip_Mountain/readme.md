@@ -26,6 +26,7 @@
     + [Grid Search](435-Grid_Search/)
     + [Highlanders](408-Highlanders/)
     + [How much?](450-How_much/)
+    + [Humantron](458-Humantron/)
     + [Hunters and Prey](396-Hunters_and_Prey/)
     + [Hunting Party](387-Hunting_Party/)
     + [Ice Hunter](406-Ice_Hunter/)
@@ -85,7 +86,6 @@
     + [Yeti Away](410-Yeti_Away/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](457-/)
     + [?](459-/)
     + [?](460-/)
 
