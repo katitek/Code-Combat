@@ -109,8 +109,6 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [](483-/)
-
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
     + [Cloudrip Treasure](400-Cloudrip_Treasure/)
