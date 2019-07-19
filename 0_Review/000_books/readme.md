@@ -10,6 +10,7 @@ ___
     * [Pogrammaticon II](#pogrammaticon-ii)
     * [Pogrammaticon III](#pogrammaticon-iii)
     * [Pogrammaticon IV](#pogrammaticon-iV)
+    * [Pogrammaticon V](#pogrammaticon-V)
 
 + [Flags](#flags)
     * [Basic Flags](#basic-flags)
@@ -268,6 +269,48 @@ range[end.id] = end;
 
 var foo = {"Keys with spaces": "need quotes", shortKeys: "don't"};
 ```
+
+___
+
+### _Pogrammaticon V_
+
+Unlocks the full Vector, Math, String, Function, Array, and Object APIs.
+
+![](img/book5.png)
+
+> _Abilities granted early are supported_
++ `while-true loop`
++ `if/else`
++ `else`
++ `while loop`
++ `break`
++ `continue`
++ `arrays`
++ `for-loop`
++ `functions`
++ `objects`
+
+
+#### `hero.debug()` method
+
+Works like JavaScript's `console.log`, taking any number of arguments and printing them out. Output appears in your JS console.
+
+#### `for-in-loop` snippet
+
+The `for-in` loop lets you run code many times, like a for-loop except operating just over the keys of an object or array. The order of key iteration may not be consistent.
+
+**Example:**
+
+```javascript
+for(var spellName in hero.spells) {
+    var spell = hero.spells[spellName];
+    hero.say('Spell ' + spellName + ' has range ' + spell.range);
+}
+```
+
+#### APIs
+
+Math, Array, Object, String, Function, Vector APIs.
 
 ___
 

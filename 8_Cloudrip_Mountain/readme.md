@@ -83,6 +83,7 @@
     + [Square Shield](455-Square_Shield/)
     + [Steelclaw Gap](438-Steelclaw_Gap/)
     + [Subarray Retreat](439-Subarray_Retreat/)
+    + [Summit's Gate](482-Summits_Gate/)
     + [The Bane of Soldiers](385-The_Bane_of_Soldiers/)
     + [The Hunt Begins](473-The_Hunt_Begins/)
     + [The Spy Among Us](403-The_Spy_Among_Us/)
@@ -108,7 +109,7 @@
     + [Yeti Eater](476-Yeti_Eater/)
     + [Zoo Keeper](383-Zoo_Keeper/)
 
-    + [?](482-/)
+    + [](483-/)
 
 + Replayable Brawls
     + [Cloudrip Brawl](369-Cloudrip_Brawl/)
