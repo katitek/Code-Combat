@@ -3,6 +3,7 @@
 > Advanced techniques
 
 + Levels
+    + [Binary Deployment](495-Binary_Deployment/)
     + [Brewball (practice)](487-Brewball/)
     + [Bombing Run](489-Bombing_Run/)
     + [Circle Walking](483-Circle_Walking/)
@@ -16,7 +17,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](495-/)
     + [](496-/)
     + [](497-/)
     + [](498-/)
