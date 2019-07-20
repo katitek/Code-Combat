@@ -10,6 +10,7 @@
     + [Fractalization](490-Fractalization/)
     + [Ice Life](488-Ice_Life/)
     + [Ice Soccer](486-Ice_Soccer/)
+    + [Kelvintaph Crusader](497-Kelvintaph_Crusader/)
     + [Kelvintaph Pillars](494-Kelvintaph_Pillars/)
     + [Polygonception](493-Polygonception/)
     + [Precision Kicking](492-Precision_Kicking/)
@@ -17,11 +18,10 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](496-/)
-    + [](497-/)
     + [](498-/)
     + [](499-/)
     + [](500-/)
+    + [Coded Orders](496-Coded_Orders/)
 
 + Replayable Brawls
 
