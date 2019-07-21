@@ -17,11 +17,21 @@
     + [Kelvintaph Pillars](494-Kelvintaph_Pillars/)
     + [Polygonception](493-Polygonception/)
     + [Precision Kicking](492-Precision_Kicking/)
+    + [Prime Pathing](500-Prime_Pathing/)
     + [Razorfray](491-Razorfray/)
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](500-/)
+    + [](501-/)
+    + [](502-/)
+    + [](503-/)
+    + [](504-/)
+    + [](505-/)
+    + [](506-/)
+    + [](507-/)
+    + [](508-/)
+    + [](509-/)
+    + [](510-/)
 
 + Replayable Brawls
 
