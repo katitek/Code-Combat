@@ -12,6 +12,7 @@
     + [Ice Soccer](486-Ice_Soccer/)
     + [Kelvintaph Burgler](498-Kelvintaph_Burgler/)
     + [Kelvintaph Crusader](497-Kelvintaph_Crusader/)
+    + [Kelvintaph Defiler](499-Kelvintaph_Defiler/)
     + [Kelvintaph Pillars](494-Kelvintaph_Pillars/)
     + [Polygonception](493-Polygonception/)
     + [Precision Kicking](492-Precision_Kicking/)
@@ -19,7 +20,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [Kelvintaph Defiler](499-Kelvintaph_Defiler/)
     + [](500-/)
     + [Coded Orders](496-Coded_Orders/)
 
