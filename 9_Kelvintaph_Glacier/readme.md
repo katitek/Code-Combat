@@ -3,6 +3,7 @@
 > Advanced techniques
 
 + Levels
+    + [Almost Perfect Minefield](510-Almost_Perfect_Minefield/)
     + [Behind the Darkness](507-Behind_the_Darkness/)
     + [Binary Deployment](495-Binary_Deployment/)
     + [Brewball (practice)](487-Brewball/)
@@ -30,7 +31,16 @@
     + [Skeleton Puzzle](508-Skeleton_Puzzle/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](510-/)
+    + [](511-/)
+    + [](512-/)
+    + [](513-/)
+    + [](514-/)
+    + [](515-/)
+    + [](516-/)
+    + [](517-/)
+    + [](518-/)
+    + [](519-/)
+    + [](520-/)
 
 + Replayable Brawls
 
