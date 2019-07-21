@@ -28,7 +28,7 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](507-/)
+    + [Behind the Darkness](507-Behind_the_Darkness/)
     + [](508-/)
     + [](509-/)
     + [](510-/)
