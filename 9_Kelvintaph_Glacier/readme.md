@@ -3,6 +3,7 @@
 > Advanced techniques
 
 + Levels
+    + [Behind the Darkness](507-Behind_the_Darkness/)
     + [Binary Deployment](495-Binary_Deployment/)
     + [Brewball (practice)](487-Brewball/)
     + [Bombing Run](489-Bombing_Run/)
@@ -28,7 +29,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [Behind the Darkness](507-Behind_the_Darkness/)
     + [](508-/)
     + [](509-/)
     + [](510-/)
