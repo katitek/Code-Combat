@@ -10,6 +10,7 @@
     + [Coded Orders](496-Coded_Orders/)
     + [Form Up!](501-Form_Up!/)
     + [Fractalization](490-Fractalization/)
+    + [Gridmancer Redux](502-Gridmancer_Redux/)
     + [Ice Life](488-Ice_Life/)
     + [Ice Soccer](486-Ice_Soccer/)
     + [Kelvintaph Burgler](498-Kelvintaph_Burgler/)
@@ -23,7 +24,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](502-/)
     + [](503-/)
     + [](504-/)
     + [](505-/)
