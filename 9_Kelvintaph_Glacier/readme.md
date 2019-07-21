@@ -8,6 +8,7 @@
     + [Bombing Run](489-Bombing_Run/)
     + [Circle Walking](483-Circle_Walking/)
     + [Coded Orders](496-Coded_Orders/)
+    + [Darkhopper](506-Darkhopper/)
     + [Form Up!](501-Form_Up!/)
     + [Fractalization](490-Fractalization/)
     + [Golden Choice](504-Golden_Choice/)
@@ -27,7 +28,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](506-/)
     + [](507-/)
     + [](508-/)
     + [](509-/)
