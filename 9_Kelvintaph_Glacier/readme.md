@@ -7,6 +7,7 @@
     + [Brewball (practice)](487-Brewball/)
     + [Bombing Run](489-Bombing_Run/)
     + [Circle Walking](483-Circle_Walking/)
+    + [Coded Orders](496-Coded_Orders/)
     + [Fractalization](490-Fractalization/)
     + [Ice Life](488-Ice_Life/)
     + [Ice Soccer](486-Ice_Soccer/)
@@ -21,7 +22,6 @@
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
     + [](500-/)
-    + [Coded Orders](496-Coded_Orders/)
 
 + Replayable Brawls
 
