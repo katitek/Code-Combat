@@ -27,9 +27,9 @@
     + [Prime Pathing](500-Prime_Pathing/)
     + [Razorfray](491-Razorfray/)
     + [Skating Away](484-Skating_Away/)
+    + [Skeleton Puzzle](508-Skeleton_Puzzle/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](508-/)
     + [](509-/)
     + [](510-/)
 
