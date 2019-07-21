@@ -8,6 +8,7 @@
     + [Bombing Run](489-Bombing_Run/)
     + [Circle Walking](483-Circle_Walking/)
     + [Coded Orders](496-Coded_Orders/)
+    + [Form Up!](501-Form_Up!/)
     + [Fractalization](490-Fractalization/)
     + [Ice Life](488-Ice_Life/)
     + [Ice Soccer](486-Ice_Soccer/)
@@ -22,7 +23,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](501-/)
     + [](502-/)
     + [](503-/)
     + [](504-/)
