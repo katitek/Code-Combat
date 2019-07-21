@@ -13,6 +13,7 @@
     + [Golden Choice](504-Golden_Choice/)
     + [Guess My Number](503-Guess_My_Number/)
     + [Gridmancer Redux](502-Gridmancer_Redux/)
+    + [Hitman](505-Hitman/)
     + [Ice Life](488-Ice_Life/)
     + [Ice Soccer](486-Ice_Soccer/)
     + [Kelvintaph Burgler](498-Kelvintaph_Burgler/)
@@ -26,7 +27,6 @@
     + [Skating Away](484-Skating_Away/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](505-/)
     + [](506-/)
     + [](507-/)
     + [](508-/)
