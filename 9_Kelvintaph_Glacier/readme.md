@@ -13,6 +13,7 @@
     + [Darkhopper](506-Darkhopper/)
     + [Form Up!](501-Form_Up!/)
     + [Fractalization](490-Fractalization/)
+    + [Fragile Maze](511-Fragile_Maze/)
     + [Golden Choice](504-Golden_Choice/)
     + [Guess My Number](503-Guess_My_Number/)
     + [Gridmancer Redux](502-Gridmancer_Redux/)
@@ -31,7 +32,6 @@
     + [Skeleton Puzzle](508-Skeleton_Puzzle/)
     + [Snowflakes on the Ice](485-Snowflakes_on_the_Ice/)
 
-    + [](511-/)
     + [](512-/)
     + [](513-/)
     + [](514-/)
